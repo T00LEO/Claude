@@ -124,6 +124,10 @@ select {
   font-size: 1.3rem;
 }
 
+.session-hint {
+  margin: 2px 0 0;
+}
+
 .badge {
   background: var(--surface-alt);
   color: var(--text-muted);
@@ -591,6 +595,41 @@ select {
 }
 
 /* History */
+.history-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.history-session {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 4px 14px;
+}
+
+.history-session summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 0;
+  cursor: pointer;
+  list-style: none;
+}
+
+.history-session summary::-webkit-details-marker {
+  display: none;
+}
+
+.history-session-label {
+  font-weight: 600;
+}
+
+.history-session .history-list {
+  padding-bottom: 10px;
+}
+
 .history-item {
   display: flex;
   align-items: center;
@@ -612,6 +651,29 @@ select {
 }
 
 /* Summary cards */
+.session-select-label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+.session-select-label select {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--text);
+  min-height: 44px;
+}
+
+.session-readonly-hint {
+  margin: -6px 0 14px;
+}
+
 .summary-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

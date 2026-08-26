@@ -8,8 +8,9 @@ App simples para conferência de estoque de bebidas, feito para ser usado no cel
 - **Cadastro manual**: adicionar, editar e excluir produtos individualmente.
 - **Teclado numérico dedicado**: entrada de quantidade sempre com 2 casas decimais (estilo calculadora/PDV), com atalhos rápidos +1/+6/+12/+24 para fardos e caixas.
 - **Locais de contagem**: crie quantos locais quiser (Estoque, Bar, Prateleira, Câmara fria...). Um mesmo produto pode ser contado em vários locais, e um novo lançamento **soma** ao que já foi contado naquele local — nunca sobrescreve.
-- **Histórico com desfazer**: todo lançamento fica registrado com data/hora; é possível remover um lançamento específico se algo for digitado errado, sem perder o restante da contagem.
-- **Relatório**: tabela com o total por local e total geral de cada produto, exportável em Excel ou CSV, pronta para comparar com o estoque esperado.
+- **Sessões de contagem**: "Iniciar nova contagem" (na aba Relatório) não apaga nada — arquiva a contagem atual e começa uma nova do zero. O cadastro de produtos é sempre o mesmo, só os lançamentos ficam separados por sessão.
+- **Histórico permanente**: aba dedicada com todos os lançamentos já feitos, agrupados por sessão de contagem, com busca por produto/código — dá pra ver o que foi contado em qualquer data. Na tela de Contagem também dá pra ver e desfazer os lançamentos da sessão em andamento.
+- **Relatório**: tabela com o total por local e total geral de cada produto, com um seletor para ver o relatório da contagem atual ou de qualquer sessão anterior — útil para comparar contagens de datas diferentes. Exportável em Excel ou CSV.
 - **Funciona offline**: os dados ficam salvos no próprio dispositivo (IndexedDB) e o app pode ser instalado na tela inicial (PWA), útil em depósitos com sinal de wifi ruim.
 
 ## Rodando localmente
@@ -31,4 +32,4 @@ npm run preview
 - Leitura de código de barras pela câmera para localizar o produto na hora.
 - Sincronização em nuvem para várias pessoas contarem ao mesmo tempo em dispositivos diferentes.
 - Estoque mínimo/ideal por produto, gerando automaticamente uma lista de compras a partir da contagem.
-- Comparação entre contagens de datas diferentes para identificar perdas/quebras.
+- Comparação lado a lado entre duas sessões de contagem para identificar perdas/quebras automaticamente (hoje dá pra ver cada sessão separadamente e comparar manualmente).

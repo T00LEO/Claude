@@ -15,16 +15,21 @@ export function CountPage() {
   const [newLocationName, setNewLocationName] = useState("");
 
   const activeLocation = state.locations.find((l) => l.id === locationId) ?? state.locations[0];
+  const activeSession = state.sessions.find((s) => s.id === state.activeSessionId);
+  const sessionEntries = useMemo(
+    () => state.entries.filter((e) => e.sessionId === state.activeSessionId),
+    [state.entries, state.activeSessionId],
+  );
 
   const totalsByProduct = useMemo(() => {
     const map = new Map<string, Map<string, number>>();
-    for (const entry of state.entries) {
+    for (const entry of sessionEntries) {
       if (!map.has(entry.productId)) map.set(entry.productId, new Map());
       const byLoc = map.get(entry.productId)!;
       byLoc.set(entry.locationId, (byLoc.get(entry.locationId) ?? 0) + entry.quantidade);
     }
     return map;
-  }, [state.entries]);
+  }, [sessionEntries]);
 
   const filteredProducts = useMemo(() => {
     const q = normalize(search);
@@ -35,8 +40,8 @@ export function CountPage() {
   }, [state.products, search]);
 
   const recentEntries = useMemo(
-    () => [...state.entries].sort((a, b) => b.timestamp - a.timestamp).slice(0, 30),
-    [state.entries],
+    () => [...sessionEntries].sort((a, b) => b.timestamp - a.timestamp),
+    [sessionEntries],
   );
 
   function locationTotal(productId: string, locId: string) {
@@ -78,9 +83,12 @@ export function CountPage() {
   return (
     <div className="page">
       <div className="page-header">
-        <h2>Contagem</h2>
+        <div>
+          <h2>Contagem</h2>
+          {activeSession && <p className="hint session-hint">{activeSession.label}</p>}
+        </div>
         <button type="button" className="btn-icon" onClick={() => setShowHistory(true)}>
-          Histórico ({state.entries.length})
+          Lançamentos ({sessionEntries.length})
         </button>
       </div>
 
@@ -193,7 +201,7 @@ export function CountPage() {
       )}
 
       {showHistory && (
-        <Modal title="Histórico de lançamentos" onClose={() => setShowHistory(false)} wide>
+        <Modal title="Lançamentos desta contagem" onClose={() => setShowHistory(false)} wide>
           {recentEntries.length === 0 ? (
             <p className="hint">Nenhum lançamento ainda.</p>
           ) : (

@@ -1,14 +1,31 @@
 import { useMemo, useState } from "react";
 import { actions, useAppState } from "../lib/store";
 import { formatQty, normalize } from "../lib/format";
+import { Modal } from "../components/Modal";
 
 export function ReportPage() {
   const state = useAppState();
   const [search, setSearch] = useState("");
+  const [selectedSessionId, setSelectedSessionId] = useState(state.activeSessionId);
+  const [showNewCount, setShowNewCount] = useState(false);
+  const [newCountLabel, setNewCountLabel] = useState("");
+
+  const sortedSessions = useMemo(
+    () => [...state.sessions].sort((a, b) => b.startedAt - a.startedAt),
+    [state.sessions],
+  );
+  const selectedSession =
+    state.sessions.find((s) => s.id === selectedSessionId) ?? state.sessions[state.sessions.length - 1];
+  const isActiveSession = selectedSession?.id === state.activeSessionId;
+
+  const sessionEntries = useMemo(
+    () => state.entries.filter((e) => e.sessionId === selectedSession?.id),
+    [state.entries, selectedSession],
+  );
 
   const rows = useMemo(() => {
     const totals = new Map<string, Map<string, number>>();
-    for (const entry of state.entries) {
+    for (const entry of sessionEntries) {
       if (!totals.has(entry.productId)) totals.set(entry.productId, new Map());
       const byLoc = totals.get(entry.productId)!;
       byLoc.set(entry.locationId, (byLoc.get(entry.locationId) ?? 0) + entry.quantidade);
@@ -25,13 +42,13 @@ export function ReportPage() {
         return normalize(r.product.nome).includes(q) || (r.product.codigo && normalize(r.product.codigo).includes(q));
       })
       .sort((a, b) => a.product.nome.localeCompare(b.product.nome, "pt-BR"));
-  }, [state.products, state.entries, search]);
+  }, [state.products, sessionEntries, search]);
 
   const summary = useMemo(() => {
     const countedProducts = rows.filter((r) => r.total > 0).length;
     const totalItems = rows.reduce((sum, r) => sum + r.total, 0);
-    return { countedProducts, totalItems, entries: state.entries.length };
-  }, [rows, state.entries.length]);
+    return { countedProducts, totalItems, entries: sessionEntries.length };
+  }, [rows, sessionEntries.length]);
 
   function buildExportRows() {
     return rows.map((r) => {
@@ -49,12 +66,17 @@ export function ReportPage() {
     });
   }
 
+  function exportFileBase() {
+    const datePart = selectedSession ? new Date(selectedSession.startedAt).toISOString().slice(0, 10) : "";
+    return `contagem-estoque-${datePart}`;
+  }
+
   async function exportXlsx() {
     const XLSX = await import("xlsx");
     const ws = XLSX.utils.json_to_sheet(buildExportRows());
     const wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, ws, "Contagem");
-    XLSX.writeFile(wb, `contagem-estoque-${new Date().toISOString().slice(0, 10)}.xlsx`);
+    XLSX.writeFile(wb, `${exportFileBase()}.xlsx`);
   }
 
   async function exportCsv() {
@@ -65,19 +87,20 @@ export function ReportPage() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `contagem-estoque-${new Date().toISOString().slice(0, 10)}.csv`;
+    a.download = `${exportFileBase()}.csv`;
     a.click();
     URL.revokeObjectURL(url);
   }
 
-  function handleNewCount() {
-    if (
-      confirm(
-        "Iniciar uma nova contagem apaga todos os lançamentos atuais (o cadastro de produtos é mantido). Exporte antes se ainda não exportou. Continuar?",
-      )
-    ) {
-      actions.clearEntries();
-    }
+  function openNewCount() {
+    setNewCountLabel("");
+    setShowNewCount(true);
+  }
+
+  function confirmNewCount() {
+    const session = actions.startNewSession(newCountLabel);
+    setSelectedSessionId(session.id);
+    setShowNewCount(false);
   }
 
   return (
@@ -85,6 +108,18 @@ export function ReportPage() {
       <div className="page-header">
         <h2>Relatório</h2>
       </div>
+
+      <label className="session-select-label">
+        Sessão de contagem
+        <select value={selectedSession?.id} onChange={(e) => setSelectedSessionId(e.target.value)}>
+          {sortedSessions.map((s) => (
+            <option key={s.id} value={s.id}>
+              {s.label}
+              {s.id === state.activeSessionId ? " (atual)" : ""}
+            </option>
+          ))}
+        </select>
+      </label>
 
       <div className="summary-cards">
         <div className="summary-card">
@@ -108,10 +143,16 @@ export function ReportPage() {
         <button type="button" className="btn-secondary" onClick={exportCsv} disabled={!rows.length}>
           Exportar CSV
         </button>
-        <button type="button" className="btn-danger-outline" onClick={handleNewCount} disabled={!state.entries.length}>
-          Nova contagem
+        <button type="button" className="btn-danger-outline" onClick={openNewCount}>
+          Iniciar nova contagem
         </button>
       </div>
+
+      {!isActiveSession && (
+        <p className="hint session-readonly-hint">
+          Mostrando uma contagem anterior. A contagem em andamento continua sendo a sessão "(atual)".
+        </p>
+      )}
 
       <input
         className="search-input"
@@ -156,6 +197,35 @@ export function ReportPage() {
           </tbody>
         </table>
       </div>
+
+      {showNewCount && (
+        <Modal title="Iniciar nova contagem" onClose={() => setShowNewCount(false)}>
+          <div className="form-grid">
+            <p className="hint">
+              O cadastro de produtos é mantido. Os lançamentos da contagem atual ficam guardados no
+              Histórico — nada é apagado.
+            </p>
+            <label>
+              Nome da nova contagem
+              <input
+                autoFocus
+                value={newCountLabel}
+                onChange={(e) => setNewCountLabel(e.target.value)}
+                placeholder={`Contagem de ${new Date().toLocaleDateString("pt-BR")}`}
+                onKeyDown={(e) => e.key === "Enter" && confirmNewCount()}
+              />
+            </label>
+            <div className="keypad-actions">
+              <button type="button" className="btn-secondary" onClick={() => setShowNewCount(false)}>
+                Cancelar
+              </button>
+              <button type="button" className="btn-primary" onClick={confirmNewCount}>
+                Iniciar
+              </button>
+            </div>
+          </div>
+        </Modal>
+      )}
     </div>
   );
 }

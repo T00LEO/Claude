@@ -3,13 +3,15 @@ import { loadState, useIsLoaded } from "./lib/store";
 import { ProductsPage } from "./pages/ProductsPage";
 import { CountPage } from "./pages/CountPage";
 import { ReportPage } from "./pages/ReportPage";
+import { HistoryPage } from "./pages/HistoryPage";
 
-type Tab = "contagem" | "produtos" | "relatorio";
+type Tab = "contagem" | "produtos" | "relatorio" | "historico";
 
 const TABS: { id: Tab; label: string; icon: string }[] = [
   { id: "contagem", label: "Contagem", icon: "📋" },
   { id: "produtos", label: "Produtos", icon: "🍺" },
   { id: "relatorio", label: "Relatório", icon: "📊" },
+  { id: "historico", label: "Histórico", icon: "🕘" },
 ];
 
 export default function App() {
@@ -38,6 +40,7 @@ export default function App() {
         {tab === "contagem" && <CountPage />}
         {tab === "produtos" && <ProductsPage />}
         {tab === "relatorio" && <ReportPage />}
+        {tab === "historico" && <HistoryPage />}
       </main>
 
       <nav className="app-tabbar">

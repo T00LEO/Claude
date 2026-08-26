@@ -1,6 +1,6 @@
 import { get, set } from "idb-keyval";
 import { useSyncExternalStore } from "react";
-import type { AppState, CountEntry, Location, Product } from "./types";
+import type { AppState, CountEntry, CountSession, Location, Product } from "./types";
 
 const STORAGE_KEY = "beverage-inventory-state-v1";
 
@@ -10,7 +10,26 @@ const DEFAULT_LOCATIONS: Location[] = [
   { id: "loc-prateleira", nome: "Prateleira" },
 ];
 
-let state: AppState = { products: [], locations: DEFAULT_LOCATIONS, entries: [] };
+function defaultSessionLabel(date = new Date()): string {
+  return `Contagem de ${date.toLocaleDateString("pt-BR")}`;
+}
+
+function makeInitialSession(): CountSession {
+  return { id: "s-inicial", label: defaultSessionLabel(), startedAt: Date.now() };
+}
+
+function initialState(): AppState {
+  const session = makeInitialSession();
+  return {
+    products: [],
+    locations: DEFAULT_LOCATIONS,
+    entries: [],
+    sessions: [session],
+    activeSessionId: session.id,
+  };
+}
+
+let state: AppState = initialState();
 let loaded = false;
 const listeners = new Set<() => void>();
 
@@ -26,17 +45,40 @@ function persist() {
   }, 150);
 }
 
+// Migrates data saved before count sessions existed: everything goes into one session.
+type LegacyOrCurrentState = Partial<AppState> & { entries?: (Partial<CountEntry> & { productId: string; locationId: string; quantidade: number; timestamp: number })[] };
+
+function migrate(saved: LegacyOrCurrentState): AppState {
+  const locations = saved.locations?.length ? saved.locations : DEFAULT_LOCATIONS;
+  const sessions = saved.sessions?.length ? saved.sessions : [makeInitialSession()];
+  const fallbackSessionId = sessions[sessions.length - 1].id;
+  const activeSessionId = saved.activeSessionId && sessions.some((s) => s.id === saved.activeSessionId)
+    ? saved.activeSessionId
+    : fallbackSessionId;
+  const entries: CountEntry[] = (saved.entries ?? []).map((e) => ({
+    id: e.id ?? uid("e"),
+    productId: e.productId,
+    locationId: e.locationId,
+    quantidade: e.quantidade,
+    timestamp: e.timestamp,
+    sessionId: e.sessionId ?? fallbackSessionId,
+  }));
+  return {
+    products: saved.products ?? [],
+    locations,
+    entries,
+    sessions,
+    activeSessionId,
+  };
+}
+
 let loadPromise: Promise<void> | null = null;
 export function loadState(): Promise<void> {
   if (loadPromise) return loadPromise;
   loadPromise = get<AppState>(STORAGE_KEY)
     .then((saved) => {
       if (saved) {
-        state = {
-          products: saved.products ?? [],
-          locations: saved.locations?.length ? saved.locations : DEFAULT_LOCATIONS,
-          entries: saved.entries ?? [],
-        };
+        state = migrate(saved);
       }
     })
     .catch((err) => console.error("Falha ao carregar dados", err))
@@ -140,6 +182,7 @@ export const actions = {
       locationId,
       quantidade,
       timestamp: Date.now(),
+      sessionId: state.activeSessionId,
     };
     update((s) => ({ ...s, entries: [...s.entries, entry] }));
     return entry;
@@ -147,7 +190,13 @@ export const actions = {
   deleteEntry(id: string) {
     update((s) => ({ ...s, entries: s.entries.filter((e) => e.id !== id) }));
   },
-  clearEntries() {
-    update((s) => ({ ...s, entries: [] }));
+  startNewSession(label?: string) {
+    const session: CountSession = {
+      id: uid("s"),
+      label: label?.trim() || defaultSessionLabel(),
+      startedAt: Date.now(),
+    };
+    update((s) => ({ ...s, sessions: [...s.sessions, session], activeSessionId: session.id }));
+    return session;
   },
 };
