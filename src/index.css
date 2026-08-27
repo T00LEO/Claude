@@ -459,6 +459,14 @@ select {
   font-size: 0.9rem;
 }
 
+.keypad-expression {
+  color: var(--text-muted);
+  margin: 0 0 4px;
+  font-size: 0.95rem;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
 .keypad-display {
   font-size: 2.6rem;
   font-weight: 700;
@@ -488,14 +496,14 @@ select {
 
 .keypad-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 8px;
   margin-bottom: 14px;
 }
 
 .keypad-grid button {
-  min-height: 56px;
-  font-size: 1.4rem;
+  min-height: 52px;
+  font-size: 1.3rem;
   border-radius: var(--radius);
   border: 1px solid var(--border);
   background: var(--surface-alt);
@@ -508,6 +516,27 @@ select {
 
 .keypad-clear {
   color: var(--danger) !important;
+}
+
+.keypad-op {
+  background: var(--surface) !important;
+  color: var(--accent) !important;
+  font-weight: 600;
+}
+
+.keypad-op-active {
+  background: var(--accent) !important;
+  color: #05230f !important;
+}
+
+.keypad-equals {
+  background: var(--accent) !important;
+  color: #05230f !important;
+  font-weight: 700;
+}
+
+.keypad-wide {
+  grid-column: span 2;
 }
 
 .keypad-actions {
