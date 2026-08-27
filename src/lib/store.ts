@@ -1,6 +1,7 @@
 import { get, set } from "idb-keyval";
 import { useSyncExternalStore } from "react";
 import type { AppState, CountEntry, CountSession, Location, Product } from "./types";
+import { normalize } from "./format";
 
 const STORAGE_KEY = "beverage-inventory-state-v1";
 
@@ -15,7 +16,9 @@ function defaultSessionLabel(date = new Date()): string {
 }
 
 function makeInitialSession(): CountSession {
-  return { id: "s-inicial", label: defaultSessionLabel(), startedAt: Date.now() };
+  // Random id (not a fixed one) so two devices that never started a new session don't
+  // collide into the same session when their backups get merged together later.
+  return { id: uid("s"), label: defaultSessionLabel(), startedAt: Date.now() };
 }
 
 function initialState(): AppState {
@@ -198,5 +201,70 @@ export const actions = {
     };
     update((s) => ({ ...s, sessions: [...s.sessions, session], activeSessionId: session.id }));
     return session;
+  },
+  // Merges a backup exported from another device into the data on this one: matches
+  // products by código/nome and locations by nome so the same real-world item lines up
+  // even though it got a different id on each device, then adds any session/entry that
+  // isn't already here (by id). Nothing local is overwritten or removed.
+  mergeState(imported: Partial<AppState>) {
+    const summary = { products: 0, locations: 0, sessions: 0, entries: 0 };
+    update((s) => {
+      const locationIdMap = new Map<string, string>();
+      const locations = [...s.locations];
+      for (const loc of imported.locations ?? []) {
+        const existing = locations.find((l) => normalize(l.nome) === normalize(loc.nome));
+        if (existing) {
+          locationIdMap.set(loc.id, existing.id);
+        } else {
+          locations.push(loc);
+          locationIdMap.set(loc.id, loc.id);
+          summary.locations++;
+        }
+      }
+
+      const productIdMap = new Map<string, string>();
+      const products = [...s.products];
+      for (const p of imported.products ?? []) {
+        const codigo = p.codigo?.trim();
+        const existing = products.find((existingP) =>
+          codigo
+            ? existingP.codigo?.trim().toLowerCase() === codigo.toLowerCase()
+            : !existingP.codigo && normalize(existingP.nome) === normalize(p.nome),
+        );
+        if (existing) {
+          productIdMap.set(p.id, existing.id);
+        } else {
+          products.push(p);
+          productIdMap.set(p.id, p.id);
+          summary.products++;
+        }
+      }
+
+      const sessions = [...s.sessions];
+      const sessionIds = new Set(sessions.map((sess) => sess.id));
+      for (const sess of imported.sessions ?? []) {
+        if (!sessionIds.has(sess.id)) {
+          sessions.push(sess);
+          sessionIds.add(sess.id);
+          summary.sessions++;
+        }
+      }
+
+      const entries = [...s.entries];
+      const entryIds = new Set(entries.map((e) => e.id));
+      for (const e of imported.entries ?? []) {
+        if (entryIds.has(e.id)) continue;
+        entries.push({
+          ...e,
+          productId: productIdMap.get(e.productId) ?? e.productId,
+          locationId: locationIdMap.get(e.locationId) ?? e.locationId,
+        });
+        entryIds.add(e.id);
+        summary.entries++;
+      }
+
+      return { ...s, products, locations, sessions, entries };
+    });
+    return summary;
   },
 };

@@ -1,10 +1,24 @@
-import { useMemo, useState } from "react";
-import { useAppState } from "../lib/store";
+import { useMemo, useRef, useState } from "react";
+import { actions, useAppState } from "../lib/store";
 import { formatQty, formatDateTime, normalize } from "../lib/format";
+import type { AppState } from "../lib/types";
+
+function isBackupShape(data: unknown): data is Partial<AppState> {
+  if (!data || typeof data !== "object") return false;
+  const d = data as Record<string, unknown>;
+  return (
+    Array.isArray(d.products) &&
+    Array.isArray(d.locations) &&
+    Array.isArray(d.sessions) &&
+    Array.isArray(d.entries)
+  );
+}
 
 export function HistoryPage() {
   const state = useAppState();
   const [search, setSearch] = useState("");
+  const [feedback, setFeedback] = useState<{ ok: boolean; text: string } | null>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const groups = useMemo(() => {
     const q = normalize(search);
@@ -30,11 +44,72 @@ export function HistoryPage() {
       .sort((a, b) => b.session.startedAt - a.session.startedAt);
   }, [state.entries, state.products, state.sessions, search]);
 
+  function exportBackup() {
+    const blob = new Blob([JSON.stringify(state, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `backup-contagem-bebidas-${new Date().toISOString().slice(0, 10)}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  function openFilePicker() {
+    setFeedback(null);
+    fileInputRef.current?.click();
+  }
+
+  async function handleFileSelected(file: File) {
+    try {
+      const text = await file.text();
+      const data = JSON.parse(text);
+      if (!isBackupShape(data)) {
+        setFeedback({ ok: false, text: "Esse arquivo não parece ser um backup válido deste app." });
+        return;
+      }
+      const summary = actions.mergeState(data);
+      setFeedback({
+        ok: true,
+        text: `Importado: ${summary.products} produto(s), ${summary.locations} local(is), ${summary.sessions} sessão(ões) e ${summary.entries} lançamento(s) novos. O que já existia aqui foi mantido, sem duplicar.`,
+      });
+    } catch {
+      setFeedback({ ok: false, text: "Não foi possível ler esse arquivo. Confira se é o .json exportado pelo app." });
+    }
+  }
+
   return (
     <div className="page">
       <div className="page-header">
         <h2>Histórico</h2>
         <span className="badge">{state.entries.length} lançamento(s)</span>
+      </div>
+
+      <div className="backup-box">
+        <p className="hint">
+          Leve os dados (produtos, locais e lançamentos) de um aparelho pro outro: exporte um arquivo aqui e
+          importe no outro aparelho — pode mandar por WhatsApp, e-mail ou Drive. A importação soma ao que já
+          existe, nunca apaga nada.
+        </p>
+        <div className="toolbar">
+          <button type="button" className="btn-primary" onClick={exportBackup}>
+            Exportar backup
+          </button>
+          <button type="button" className="btn-secondary" onClick={openFilePicker}>
+            Importar backup
+          </button>
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept="application/json,.json"
+            className="visually-hidden"
+            onChange={(e) => {
+              const file = e.target.files?.[0];
+              if (file) handleFileSelected(file);
+              e.target.value = "";
+            }}
+          />
+        </div>
+        {feedback && <p className={feedback.ok ? "success-text" : "error-text"}>{feedback.text}</p>}
       </div>
 
       <input

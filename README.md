@@ -12,6 +12,7 @@ App simples para conferência de estoque de bebidas, feito para ser usado no cel
 - **Histórico permanente**: aba dedicada com todos os lançamentos já feitos, agrupados por sessão de contagem, com busca por produto/código — dá pra ver o que foi contado em qualquer data. Na tela de Contagem também dá pra ver e desfazer os lançamentos da sessão em andamento.
 - **Relatório**: tabela com o total por local e total geral de cada produto, com um seletor para ver o relatório da contagem atual ou de qualquer sessão anterior — útil para comparar contagens de datas diferentes. Exportável em Excel ou CSV.
 - **Funciona offline**: os dados ficam salvos no próprio dispositivo (IndexedDB) e o app pode ser instalado na tela inicial (PWA), útil em depósitos com sinal de wifi ruim.
+- **Backup para levar entre aparelhos**: como os dados ficam salvos no dispositivo (sem nuvem), a aba Histórico tem botões para exportar tudo (produtos, locais, sessões e lançamentos) num arquivo `.json` e importar esse arquivo em outro aparelho. A importação **soma** ao que já existe — casa produtos por código/nome e locais por nome, não duplica nada mesmo importando o mesmo arquivo várias vezes. É o jeito de, por exemplo, cadastrar os produtos no computador e levar pro celular, ou juntar contagens feitas por pessoas diferentes em dias diferentes.
 
 ## Rodando localmente
 
@@ -30,6 +31,6 @@ npm run preview
 ## Ideias para evoluir (não implementadas)
 
 - Leitura de código de barras pela câmera para localizar o produto na hora.
-- Sincronização em nuvem para várias pessoas contarem ao mesmo tempo em dispositivos diferentes.
+- Sincronização em nuvem em tempo real (hoje a "sincronização" é manual, via exportar/importar o arquivo de backup) — próximo passo natural se surgir a necessidade de contar ao mesmo tempo em vários aparelhos.
 - Estoque mínimo/ideal por produto, gerando automaticamente uma lista de compras a partir da contagem.
 - Comparação lado a lado entre duas sessões de contagem para identificar perdas/quebras automaticamente (hoje dá pra ver cada sessão separadamente e comparar manualmente).
