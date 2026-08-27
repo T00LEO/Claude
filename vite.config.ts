@@ -2,8 +2,13 @@ import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
+// GitHub Pages serves this project from https://<user>.github.io/<repo>/, so the
+// build needs that repo-name sub-path as its base. Local dev keeps serving from '/'.
+const GITHUB_PAGES_BASE = '/Claude/'
+
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ command }) => ({
+  base: command === 'build' ? GITHUB_PAGES_BASE : '/',
   plugins: [
     react(),
     VitePWA({
@@ -16,10 +21,10 @@ export default defineConfig({
         theme_color: '#0f172a',
         background_color: '#0f172a',
         display: 'standalone',
-        start_url: '/',
+        start_url: '.',
         icons: [
-          { src: '/favicon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any' },
-          { src: '/favicon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'maskable' },
+          { src: 'favicon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any' },
+          { src: 'favicon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'maskable' },
         ],
       },
       workbox: {
@@ -27,4 +32,4 @@ export default defineConfig({
       },
     }),
   ],
-})
+}))

@@ -14,6 +14,14 @@ App simples para conferência de estoque de bebidas, feito para ser usado no cel
 - **Funciona offline**: os dados ficam salvos no próprio dispositivo (IndexedDB) e o app pode ser instalado na tela inicial (PWA), útil em depósitos com sinal de wifi ruim.
 - **Backup para levar entre aparelhos**: como os dados ficam salvos no dispositivo (sem nuvem), a aba Histórico tem botões para exportar tudo (produtos, locais, sessões e lançamentos) num arquivo `.json` e importar esse arquivo em outro aparelho. A importação **soma** ao que já existe — casa produtos por código/nome e locais por nome, não duplica nada mesmo importando o mesmo arquivo várias vezes. É o jeito de, por exemplo, cadastrar os produtos no computador e levar pro celular, ou juntar contagens feitas por pessoas diferentes em dias diferentes.
 
+## Acessando pelo celular sem depender do computador
+
+O app está publicado (grátis) em: **https://t00leo.github.io/Claude/**
+
+Esse endereço funciona sozinho, de qualquer wifi ou dados móveis, sem precisar do computador ligado — é só abrir no navegador do celular e, se quiser, "Adicionar à tela inicial" para usar como um app instalado. Toda vez que uma mudança é enviada para a branch `claude/beverage-inventory-app-d7z84o`, esse endereço é atualizado automaticamente (leva 1-2 minutos).
+
+Isso publica só o aplicativo em si — os dados continuam salvos separadamente em cada aparelho (veja "Backup para levar entre aparelhos" acima).
+
 ## Rodando localmente
 
 ```bash
