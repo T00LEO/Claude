@@ -13,10 +13,10 @@ export default defineConfig(({ command }) => ({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg'],
+      includeAssets: ['favicon.svg', 'logo-dduck.png'],
       manifest: {
-        name: 'Contagem de Bebidas',
-        short_name: 'Contagem',
+        name: 'Controle de Estoque',
+        short_name: 'Estoque',
         description: 'App para conferência de estoque de bebidas',
         theme_color: '#0f172a',
         background_color: '#0f172a',
@@ -28,7 +28,7 @@ export default defineConfig(({ command }) => ({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,ico}'],
+        globPatterns: ['**/*.{js,css,html,svg,ico,png}'],
       },
     }),
   ],

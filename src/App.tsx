@@ -33,7 +33,8 @@ export default function App() {
   return (
     <div className="app-shell">
       <header className="app-header">
-        <h1>Contagem de Bebidas</h1>
+        <img src={`${import.meta.env.BASE_URL}logo-dduck.png`} alt="DDuck" className="app-logo" />
+        <h1>Controle de Estoque</h1>
       </header>
 
       <main className="app-main">
