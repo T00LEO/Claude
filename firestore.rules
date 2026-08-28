@@ -2,16 +2,14 @@ rules_version = '2';
 
 // Cole este arquivo em: Firebase Console > Build > Firestore Database > Regras.
 //
-// Troque SEUDOMINIO.COM pelo domínio de e-mail da empresa (o mesmo que você colocou em
-// VITE_ALLOWED_EMAIL_DOMAIN). Só contas @SEUDOMINIO.COM com e-mail verificado pelo Google
-// conseguem ler ou escrever qualquer coisa neste banco — é essa regra, não o app em si,
-// que realmente protege os dados.
+// Só contas @dduck.com.br com e-mail verificado pelo Google conseguem ler ou escrever
+// qualquer coisa neste banco — é essa regra, não o app em si, que realmente protege os dados.
 service cloud.firestore {
   match /databases/{database}/documents {
     function isAllowed() {
       return request.auth != null
         && request.auth.token.email_verified == true
-        && request.auth.token.email.matches('.*@SEUDOMINIO[.]COM$');
+        && request.auth.token.email.matches('.*@dduck[.]com[.]br$');
     }
 
     match /{document=**} {
