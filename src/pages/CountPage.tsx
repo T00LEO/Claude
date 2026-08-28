@@ -4,6 +4,7 @@ import { actions, useAppState } from "../lib/store";
 import { formatQty, formatDateTime, normalize } from "../lib/format";
 import { NumericKeypad } from "../components/NumericKeypad";
 import { Modal } from "../components/Modal";
+import { SearchInput } from "../components/SearchInput";
 
 export function CountPage() {
   const state = useAppState();
@@ -11,6 +12,7 @@ export function CountPage() {
   const [search, setSearch] = useState("");
   const [keypadProduct, setKeypadProduct] = useState<Product | null>(null);
   const [showHistory, setShowHistory] = useState(false);
+  const [historySearch, setHistorySearch] = useState("");
   const [showAddLocation, setShowAddLocation] = useState(false);
   const [newLocationName, setNewLocationName] = useState("");
 
@@ -43,6 +45,18 @@ export function CountPage() {
     () => [...sessionEntries].sort((a, b) => b.timestamp - a.timestamp),
     [sessionEntries],
   );
+
+  const filteredRecentEntries = useMemo(() => {
+    const q = normalize(historySearch);
+    if (!q) return recentEntries;
+    return recentEntries.filter((entry) => {
+      const product = state.products.find((p) => p.id === entry.productId);
+      return (
+        (product && normalize(product.nome).includes(q)) ||
+        (product?.codigo && normalize(product.codigo).includes(q))
+      );
+    });
+  }, [recentEntries, historySearch, state.products]);
 
   function locationTotal(productId: string, locId: string) {
     return totalsByProduct.get(productId)?.get(locId) ?? 0;
@@ -108,11 +122,10 @@ export function CountPage() {
         </button>
       </div>
 
-      <input
-        className="search-input"
+      <SearchInput
         placeholder="Buscar produto por nome ou código..."
         value={search}
-        onChange={(e) => setSearch(e.target.value)}
+        onChange={setSearch}
       />
 
       {filteredProducts.length === 0 && (
@@ -201,36 +214,54 @@ export function CountPage() {
       )}
 
       {showHistory && (
-        <Modal title="Lançamentos desta contagem" onClose={() => setShowHistory(false)} wide>
+        <Modal
+          title="Lançamentos desta contagem"
+          onClose={() => {
+            setShowHistory(false);
+            setHistorySearch("");
+          }}
+          wide
+        >
           {recentEntries.length === 0 ? (
             <p className="hint">Nenhum lançamento ainda.</p>
           ) : (
-            <ul className="history-list">
-              {recentEntries.map((entry) => {
-                const product = state.products.find((p) => p.id === entry.productId);
-                const loc = state.locations.find((l) => l.id === entry.locationId);
-                return (
-                  <li key={entry.id} className="history-item">
-                    <div>
-                      <strong>{product?.nome ?? "Produto removido"}</strong>
-                      <div className="hint">
-                        {loc?.nome ?? "Local removido"} · {formatDateTime(entry.timestamp)}
+            <>
+              <SearchInput
+                placeholder="Buscar por produto ou código..."
+                value={historySearch}
+                onChange={setHistorySearch}
+                autoFocus
+              />
+              {filteredRecentEntries.length === 0 && (
+                <p className="hint">Nenhum lançamento encontrado para "{historySearch}".</p>
+              )}
+              <ul className="history-list">
+                {filteredRecentEntries.map((entry) => {
+                  const product = state.products.find((p) => p.id === entry.productId);
+                  const loc = state.locations.find((l) => l.id === entry.locationId);
+                  return (
+                    <li key={entry.id} className="history-item">
+                      <div>
+                        <strong>{product?.nome ?? "Produto removido"}</strong>
+                        <div className="hint">
+                          {loc?.nome ?? "Local removido"} · {formatDateTime(entry.timestamp)}
+                        </div>
                       </div>
-                    </div>
-                    <div className="history-actions">
-                      <span className="history-qty">+{formatQty(entry.quantidade)}</span>
-                      <button
-                        type="button"
-                        className="btn-icon btn-danger"
-                        onClick={() => actions.deleteEntry(entry.id)}
-                      >
-                        Desfazer
-                      </button>
-                    </div>
-                  </li>
-                );
-              })}
-            </ul>
+                      <div className="history-actions">
+                        <span className="history-qty">+{formatQty(entry.quantidade)}</span>
+                        <button
+                          type="button"
+                          className="btn-icon btn-danger"
+                          onClick={() => actions.deleteEntry(entry.id)}
+                        >
+                          Desfazer
+                        </button>
+                      </div>
+                    </li>
+                  );
+                })}
+              </ul>
+            </>
           )}
         </Modal>
       )}

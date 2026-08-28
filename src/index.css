@@ -282,6 +282,36 @@ select {
   margin-bottom: 14px;
 }
 
+.search-input-wrap {
+  position: relative;
+  margin-bottom: 14px;
+}
+
+.search-input-wrap .search-input {
+  margin-bottom: 0;
+  padding-right: 40px;
+}
+
+.search-clear-btn {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 999px;
+}
+
+.search-clear-btn:active {
+  background: var(--border);
+}
+
 .empty-state {
   padding: 24px 16px;
   text-align: center;

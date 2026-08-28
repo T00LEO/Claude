@@ -2,6 +2,7 @@ import { useMemo, useRef, useState } from "react";
 import { actions, useAppState } from "../lib/store";
 import { formatQty, formatDateTime, normalize } from "../lib/format";
 import type { AppState } from "../lib/types";
+import { SearchInput } from "../components/SearchInput";
 
 function isBackupShape(data: unknown): data is Partial<AppState> {
   if (!data || typeof data !== "object") return false;
@@ -112,12 +113,7 @@ export function HistoryPage() {
         {feedback && <p className={feedback.ok ? "success-text" : "error-text"}>{feedback.text}</p>}
       </div>
 
-      <input
-        className="search-input"
-        placeholder="Buscar por produto ou código..."
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-      />
+      <SearchInput placeholder="Buscar por produto ou código..." value={search} onChange={setSearch} />
 
       {groups.length === 0 && (
         <div className="empty-state">

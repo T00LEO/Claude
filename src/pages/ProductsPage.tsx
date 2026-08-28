@@ -4,6 +4,7 @@ import { actions, useAppState } from "../lib/store";
 import { normalize } from "../lib/format";
 import { Modal } from "../components/Modal";
 import { ImportDialog } from "../components/ImportDialog";
+import { SearchInput } from "../components/SearchInput";
 
 function ProductForm({
   initial,
@@ -115,11 +116,10 @@ export function ProductsPage() {
         </button>
       </div>
 
-      <input
-        className="search-input"
+      <SearchInput
         placeholder="Buscar por nome ou código..."
         value={search}
-        onChange={(e) => setSearch(e.target.value)}
+        onChange={setSearch}
       />
 
       {filtered.length === 0 && (

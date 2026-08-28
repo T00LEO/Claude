@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { actions, useAppState } from "../lib/store";
 import { formatQty, normalize } from "../lib/format";
 import { Modal } from "../components/Modal";
+import { SearchInput } from "../components/SearchInput";
 
 export function ReportPage() {
   const state = useAppState();
@@ -154,12 +155,7 @@ export function ReportPage() {
         </p>
       )}
 
-      <input
-        className="search-input"
-        placeholder="Buscar produto..."
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-      />
+      <SearchInput placeholder="Buscar produto..." value={search} onChange={setSearch} />
 
       <div className="report-table-wrap">
         <table className="report-table">
