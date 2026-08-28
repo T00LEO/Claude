@@ -18,6 +18,7 @@ export interface CountEntry {
   sessionId: string;
   quantidade: number;
   timestamp: number;
+  contadoPor?: string;
 }
 
 export interface CountSession {

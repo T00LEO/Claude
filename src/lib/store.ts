@@ -1,9 +1,19 @@
-import { get, set } from "idb-keyval";
 import { useSyncExternalStore } from "react";
-import type { AppState, CountEntry, CountSession, Location, Product } from "./types";
+import {
+  collection,
+  deleteDoc,
+  doc,
+  onSnapshot,
+  setDoc,
+  updateDoc,
+  writeBatch,
+  type DocumentData,
+  type QueryDocumentSnapshot,
+} from "firebase/firestore";
+import { onAuthStateChanged } from "firebase/auth";
+import { auth, db, firebaseConfigured } from "./firebase";
 import { normalize } from "./format";
-
-const STORAGE_KEY = "beverage-inventory-state-v1";
+import type { AppState, CountEntry, CountSession, Location, Product } from "./types";
 
 const DEFAULT_LOCATIONS: Location[] = [
   { id: "loc-estoque", nome: "Estoque" },
@@ -11,85 +21,41 @@ const DEFAULT_LOCATIONS: Location[] = [
   { id: "loc-prateleira", nome: "Prateleira" },
 ];
 
-function defaultSessionLabel(date = new Date()): string {
-  return `Contagem de ${date.toLocaleDateString("pt-BR")}`;
+const ACTIVE_SESSION_KEY = "active-session-id";
+
+function getStoredActiveSessionId(): string | null {
+  try {
+    return localStorage.getItem(ACTIVE_SESSION_KEY);
+  } catch {
+    return null;
+  }
 }
 
-function makeInitialSession(): CountSession {
-  // Random id (not a fixed one) so two devices that never started a new session don't
-  // collide into the same session when their backups get merged together later.
-  return { id: uid("s"), label: defaultSessionLabel(), startedAt: Date.now() };
+function setStoredActiveSessionId(id: string) {
+  try {
+    localStorage.setItem(ACTIVE_SESSION_KEY, id);
+  } catch {
+    // localStorage unavailable (private mode, etc.) — the session just won't be remembered.
+  }
 }
 
-function initialState(): AppState {
-  const session = makeInitialSession();
-  return {
-    products: [],
-    locations: DEFAULT_LOCATIONS,
-    entries: [],
-    sessions: [session],
-    activeSessionId: session.id,
-  };
+function pickActiveSessionId(sessions: CountSession[]): string {
+  const stored = getStoredActiveSessionId();
+  if (stored && sessions.some((s) => s.id === stored)) return stored;
+  const mostRecent = [...sessions].sort((a, b) => b.startedAt - a.startedAt)[0];
+  return mostRecent?.id ?? "";
 }
 
-let state: AppState = initialState();
+function emptyState(): AppState {
+  return { products: [], locations: [], entries: [], sessions: [], activeSessionId: "" };
+}
+
+let state: AppState = emptyState();
 let loaded = false;
 const listeners = new Set<() => void>();
 
 function notify() {
   for (const listener of listeners) listener();
-}
-
-let saveTimer: ReturnType<typeof setTimeout> | null = null;
-function persist() {
-  if (saveTimer) clearTimeout(saveTimer);
-  saveTimer = setTimeout(() => {
-    set(STORAGE_KEY, state).catch((err) => console.error("Falha ao salvar dados", err));
-  }, 150);
-}
-
-// Migrates data saved before count sessions existed: everything goes into one session.
-type LegacyOrCurrentState = Partial<AppState> & { entries?: (Partial<CountEntry> & { productId: string; locationId: string; quantidade: number; timestamp: number })[] };
-
-function migrate(saved: LegacyOrCurrentState): AppState {
-  const locations = saved.locations?.length ? saved.locations : DEFAULT_LOCATIONS;
-  const sessions = saved.sessions?.length ? saved.sessions : [makeInitialSession()];
-  const fallbackSessionId = sessions[sessions.length - 1].id;
-  const activeSessionId = saved.activeSessionId && sessions.some((s) => s.id === saved.activeSessionId)
-    ? saved.activeSessionId
-    : fallbackSessionId;
-  const entries: CountEntry[] = (saved.entries ?? []).map((e) => ({
-    id: e.id ?? uid("e"),
-    productId: e.productId,
-    locationId: e.locationId,
-    quantidade: e.quantidade,
-    timestamp: e.timestamp,
-    sessionId: e.sessionId ?? fallbackSessionId,
-  }));
-  return {
-    products: saved.products ?? [],
-    locations,
-    entries,
-    sessions,
-    activeSessionId,
-  };
-}
-
-let loadPromise: Promise<void> | null = null;
-export function loadState(): Promise<void> {
-  if (loadPromise) return loadPromise;
-  loadPromise = get<AppState>(STORAGE_KEY)
-    .then((saved) => {
-      if (saved) {
-        state = migrate(saved);
-      }
-    })
-    .catch((err) => console.error("Falha ao carregar dados", err))
-    .finally(() => {
-      loaded = true;
-      notify();
-    });
-  return loadPromise;
 }
 
 function subscribe(listener: () => void) {
@@ -109,162 +75,273 @@ export function useIsLoaded() {
   return useSyncExternalStore(subscribe, () => loaded, () => loaded);
 }
 
-function update(mutator: (draft: AppState) => AppState) {
-  state = mutator(state);
-  persist();
-  notify();
+// Firestore rejects `undefined` field values — strip them so optional fields (código,
+// categoria, contadoPor...) are simply omitted instead of erroring on write.
+function stripUndefined<T extends Record<string, unknown>>(obj: T): T {
+  const clean = { ...obj };
+  for (const key of Object.keys(clean)) {
+    if (clean[key] === undefined) delete clean[key];
+  }
+  return clean;
 }
 
-function uid(prefix: string) {
-  return `${prefix}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
+function fromDoc<T>(d: QueryDocumentSnapshot<DocumentData>): T {
+  return { id: d.id, ...d.data() } as T;
+}
+
+let unsubscribers: Array<() => void> = [];
+let readyFlags = { products: false, locations: false, sessions: false, entries: false };
+
+function checkAllLoaded() {
+  if (Object.values(readyFlags).every(Boolean) && !loaded) {
+    loaded = true;
+    notify();
+  }
+}
+
+async function seedDefaultLocationsIfEmpty() {
+  const batch = writeBatch(db);
+  for (const loc of DEFAULT_LOCATIONS) {
+    batch.set(doc(db, "locations", loc.id), { nome: loc.nome });
+  }
+  await batch.commit();
+}
+
+async function seedInitialSessionIfEmpty() {
+  const ref = doc(collection(db, "sessions"));
+  await setDoc(ref, { label: `Contagem de ${new Date().toLocaleDateString("pt-BR")}`, startedAt: Date.now() });
+}
+
+function attachListeners() {
+  detachListeners();
+  readyFlags = { products: false, locations: false, sessions: false, entries: false };
+  loaded = false;
+
+  unsubscribers = [
+    onSnapshot(collection(db, "products"), (snap) => {
+      state = { ...state, products: snap.docs.map((d) => fromDoc<Product>(d)) };
+      readyFlags.products = true;
+      checkAllLoaded();
+      notify();
+    }),
+    onSnapshot(collection(db, "locations"), (snap) => {
+      if (snap.empty && !snap.metadata.fromCache) {
+        seedDefaultLocationsIfEmpty().catch((err) => console.error("Falha ao criar locais padrão", err));
+      }
+      state = { ...state, locations: snap.docs.map((d) => fromDoc<Location>(d)) };
+      readyFlags.locations = true;
+      checkAllLoaded();
+      notify();
+    }),
+    onSnapshot(collection(db, "sessions"), (snap) => {
+      if (snap.empty && !snap.metadata.fromCache) {
+        seedInitialSessionIfEmpty().catch((err) => console.error("Falha ao criar sessão inicial", err));
+      }
+      const sessions = snap.docs.map((d) => fromDoc<CountSession>(d));
+      state = { ...state, sessions, activeSessionId: pickActiveSessionId(sessions) };
+      readyFlags.sessions = true;
+      checkAllLoaded();
+      notify();
+    }),
+    onSnapshot(collection(db, "entries"), (snap) => {
+      state = { ...state, entries: snap.docs.map((d) => fromDoc<CountEntry>(d)) };
+      readyFlags.entries = true;
+      checkAllLoaded();
+      notify();
+    }),
+  ];
+}
+
+function detachListeners() {
+  for (const unsub of unsubscribers) unsub();
+  unsubscribers = [];
+}
+
+if (firebaseConfigured) {
+  onAuthStateChanged(auth, (user) => {
+    if (user) {
+      attachListeners();
+    } else {
+      detachListeners();
+      state = emptyState();
+      loaded = false;
+      notify();
+    }
+  });
 }
 
 export type ProductInput = Omit<Product, "id">;
 
+function currentUserLabel(): string | undefined {
+  const u = auth.currentUser;
+  return u?.displayName ?? u?.email ?? undefined;
+}
+
 export const actions = {
-  addProduct(input: ProductInput) {
-    const product: Product = { id: uid("p"), ...input };
-    update((s) => ({ ...s, products: [...s.products, product] }));
-    return product;
+  addProduct(input: ProductInput): Product {
+    const ref = doc(collection(db, "products"));
+    void setDoc(ref, stripUndefined(input));
+    return { id: ref.id, ...input };
   },
   updateProduct(id: string, patch: Partial<ProductInput>) {
-    update((s) => ({
-      ...s,
-      products: s.products.map((p) => (p.id === id ? { ...p, ...patch } : p)),
-    }));
+    void updateDoc(doc(db, "products", id), stripUndefined(patch));
   },
   deleteProduct(id: string) {
-    update((s) => ({
-      ...s,
-      products: s.products.filter((p) => p.id !== id),
-      entries: s.entries.filter((e) => e.productId !== id),
-    }));
+    void deleteDoc(doc(db, "products", id));
+    const orphanEntries = state.entries.filter((e) => e.productId === id);
+    if (orphanEntries.length) {
+      const batch = writeBatch(db);
+      for (const e of orphanEntries) batch.delete(doc(db, "entries", e.id));
+      void batch.commit();
+    }
   },
   importProducts(rows: ProductInput[]) {
     let imported = 0;
     let updated = 0;
-    update((s) => {
-      const products = [...s.products];
-      for (const row of rows) {
-        const nome = row.nome.trim();
-        if (!nome) continue;
-        const codigo = row.codigo?.trim() || undefined;
-        const idx = products.findIndex((p) =>
-          codigo
-            ? p.codigo?.trim().toLowerCase() === codigo.toLowerCase()
-            : !p.codigo && p.nome.trim().toLowerCase() === nome.toLowerCase(),
-        );
-        if (idx >= 0) {
-          products[idx] = { ...products[idx], ...row, nome, codigo };
-          updated++;
-        } else {
-          products.push({ id: uid("p"), ...row, nome, codigo });
-          imported++;
-        }
+    const batch = writeBatch(db);
+    const products = [...state.products];
+    for (const row of rows) {
+      const nome = row.nome.trim();
+      if (!nome) continue;
+      const codigo = row.codigo?.trim() || undefined;
+      const idx = products.findIndex((p) =>
+        codigo
+          ? p.codigo?.trim().toLowerCase() === codigo.toLowerCase()
+          : !p.codigo && p.nome.trim().toLowerCase() === nome.toLowerCase(),
+      );
+      const data = stripUndefined({ ...row, nome, codigo });
+      if (idx >= 0) {
+        batch.set(doc(db, "products", products[idx].id), data, { merge: true });
+        products[idx] = { ...products[idx], ...data };
+        updated++;
+      } else {
+        const ref = doc(collection(db, "products"));
+        batch.set(ref, data);
+        products.push({ id: ref.id, ...data });
+        imported++;
       }
-      return { ...s, products };
-    });
+    }
+    void batch.commit();
     return { imported, updated };
   },
-  addLocation(nome: string) {
-    const location: Location = { id: uid("loc"), nome: nome.trim() };
-    update((s) => ({ ...s, locations: [...s.locations, location] }));
-    return location;
+  addLocation(nome: string): Location {
+    const ref = doc(collection(db, "locations"));
+    const data = { nome: nome.trim() };
+    void setDoc(ref, data);
+    return { id: ref.id, ...data };
   },
   deleteLocation(id: string) {
-    update((s) => ({
-      ...s,
-      locations: s.locations.filter((l) => l.id !== id),
-      entries: s.entries.filter((e) => e.locationId !== id),
-    }));
+    void deleteDoc(doc(db, "locations", id));
+    const orphanEntries = state.entries.filter((e) => e.locationId === id);
+    if (orphanEntries.length) {
+      const batch = writeBatch(db);
+      for (const e of orphanEntries) batch.delete(doc(db, "entries", e.id));
+      void batch.commit();
+    }
   },
-  addEntry(productId: string, locationId: string, quantidade: number) {
+  addEntry(productId: string, locationId: string, quantidade: number): CountEntry {
+    const ref = doc(collection(db, "entries"));
     const entry: CountEntry = {
-      id: uid("e"),
+      id: ref.id,
       productId,
       locationId,
       quantidade,
       timestamp: Date.now(),
       sessionId: state.activeSessionId,
+      contadoPor: currentUserLabel(),
     };
-    update((s) => ({ ...s, entries: [...s.entries, entry] }));
+    const { id: _id, ...data } = entry;
+    void setDoc(ref, stripUndefined(data));
     return entry;
   },
   deleteEntry(id: string) {
-    update((s) => ({ ...s, entries: s.entries.filter((e) => e.id !== id) }));
+    void deleteDoc(doc(db, "entries", id));
   },
-  startNewSession(label?: string) {
+  startNewSession(label?: string): CountSession {
+    const ref = doc(collection(db, "sessions"));
     const session: CountSession = {
-      id: uid("s"),
-      label: label?.trim() || defaultSessionLabel(),
+      id: ref.id,
+      label: label?.trim() || `Contagem de ${new Date().toLocaleDateString("pt-BR")}`,
       startedAt: Date.now(),
     };
-    update((s) => ({ ...s, sessions: [...s.sessions, session], activeSessionId: session.id }));
+    const { id: _id, ...data } = session;
+    void setDoc(ref, data);
+    setStoredActiveSessionId(session.id);
+    state = { ...state, activeSessionId: session.id };
+    notify();
     return session;
   },
-  // Merges a backup exported from another device into the data on this one: matches
-  // products by código/nome and locations by nome so the same real-world item lines up
-  // even though it got a different id on each device, then adds any session/entry that
-  // isn't already here (by id). Nothing local is overwritten or removed.
+  switchSession(sessionId: string) {
+    setStoredActiveSessionId(sessionId);
+    state = { ...state, activeSessionId: sessionId };
+    notify();
+  },
+  // Uploads a backup exported from another device/session into the shared cloud data.
+  // Matches products by código/nome and locations by nome so the same real-world item
+  // lines up even with a different id; sessions and entries keep their original id, so
+  // importing the same backup twice never duplicates anything.
   mergeState(imported: Partial<AppState>) {
     const summary = { products: 0, locations: 0, sessions: 0, entries: 0 };
-    update((s) => {
-      const locationIdMap = new Map<string, string>();
-      const locations = [...s.locations];
-      for (const loc of imported.locations ?? []) {
-        const existing = locations.find((l) => normalize(l.nome) === normalize(loc.nome));
-        if (existing) {
-          locationIdMap.set(loc.id, existing.id);
-        } else {
-          locations.push(loc);
-          locationIdMap.set(loc.id, loc.id);
-          summary.locations++;
-        }
-      }
+    const batch = writeBatch(db);
 
-      const productIdMap = new Map<string, string>();
-      const products = [...s.products];
-      for (const p of imported.products ?? []) {
-        const codigo = p.codigo?.trim();
-        const existing = products.find((existingP) =>
-          codigo
-            ? existingP.codigo?.trim().toLowerCase() === codigo.toLowerCase()
-            : !existingP.codigo && normalize(existingP.nome) === normalize(p.nome),
-        );
-        if (existing) {
-          productIdMap.set(p.id, existing.id);
-        } else {
-          products.push(p);
-          productIdMap.set(p.id, p.id);
-          summary.products++;
-        }
+    const locationIdMap = new Map<string, string>();
+    const locations = [...state.locations];
+    for (const loc of imported.locations ?? []) {
+      const existing = locations.find((l) => normalize(l.nome) === normalize(loc.nome));
+      if (existing) {
+        locationIdMap.set(loc.id, existing.id);
+      } else {
+        batch.set(doc(db, "locations", loc.id), { nome: loc.nome });
+        locations.push(loc);
+        locationIdMap.set(loc.id, loc.id);
+        summary.locations++;
       }
+    }
 
-      const sessions = [...s.sessions];
-      const sessionIds = new Set(sessions.map((sess) => sess.id));
-      for (const sess of imported.sessions ?? []) {
-        if (!sessionIds.has(sess.id)) {
-          sessions.push(sess);
-          sessionIds.add(sess.id);
-          summary.sessions++;
-        }
+    const productIdMap = new Map<string, string>();
+    const products = [...state.products];
+    for (const p of imported.products ?? []) {
+      const codigo = p.codigo?.trim();
+      const existing = products.find((existingP) =>
+        codigo
+          ? existingP.codigo?.trim().toLowerCase() === codigo.toLowerCase()
+          : !existingP.codigo && normalize(existingP.nome) === normalize(p.nome),
+      );
+      if (existing) {
+        productIdMap.set(p.id, existing.id);
+      } else {
+        const { id, ...data } = p;
+        batch.set(doc(db, "products", id), stripUndefined(data));
+        products.push(p);
+        productIdMap.set(p.id, p.id);
+        summary.products++;
       }
+    }
 
-      const entries = [...s.entries];
-      const entryIds = new Set(entries.map((e) => e.id));
-      for (const e of imported.entries ?? []) {
-        if (entryIds.has(e.id)) continue;
-        entries.push({
-          ...e,
-          productId: productIdMap.get(e.productId) ?? e.productId,
-          locationId: locationIdMap.get(e.locationId) ?? e.locationId,
-        });
-        entryIds.add(e.id);
-        summary.entries++;
+    const existingSessionIds = new Set(state.sessions.map((s) => s.id));
+    for (const sess of imported.sessions ?? []) {
+      if (!existingSessionIds.has(sess.id)) {
+        const { id, ...data } = sess;
+        batch.set(doc(db, "sessions", id), data);
+        existingSessionIds.add(sess.id);
+        summary.sessions++;
       }
+    }
 
-      return { ...s, products, locations, sessions, entries };
-    });
+    const existingEntryIds = new Set(state.entries.map((e) => e.id));
+    for (const e of imported.entries ?? []) {
+      if (existingEntryIds.has(e.id)) continue;
+      const { id, ...data } = {
+        ...e,
+        productId: productIdMap.get(e.productId) ?? e.productId,
+        locationId: locationIdMap.get(e.locationId) ?? e.locationId,
+      };
+      batch.set(doc(db, "entries", id), stripUndefined(data));
+      existingEntryIds.add(e.id);
+      summary.entries++;
+    }
+
+    void batch.commit();
     return summary;
   },
 };

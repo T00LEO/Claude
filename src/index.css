@@ -73,6 +73,64 @@ select {
 .app-header h1 {
   margin: 0;
   font-size: 1.15rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.user-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.user-avatar {
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+}
+
+.user-name {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  max-width: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: none;
+}
+
+@media (min-width: 480px) {
+  .user-name {
+    display: inline;
+  }
+}
+
+.auth-screen {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+  text-align: center;
+}
+
+.auth-screen h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.auth-screen p {
+  color: var(--text-muted);
+  max-width: 340px;
+  margin: 0;
+}
+
+.auth-logo {
+  height: 56px;
+  width: auto;
 }
 
 .app-main {

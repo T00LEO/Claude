@@ -1,5 +1,7 @@
-import { useEffect, useState } from "react";
-import { loadState, useIsLoaded } from "./lib/store";
+import { useState } from "react";
+import { AuthGate } from "./components/AuthGate";
+import { signOutUser, useCurrentUser } from "./lib/auth";
+import { useIsLoaded } from "./lib/store";
 import { ProductsPage } from "./pages/ProductsPage";
 import { CountPage } from "./pages/CountPage";
 import { ReportPage } from "./pages/ReportPage";
@@ -14,13 +16,23 @@ const TABS: { id: Tab; label: string; icon: string }[] = [
   { id: "historico", label: "Histórico", icon: "🕘" },
 ];
 
-export default function App() {
+function UserBadge() {
+  const user = useCurrentUser();
+  if (!user) return null;
+  return (
+    <div className="user-badge">
+      {user.photoURL && <img src={user.photoURL} alt="" className="user-avatar" referrerPolicy="no-referrer" />}
+      <span className="user-name">{user.displayName ?? user.email}</span>
+      <button type="button" className="btn-icon" onClick={() => signOutUser()}>
+        Sair
+      </button>
+    </div>
+  );
+}
+
+function AppShell() {
   const isLoaded = useIsLoaded();
   const [tab, setTab] = useState<Tab>("contagem");
-
-  useEffect(() => {
-    loadState();
-  }, []);
 
   if (!isLoaded) {
     return (
@@ -35,6 +47,7 @@ export default function App() {
       <header className="app-header">
         <img src={`${import.meta.env.BASE_URL}logo-dduck.png`} alt="DDuck" className="app-logo" />
         <h1>Controle de Estoque</h1>
+        <UserBadge />
       </header>
 
       <main className="app-main">
@@ -60,5 +73,13 @@ export default function App() {
         ))}
       </nav>
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <AuthGate>
+      <AppShell />
+    </AuthGate>
   );
 }
