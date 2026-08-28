@@ -23,8 +23,9 @@ const rawConfig = {
 // True only when every real value above was provided (via .env.local / build secrets).
 export const firebaseConfigured = Object.values(rawConfig).every(Boolean);
 
-// The domain everyone signing in must belong to (e.g. "dduck.com.br"). Only a client-side
-// hint/UX filter — the real enforcement lives in the Firestore security rules.
+// Accounts from this domain get in automatically; anyone else needs an explicit entry in
+// the allowedEmails collection (see lib/auth.ts). Enforced by the Firestore security rules,
+// not by this constant — this is only used for client-side messaging.
 export const ALLOWED_EMAIL_DOMAIN = import.meta.env.VITE_ALLOWED_EMAIL_DOMAIN as string | undefined;
 
 // Without real config, fall back to well-formed placeholder values so the SDK can still be
@@ -49,10 +50,9 @@ if (firebaseConfigured) {
   void setPersistence(auth, browserLocalPersistence);
 }
 
+// No `hd` (hosted domain) hint here on purpose: it would bias Google's account picker
+// toward one domain, which gets in the way of the external emails on the allowlist.
 export const googleProvider = new GoogleAuthProvider();
-if (ALLOWED_EMAIL_DOMAIN) {
-  googleProvider.setCustomParameters({ hd: ALLOWED_EMAIL_DOMAIN });
-}
 
 // Offline-first: Firestore caches everything locally (IndexedDB) and syncs automatically
 // once back online, so counting keeps working with a bad or absent signal in the depósito.

@@ -1,6 +1,6 @@
-import type { ReactNode } from "react";
-import { CurrentUserContext, isAllowedEmail, signIn, signOutUser, useAuthUser } from "../lib/auth";
-import { ALLOWED_EMAIL_DOMAIN, firebaseConfigured } from "../lib/firebase";
+import { useEffect, useState, type ReactNode } from "react";
+import { CurrentUserContext, isAllowed, signIn, signOutUser, useAuthUser } from "../lib/auth";
+import { firebaseConfigured } from "../lib/firebase";
 
 function Screen({ children }: { children: ReactNode }) {
   return (
@@ -13,6 +13,22 @@ function Screen({ children }: { children: ReactNode }) {
 
 export function AuthGate({ children }: { children: ReactNode }) {
   const user = useAuthUser();
+  const [allowed, setAllowed] = useState<boolean | null>(null);
+
+  useEffect(() => {
+    if (!user) {
+      setAllowed(null);
+      return;
+    }
+    let cancelled = false;
+    setAllowed(null);
+    isAllowed(user.email).then((ok) => {
+      if (!cancelled) setAllowed(ok);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [user]);
 
   if (!firebaseConfigured) {
     return (
@@ -37,7 +53,7 @@ export function AuthGate({ children }: { children: ReactNode }) {
     return (
       <Screen>
         <h1>Controle de Estoque</h1>
-        <p>Entre com sua conta Google da empresa para continuar.</p>
+        <p>Entre com sua conta Google para continuar.</p>
         <button type="button" className="btn-primary" onClick={() => signIn()}>
           Entrar com Google
         </button>
@@ -45,13 +61,21 @@ export function AuthGate({ children }: { children: ReactNode }) {
     );
   }
 
-  if (!isAllowedEmail(user.email)) {
+  if (allowed === null) {
+    return (
+      <Screen>
+        <p className="hint">Verificando acesso...</p>
+      </Screen>
+    );
+  }
+
+  if (!allowed) {
     return (
       <Screen>
         <p>
           A conta <strong>{user.email}</strong> não tem acesso a este app.
         </p>
-        {ALLOWED_EMAIL_DOMAIN && <p className="hint">Entre com uma conta @{ALLOWED_EMAIL_DOMAIN}.</p>}
+        <p className="hint">Peça pra alguém da empresa liberar seu e-mail e tente entrar de novo.</p>
         <button type="button" className="btn-secondary" onClick={() => signOutUser()}>
           Sair e tentar outra conta
         </button>

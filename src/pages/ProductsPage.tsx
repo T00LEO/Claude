@@ -65,6 +65,7 @@ export function ProductsPage() {
   const [showImport, setShowImport] = useState(false);
   const [showAdd, setShowAdd] = useState(false);
   const [editing, setEditing] = useState<Product | null>(null);
+  const [newEmail, setNewEmail] = useState("");
 
   const filtered = useMemo(() => {
     const q = normalize(search);
@@ -79,6 +80,24 @@ export function ProductsPage() {
       actions.deleteProduct(p.id);
     }
   }
+
+  function handleAddEmail() {
+    const email = newEmail.trim().toLowerCase();
+    if (!email || !email.includes("@")) return;
+    actions.addAllowedEmail(email);
+    setNewEmail("");
+  }
+
+  function handleRemoveEmail(email: string) {
+    if (confirm(`Remover o acesso de "${email}"?`)) {
+      actions.removeAllowedEmail(email);
+    }
+  }
+
+  const sortedAllowedEmails = useMemo(
+    () => [...state.allowedEmails].sort((a, b) => a.email.localeCompare(b.email)),
+    [state.allowedEmails],
+  );
 
   return (
     <div className="page">
@@ -167,6 +186,46 @@ export function ProductsPage() {
           />
         </Modal>
       )}
+
+      <div className="backup-box">
+        <p className="hint">
+          <strong>Acesso de pessoas externas.</strong> Contas @dduck.com.br já entram
+          automaticamente. Pra liberar alguém sem e-mail da empresa (ex: um contador avulso),
+          adicione o e-mail Google dessa pessoa aqui.
+        </p>
+        <div className="toolbar">
+          <input
+            className="search-input email-input"
+            placeholder="email@gmail.com"
+            value={newEmail}
+            onChange={(e) => setNewEmail(e.target.value)}
+            onKeyDown={(e) => e.key === "Enter" && handleAddEmail()}
+          />
+          <button type="button" className="btn-primary" onClick={handleAddEmail} disabled={!newEmail.includes("@")}>
+            Liberar
+          </button>
+        </div>
+        {sortedAllowedEmails.length > 0 && (
+          <ul className="product-list allowed-emails-list">
+            {sortedAllowedEmails.map((a) => (
+              <li key={a.email} className="product-list-item">
+                <div className="product-list-info">
+                  <span className="product-name">{a.email}</span>
+                </div>
+                <div className="product-list-actions">
+                  <button
+                    type="button"
+                    className="btn-icon btn-danger"
+                    onClick={() => handleRemoveEmail(a.email)}
+                  >
+                    Remover
+                  </button>
+                </div>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
     </div>
   );
 }

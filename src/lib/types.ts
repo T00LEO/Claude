@@ -27,10 +27,17 @@ export interface CountSession {
   startedAt: number;
 }
 
+export interface AllowedEmail {
+  email: string;
+  addedAt: number;
+  addedBy?: string;
+}
+
 export interface AppState {
   products: Product[];
   locations: Location[];
   entries: CountEntry[];
   sessions: CountSession[];
   activeSessionId: string;
+  allowedEmails: AllowedEmail[];
 }

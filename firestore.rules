@@ -2,14 +2,18 @@ rules_version = '2';
 
 // Cole este arquivo em: Firebase Console > Build > Firestore Database > Regras.
 //
-// Só contas @dduck.com.br com e-mail verificado pelo Google conseguem ler ou escrever
-// qualquer coisa neste banco — é essa regra, não o app em si, que realmente protege os dados.
+// Só entram contas @dduck.com.br com e-mail verificado pelo Google, OU qualquer e-mail
+// que tenha um documento em allowedEmails/{email} (gerenciado pelo app, aba Produtos) — é
+// essa regra, não o app em si, que realmente protege os dados.
 service cloud.firestore {
   match /databases/{database}/documents {
     function isAllowed() {
       return request.auth != null
         && request.auth.token.email_verified == true
-        && request.auth.token.email.matches('.*@dduck[.]com[.]br$');
+        && (
+          request.auth.token.email.matches('.*@dduck[.]com[.]br$')
+          || exists(/databases/$(database)/documents/allowedEmails/$(request.auth.token.email.lower()))
+        );
     }
 
     match /{document=**} {

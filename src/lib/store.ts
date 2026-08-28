@@ -13,7 +13,7 @@ import {
 import { onAuthStateChanged } from "firebase/auth";
 import { auth, db, firebaseConfigured } from "./firebase";
 import { normalize } from "./format";
-import type { AppState, CountEntry, CountSession, Location, Product } from "./types";
+import type { AllowedEmail, AppState, CountEntry, CountSession, Location, Product } from "./types";
 
 const DEFAULT_LOCATIONS: Location[] = [
   { id: "loc-estoque", nome: "Estoque" },
@@ -47,7 +47,7 @@ function pickActiveSessionId(sessions: CountSession[]): string {
 }
 
 function emptyState(): AppState {
-  return { products: [], locations: [], entries: [], sessions: [], activeSessionId: "" };
+  return { products: [], locations: [], entries: [], sessions: [], activeSessionId: "", allowedEmails: [] };
 }
 
 let state: AppState = emptyState();
@@ -90,7 +90,7 @@ function fromDoc<T>(d: QueryDocumentSnapshot<DocumentData>): T {
 }
 
 let unsubscribers: Array<() => void> = [];
-let readyFlags = { products: false, locations: false, sessions: false, entries: false };
+let readyFlags = { products: false, locations: false, sessions: false, entries: false, allowedEmails: false };
 
 function checkAllLoaded() {
   if (Object.values(readyFlags).every(Boolean) && !loaded) {
@@ -114,7 +114,7 @@ async function seedInitialSessionIfEmpty() {
 
 function attachListeners() {
   detachListeners();
-  readyFlags = { products: false, locations: false, sessions: false, entries: false };
+  readyFlags = { products: false, locations: false, sessions: false, entries: false, allowedEmails: false };
   loaded = false;
 
   unsubscribers = [
@@ -146,6 +146,12 @@ function attachListeners() {
     onSnapshot(collection(db, "entries"), (snap) => {
       state = { ...state, entries: snap.docs.map((d) => fromDoc<CountEntry>(d)) };
       readyFlags.entries = true;
+      checkAllLoaded();
+      notify();
+    }),
+    onSnapshot(collection(db, "allowedEmails"), (snap) => {
+      state = { ...state, allowedEmails: snap.docs.map((d) => ({ email: d.id, ...d.data() }) as AllowedEmail) };
+      readyFlags.allowedEmails = true;
       checkAllLoaded();
       notify();
     }),
@@ -275,6 +281,15 @@ export const actions = {
     setStoredActiveSessionId(sessionId);
     state = { ...state, activeSessionId: sessionId };
     notify();
+  },
+  addAllowedEmail(email: string): AllowedEmail {
+    const normalized = email.trim().toLowerCase();
+    const data = { addedAt: Date.now(), addedBy: currentUserLabel() };
+    void setDoc(doc(db, "allowedEmails", normalized), stripUndefined(data));
+    return { email: normalized, ...data };
+  },
+  removeAllowedEmail(email: string) {
+    void deleteDoc(doc(db, "allowedEmails", email.trim().toLowerCase()));
   },
   // Uploads a backup exported from another device/session into the shared cloud data.
   // Matches products by código/nome and locations by nome so the same real-world item
