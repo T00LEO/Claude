@@ -29,6 +29,9 @@ export default defineConfig(({ command }) => ({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,ico,png}'],
+        // /vinil/ is a separate static page published alongside this app; the
+        // service worker must not answer its navigations with this app's shell.
+        navigateFallbackDenylist: [/\/vinil\//],
       },
     }),
   ],

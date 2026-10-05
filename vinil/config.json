@@ -1,0 +1,29 @@
+{
+  "criterios": {
+    "teto": 200,
+    "fatorDiscogs": 0.9,
+    "alertarQuando": ["teto", "discogs"]
+  },
+  "fontes": {
+    "discogs": true,
+    "mercadoLivre": true,
+    "discogsWantlist": ""
+  },
+  "lojas": [],
+  "listaDeDesejos": [
+    { "artista": "Milton Nascimento", "titulo": "Clube da Esquina" },
+    { "artista": "Jorge Ben", "titulo": "A Tábua de Esmeralda" },
+    { "artista": "Miles Davis", "titulo": "Kind of Blue", "teto": 150 }
+  ],
+  "varredura": {
+    "generos": ["jazz", "mpb"],
+    "termos": [],
+    "teto": 80,
+    "alertar": false
+  },
+  "excluir": [
+    "cd", "dvd", "k7", "fita", "toca discos", "toca-discos", "vitrola", "agulha", "capsula",
+    "poster", "quadro", "relogio", "moldura", "capa protetora", "luminaria", "camiseta",
+    "caneca", "adesivo", "decorativo"
+  ]
+}

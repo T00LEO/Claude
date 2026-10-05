@@ -1,5 +1,7 @@
 # Contagem de Bebidas
 
+> Este repositório também abriga o **Caça Vinil**, um app separado que varre sites de discos atrás de bons preços — veja [`vinil/README.md`](vinil/README.md).
+
 App simples para conferência de estoque de bebidas, feito para ser usado no celular durante a contagem física (depósito, bar, prateleira etc).
 
 ## Funcionalidades

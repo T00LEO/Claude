@@ -5,6 +5,10 @@ on:
     branches:
       - claude/beverage-inventory-app-d7z84o
   workflow_dispatch:
+  # Republica a página do Caça Vinil sempre que uma varredura termina.
+  workflow_run:
+    workflows: ["Varredura de vinil"]
+    types: [completed]
 
 permissions:
   contents: read
@@ -17,6 +21,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -34,6 +39,7 @@ jobs:
           VITE_FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.VITE_FIREBASE_MESSAGING_SENDER_ID }}
           VITE_FIREBASE_APP_ID: ${{ secrets.VITE_FIREBASE_APP_ID }}
           VITE_ALLOWED_EMAIL_DOMAIN: ${{ secrets.VITE_ALLOWED_EMAIL_DOMAIN }}
+      - run: cp -r vinil/site dist/vinil
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
