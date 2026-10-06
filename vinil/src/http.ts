@@ -10,21 +10,29 @@ export class HttpError extends Error {
   }
 }
 
-/** GET/POST que devolve JSON; tenta de novo uma vez em 429/5xx. */
-export async function pegarJson<T>(url: string, init: RequestInit = {}): Promise<T> {
+/** GET/POST que tenta de novo uma vez em 429/5xx. */
+async function pegar(url: string, init: RequestInit, accept: string): Promise<Response> {
   for (let tentativa = 0; ; tentativa++) {
     const res = await fetch(url, {
       ...init,
-      headers: { "User-Agent": USER_AGENT, Accept: "application/json", ...init.headers },
+      headers: { "User-Agent": USER_AGENT, Accept: accept, ...init.headers },
       signal: AbortSignal.timeout(20_000),
     });
-    if (res.ok) return (await res.json()) as T;
+    if (res.ok) return res;
     if (tentativa === 0 && (res.status === 429 || res.status >= 500)) {
       await sleep(res.status === 429 ? 60_000 : 3_000);
       continue;
     }
     throw new HttpError(res.status, url);
   }
+}
+
+export async function pegarJson<T>(url: string, init: RequestInit = {}): Promise<T> {
+  return (await (await pegar(url, init, "application/json")).json()) as T;
+}
+
+export async function pegarHtml(url: string): Promise<string> {
+  return (await pegar(url, {}, "text/html")).text();
 }
 
 /** Garante um intervalo mínimo entre chamadas, para respeitar limites de requisição. */

@@ -23,7 +23,9 @@ Os dois últimos só se aplicam à lista de desejos: na varredura geral não dá
 | --- | --- |
 | **Discogs** | API oficial. Só funciona para a lista de desejos, porque a API não permite buscar anúncios por gênero. Mostra o menor preço anunciado de cada prensagem, convertido para reais, **sem frete** (a maioria dos vendedores está no exterior, então ainda tem imposto de importação). |
 | **Mercado Livre** | API oficial. Lista de desejos e varredura geral. Exige credenciais de aplicativo (veja abaixo). |
-| **Lojas de discos** | Lojas feitas em **Shopify**, **WooCommerce** ou **VTEX** são lidas pela busca em JSON da própria plataforma, sem depender do layout do site. Lojas em outras plataformas precisam de um coletor próprio. |
+| **Baratos Afins**, **Locomotiva Discos**, **Patuá Discos** | Leitura da página de busca de cada loja (plataformas Loja Integrada, Iluria e Nuvemshop). Se a loja mudar o visual do site, o coletor pode parar de achar produtos. |
+| **iMusic** (imusic.br.com) | Leitura da busca de vinil. Preço em reais, mas a loja fica no exterior e ainda não está no Remessa Conforme: frete e imposto de importação à parte. |
+| **Outras lojas** | Lojas em **Shopify**, **WooCommerce**, **VTEX**, **Loja Integrada**, **Nuvemshop** ou **Iluria** entram só com uma linha em `config.json`. Para descobrir a plataforma de uma loja, rode *Actions → Diagnóstico de lojas de vinil* com o endereço dela. |
 | **Amazon** | Ainda não. A Amazon não tem API aberta para isso (a oficial exige conta de afiliado com vendas) e bloqueia leitura automática do site. |
 
 ## Configuração (`vinil/config.json`)
@@ -41,7 +43,10 @@ Os dois últimos só se aplicam à lista de desejos: na varredura geral não dá
     "discogsWantlist": ""                 // seu usuário do Discogs: a wantlist entra na lista de desejos
   },
   "lojas": [
-    // { "nome": "Loja X", "url": "https://lojax.com.br", "plataforma": "shopify", "soVinil": true }
+    // plataforma: shopify, woocommerce, vtex, lojaintegrada, nuvemshop, iluria ou imusic
+    { "nome": "Patuá Discos", "url": "https://www.patuadiscos.com.br", "plataforma": "nuvemshop" },
+    { "nome": "iMusic", "url": "https://imusic.br.com", "plataforma": "imusic", "soVinil": true,
+      "observacao": "Loja no exterior: frete e imposto à parte" }   // aviso exibido em cada oferta
   ],
   "listaDeDesejos": [
     { "artista": "Miles Davis", "titulo": "Kind of Blue", "teto": 150 },   // teto próprio (opcional)

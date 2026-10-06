@@ -9,7 +9,18 @@
     "mercadoLivre": true,
     "discogsWantlist": ""
   },
-  "lojas": [],
+  "lojas": [
+    { "nome": "Baratos Afins", "url": "https://www.baratosafins.com.br", "plataforma": "lojaintegrada" },
+    { "nome": "Locomotiva Discos", "url": "https://www.locomotivadiscos.com.br", "plataforma": "iluria" },
+    { "nome": "Patuá Discos", "url": "https://www.patuadiscos.com.br", "plataforma": "nuvemshop" },
+    {
+      "nome": "iMusic",
+      "url": "https://imusic.br.com",
+      "plataforma": "imusic",
+      "soVinil": true,
+      "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte"
+    }
+  ],
   "listaDeDesejos": [
     { "artista": "LCD Soundsystem", "titulo": "Sound of Silver" },
     { "artista": "The Rapture", "titulo": "Pieces of the People We Love" },

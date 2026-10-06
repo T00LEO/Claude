@@ -1,17 +1,23 @@
 import { limitador, pegarJson } from "../http.ts";
+import { iluria, imusic, lojaIntegrada, nuvemshop, type ProdutoHtml } from "./html.ts";
 import { combina, excluido, pareceVinil } from "../texto.ts";
 import type { Busca, Coleta, Loja, OfertaBruta } from "../tipos.ts";
 
 // Lojas pequenas: uma requisição a cada 2 segundos por loja é mais que suficiente.
 const INTERVALO_MS = 2000;
 
-type Produto = Pick<OfertaBruta, "titulo" | "preco" | "url" | "imagem"> & { idLoja: string };
+type Produto = Pick<OfertaBruta, "titulo" | "preco" | "url" | "imagem"> & { idLoja: string; extra?: string };
 
 /**
- * Lojas virtuais em plataformas conhecidas expõem buscas em JSON, o que
- * evita depender do HTML de cada site (que muda sem aviso).
+ * Shopify, WooCommerce e VTEX expõem buscas em JSON, o que evita depender do
+ * HTML de cada site (que muda sem aviso). As demais lêem a página de busca.
  */
-const plataformas: Record<Loja["plataforma"], (base: string, termo: string) => Promise<Produto[]>> = {
+const plataformas: Record<Loja["plataforma"], (base: string, termo: string) => Promise<Produto[] | ProdutoHtml[]>> = {
+  lojaintegrada: lojaIntegrada,
+  nuvemshop,
+  iluria,
+  imusic,
+
   async shopify(base, termo) {
     const params = new URLSearchParams({ q: termo, "resources[type]": "product", "resources[limit]": "10" });
     const r = await pegarJson<{
@@ -83,8 +89,9 @@ export async function coletarLojas(lojas: Loja[], buscas: Busca[], excluir: stri
           await esperar();
           const termo = busca.desejo ? `${busca.desejo.artista} ${busca.desejo.titulo}` : busca.termo;
           for (const p of await plataformas[loja.plataforma](base, termo)) {
+            const texto = p.extra ? `${p.titulo} ${p.extra}` : p.titulo;
             if (!Number.isFinite(p.preco) || p.preco <= 0 || excluido(p.titulo, excluir)) continue;
-            if (busca.desejo ? !combina(p.titulo, busca.desejo.artista, busca.desejo.titulo) : !loja.soVinil && !pareceVinil(p.titulo)) continue;
+            if (busca.desejo ? !combina(texto, busca.desejo.artista, busca.desejo.titulo) : !loja.soVinil && !pareceVinil(texto)) continue;
             coleta.ofertas.push({
               id: `${loja.nome}:${p.idLoja}`,
               fonte: loja.nome,
@@ -92,6 +99,7 @@ export async function coletarLojas(lojas: Loja[], buscas: Busca[], excluir: stri
               preco: p.preco,
               url: p.url,
               imagem: p.imagem,
+              observacao: loja.observacao,
               desejo: busca.desejo?.chave,
               busca: busca.rotulo,
             });

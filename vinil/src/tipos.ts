@@ -12,9 +12,11 @@ export interface Desejo {
 export interface Loja {
   nome: string;
   url: string;
-  plataforma: "shopify" | "woocommerce" | "vtex";
+  plataforma: "shopify" | "woocommerce" | "vtex" | "lojaintegrada" | "nuvemshop" | "iluria" | "imusic";
   /** Loja que só vende vinil: dispensa "vinil"/"LP" no nome do produto na varredura geral. */
   soVinil?: boolean;
+  /** Aviso mostrado em todas as ofertas da loja (ex.: imposto de importação). */
+  observacao?: string;
 }
 
 export interface Config {
