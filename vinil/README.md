@@ -32,7 +32,7 @@ Os dois últimos só se aplicam à lista de desejos: na varredura geral não dá
 
 Para Discogs e iMusic o preço total soma ao preço do disco:
 
-- **Frete estimado:** US$ 20 por disco no Discogs e R$ 60 na iMusic. Os dois sites só mostram o frete real no carrinho, então ajuste em `config.json` quando souber o valor real.
+- **Frete estimado:** US$ 20 por disco no Discogs (varia muito conforme o vendedor) e R$ 66,90 na iMusic (valor do carrinho para 1 disco, outubro de 2026). Ajuste em `config.json` se mudar.
 - **Imposto de importação** (regras desde 12/05/2026, MP 1.357/2026 → Lei 15.502): fora do Remessa Conforme, 60% sobre disco + frete; no Remessa Conforme, zero até US$ 50 e 60% menos US$ 30 acima disso.
 - **ICMS** de 20% (17% em alguns estados), calculado "por dentro".
 - **Taxa de despacho dos Correios** (R$ 15) para remessas fora do Remessa Conforme.
@@ -60,7 +60,7 @@ Quando a iMusic entrar no Remessa Conforme, troque `"remessaConforme": false` po
     { "nome": "Patuá Discos", "url": "https://www.patuadiscos.com.br", "plataforma": "nuvemshop" },
     { "nome": "iMusic", "url": "https://imusic.br.com", "plataforma": "imusic", "soVinil": true,
       "observacao": "Loja no exterior",                           // aviso exibido em cada oferta
-      "importacao": { "freteBRL": 60, "remessaConforme": false } } // loja no exterior: soma frete e impostos
+      "importacao": { "freteBRL": 66.9, "remessaConforme": false } } // loja no exterior: soma frete e impostos
   ],
   "listaDeDesejos": [
     { "artista": "Miles Davis", "titulo": "Kind of Blue", "teto": 150 },   // teto próprio (opcional)
