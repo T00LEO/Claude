@@ -18,7 +18,8 @@
       "url": "https://imusic.br.com",
       "plataforma": "imusic",
       "soVinil": true,
-      "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte"
+      "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+      "importacao": { "freteBRL": 60, "remessaConforme": false }
     }
   ],
   "listaDeDesejos": [
@@ -32,6 +33,11 @@
     "termos": [],
     "teto": 80,
     "alertar": false
+  },
+  "importacao": {
+    "icms": 0.2,
+    "despachoPostal": 15,
+    "freteDiscogsUSD": 20
   },
   "excluir": [
     "cd", "dvd", "k7", "fita", "toca discos", "toca-discos", "vitrola", "agulha", "capsula",

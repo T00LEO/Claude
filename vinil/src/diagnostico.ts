@@ -73,8 +73,9 @@ async function inspecionar(url: string, marcador: string) {
 
 for (const site of process.argv.slice(2)) {
   if (site.includes("|")) {
-    const [url, marcador] = site.split("|");
-    await inspecionar(url, marcador);
+    // Só o primeiro "|" separa: o marcador pode ter alternativas como "(a|b)".
+    const corte = site.indexOf("|");
+    await inspecionar(site.slice(0, corte), site.slice(corte + 1));
     continue;
   }
   console.log(`\n==================== ${site}`);

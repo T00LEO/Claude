@@ -11,10 +11,11 @@ const ROTULOS: Record<Criterio, string> = {
 const reais = (n: number) => n.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 
 export function montarMensagem(ofertas: Oferta[], pagina: string): { titulo: string; linhas: string[] } {
-  const ordenadas = [...ofertas].sort((a, b) => a.preco - b.preco);
+  const ordenadas = [...ofertas].sort((a, b) => a.precoTotal - b.precoTotal);
   const linhas = ordenadas.slice(0, MAX_NA_MENSAGEM).map((o) => {
     const motivos = (Object.keys(ROTULOS) as Criterio[]).filter((c) => o.criterios[c]).map((c) => ROTULOS[c]);
-    return `• ${o.titulo} — ${reais(o.preco)} (${o.fonte}; ${motivos.join(", ")})\n${o.url}`;
+    const preco = o.custos ? `${reais(o.precoTotal)} com frete e impostos (disco ${reais(o.preco)})` : reais(o.preco);
+    return `• ${o.titulo} — ${preco} (${o.fonte}; ${motivos.join(", ")})\n${o.url}`;
   });
   if (ordenadas.length > MAX_NA_MENSAGEM) linhas.push(`…e mais ${ordenadas.length - MAX_NA_MENSAGEM}. Veja todas em ${pagina}`);
   const titulo = ofertas.length === 1 ? "1 oferta nova de vinil" : `${ofertas.length} ofertas novas de vinil`;

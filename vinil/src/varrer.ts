@@ -4,8 +4,9 @@ import { avaliar, deveAlertar } from "./criterios.ts";
 import { coletarDiscogs, wantlist } from "./fontes/discogs.ts";
 import { coletarLojas } from "./fontes/lojas.ts";
 import { coletarMercadoLivre } from "./fontes/mercadolivre.ts";
+import { paraReais } from "./moeda.ts";
 import { chaveDesejo } from "./texto.ts";
-import type { Busca, Coleta, Config, Desejo, OfertaBruta, Resultado } from "./tipos.ts";
+import type { Busca, Coleta, Config, Desejo, Importacao, OfertaBruta, Resultado } from "./tipos.ts";
 
 const CONFIG = new URL("../config.json", import.meta.url);
 const SAIDA = new URL("../site/ofertas.json", import.meta.url);
@@ -82,20 +83,28 @@ async function main() {
       if (!atual || (!atual.desejo && o.desejo)) porId.set(o.id, o);
     }
   }
-  const ofertas = avaliar([...porId.values()], config, tetos, referencias).sort((a, b) => a.preco - b.preco);
+  // Vendedores do Discogs são pessoas físicas, fora do Remessa Conforme; tratamos todos como no exterior.
+  const dolar = await paraReais(1, "USD");
+  const importados = new Map<string, Importacao>([
+    ["Discogs", { freteBRL: config.importacao.freteDiscogsUSD * dolar, remessaConforme: false }],
+  ]);
+  for (const loja of config.lojas) if (loja.importacao) importados.set(loja.nome, loja.importacao);
+  const ofertas = avaliar([...porId.values()], config, tetos, referencias, importados, dolar).sort(
+    (a, b) => a.precoTotal - b.precoTotal,
+  );
 
   // Alerta só o que é novo ou ficou mais barato desde o último alerta.
   const vistos = await lerJson<Vistos>(VISTOS, {});
   const agora = new Date();
   const novas = ofertas.filter((o) => {
     const visto = vistos[o.id];
-    return deveAlertar(o, config) && (!visto || o.preco < visto.preco);
+    return deveAlertar(o, config) && (!visto || o.precoTotal < visto.preco);
   });
   const errosAlerta = await enviarAlertas(novas, PAGINA, env);
   erros.push(...errosAlerta);
   // Sem canal configurado nada foi enviado: não marca, para alertar quando houver.
   if (temCanal(env) && errosAlerta.length === 0) {
-    for (const o of novas) vistos[o.id] = { preco: o.preco, em: agora.toISOString() };
+    for (const o of novas) vistos[o.id] = { preco: o.precoTotal, em: agora.toISOString() };
   }
   const limite = agora.getTime() - DIAS_PARA_ESQUECER * 86_400_000;
   for (const [id, v] of Object.entries(vistos)) if (Date.parse(v.em) < limite) delete vistos[id];

@@ -69,14 +69,13 @@
 
   <div class="filtros">
     <label>Buscar <input id="busca" type="search" placeholder="artista, título…"></label>
-    <label>Teto (R$) <input id="teto" type="number" min="0" step="10" placeholder="da configuração"></label>
+    <label>Teto, preço total (R$) <input id="teto" type="number" min="0" step="10" placeholder="da configuração"></label>
     <label>Fonte <select id="fonte"><option value="">Todas</option></select></label>
     <label>Estado <select id="condicao"><option value="">Qualquer</option><option value="novo">Novo</option><option value="usado">Usado</option></select></label>
   </div>
 
   <div class="chips" id="criterios">
-    <button data-criterio="" aria-pressed="false">Todas as ofertas</button>
-    <button data-criterio="teto" aria-pressed="true">Abaixo do teto</button>
+    <button data-criterio="teto" aria-pressed="true">Todas dentro do teto</button>
     <button data-criterio="discogs" aria-pressed="false">Abaixo do Discogs</button>
     <button data-criterio="maisBarato" aria-pressed="false">Mais barato entre lojas</button>
   </div>
@@ -87,7 +86,7 @@
 
 <script>
 const estado = { aba: "desejos", criterio: "teto", dados: null };
-try { const s = JSON.parse(localStorage.getItem("cacaVinil") || "{}"); Object.assign(estado, { aba: s.aba || estado.aba, criterio: s.criterio ?? estado.criterio }); } catch {}
+try { const s = JSON.parse(localStorage.getItem("cacaVinil") || "{}"); Object.assign(estado, { aba: s.aba || estado.aba, criterio: s.criterio || estado.criterio }); } catch {}
 
 const $ = (s) => document.querySelector(s);
 const reais = (n) => n.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
@@ -101,14 +100,18 @@ function el(tag, props = {}, ...filhos) {
   return e;
 }
 
-// Recalcula o critério de teto no navegador para o campo "Teto" valer na hora.
+// Preço com frete e impostos de importação; arquivos antigos não têm o campo.
+const total = (o) => o.precoTotal ?? o.preco;
+
+// Só aparece o que cabe no teto pelo preço total. O teto é recalculado aqui
+// para o campo "Teto" valer na hora.
+function dentroDoTeto(o) {
+  const t = Number($("#teto").value);
+  return total(o) <= ($("#teto").value && t > 0 ? t : o.teto);
+}
+
 function atende(o, criterio) {
-  if (!criterio) return true;
-  if (criterio === "teto") {
-    const t = Number($("#teto").value);
-    return o.preco <= ($("#teto").value && t > 0 ? t : o.teto);
-  }
-  return o.criterios[criterio] === true;
+  return dentroDoTeto(o) && (criterio === "teto" || o.criterios[criterio] === true);
 }
 
 function visiveis() {
@@ -127,21 +130,23 @@ function cartao(o) {
   const selos = [el("span", { className: "selo", textContent: o.fonte })];
   if (o.condicao) selos.push(el("span", { className: "selo", textContent: o.condicao }));
   if (o.freteGratis) selos.push(el("span", { className: "selo", textContent: "frete grátis" }));
-  if (atende(o, "teto")) selos.push(el("span", { className: "selo bom", textContent: "abaixo do teto" }));
+  if (o.custos) selos.push(el("span", { className: "selo", textContent: "importado" }));
   if (o.criterios.discogs) selos.push(el("span", { className: "selo bom", textContent: "abaixo do Discogs" }));
   if (o.criterios.maisBarato) selos.push(el("span", { className: "selo bom", textContent: "mais barato" }));
   const capa = seguro(o.imagem)
     ? el("img", { src: o.imagem, alt: "", loading: "lazy", referrerPolicy: "no-referrer" })
     : el("div", { className: "sem-capa" });
-  const original = o.precoOriginal && o.precoOriginal.moeda !== "BRL"
-    ? el("div", { className: "muted", textContent: `${o.precoOriginal.moeda} ${o.precoOriginal.valor.toFixed(2)}` }) : null;
+  const c = o.custos;
+  const detalhe = c
+    ? el("div", { className: "muted", textContent: `disco ${reais(o.preco)} + frete ${reais(c.frete)} + impostos ${reais(c.impostoImportacao + c.icms + c.despacho)}` })
+    : null;
   return el("a", { className: "oferta", href: seguro(o.url) || "#", target: "_blank", rel: "noopener noreferrer", title: o.observacao || "" },
     capa,
     el("div", { className: "info" },
       el("div", { className: "titulo", textContent: o.titulo }),
       o.observacao ? el("div", { className: "muted", textContent: o.observacao }) : null,
       el("div", { className: "selos" }, ...selos)),
-    el("div", { style: "text-align:right" }, el("div", { className: "preco", textContent: reais(o.preco) }), original));
+    el("div", { style: "text-align:right" }, el("div", { className: "preco", textContent: reais(total(o)) }), detalhe));
 }
 
 function render() {
@@ -163,18 +168,17 @@ function render() {
     let algum = false;
     for (const desejo of d.desejos) {
       const doDisco = ofertas.filter((o) => o.desejo === desejo.chave);
-      const total = d.ofertas.filter((o) => o.desejo === desejo.chave).length;
-      if (doDisco.length === 0 && estado.criterio) continue;
-      algum = true;
+      const encontradas = d.ofertas.filter((o) => o.desejo === desejo.chave).length;
+      if (doDisco.length > 0) algum = true;
       const info = [`teto ${reais(desejo.teto)}`];
       if (desejo.refDiscogs) info.push(`referência Discogs (VG+) ${reais(desejo.refDiscogs)}`);
-      info.push(`${total} oferta(s) encontrada(s)`);
+      info.push(`${encontradas} oferta(s) encontrada(s), ${doDisco.length} dentro do teto`);
       alvo.append(el("section", { className: "grupo" },
         el("h2", { textContent: `${desejo.artista} – ${desejo.titulo}` }),
         el("div", { className: "muted", textContent: info.join(" · ") }),
-        doDisco.length ? el("div", { className: "lista" }, ...doDisco.map(cartao)) : el("p", { className: "muted", textContent: "Nenhuma oferta no momento." })));
+        doDisco.length ? el("div", { className: "lista" }, ...doDisco.map(cartao)) : el("p", { className: "muted", textContent: "Nenhuma oferta dentro do teto agora." })));
     }
-    if (!algum) alvo.append(el("p", { className: "vazio", textContent: "Nenhum disco da lista tem oferta que atenda a esse critério agora." }));
+    if (!algum) alvo.prepend(el("p", { className: "vazio", textContent: "Nenhum disco da lista tem oferta dentro do teto que atenda a esse critério agora." }));
   } else {
     alvo.append(ofertas.length
       ? el("div", { className: "lista" }, ...ofertas.map(cartao))

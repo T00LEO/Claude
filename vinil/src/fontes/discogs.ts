@@ -128,7 +128,7 @@ export async function coletarDiscogs(
           precoOriginal: { valor: stats.lowest_price.value, moeda: stats.lowest_price.currency },
           url: `https://www.discogs.com/sell/release/${p.id}`,
           imagem: p.cover_image ?? p.thumb,
-          observacao: `Menor preço entre ${stats.num_for_sale} anúncio(s), sem frete; vendedores no exterior pagam imposto de importação`,
+          observacao: `Menor preço entre ${stats.num_for_sale} anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)`,
           desejo: desejo.chave,
           busca: busca.rotulo,
         });

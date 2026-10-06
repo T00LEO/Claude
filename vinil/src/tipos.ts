@@ -1,3 +1,5 @@
+import type { CustosImportacao, RegrasImportacao } from "./importacao.ts";
+
 export type Criterio = "teto" | "discogs" | "maisBarato";
 
 export interface Desejo {
@@ -15,8 +17,16 @@ export interface Loja {
   plataforma: "shopify" | "woocommerce" | "vtex" | "lojaintegrada" | "nuvemshop" | "iluria" | "imusic";
   /** Loja que só vende vinil: dispensa "vinil"/"LP" no nome do produto na varredura geral. */
   soVinil?: boolean;
-  /** Aviso mostrado em todas as ofertas da loja (ex.: imposto de importação). */
+  /** Aviso mostrado em todas as ofertas da loja. */
   observacao?: string;
+  /** Loja no exterior: o preço total soma frete e impostos estimados. */
+  importacao?: Importacao;
+}
+
+export interface Importacao {
+  /** Frete estimado para o Brasil, em reais, por disco. */
+  freteBRL: number;
+  remessaConforme: boolean;
 }
 
 export interface Config {
@@ -40,6 +50,10 @@ export interface Config {
     teto: number;
     alertar: boolean;
   };
+  importacao: RegrasImportacao & {
+    /** Frete estimado de um vendedor do Discogs no exterior, em dólares. */
+    freteDiscogsUSD: number;
+  };
   /** Palavras que descartam um anúncio (acessórios, CDs etc.). */
   excluir: string[];
 }
@@ -59,13 +73,16 @@ export interface Oferta {
   /** Chave do item da lista de desejos; ausente em ofertas da varredura geral. */
   desejo?: string;
   busca: string;
+  /** Preço com frete e impostos estimados, quando importado; senão, igual ao preço. */
+  precoTotal: number;
+  custos?: CustosImportacao;
   teto: number;
   refDiscogs?: number;
   criterios: Record<Criterio, boolean | null>;
 }
 
 /** O que cada fonte devolve; critérios e teto são calculados depois. */
-export type OfertaBruta = Omit<Oferta, "teto" | "refDiscogs" | "criterios">;
+export type OfertaBruta = Omit<Oferta, "teto" | "refDiscogs" | "criterios" | "precoTotal" | "custos">;
 
 export interface Coleta {
   ofertas: OfertaBruta[];

@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { afterEach, test } from "node:test";
 import { montarMensagem } from "../src/alertas.ts";
 import { avaliar, deveAlertar } from "../src/criterios.ts";
+import { calcularImportacao, total } from "../src/importacao.ts";
 import { coletarDiscogs } from "../src/fontes/discogs.ts";
 import { coletarLojas } from "../src/fontes/lojas.ts";
 import { coletarMercadoLivre } from "../src/fontes/mercadolivre.ts";
@@ -32,6 +33,7 @@ const config: Config = {
   lojas: [],
   listaDeDesejos: [],
   varredura: { generos: ["jazz"], termos: [], teto: 80, alertar: false },
+  importacao: { icms: 0.2, despachoPostal: 15, freteDiscogsUSD: 20 },
   excluir: ["cd", "vitrola", "poster"],
 };
 
@@ -139,7 +141,7 @@ test("critérios: teto, referência Discogs e mais barato entre fontes", () => {
     { ...base, id: "ml:3", fonte: "Mercado Livre", preco: 90, desejo: "sozinho" },
   ];
   const tetos = new Map([[desejo.chave, 200], ["sozinho", 200]]);
-  const [barato, caro, varredura, sozinho] = avaliar(brutas, config, tetos, new Map([[desejo.chave, 280]]));
+  const [barato, caro, varredura, sozinho] = avaliar(brutas, config, tetos, new Map([[desejo.chave, 280]]), new Map(), 5);
   assert.deepEqual(barato.criterios, { teto: true, discogs: true, maisBarato: true });
   assert.deepEqual(caro.criterios, { teto: false, discogs: false, maisBarato: false });
   // Varredura usa o teto próprio (80) e não tem referência nem comparação.
@@ -160,9 +162,48 @@ test("mensagem de alerta lista as mais baratas primeiro e resume o excedente", (
     config,
     new Map([["d", 250]]),
     new Map(),
+    new Map(),
+    5,
   );
   const { titulo, linhas } = montarMensagem(ofertas, "https://pagina");
   assert.equal(titulo, "12 ofertas novas de vinil");
   assert.match(linhas[0], /Disco 11 — R\$\s?189,00/);
   assert.match(linhas.at(-1)!, /mais 2/);
+});
+
+test("importação: Remessa Conforme isento até US$ 50, 60% com dedução acima; fora do programa, 60% + despacho", () => {
+  const regras = { icms: 0.2, despachoPostal: 15 };
+  // R$ 200 + R$ 40 de frete = US$ 48 com dólar a R$ 5: isento; ICMS por dentro = 240 / 0,8 × 0,2.
+  assert.deepEqual(calcularImportacao(200, 40, true, 5, regras), { frete: 40, impostoImportacao: 0, icms: 60, despacho: 0 });
+  // R$ 360 + 40 = US$ 80: 60% de 400 = 240, menos US$ 30 (R$ 150) = 90; ICMS = 490 / 0,8 × 0,2 = 122,50.
+  assert.deepEqual(calcularImportacao(360, 40, true, 5, regras), { frete: 40, impostoImportacao: 90, icms: 122.5, despacho: 0 });
+  // Fora do programa: 60% de 160 = 96; ICMS = 256 / 0,8 × 0,2 = 64; despacho R$ 15.
+  const c = calcularImportacao(100, 60, false, 5, regras);
+  assert.deepEqual(c, { frete: 60, impostoImportacao: 96, icms: 64, despacho: 15 });
+  assert.equal(total(100, c), 335);
+});
+
+test("teto vale para o preço total: importado barato pode ficar acima do teto", () => {
+  const base = { titulo: "x", url: "https://x", busca: "b", desejo: desejo.chave };
+  const [nacional, importado] = avaliar(
+    [
+      { ...base, id: "loja:1", fonte: "Loja BR", preco: 190 },
+      { ...base, id: "imusic:1", fonte: "iMusic", preco: 100 },
+    ],
+    config,
+    new Map([[desejo.chave, 200]]),
+    new Map([[desejo.chave, 300]]),
+    new Map([["iMusic", { freteBRL: 60, remessaConforme: false }]]),
+    5,
+  );
+  assert.equal(nacional.precoTotal, 190);
+  assert.equal(nacional.custos, undefined);
+  assert.equal(importado.precoTotal, 335);
+  assert.equal(importado.criterios.teto, false);
+  // Mais barato compara totais; Discogs compara o preço do disco com a referência.
+  assert.equal(nacional.criterios.maisBarato, true);
+  assert.equal(importado.criterios.maisBarato, false);
+  assert.equal(importado.criterios.discogs, true);
+  assert.ok(deveAlertar(nacional, config));
+  assert.ok(!deveAlertar(importado, config), "acima do teto não alerta, mesmo abaixo do Discogs");
 });
