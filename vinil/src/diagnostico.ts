@@ -55,7 +55,28 @@ function trechos(html: string, n = 2, largura = 700): string[] {
   return saida;
 }
 
+// "url|marcador": mostra o HTML ao redor do marcador (regex) em vez do diagnóstico completo.
+async function inspecionar(url: string, marcador: string) {
+  const r = await abrir(url);
+  console.log(`\n==================== ${url} [${marcador}]: HTTP ${r.status} → ${r.final}, ${r.corpo.length}b`);
+  const re = new RegExp(marcador, "g");
+  let fim = -1;
+  let n = 0;
+  for (let m; (m = re.exec(r.corpo)) && n < 3; ) {
+    if (m.index < fim) continue;
+    fim = m.index + 3000;
+    n++;
+    console.log(`\n--- ocorrência ${n}:\n${r.corpo.slice(Math.max(0, m.index - 300), fim).replace(/\s+/g, " ")}`);
+  }
+  if (n === 0) console.log("marcador não encontrado");
+}
+
 for (const site of process.argv.slice(2)) {
+  if (site.includes("|")) {
+    const [url, marcador] = site.split("|");
+    await inspecionar(url, marcador);
+    continue;
+  }
   console.log(`\n==================== ${site}`);
   const home = await abrir(site);
   console.log(`home: HTTP ${home.status} → ${home.final}`);
