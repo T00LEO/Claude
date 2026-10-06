@@ -21,6 +21,10 @@ export function montarMensagem(ofertas: Oferta[], pagina: string): { titulo: str
   return { titulo, linhas };
 }
 
+export function temCanal(env: NodeJS.ProcessEnv): boolean {
+  return Boolean(env.NTFY_TOPIC || (env.TELEGRAM_BOT_TOKEN && env.TELEGRAM_CHAT_ID));
+}
+
 /** Envia pelos canais configurados; devolve os erros em vez de lançar. */
 export async function enviarAlertas(ofertas: Oferta[], pagina: string, env: NodeJS.ProcessEnv): Promise<string[]> {
   if (ofertas.length === 0) return [];

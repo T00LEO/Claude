@@ -66,11 +66,16 @@ export async function coletarMercadoLivre(
         });
       }
     } catch (e) {
-      coleta.erros.push(`Mercado Livre: falha em "${busca.rotulo}": ${(e as Error).message}`);
-      if (!credenciais && /HTTP 40[13]/.test((e as Error).message)) {
-        coleta.erros.push("Mercado Livre: a busca exige credenciais — configure ML_CLIENT_ID e ML_CLIENT_SECRET");
+      if (/HTTP 40[13]/.test((e as Error).message)) {
+        // Desde 2025 o Mercado Livre recusa a busca pública da API mesmo com token válido.
+        coleta.erros.push(
+          credenciais
+            ? "Mercado Livre: a API recusou a busca (403) mesmo com credenciais — o Mercado Livre restringiu esse recurso"
+            : "Mercado Livre: a busca exige credenciais — configure ML_CLIENT_ID e ML_CLIENT_SECRET",
+        );
         break;
       }
+      coleta.erros.push(`Mercado Livre: falha em "${busca.rotulo}": ${(e as Error).message}`);
     }
   }
   return coleta;

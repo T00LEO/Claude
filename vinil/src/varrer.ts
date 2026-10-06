@@ -1,5 +1,5 @@
 import { appendFile, readFile, writeFile } from "node:fs/promises";
-import { enviarAlertas } from "./alertas.ts";
+import { enviarAlertas, temCanal } from "./alertas.ts";
 import { avaliar, deveAlertar } from "./criterios.ts";
 import { coletarDiscogs, wantlist } from "./fontes/discogs.ts";
 import { coletarLojas } from "./fontes/lojas.ts";
@@ -93,7 +93,8 @@ async function main() {
   });
   const errosAlerta = await enviarAlertas(novas, PAGINA, env);
   erros.push(...errosAlerta);
-  if (errosAlerta.length === 0) {
+  // Sem canal configurado nada foi enviado: não marca, para alertar quando houver.
+  if (temCanal(env) && errosAlerta.length === 0) {
     for (const o of novas) vistos[o.id] = { preco: o.preco, em: agora.toISOString() };
   }
   const limite = agora.getTime() - DIAS_PARA_ESQUECER * 86_400_000;
@@ -116,7 +117,7 @@ async function main() {
   await writeFile(VISTOS, JSON.stringify(vistos, null, 1) + "\n");
 
   const resumo = [
-    `${ofertas.length} ofertas coletadas em ${buscas.length} buscas; ${novas.length} alertada(s).`,
+    `${ofertas.length} ofertas coletadas em ${buscas.length} buscas; ${temCanal(env) ? `${novas.length} alertada(s)` : "nenhum canal de alerta configurado"}.`,
     ...erros.map((e) => `- ${e}`),
   ].join("\n");
   console.log(resumo);

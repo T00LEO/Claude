@@ -82,6 +82,14 @@ test("Mercado Livre sem credenciais avisa e para no primeiro 403", async () => {
   assert.match(c.erros.join("\n"), /ML_CLIENT_ID/);
 });
 
+test("Mercado Livre com credenciais e busca recusada gera um único aviso", async () => {
+  globalThis.fetch = (async (u: string) =>
+    String(u).includes("/oauth/token") ? Response.json({ access_token: "abc" }) : new Response("{}", { status: 403 })) as typeof fetch;
+  const c = await coletarMercadoLivre([buscaDesejo, buscaGenero], [], { clientId: "id", clientSecret: "s" });
+  assert.equal(c.erros.length, 1);
+  assert.match(c.erros[0], /restringiu/);
+});
+
 test("Discogs usa o menor preço de cada prensagem e a mediana das sugestões VG+", async () => {
   const chamadas = simularFetch([
     ["/database/search", { results: [{ id: 11, title: "Milton Nascimento - Clube Da Esquina", year: "1972", country: "Brazil" }, { id: 22, title: "Milton Nascimento - Clube Da Esquina", year: "2012" }] }],

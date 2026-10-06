@@ -6,7 +6,7 @@
   },
   "fontes": {
     "discogs": true,
-    "mercadoLivre": true,
+    "mercadoLivre": false,
     "discogsWantlist": ""
   },
   "lojas": [
@@ -36,6 +36,6 @@
   "excluir": [
     "cd", "dvd", "k7", "fita", "toca discos", "toca-discos", "vitrola", "agulha", "capsula",
     "poster", "quadro", "relogio", "moldura", "capa protetora", "luminaria", "camiseta",
-    "caneca", "adesivo", "decorativo"
+    "caneca", "adesivo", "decorativo", "book", "livro", "paperback", "hardcover"
   ]
 }
