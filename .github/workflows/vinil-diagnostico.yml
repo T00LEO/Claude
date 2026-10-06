@@ -1,0 +1,24 @@
+name: Diagnóstico de lojas de vinil
+
+on:
+  workflow_dispatch:
+    inputs:
+      sites:
+        description: "Endereços separados por espaço"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  diagnosticar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node vinil/src/diagnostico.ts $SITES
+        env:
+          SITES: ${{ inputs.sites }}

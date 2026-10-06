@@ -11,12 +11,13 @@
   },
   "lojas": [],
   "listaDeDesejos": [
-    { "artista": "Milton Nascimento", "titulo": "Clube da Esquina" },
-    { "artista": "Jorge Ben", "titulo": "A Tábua de Esmeralda" },
-    { "artista": "Miles Davis", "titulo": "Kind of Blue", "teto": 150 }
+    { "artista": "LCD Soundsystem", "titulo": "Sound of Silver" },
+    { "artista": "The Rapture", "titulo": "Pieces of the People We Love" },
+    { "artista": "Rotten Mind", "titulo": "Unflavored" },
+    { "artista": "Home Front", "titulo": "Games of Power" }
   ],
   "varredura": {
-    "generos": ["jazz", "mpb"],
+    "generos": ["punk", "jazz"],
     "termos": [],
     "teto": 80,
     "alertar": false
