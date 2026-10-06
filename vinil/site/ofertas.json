@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-06T13:10:31.748Z",
+ "geradoEm": "2026-10-06T13:14:03.581Z",
  "teto": 200,
  "tetoVarredura": 80,
  "fatorDiscogs": 0.9,
@@ -166,24 +166,6 @@
     "teto": true,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:9781501325618",
-   "fonte": "iMusic",
-   "titulo": "Leas, Ryan (Independent Scholar, USA) · LCD Soundsystem’s Sound Of Silver - 33 1/3 (Paperback Book) (2016)",
-   "preco": 74.9,
-   "url": "https://imusic.br.com/books/9781501325618/leas-ryan-independent-scholar-usa-2016-lcd-soundsystem-s-sound-of-silver-33-1-3-paperback-book",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/618/9781501325618.jpg?leas-ryan-independent-scholar-usa-2016-lcd-soundsystem-s-sound-of-silver-33-1-3-paperback-book&class=scaled&v=1477912052",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "teto": 200,
-   "refDiscogs": 259.0036109375,
-   "criterios": {
-    "teto": true,
-    "discogs": true,
-    "maisBarato": true
    }
   },
   {
@@ -977,7 +959,7 @@
    "criterios": {
     "teto": true,
     "discogs": true,
-    "maisBarato": false
+    "maisBarato": true
    }
   },
   {
@@ -1561,12 +1543,11 @@
    }
   },
   {
-   "id": "Locomotiva Discos:9754cd",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP CONDE FAVELA SEXTETO - ABC GUETO JAZZ (NOVO)",
+   "id": "Baratos Afins:202187181",
+   "fonte": "Baratos Afins",
+   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
    "preco": 190,
-   "url": "https://www.locomotivadiscos.com.br/pd-9754cd-lp-conde-favela-sexteto-abc-gueto-jazz-novo.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9754CD/1872BE8/330xN.jpg",
+   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
    "busca": "jazz",
    "teto": 80,
    "criterios": {
@@ -1576,11 +1557,12 @@
    }
   },
   {
-   "id": "Baratos Afins:202187181",
-   "fonte": "Baratos Afins",
-   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
+   "id": "Locomotiva Discos:9754cd",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP CONDE FAVELA SEXTETO - ABC GUETO JAZZ (NOVO)",
    "preco": 190,
-   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
+   "url": "https://www.locomotivadiscos.com.br/pd-9754cd-lp-conde-favela-sexteto-abc-gueto-jazz-novo.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9754CD/1872BE8/330xN.jpg",
    "busca": "jazz",
    "teto": 80,
    "criterios": {
@@ -2158,12 +2140,5 @@
    }
   }
  ],
- "erros": [
-  "Mercado Livre: falha em \"LCD Soundsystem – Sound of Silver\": HTTP 403 em https://api.mercadolibre.com/sites/MLB/search?q=vinil+LCD+Soundsystem+Sound+of+Silver&limit=50",
-  "Mercado Livre: falha em \"The Rapture – Pieces of the People We Love\": HTTP 403 em https://api.mercadolibre.com/sites/MLB/search?q=vinil+The+Rapture+Pieces+of+the+People+We+Love&limit=50",
-  "Mercado Livre: falha em \"Rotten Mind – Unflavored\": HTTP 403 em https://api.mercadolibre.com/sites/MLB/search?q=vinil+Rotten+Mind+Unflavored&limit=50",
-  "Mercado Livre: falha em \"Home Front – Games of Power\": HTTP 403 em https://api.mercadolibre.com/sites/MLB/search?q=vinil+Home+Front+Games+of+Power&limit=50",
-  "Mercado Livre: falha em \"punk\": HTTP 403 em https://api.mercadolibre.com/sites/MLB/search?q=vinil+punk&limit=50",
-  "Mercado Livre: falha em \"jazz\": HTTP 403 em https://api.mercadolibre.com/sites/MLB/search?q=vinil+jazz&limit=50"
- ]
+ "erros": []
 }
