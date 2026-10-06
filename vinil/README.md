@@ -11,7 +11,7 @@ Cada oferta é avaliada pelos três critérios; na página você escolhe qual qu
 
 | Critério | Quando a oferta passa |
 | --- | --- |
-| **Abaixo do teto** | preço ≤ teto (R$ 200 por padrão, ou o teto próprio do disco). Na página dá para testar outro teto na hora. |
+| **Abaixo do teto** | **preço total** ≤ teto (R$ 200 por padrão, ou o teto próprio do disco). É obrigatório: na página e nos alertas só aparece o que cabe no teto. Na página dá para testar outro teto na hora. |
 | **Abaixo do Discogs** | preço ≤ 90% do preço sugerido pelo Discogs para um exemplar VG+ (mediana das prensagens mais relevantes). |
 | **Mais barato entre lojas** | é a oferta mais barata daquele disco entre todas as fontes (só vale quando ao menos duas fontes têm o disco). |
 
@@ -27,6 +27,19 @@ Os dois últimos só se aplicam à lista de desejos: na varredura geral não dá
 | **iMusic** (imusic.br.com) | Leitura da busca de vinil. Preço em reais, mas a loja fica no exterior e ainda não está no Remessa Conforme: frete e imposto de importação à parte. |
 | **Outras lojas** | Lojas em **Shopify**, **WooCommerce**, **VTEX**, **Loja Integrada**, **Nuvemshop** ou **Iluria** entram só com uma linha em `config.json`. Para descobrir a plataforma de uma loja, rode *Actions → Diagnóstico de lojas de vinil* com o endereço dela. |
 | **Amazon** | Ainda não. A Amazon não tem API aberta para isso (a oficial exige conta de afiliado com vendas) e bloqueia leitura automática do site. |
+
+## Preço total de discos importados
+
+Para Discogs e iMusic o preço total soma ao preço do disco:
+
+- **Frete estimado:** US$ 20 por disco no Discogs e R$ 60 na iMusic. Os dois sites só mostram o frete real no carrinho, então ajuste em `config.json` quando souber o valor real.
+- **Imposto de importação** (regras desde 12/05/2026, MP 1.357/2026 → Lei 15.502): fora do Remessa Conforme, 60% sobre disco + frete; no Remessa Conforme, zero até US$ 50 e 60% menos US$ 30 acima disso.
+- **ICMS** de 20% (17% em alguns estados), calculado "por dentro".
+- **Taxa de despacho dos Correios** (R$ 15) para remessas fora do Remessa Conforme.
+
+O Discogs não informa de onde é o vendedor do anúncio mais barato, então o cálculo supõe sempre um vendedor no exterior. Lojas brasileiras entram pelo preço do produto, sem frete.
+
+Quando a iMusic entrar no Remessa Conforme, troque `"remessaConforme": false` por `true` na configuração dela.
 
 ## Configuração (`vinil/config.json`)
 
@@ -46,7 +59,8 @@ Os dois últimos só se aplicam à lista de desejos: na varredura geral não dá
     // plataforma: shopify, woocommerce, vtex, lojaintegrada, nuvemshop, iluria ou imusic
     { "nome": "Patuá Discos", "url": "https://www.patuadiscos.com.br", "plataforma": "nuvemshop" },
     { "nome": "iMusic", "url": "https://imusic.br.com", "plataforma": "imusic", "soVinil": true,
-      "observacao": "Loja no exterior: frete e imposto à parte" }   // aviso exibido em cada oferta
+      "observacao": "Loja no exterior",                           // aviso exibido em cada oferta
+      "importacao": { "freteBRL": 60, "remessaConforme": false } } // loja no exterior: soma frete e impostos
   ],
   "listaDeDesejos": [
     { "artista": "Miles Davis", "titulo": "Kind of Blue", "teto": 150 },   // teto próprio (opcional)
@@ -57,6 +71,11 @@ Os dois últimos só se aplicam à lista de desejos: na varredura geral não dá
     "termos": [],                         // buscas livres, ex.: "blue note", "selo elenco"
     "teto": 80,                           // teto da varredura geral
     "alertar": false                      // alertar também ofertas da varredura geral?
+  },
+  "importacao": {
+    "icms": 0.2,                          // ICMS do seu estado sobre compras internacionais (0.17 ou 0.2)
+    "despachoPostal": 15,                 // taxa dos Correios fora do Remessa Conforme
+    "freteDiscogsUSD": 20                 // frete estimado de um vendedor do Discogs no exterior
   },
   "excluir": ["cd", "vitrola", "poster"]  // anúncios com essas palavras são descartados
 }

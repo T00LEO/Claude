@@ -105,9 +105,13 @@ const total = (o) => o.precoTotal ?? o.preco;
 
 // Só aparece o que cabe no teto pelo preço total. O teto é recalculado aqui
 // para o campo "Teto" valer na hora.
-function dentroDoTeto(o) {
+function tetoEfetivo(padrao) {
   const t = Number($("#teto").value);
-  return total(o) <= ($("#teto").value && t > 0 ? t : o.teto);
+  return $("#teto").value && t > 0 ? t : padrao;
+}
+
+function dentroDoTeto(o) {
+  return total(o) <= tetoEfetivo(o.teto);
 }
 
 function atende(o, criterio) {
@@ -144,9 +148,10 @@ function cartao(o) {
     capa,
     el("div", { className: "info" },
       el("div", { className: "titulo", textContent: o.titulo }),
+      detalhe,
       o.observacao ? el("div", { className: "muted", textContent: o.observacao }) : null,
       el("div", { className: "selos" }, ...selos)),
-    el("div", { style: "text-align:right" }, el("div", { className: "preco", textContent: reais(total(o)) }), detalhe));
+    el("div", { className: "preco", textContent: reais(total(o)) }));
 }
 
 function render() {
@@ -170,7 +175,7 @@ function render() {
       const doDisco = ofertas.filter((o) => o.desejo === desejo.chave);
       const encontradas = d.ofertas.filter((o) => o.desejo === desejo.chave).length;
       if (doDisco.length > 0) algum = true;
-      const info = [`teto ${reais(desejo.teto)}`];
+      const info = [`teto ${reais(tetoEfetivo(desejo.teto))}`];
       if (desejo.refDiscogs) info.push(`referência Discogs (VG+) ${reais(desejo.refDiscogs)}`);
       info.push(`${encontradas} oferta(s) encontrada(s), ${doDisco.length} dentro do teto`);
       alvo.append(el("section", { className: "grupo" },
