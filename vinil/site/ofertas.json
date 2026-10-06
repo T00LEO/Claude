@@ -1,32 +1,2169 @@
 {
- "geradoEm": "2026-10-06T06:20:29.273Z",
+ "geradoEm": "2026-10-06T13:10:31.748Z",
  "teto": 200,
  "tetoVarredura": 80,
  "fatorDiscogs": 0.9,
  "desejos": [
   {
-   "chave": "milton-nascimento-clube-da-esquina",
-   "artista": "Milton Nascimento",
-   "titulo": "Clube da Esquina",
-   "teto": 200
+   "chave": "lcd-soundsystem-sound-of-silver",
+   "artista": "LCD Soundsystem",
+   "titulo": "Sound of Silver",
+   "teto": 200,
+   "refDiscogs": 259.0036109375
   },
   {
-   "chave": "jorge-ben-a-tabua-de-esmeralda",
-   "artista": "Jorge Ben",
-   "titulo": "A Tábua de Esmeralda",
-   "teto": 200
+   "chave": "the-rapture-pieces-of-the-people-we-love",
+   "artista": "The Rapture",
+   "titulo": "Pieces of the People We Love",
+   "teto": 200,
+   "refDiscogs": 259.83146284829724
   },
   {
-   "chave": "miles-davis-kind-of-blue",
-   "artista": "Miles Davis",
-   "titulo": "Kind of Blue",
-   "teto": 150
+   "chave": "rotten-mind-unflavored",
+   "artista": "Rotten Mind",
+   "titulo": "Unflavored",
+   "teto": 200,
+   "refDiscogs": 104.77598314606742
+  },
+  {
+   "chave": "home-front-games-of-power",
+   "artista": "Home Front",
+   "titulo": "Games of Power",
+   "teto": 200,
+   "refDiscogs": 160.7
   }
  ],
- "ofertas": [],
+ "ofertas": [
+  {
+   "id": "discogs:1324380",
+   "fonte": "Discogs",
+   "titulo": "The Rapture - Pieces Of The People We Love (2007, UK)",
+   "preco": 19.7,
+   "precoOriginal": {
+    "valor": 19.7,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/1324380",
+   "imagem": "https://i.discogs.com/OMU1PUai-OJjwKMbDkxbv3j7QNh65h5yVkEmygMuliI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjQz/ODAtMTI2OTExNjUw/MC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 10 anúncio(s), sem frete; vendedores no exterior pagam imposto de importação",
+   "desejo": "the-rapture-pieces-of-the-people-we-love",
+   "busca": "The Rapture – Pieces of the People We Love",
+   "teto": 200,
+   "refDiscogs": 259.83146284829724,
+   "criterios": {
+    "teto": true,
+    "discogs": true,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358400651",
+   "fonte": "Patuá Discos",
+   "titulo": "Jonah Jones - Muted Jazz - LP",
+   "preco": 30,
+   "url": "https://patuadiscos.com.br/produtos/jonah-jones-muted-jazz-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6202-35877cb7238cfd751f17854104892563-1024-1024.webp",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358412847",
+   "fonte": "Patuá Discos",
+   "titulo": "Vocal Jazz Incorporated - High Clouds - LP",
+   "preco": 45,
+   "url": "https://patuadiscos.com.br/produtos/vocal-jazz-incorporated-high-clouds-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6197-c0e4a52d0708a151d517854175345677-1024-1024.webp",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358400230",
+   "fonte": "Patuá Discos",
+   "titulo": "Jazz-O-Matic Four - Can't We Be Friends - LP",
+   "preco": 50,
+   "url": "https://patuadiscos.com.br/produtos/jazz-o-matic-four-cant-we-be-friends-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6200-f8c29d390dd2ce902e17854099611218-1024-1024.webp",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:26840834",
+   "fonte": "Discogs",
+   "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
+   "preco": 54.84,
+   "precoOriginal": {
+    "valor": 54.84,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/26840834",
+   "imagem": "https://i.discogs.com/l1ocrtJ3F3wFoUMAofLJ3mcudz-YE2JxyDp09a1QWr0/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2ODQw/ODM0LTE2ODU2MDM0/NjMtMTk5MS5qcGVn.jpeg",
+   "observacao": "Menor preço entre 17 anúncio(s), sem frete; vendedores no exterior pagam imposto de importação",
+   "desejo": "rotten-mind-unflavored",
+   "busca": "Rotten Mind – Unflavored",
+   "teto": 200,
+   "refDiscogs": 104.77598314606742,
+   "criterios": {
+    "teto": true,
+    "discogs": true,
+    "maisBarato": true
+   }
+  },
+  {
+   "id": "Patuá Discos:358281220",
+   "fonte": "Patuá Discos",
+   "titulo": "ACR - Force - LP",
+   "preco": 60,
+   "url": "https://patuadiscos.com.br/produtos/acr-force-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/16504-f6e46fda26e80f0f0717853497365246-1024-1024.webp",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358388906",
+   "fonte": "Patuá Discos",
+   "titulo": "Traditional Jazz Band - Raízes Do Jazz - LP",
+   "preco": 60,
+   "url": "https://patuadiscos.com.br/produtos/traditional-jazz-band-raizes-do-jazz-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/12557-f9a9e05310191efde817853878488455-1024-1024.webp",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358381427",
+   "fonte": "Patuá Discos",
+   "titulo": "Reunion Jazz Band - Reunion - LP",
+   "preco": 70,
+   "url": "https://patuadiscos.com.br/produtos/reunion-jazz-band-reunion-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/whatsappimage2024-08-16at15-35-46_1-aaa6ef257e65cbee9e17853796071579-1024-1024.webp",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:9781501325618",
+   "fonte": "iMusic",
+   "titulo": "Leas, Ryan (Independent Scholar, USA) · LCD Soundsystem’s Sound Of Silver - 33 1/3 (Paperback Book) (2016)",
+   "preco": 74.9,
+   "url": "https://imusic.br.com/books/9781501325618/leas-ryan-independent-scholar-usa-2016-lcd-soundsystem-s-sound-of-silver-33-1-3-paperback-book",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/618/9781501325618.jpg?leas-ryan-independent-scholar-usa-2016-lcd-soundsystem-s-sound-of-silver-33-1-3-paperback-book&class=scaled&v=1477912052",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "teto": 200,
+   "refDiscogs": 259.0036109375,
+   "criterios": {
+    "teto": true,
+    "discogs": true,
+    "maisBarato": true
+   }
+  },
+  {
+   "id": "iMusic:0889397218805",
+   "fonte": "iMusic",
+   "titulo": "Art Blakey & the Jazz Messengers · Art Blakey & The Jazz Messengers (LP) [Limited edition] (2017)",
+   "preco": 81.9,
+   "url": "https://imusic.br.com/music/0889397218805/art-blakey-the-jazz-messengers-2017-art-blakey-the-jazz-messengers-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/805/0889397218805.jpg?art-blakey-the-jazz-messengers-2017-art-blakey-the-jazz-messengers-lp&class=scaled&v=1534514214",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0889397218393",
+   "fonte": "iMusic",
+   "titulo": "Bill Evans Trio · Portrait In Jazz (LP) (2017)",
+   "preco": 81.9,
+   "url": "https://imusic.br.com/music/0889397218393/bill-evans-trio-2017-portrait-in-jazz-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/393/0889397218393.jpg?bill-evans-trio-2017-portrait-in-jazz-lp&class=scaled&v=1513588910",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202161374",
+   "fonte": "Baratos Afins",
+   "titulo": "JOÃO CARLOS ASSIS BRASIL - JAZZ BRASIL- LP",
+   "preco": 85,
+   "url": "https://www.baratosafins.com.br/produto/joao-carlos-assis-brasil-jazz-brasil.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:8436542012447",
+   "fonte": "iMusic",
+   "titulo": "Stan Getz · Jazz Samba (LP) (2013)",
+   "preco": 87.9,
+   "url": "https://imusic.br.com/music/8436542012447/stan-getz-2013-jazz-samba-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/447/8436542012447.jpg?stan-getz-2013-jazz-samba-lp&class=scaled&v=1365936765",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:28033284",
+   "fonte": "Discogs",
+   "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
+   "preco": 89.82,
+   "precoOriginal": {
+    "valor": 89.82,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/28033284",
+   "imagem": "https://i.discogs.com/uCkWVBE3NSaz4XE_kgsbcyWYDSc0r9H0biefBHMIgks/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDMz/Mjg0LTE2OTI2MDgw/OTYtMzAwNC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 6 anúncio(s), sem frete; vendedores no exterior pagam imposto de importação",
+   "desejo": "rotten-mind-unflavored",
+   "busca": "Rotten Mind – Unflavored",
+   "teto": 200,
+   "refDiscogs": 104.77598314606742,
+   "criterios": {
+    "teto": true,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "Patuá Discos:358399633",
+   "fonte": "Patuá Discos",
+   "titulo": "Gilberto Gil - Extra - LP",
+   "preco": 90,
+   "url": "https://patuadiscos.com.br/produtos/gilberto-gil-extra-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/10061-1c2c87f4899551164517854091424540-1024-1024.webp",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358387048",
+   "fonte": "Patuá Discos",
+   "titulo": "The Modern Jazz Quartet - At Birdland - LP",
+   "preco": 90,
+   "url": "https://patuadiscos.com.br/produtos/the-modern-jazz-quartet-at-birdland-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/image_19_95eed45d-2775-4923-8300-559f8a713fd4-7bc5e284283190a07117853856477377-1024-1024.webp",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0888072297937",
+   "fonte": "iMusic",
+   "titulo": "Go Ahead Punk Make My Day RSD2022 (LP) (2022)",
+   "preco": 93.9,
+   "url": "https://imusic.br.com/music/0888072297937/2022-go-ahead-punk-make-my-day-rsd2022-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/937/0888072297937.jpg?2022-go-ahead-punk-make-my-day-rsd2022-lp&class=scaled&v=1646826975",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202128501",
+   "fonte": "Baratos Afins",
+   "titulo": "EDDIE DANIELS - BREAKTHROUGH- LP",
+   "preco": 95,
+   "url": "https://www.baratosafins.com.br/produto/eddie-daniels-breakthrough.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358341789",
+   "fonte": "Patuá Discos",
+   "titulo": "Gang Green - Older... Budweiser - LP",
+   "preco": 100,
+   "url": "https://patuadiscos.com.br/produtos/gang-green-older-budweiser-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/16136-c13e83cf80f803859d17853632015707-1024-1024.webp",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202224871",
+   "fonte": "Baratos Afins",
+   "titulo": "ROY ELDRIDGE - LITTLE JAZZ- LP",
+   "preco": 110,
+   "url": "https://www.baratosafins.com.br/produto/roy-eldridge-little-jazz.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202171050",
+   "fonte": "Baratos Afins",
+   "titulo": "LIONEL HAMPTON - AND HIS JAZZ GIANTS- LP",
+   "preco": 110,
+   "url": "https://www.baratosafins.com.br/produto/lionel-hampton-and-his-jazz-giants.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:24320123",
+   "fonte": "Discogs",
+   "titulo": "Rotten Mind - Unflavored (2022, Sweden)",
+   "preco": 112.08,
+   "precoOriginal": {
+    "valor": 112.08,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/24320123",
+   "imagem": "https://i.discogs.com/sJdNBQwC-83kCRLKyZ4rbVo8sgAuJgGfSpz4lNm3PXc/rs:fit/g:sm/q:90/h:592/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MzIw/MTIzLTE2ODgwNzk0/ODYtNTY3Mi5qcGVn.jpeg",
+   "observacao": "Menor preço entre 6 anúncio(s), sem frete; vendedores no exterior pagam imposto de importação",
+   "desejo": "rotten-mind-unflavored",
+   "busca": "Rotten Mind – Unflavored",
+   "teto": 200,
+   "refDiscogs": 104.77598314606742,
+   "criterios": {
+    "teto": true,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "iMusic:7340148114065",
+   "fonte": "iMusic",
+   "titulo": "Rotten Mind · Unflavored (LP) (2023)",
+   "preco": 112.9,
+   "url": "https://imusic.br.com/music/7340148114065/rotten-mind-2023-unflavored-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/065/7340148114065.jpg?rotten-mind-2023-unflavored-lp&class=scaled&v=1677777164",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "desejo": "rotten-mind-unflavored",
+   "busca": "Rotten Mind – Unflavored",
+   "teto": 200,
+   "refDiscogs": 104.77598314606742,
+   "criterios": {
+    "teto": true,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "iMusic:0190296611902",
+   "fonte": "iMusic",
+   "titulo": "Daft Punk · Human After All (LP) (2022)",
+   "preco": 112.9,
+   "url": "https://imusic.br.com/music/0190296611902/daft-punk-2022-human-after-all-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/902/0190296611902.jpg?daft-punk-2022-human-after-all-lp&class=scaled&v=1633070256",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:9951193594603",
+   "fonte": "iMusic",
+   "titulo": "Reverend Elvis and the Undead Syncopators · Punk (LP) (1980)",
+   "preco": 112.9,
+   "url": "https://imusic.br.com/music/9951193594603/reverend-elvis-and-the-undead-syncopators-1980-punk-lp",
+   "imagem": "https://imusic-static.b-cdn.net/images/missing.png",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:8713748980757",
+   "fonte": "iMusic",
+   "titulo": "Social Distortion · White Light, White Heat, White Trash (LP) [Mov edition] (2016)",
+   "preco": 112.9,
+   "url": "https://imusic.br.com/music/8713748980757/social-distortion-2016-white-light-white-heat-white-trash-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/757/8713748980757.jpg?social-distortion-2016-white-light-white-heat-white-trash-lp&class=scaled&v=1293529561",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:5020422048218",
+   "fonte": "iMusic",
+   "titulo": "Thee Headcoatees · Punk Girls (LP) (2017)",
+   "preco": 112.9,
+   "url": "https://imusic.br.com/music/5020422048218/thee-headcoatees-2017-punk-girls-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/218/5020422048218.jpg?thee-headcoatees-2017-punk-girls-lp&class=scaled&v=1501344002",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0664213633129",
+   "fonte": "iMusic",
+   "titulo": "The Manges · Punk Rock Addio (LP) (2020)",
+   "preco": 112.9,
+   "url": "https://imusic.br.com/music/0664213633129/the-manges-2020-punk-rock-addio-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/129/0664213633129.jpg?the-manges-2020-punk-rock-addio-lp&class=scaled&v=1604930364",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:7393465133301",
+   "fonte": "iMusic",
+   "titulo": "Jan Johansson · Jazz På Svenska (LP) (2014)",
+   "preco": 112.9,
+   "url": "https://imusic.br.com/music/7393465133301/jan-johansson-2014-jazz-paa-svenska-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/301/7393465133301.jpg?jan-johansson-2014-jazz-paa-svenska-lp&class=scaled&v=1718027611",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0602507465681",
+   "fonte": "iMusic",
+   "titulo": "Art Blakey and the Jazz Messengers · Moanin' (LP) [Blue Note Classic Vinyl edition] (2021)",
+   "preco": 118.9,
+   "url": "https://imusic.br.com/music/0602507465681/art-blakey-and-the-jazz-messengers-2021-moanin-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/681/0602507465681.jpg?art-blakey-and-the-jazz-messengers-2021-moanin-lp&class=scaled&v=1653473306",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:151920117",
+   "fonte": "Baratos Afins",
+   "titulo": "BOCATO - AQUI JAZZ BRAZIL - LP",
+   "preco": 120,
+   "url": "https://www.baratosafins.com.br/produto/bocato-aqui-jazz-brazil.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202184099",
+   "fonte": "Baratos Afins",
+   "titulo": "MODERN JAZZ QUARTET - THREE WINDOWS- LP",
+   "preco": 120,
+   "url": "https://www.baratosafins.com.br/produto/modern-jazz-quartet-three-windows.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:5056321659972",
+   "fonte": "iMusic",
+   "titulo": "Home Front · Games of Power (LP) (2023)",
+   "preco": 124.9,
+   "url": "https://imusic.br.com/music/5056321659972/home-front-2023-games-of-power-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/972/5056321659972.jpg?home-front-2023-games-of-power-lp&class=scaled&v=1676571614",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "teto": 200,
+   "refDiscogs": 160.7,
+   "criterios": {
+    "teto": true,
+    "discogs": true,
+    "maisBarato": true
+   }
+  },
+  {
+   "id": "iMusic:5021732589859",
+   "fonte": "iMusic",
+   "titulo": "Joey Valence & Brae · Punk Tactics (LP) (2026)",
+   "preco": 124.9,
+   "url": "https://imusic.br.com/music/5021732589859/joey-valence-brae-2026-punk-tactics-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/859/5021732589859.jpg?joey-valence-brae-2026-punk-tactics-lp&class=scaled&v=1769715998",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0190296617164",
+   "fonte": "iMusic",
+   "titulo": "Daft Punk · Discovery (LP) (2022)",
+   "preco": 137.9,
+   "url": "https://imusic.br.com/music/0190296617164/daft-punk-2022-discovery-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/164/0190296617164.jpg?daft-punk-2022-discovery-lp&class=scaled&v=1633070235",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0190296611926",
+   "fonte": "iMusic",
+   "titulo": "Daft Punk · Homework (LP) (2022)",
+   "preco": 137.9,
+   "url": "https://imusic.br.com/music/0190296611926/daft-punk-2022-homework-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/926/0190296611926.jpg?daft-punk-2022-homework-lp&class=scaled&v=1632723980",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0045778736010",
+   "fonte": "iMusic",
+   "titulo": "Nofx · Punk in Drublic (LP) [Reissue edition] (2022)",
+   "preco": 137.9,
+   "url": "https://imusic.br.com/music/0045778736010/nofx-2022-punk-in-drublic-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/010/0045778736010.jpg?nofx-2022-punk-in-drublic-lp&class=scaled&v=1671801866",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:5021732776716",
+   "fonte": "iMusic",
+   "titulo": "Daft Punk · Human After All Remixes (LP) [Limited edition] (2025)",
+   "preco": 137.9,
+   "url": "https://imusic.br.com/music/5021732776716/daft-punk-2025-human-after-all-remixes-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/716/5021732776716.jpg?daft-punk-2025-human-after-all-remixes-lp&class=scaled&v=1760534387",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:8714092698114",
+   "fonte": "iMusic",
+   "titulo": "Refused · The Shape Of Punk To Come (LP) (2022)",
+   "preco": 137.9,
+   "url": "https://imusic.br.com/music/8714092698114/refused-2022-the-shape-of-punk-to-come-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/114/8714092698114.jpg?refused-2022-the-shape-of-punk-to-come-lp&class=scaled&v=1645434199",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0190296618116",
+   "fonte": "iMusic",
+   "titulo": "Daft Punk · Alive 1997 (LP) (2022)",
+   "preco": 137.9,
+   "url": "https://imusic.br.com/music/0190296618116/daft-punk-2022-alive-1997-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/116/0190296618116.jpg?daft-punk-2022-alive-1997-lp&class=scaled&v=1643283353",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0190296611865",
+   "fonte": "iMusic",
+   "titulo": "Daft Punk · Daft Club (LP) (2022)",
+   "preco": 137.9,
+   "url": "https://imusic.br.com/music/0190296611865/daft-punk-2022-daft-club-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/865/0190296611865.jpg?daft-punk-2022-daft-club-lp&class=scaled&v=1633070265",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:7798093713015",
+   "fonte": "iMusic",
+   "titulo": "Compilation · Street Punk (Coloured Vinyl) (LP) [Coloured edition] (2022)",
+   "preco": 137.9,
+   "url": "https://imusic.br.com/music/7798093713015/compilation-2022-street-punk-coloured-vinyl-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/015/7798093713015.jpg?compilation-2022-street-punk-coloured-vinyl-lp&class=scaled&v=1663621774",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0603497860692",
+   "fonte": "iMusic",
+   "titulo": "Compilation · Not Good For Your Health: Punk (LP) [Coloured edition] (2018)",
+   "preco": 137.9,
+   "url": "https://imusic.br.com/music/0603497860692/compilation-2018-not-good-for-your-health-punk-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/692/0603497860692.jpg?compilation-2018-not-good-for-your-health-punk-lp&class=scaled&v=1530714707",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0889466515514",
+   "fonte": "iMusic",
+   "titulo": "Punk Floyd - A Tribute To Pink Floyd/ Various · Punk Floyd (LP) [Limited edition] (2024)",
+   "preco": 137.9,
+   "url": "https://imusic.br.com/music/0889466515514/punk-floyd-a-tribute-to-pink-floyd-various-2024-punk-floyd-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/514/0889466515514.jpg?punk-floyd-a-tribute-to-pink-floyd-various-2024-punk-floyd-lp&class=scaled&v=1718019946",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:8719262040656",
+   "fonte": "iMusic",
+   "titulo": "Ornette Coleman Double Quartet · Free Jazz (LP) [White Vinyl edition] (2025)",
+   "preco": 137.9,
+   "url": "https://imusic.br.com/music/8719262040656/ornette-coleman-double-quartet-2025-free-jazz-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/656/8719262040656.jpg?ornette-coleman-double-quartet-2025-free-jazz-lp&class=scaled&v=1762421507",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:5056167128243",
+   "fonte": "iMusic",
+   "titulo": "Viagra Boys · Welfare Jazz (LP) (2021)",
+   "preco": 137.9,
+   "url": "https://imusic.br.com/music/5056167128243/viagra-boys-2021-welfare-jazz-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/243/5056167128243.jpg?viagra-boys-2021-welfare-jazz-lp&class=scaled&v=1608794203",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358321471",
+   "fonte": "Patuá Discos",
+   "titulo": "Dave Thompson - Dangerous Glitter - LP",
+   "preco": 139.9,
+   "url": "https://patuadiscos.com.br/produtos/dave-thompson-dangerous-glitter-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/whatsappimage2025-02-11at18-34-10-0250580a517d2bb9f517853579070639-1024-1024.webp",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358341801",
+   "fonte": "Patuá Discos",
+   "titulo": "Gang Of 4 - Hard - LP",
+   "preco": 140,
+   "url": "https://patuadiscos.com.br/produtos/gang-of-4-hard-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/15463-335800161bdb0b7ef417853632076654-1024-1024.webp",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358388896",
+   "fonte": "Patuá Discos",
+   "titulo": "Toy Dolls - Wakey Wakey! - LP",
+   "preco": 140,
+   "url": "https://patuadiscos.com.br/produtos/toy-dolls-wakey-wakey-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/17126-34517bda3acb32744517853878364346-1024-1024.webp",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202157491",
+   "fonte": "Baratos Afins",
+   "titulo": "JAZZ ARRANGER VOL1- LP",
+   "preco": 140,
+   "url": "https://www.baratosafins.com.br/produto/jazz-arranger-vol1.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:199915016",
+   "fonte": "Baratos Afins",
+   "titulo": "1930s JAZZ BIG BANDS- LP",
+   "preco": 140,
+   "url": "https://www.baratosafins.com.br/produto/1930s-jazz-big-bands.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202204304",
+   "fonte": "Baratos Afins",
+   "titulo": "PETER APPLEYARD & ORCH - PERCUSSIVE JAZZ- LP",
+   "preco": 140,
+   "url": "https://www.baratosafins.com.br/produto/peter-appleyard-orch-percussive-jazz.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202140311",
+   "fonte": "Baratos Afins",
+   "titulo": "FRANK ZAPPA - JAZZ FROM HELL- LP",
+   "preco": 140,
+   "url": "https://www.baratosafins.com.br/produto/frank-zappa-jazz-from-hell.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202163729",
+   "fonte": "Baratos Afins",
+   "titulo": "JOHNNY HATES JAZZ - TURN BACK THE CLOCK- LP",
+   "preco": 140,
+   "url": "https://www.baratosafins.com.br/produto/johnny-hates-jazz-turn-back-the-clock.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:4099964165098",
+   "fonte": "iMusic",
+   "titulo": "A Punk Tribute to Motörhead · Killed by Deaf: a Punk Tribute to Motörhead (LP) (2025)",
+   "preco": 143.9,
+   "url": "https://imusic.br.com/music/4099964165098/a-punk-tribute-to-motorhead-2025-killed-by-deaf-a-punk-tribute-to-motorhead-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/098/4099964165098.jpg?a-punk-tribute-to-motorhead-2025-killed-by-deaf-a-punk-tribute-to-motorhead-lp&class=scaled&v=1758113386",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0050087400279",
+   "fonte": "iMusic",
+   "titulo": "Queen · Jazz (LP) [180 gram edition] (2018)",
+   "preco": 143.9,
+   "url": "https://imusic.br.com/music/0050087400279/queen-2018-jazz-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/279/0050087400279.jpg?queen-2018-jazz-lp&class=scaled&v=1585992640",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0888072230965",
+   "fonte": "iMusic",
+   "titulo": "Art Pepper · Art Pepper + Eleven (modern Jazz Classics) (LP) [Contemporary Records Acoustic Sounds Series edition] (2022)",
+   "preco": 143.9,
+   "url": "https://imusic.br.com/music/0888072230965/art-pepper-2022-art-pepper-eleven-modern-jazz-classics-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/965/0888072230965.jpg?art-pepper-2022-art-pepper-eleven-modern-jazz-classics-lp&class=scaled&v=1628526541",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0888072505070",
+   "fonte": "iMusic",
+   "titulo": "The Dave Brubeck Quartet · Jazz at Oberlin (LP) [Original Jazz Classics Series edition] (2023)",
+   "preco": 143.9,
+   "url": "https://imusic.br.com/music/0888072505070/the-dave-brubeck-quartet-2023-jazz-at-oberlin-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/070/0888072505070.jpg?the-dave-brubeck-quartet-2023-jazz-at-oberlin-lp&class=scaled&v=1692993364",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:9691744",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2016, Europe)",
+   "preco": 149.65,
+   "precoOriginal": {
+    "valor": 149.65,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/9691744",
+   "imagem": "https://i.discogs.com/UhDD5b6JzdNIWBxvpEe_0pIpIw_ZWejlmcMJsJAXf1M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2OTE3/NDQtMTU4MDA0Mzk5/Ni04MjY0LmpwZWc.jpeg",
+   "observacao": "Menor preço entre 67 anúncio(s), sem frete; vendedores no exterior pagam imposto de importação",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "teto": 200,
+   "refDiscogs": 259.0036109375,
+   "criterios": {
+    "teto": true,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "Baratos Afins:363303609",
+   "fonte": "Baratos Afins",
+   "titulo": "LOS EX TRIDENTES - LP",
+   "preco": 150,
+   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:96812b",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
+   "preco": 150,
+   "url": "https://www.locomotivadiscos.com.br/pd-96812b-lp-varios-artistas-a-divina-tragedia-alternative-post-punk-vol-3.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96812B/183D68B/330xN.jpg",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:5054197177897",
+   "fonte": "iMusic",
+   "titulo": "Daft Punk · Homework Remixes (LP) [Limited edition] (2022)",
+   "preco": 150.9,
+   "url": "https://imusic.br.com/music/5054197177897/daft-punk-2022-homework-remixes-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/897/5054197177897.jpg?daft-punk-2022-homework-remixes-lp&class=scaled&v=1669456393",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0888072618800",
+   "fonte": "iMusic",
+   "titulo": "Punk Goes Christmas / Various · Punk Goes Christmas (LP) (2024)",
+   "preco": 150.9,
+   "url": "https://imusic.br.com/music/0888072618800/punk-goes-christmas-various-2024-punk-goes-christmas-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/800/0888072618800.jpg?punk-goes-christmas-various-2024-punk-goes-christmas-lp&class=scaled&v=1727443648",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:5026328705057",
+   "fonte": "iMusic",
+   "titulo": "Compilation · Punk 45: I'm A Mess (LP) (2022)",
+   "preco": 156.9,
+   "url": "https://imusic.br.com/music/5026328705057/compilation-2022-punk-45-i-m-a-mess-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/057/5026328705057.jpg?compilation-2022-punk-45-i-m-a-mess-lp&class=scaled&v=1665120228",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:8435395504550",
+   "fonte": "iMusic",
+   "titulo": "Chet Baker · Late Night Jazz (LP) [Deluxe, Limited edition] (2024)",
+   "preco": 156.9,
+   "url": "https://imusic.br.com/music/8435395504550/chet-baker-2024-late-night-jazz-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/550/8435395504550.jpg?chet-baker-2024-late-night-jazz-lp&class=scaled&v=1728903850",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0602465226249",
+   "fonte": "iMusic",
+   "titulo": "Art Blakey & the Jazz Messengers · Art Blakey and His Jazz Messengers (LP) (2024)",
+   "preco": 156.9,
+   "url": "https://imusic.br.com/music/0602465226249/art-blakey-the-jazz-messengers-2024-art-blakey-and-his-jazz-messengers-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/249/0602465226249.jpg?art-blakey-the-jazz-messengers-2024-art-blakey-and-his-jazz-messengers-lp&class=scaled&v=1722586596",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202092355",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ MAINSTREAM- LP",
+   "preco": 160,
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-mainstream.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202092332",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ INTROSPECTION- LP",
+   "preco": 160,
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-introspection.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202092301",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ BEBOP- LP",
+   "preco": 160,
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-bebop.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202092600",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ WEST COAST- LP",
+   "preco": 160,
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-west-coast.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202092432",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ POST BOP- LP",
+   "preco": 160,
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-post-bop.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:8721018001064",
+   "fonte": "iMusic",
+   "titulo": "Home Front · Games Of Power (LP) (2023)",
+   "preco": 162.9,
+   "url": "https://imusic.br.com/music/8721018001064/home-front-2023-games-of-power-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/064/8721018001064.jpg?home-front-2023-games-of-power-lp&class=scaled&v=1738452802",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "teto": 200,
+   "refDiscogs": 160.7,
+   "criterios": {
+    "teto": true,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "iMusic:5014797906150",
+   "fonte": "iMusic",
+   "titulo": "UK Subs · A Punk Rock Anthology - 1978-2017 (Red / Yellow Vinyl) (LP) [Limited edition] (2022)",
+   "preco": 162.9,
+   "url": "https://imusic.br.com/music/5014797906150/uk-subs-2022-a-punk-rock-anthology-1978-2017-red-yellow-vinyl-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/150/5014797906150.jpg?uk-subs-2022-a-punk-rock-anthology-1978-2017-red-yellow-vinyl-lp&class=scaled&v=1637102618",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0602547202741",
+   "fonte": "iMusic",
+   "titulo": "Queen · Jazz (LP) [High quality, Limited edition] (2015)",
+   "preco": 162.9,
+   "url": "https://imusic.br.com/music/0602547202741/queen-2015-jazz-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/741/0602547202741.jpg?queen-2015-jazz-lp&class=scaled&v=1439838774",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:4029759202233",
+   "fonte": "iMusic",
+   "titulo": "Iggy Pop · Live at Montreux Jazz Festival 2023 (LP) (2025)",
+   "preco": 162.9,
+   "url": "https://imusic.br.com/music/4029759202233/iggy-pop-2025-live-at-montreux-jazz-festival-2023-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/233/4029759202233.jpg?iggy-pop-2025-live-at-montreux-jazz-festival-2023-lp&class=scaled&v=1730228802",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0888837168618",
+   "fonte": "iMusic",
+   "titulo": "Daft Punk · Random Access Memories (LP) (2025)",
+   "preco": 168.9,
+   "url": "https://imusic.br.com/music/0888837168618/daft-punk-2025-random-access-memories-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/618/0888837168618.jpg?daft-punk-2025-random-access-memories-lp&class=scaled&v=1366618887",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:7110539899587",
+   "fonte": "iMusic",
+   "titulo": "Jazz Sabbath (LP) (2020)",
+   "preco": 168.9,
+   "url": "https://imusic.br.com/music/7110539899587/jazz-sabbath-2020-jazz-sabbath-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/587/7110539899587.jpg?jazz-sabbath-2020-jazz-sabbath-lp&class=scaled&v=1586330666",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:93b3c7",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 2",
+   "preco": 170,
+   "url": "https://www.locomotivadiscos.com.br/pd-93b3c7-lp-varios-artistas-a-divina-tragedia-alternative-post-punk-vol-2.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/93B3C7/17A0CD2/330xN.jpg",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358390254",
+   "fonte": "Patuá Discos",
+   "titulo": "Vários Artistas - Jazz Festival - LP",
+   "preco": 170,
+   "url": "https://patuadiscos.com.br/produtos/varios-artistas-jazz-festival-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/17003_557e771c-e1e0-4148-94c9-ff19eec933b9-9a40e9d31dc735c6c717853896517641-1024-1024.webp",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:3921382",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2012, UK)",
+   "preco": 173.3,
+   "precoOriginal": {
+    "valor": 173.3,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/3921382",
+   "imagem": "https://i.discogs.com/51Zr-CJGnND4PeIrN8aDBIhThBPy07U5MB0aeFvz4FY/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MjEz/ODItMTM0OTI5OTA3/Mi0xOTMyLmpwZWc.jpeg",
+   "observacao": "Menor preço entre 13 anúncio(s), sem frete; vendedores no exterior pagam imposto de importação",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "teto": 200,
+   "refDiscogs": 259.0036109375,
+   "criterios": {
+    "teto": true,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "iMusic:0050087487003",
+   "fonte": "iMusic",
+   "titulo": "Daft Punk · Tron Legacy (LP) [Blue & Clear Vinyl edition] (2021)",
+   "preco": 175.9,
+   "url": "https://imusic.br.com/music/0050087487003/daft-punk-2021-tron-legacy-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/003/0050087487003.jpg?daft-punk-2021-tron-legacy-lp&class=scaled&v=1742556326",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:5026328005454",
+   "fonte": "iMusic",
+   "titulo": "Soul Jazz Records presents · PUNK 45: Kill The Hippies! Kill Yourself! – The American Nation Destroys Its Young: Underground Punk in the United States of America 1978-1980 (LP) [RSD 2024 Orange edition] (2024)",
+   "preco": 175.9,
+   "url": "https://imusic.br.com/music/5026328005454/soul-jazz-records-presents-2024-punk-45-kill-the-hippies-kill-yourself-the-american-nation-destroys-its-young-underground-punk-in-the-united-states-of-america-1978-1980-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/454/5026328005454.jpg?soul-jazz-records-presents-2024-punk-45-kill-the-hippies-kill-yourself-the-american-nation-destroys-its-young-underground-punk-in-the-united-states-of-america-1978-1980-lp&class=scaled&v=1708590926",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:5026328005423",
+   "fonte": "iMusic",
+   "titulo": "Compilation · PUNK 45: There’s No Such Thing As Society (LP) [Coloured edition] (2024)",
+   "preco": 175.9,
+   "url": "https://imusic.br.com/music/5026328005423/compilation-2024-punk-45-there-s-no-such-thing-as-society-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/423/5026328005423.jpg?compilation-2024-punk-45-there-s-no-such-thing-as-society-lp&class=scaled&v=1705661852",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:4260019715920",
+   "fonte": "iMusic",
+   "titulo": "Ry Cooder · Jazz (LP) [180 Gram Audiophile edition] (2019)",
+   "preco": 175.9,
+   "url": "https://imusic.br.com/music/4260019715920/ry-cooder-2019-jazz-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/920/4260019715920.jpg?ry-cooder-2019-jazz-lp&class=scaled&v=1786962589",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0888072240957",
+   "fonte": "iMusic",
+   "titulo": "Benny Carter · Jazz Giant (LP) [Contemporary Records Acoustic Sounds Series edition] (2022)",
+   "preco": 175.9,
+   "url": "https://imusic.br.com/music/0888072240957/benny-carter-2022-jazz-giant-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/957/0888072240957.jpg?benny-carter-2022-jazz-giant-lp&class=scaled&v=1741866639",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0602547885081",
+   "fonte": "iMusic",
+   "titulo": "Guru · Jazzmatazz Volume 1 (LP) (2018)",
+   "preco": 175.9,
+   "url": "https://imusic.br.com/music/0602547885081/guru-2018-jazzmatazz-volume-1-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/081/0602547885081.jpg?guru-2018-jazzmatazz-volume-1-lp&class=scaled&v=1593420714",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202112929",
+   "fonte": "Baratos Afins",
+   "titulo": "CHOCK GERAL - NOTICIAS DE PAZ- LP",
+   "preco": 180,
+   "url": "https://www.baratosafins.com.br/produto/chock-geral-noticias-de-paz.html",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202092391",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ PIANO- LP",
+   "preco": 180,
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-piano.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202092536",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ THE AVANT-GARDE- LP",
+   "preco": 180,
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-the-avant-garde.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0094638511410",
+   "fonte": "iMusic",
+   "titulo": "Lcd Soundsystem · Sound Of Silver (LP) (2016)",
+   "preco": 181.9,
+   "url": "https://imusic.br.com/music/0094638511410/lcd-soundsystem-2016-sound-of-silver-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/410/0094638511410.jpg?lcd-soundsystem-2016-sound-of-silver-lp&class=scaled&v=1176629323",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "teto": 200,
+   "refDiscogs": 259.0036109375,
+   "criterios": {
+    "teto": true,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "iMusic:0196587839215",
+   "fonte": "iMusic",
+   "titulo": "Half•alive · Conditions Of A Punk (LP) (2023)",
+   "preco": 181.9,
+   "url": "https://imusic.br.com/music/0196587839215/half-alive-2023-conditions-of-a-punk-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/215/0196587839215.jpg?half-alive-2023-conditions-of-a-punk-lp&class=scaled&v=1676836533",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:97cc6f",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP MULAMBO JAZZAGRÁRIO - MULAMBO (NOVO/LACRADO)",
+   "preco": 185,
+   "url": "https://www.locomotivadiscos.com.br/pd-97cc6f-lp-mulambo-jazzagrario-mulambo-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/97CC6F/1891646/330xN.jpg",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0196588083310",
+   "fonte": "iMusic",
+   "titulo": "Daft Punk · Random Access Memories (LP) [Drumless edition] (2023)",
+   "preco": 187.9,
+   "url": "https://imusic.br.com/music/0196588083310/daft-punk-2023-random-access-memories-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/310/0196588083310.jpg?daft-punk-2023-random-access-memories-lp&class=scaled&v=1695916123",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0826853006446",
+   "fonte": "iMusic",
+   "titulo": "THE DEKU TRIO · Zelda & Jazz III (LP) [Hand Pour color vinyl edition] (2026)",
+   "preco": 187.9,
+   "url": "https://imusic.br.com/music/0826853006446/the-deku-trio-2026-zelda-jazz-iii-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/446/0826853006446.jpg?the-deku-trio-2026-zelda-jazz-iii-lp&class=scaled&v=1770121569",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0602577089602",
+   "fonte": "iMusic",
+   "titulo": "Charlie Byrd Stan Getz · Jazz Samba (LP) (2019)",
+   "preco": 187.9,
+   "url": "https://imusic.br.com/music/0602577089602/charlie-byrd-stan-getz-2019-jazz-samba-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/602/0602577089602.jpg?charlie-byrd-stan-getz-2019-jazz-samba-lp&class=scaled&v=1548408656",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0888072556270",
+   "fonte": "iMusic",
+   "titulo": "Art Blakey & the Jazz Messengers · Caravan (LP) [Original Jazz Classics Series edition] (2024)",
+   "preco": 187.9,
+   "url": "https://imusic.br.com/music/0888072556270/art-blakey-the-jazz-messengers-2024-caravan-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/270/0888072556270.jpg?art-blakey-the-jazz-messengers-2024-caravan-lp&class=scaled&v=1705670185",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:9754cd",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP CONDE FAVELA SEXTETO - ABC GUETO JAZZ (NOVO)",
+   "preco": 190,
+   "url": "https://www.locomotivadiscos.com.br/pd-9754cd-lp-conde-favela-sexteto-abc-gueto-jazz-novo.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9754CD/1872BE8/330xN.jpg",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202187181",
+   "fonte": "Baratos Afins",
+   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
+   "preco": 190,
+   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358324237",
+   "fonte": "Patuá Discos",
+   "titulo": "Devotos - Demos E Raridades - LP",
+   "preco": 200,
+   "url": "https://patuadiscos.com.br/produtos/devotos-demos-e-raridades-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/16454-f7c2b744ce5e16824d17853584102389-1024-1024.webp",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:199915400",
+   "fonte": "Baratos Afins",
+   "titulo": "50 YEARS OF JAZZ GUITAR- LP",
+   "preco": 200,
+   "url": "https://www.baratosafins.com.br/produto/50-years-of-jazz-guitar.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0195497352142",
+   "fonte": "iMusic",
+   "titulo": "J Jazz Volume 3: Deep Modern Jazz from Japan · J Jazz Volume 3: Deep Modern Jazz From Japan (LP) (2021)",
+   "preco": 200.9,
+   "url": "https://imusic.br.com/music/0195497352142/j-jazz-volume-3-deep-modern-jazz-from-japan-2021-j-jazz-volume-3-deep-modern-jazz-from-japan-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/142/0195497352142.jpg?j-jazz-volume-3-deep-modern-jazz-from-japan-2021-j-jazz-volume-3-deep-modern-jazz-from-japan-lp&class=scaled&v=1611912134",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:9951193577118",
+   "fonte": "iMusic",
+   "titulo": "Home Front · Games of Power (LP) (2023)",
+   "preco": 206.9,
+   "url": "https://imusic.br.com/music/9951193577118/home-front-2023-games-of-power-lp",
+   "imagem": "https://imusic-static.b-cdn.net/images/missing.png",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "teto": 200,
+   "refDiscogs": 160.7,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "iMusic:8714092736885",
+   "fonte": "iMusic",
+   "titulo": "Social Distortion · Born to Kill (Pink & Yellow Vinyl) (LP) [Pink & Yellow Vinyl edition] (2026)",
+   "preco": 206.9,
+   "url": "https://imusic.br.com/music/8714092736885/social-distortion-2026-born-to-kill-pink-yellow-vinyl-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/885/8714092736885.jpg?social-distortion-2026-born-to-kill-pink-yellow-vinyl-lp&class=scaled&v=1776087775",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:7392004777792",
+   "fonte": "iMusic",
+   "titulo": "Arne Domnérus · Jazz at the Pawnshop 1 & 2 (LP) (2007)",
+   "preco": 206.9,
+   "url": "https://imusic.br.com/music/7392004777792/arne-domnerus-2007-jazz-at-the-pawnshop-1-2-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/792/7392004777792.jpg?arne-domnerus-2007-jazz-at-the-pawnshop-1-2-lp&class=scaled&v=1335873674",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358298270",
+   "fonte": "Patuá Discos",
+   "titulo": "Benny Carter - Jazz Giant - LP",
+   "preco": 210,
+   "url": "https://patuadiscos.com.br/produtos/benny-carter-jazz-giant-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/whatsappimage2024-11-27at14-40-02_3-2769e47920905b424217853527859984-1024-1024.webp",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0602488202145",
+   "fonte": "iMusic",
+   "titulo": "Stan Getz / Luiz Bonfá · Jazz Samba Encore! (LP) [Verve Acoustic Sounds Series edition] (2026)",
+   "preco": 212.9,
+   "url": "https://imusic.br.com/music/0602488202145/stan-getz-luiz-bonfa-2026-jazz-samba-encore-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/145/0602488202145.jpg?stan-getz-luiz-bonfa-2026-jazz-samba-encore-lp&class=scaled&v=1772280662",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0190296611964",
+   "fonte": "iMusic",
+   "titulo": "Daft Punk · Alive 2007 (LP) (2022)",
+   "preco": 219.9,
+   "url": "https://imusic.br.com/music/0190296611964/daft-punk-2022-alive-2007-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/964/0190296611964.jpg?daft-punk-2022-alive-2007-lp&class=scaled&v=1643283177",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0602448644183",
+   "fonte": "iMusic",
+   "titulo": "Stan Getz & Charlie Byrd · Jazz Samba (LP) [Verve Acoustic Sounds Series edition] (2023)",
+   "preco": 219.9,
+   "url": "https://imusic.br.com/music/0602448644183/stan-getz-charlie-byrd-2023-jazz-samba-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/183/0602448644183.jpg?stan-getz-charlie-byrd-2023-jazz-samba-lp&class=scaled&v=1680952512",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:8718858195169",
+   "fonte": "iMusic",
+   "titulo": "Jazz Sabbath · Jazz Sabbath Live (LP) (2026)",
+   "preco": 219.9,
+   "url": "https://imusic.br.com/music/8718858195169/jazz-sabbath-2026-jazz-sabbath-live-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/169/8718858195169.jpg?jazz-sabbath-2026-jazz-sabbath-live-lp&class=scaled&v=1766929091",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:4995879608753",
+   "fonte": "iMusic",
+   "titulo": "All That Jazz · Ghibli Jazz 2 (LP) [Limited Yellow Vinyl edition] (2026)",
+   "preco": 219.9,
+   "url": "https://imusic.br.com/music/4995879608753/all-that-jazz-2026-ghibli-jazz-2-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/753/4995879608753.jpg?all-that-jazz-2026-ghibli-jazz-2-lp&class=scaled&v=1762928500",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:4995879608555",
+   "fonte": "iMusic",
+   "titulo": "All That Jazz · Ghibli Jazz (Green Vinyl) (LP) [Japan Import edition] (2024)",
+   "preco": 219.9,
+   "url": "https://imusic.br.com/music/4995879608555/all-that-jazz-2024-ghibli-jazz-green-vinyl-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/555/4995879608555.jpg?all-that-jazz-2024-ghibli-jazz-green-vinyl-lp&class=scaled&v=1728989773",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:9870ed",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP PETER AND THE TEST TUBE BABIES - THE LOUD BLARING PUNK ROCK LP",
+   "preco": 220,
+   "url": "https://www.locomotivadiscos.com.br/pd-9870ed-lp-peter-and-the-test-tube-babies-the-loud-blaring-punk-rock-lp.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9870ED/18BBB2A/330xN.jpg",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:97d97e",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP THE EXPLOITED - PUNKS NOT DEAD (NOVO/LACRADO)",
+   "preco": 220,
+   "url": "https://www.locomotivadiscos.com.br/pd-97d97e-lp-the-exploited-punks-not-dead-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/97D97E/1894AAD/330xN.jpg",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:94dd92",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP NOFX - PUNK IN DRUBLIC (NOVO/LACRADO)",
+   "preco": 230,
+   "url": "https://www.locomotivadiscos.com.br/pd-94dd92-lp-nofx-punk-in-drublic-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/94DD92/17DF231/330xN.jpg",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0829732216417",
+   "fonte": "iMusic",
+   "titulo": "Lcd Soundsystem · Sound Of Silver (LP) (2007)",
+   "preco": 231.9,
+   "url": "https://imusic.br.com/music/0829732216417/lcd-soundsystem-2007-sound-of-silver-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/417/0829732216417.jpg?lcd-soundsystem-2007-sound-of-silver-lp&class=scaled&v=1397856731",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "teto": 200,
+   "refDiscogs": 259.0036109375,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "iMusic:4029759219538",
+   "fonte": "iMusic",
+   "titulo": "Hollywood Vampires · At Montreux Jazz Festival (LP) (2026)",
+   "preco": 237.9,
+   "url": "https://imusic.br.com/music/4029759219538/hollywood-vampires-2026-at-montreux-jazz-festival-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/538/4029759219538.jpg?hollywood-vampires-2026-at-montreux-jazz-festival-lp&class=scaled&v=1783416664",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:983776",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP RUPA - DISCO JAZZ (NOVO/LACRADO/IMP)",
+   "preco": 240,
+   "url": "https://www.locomotivadiscos.com.br/pd-983776-lp-rupa-disco-jazz-novo-lacrado-imp.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/983776/18ACB54/330xN.jpg",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358353530",
+   "fonte": "Patuá Discos",
+   "titulo": "Jean Carne - Jazz Is Dead 12 - LP",
+   "preco": 250,
+   "url": "https://patuadiscos.com.br/produtos/jean-carne-jazz-is-dead-12-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/14963-6da060fbc512e3d86217853670889809-1024-1024.webp",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0722056185127",
+   "fonte": "iMusic",
+   "titulo": "Men I Trust · Oncle Jazz (LP) (2019)",
+   "preco": 275.9,
+   "url": "https://imusic.br.com/music/0722056185127/men-i-trust-2019-oncle-jazz-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/127/0722056185127.jpg?men-i-trust-2019-oncle-jazz-lp&class=scaled&v=1572424773",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: frete e imposto de importação (60% + ICMS) à parte",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:972fd9",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP DAFT PUNK - DISCOVERY (2xLPs) (NOVO/LACRADO)",
+   "preco": 280,
+   "url": "https://www.locomotivadiscos.com.br/pd-972fd9-lp-daft-punk-discovery-2xlps-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/972FD9/1869FE9/330xN.jpg",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202254140",
+   "fonte": "Baratos Afins",
+   "titulo": "TULIO MOURÃO - JAZZ MINEIRO- LP",
+   "preco": 280,
+   "url": "https://www.baratosafins.com.br/produto/tulio-mourao-jazz-mineiro.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:972bd4",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP LCD SOUNDSYSTEM - SOUND OF SILVER (NOVO/IMP/DUPLO)",
+   "preco": 295,
+   "url": "https://www.locomotivadiscos.com.br/pd-972bd4-lp-lcd-soundsystem-sound-of-silver-novo-imp-duplo.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/972BD4/1868F9C/330xN.jpg",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "teto": 200,
+   "refDiscogs": 259.0036109375,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "Baratos Afins:375651404",
+   "fonte": "Baratos Afins",
+   "titulo": "RED HOT CHILI PEPPERS - MOTHER'S MILK - LP",
+   "preco": 320,
+   "url": "https://www.baratosafins.com.br/red-hot-chili-peppers-mothers-milk-lp",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202131344",
+   "fonte": "Baratos Afins",
+   "titulo": "ELIS REGINA - MONTREAUX JAZZ FESTIVAL- LP",
+   "preco": 320,
+   "url": "https://www.baratosafins.com.br/produto/elis-regina-montreaux-jazz-festival.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202092464",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ SINGERS- LP",
+   "preco": 340,
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-singers.html",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:987fef",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP CAN'T STOP IT II - AUSTRALIAN POST-PUNK 1979-84 (2xLPs) (NOV/LAC)",
+   "preco": 350,
+   "url": "https://www.locomotivadiscos.com.br/pd-987fef-lp-can-t-stop-it-ii-australian-post-punk-1979-84-2xlps-nov-lac.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/987FEF/18BFD76/330xN.jpg",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:94baa0",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP DAFT PUNK - HOMEWORK (NOVO/LACRADO/DUPLO)",
+   "preco": 350,
+   "url": "https://www.locomotivadiscos.com.br/pd-94baa0-lp-daft-punk-homework-novo-lacrado-duplo.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/94BAA0/17D7C54/330xN.jpg",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:9874aa",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP CAP'N JAZZ - BURRITOS, INSPIRATION POINT, FORK... (NOVO/LACRADO)",
+   "preco": 380,
+   "url": "https://www.locomotivadiscos.com.br/pd-9874aa-lp-cap-n-jazz-burritos-inspiration-point-fork-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9874AA/18BCBAC/330xN.jpg",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:986c21",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP BEMBEYA JAZZ - BEMBEYA JAZZ (NOVO/LACRADO)",
+   "preco": 390,
+   "url": "https://www.locomotivadiscos.com.br/pd-986c21-lp-bembeya-jazz-bembeya-jazz-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/986C21/18BA566/330xN.jpg",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358391338",
+   "fonte": "Patuá Discos",
+   "titulo": "Wander Wildner - Mocochinchi Folksom - LP",
+   "preco": 400,
+   "url": "https://patuadiscos.com.br/produtos/wander-wildner-mocochinchi-folksom-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/16455-f45c4250329856540017853914147428-1024-1024.webp",
+   "busca": "punk",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:9861b9",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP SYNCRO JAZZ LIVE - SYNCRO JAZZ LIVE (COM OBI) (NOVO) IMPORTADO",
+   "preco": 450,
+   "url": "https://www.locomotivadiscos.com.br/pd-9861b9-lp-syncro-jazz-live-syncro-jazz-live-com-obi-novo-importado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9861B9/18B7DAF/330xN.jpg",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:26399480",
+   "fonte": "Discogs",
+   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
+   "preco": 784.94,
+   "precoOriginal": {
+    "valor": 784.94,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/26399480",
+   "imagem": "https://i.discogs.com/GzUJ0rg786VuvlUmmRDB7mVqYL-ghHFgb53WsHkAezA/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Mzk5/NDgwLTE3MTIyNzQy/MDctNDQxNC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 1 anúncio(s), sem frete; vendedores no exterior pagam imposto de importação",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "teto": 200,
+   "refDiscogs": 160.7,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "Patuá Discos:365565422",
+   "fonte": "Patuá Discos",
+   "titulo": "Syncro Jazz - Syncro Jazz Live - LP",
+   "preco": 900,
+   "url": "https://patuadiscos.com.br/produtos/syncro-jazz-syncro-jazz-live-lp-16ey5/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/18664-909f5cc85896c1ef2717885535703976-1024-1024.webp",
+   "busca": "jazz",
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:881288",
+   "fonte": "Discogs",
+   "titulo": "The Rapture - Pieces Of The People We Love (2006, UK & Europe)",
+   "preco": 952.95,
+   "precoOriginal": {
+    "valor": 952.95,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/881288",
+   "imagem": "https://i.discogs.com/S5xXm7o85iJg3LA-ngtZk-98QCiBPuccgNVdygW1yxI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg4MTI4/OC0xNTQwNTYyODQ4/LTYxODQuanBlZw.jpeg",
+   "observacao": "Menor preço entre 3 anúncio(s), sem frete; vendedores no exterior pagam imposto de importação",
+   "desejo": "the-rapture-pieces-of-the-people-we-love",
+   "busca": "The Rapture – Pieces of the People We Love",
+   "teto": 200,
+   "refDiscogs": 259.83146284829724,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": null
+   }
+  }
+ ],
  "erros": [
-  "Discogs: DISCOGS_TOKEN não configurado; fonte ignorada",
-  "Mercado Livre: falha em \"Milton Nascimento – Clube da Esquina\": HTTP 403 em https://api.mercadolibre.com/sites/MLB/search?q=vinil+Milton+Nascimento+Clube+da+Esquina&limit=50",
-  "Mercado Livre: a busca exige credenciais — configure ML_CLIENT_ID e ML_CLIENT_SECRET"
+  "Mercado Livre: falha em \"LCD Soundsystem – Sound of Silver\": HTTP 403 em https://api.mercadolibre.com/sites/MLB/search?q=vinil+LCD+Soundsystem+Sound+of+Silver&limit=50",
+  "Mercado Livre: falha em \"The Rapture – Pieces of the People We Love\": HTTP 403 em https://api.mercadolibre.com/sites/MLB/search?q=vinil+The+Rapture+Pieces+of+the+People+We+Love&limit=50",
+  "Mercado Livre: falha em \"Rotten Mind – Unflavored\": HTTP 403 em https://api.mercadolibre.com/sites/MLB/search?q=vinil+Rotten+Mind+Unflavored&limit=50",
+  "Mercado Livre: falha em \"Home Front – Games of Power\": HTTP 403 em https://api.mercadolibre.com/sites/MLB/search?q=vinil+Home+Front+Games+of+Power&limit=50",
+  "Mercado Livre: falha em \"punk\": HTTP 403 em https://api.mercadolibre.com/sites/MLB/search?q=vinil+punk&limit=50",
+  "Mercado Livre: falha em \"jazz\": HTTP 403 em https://api.mercadolibre.com/sites/MLB/search?q=vinil+jazz&limit=50"
  ]
 }
