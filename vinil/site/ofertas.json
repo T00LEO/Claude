@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-06T16:06:18.824Z",
+ "geradoEm": "2026-10-07T06:01:31.292Z",
  "teto": 200,
  "tetoVarredura": 80,
  "fatorDiscogs": 0.9,
@@ -9,7 +9,7 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 343.5549342105263
+   "refDiscogs": 259.0036109375
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
@@ -23,113 +23,17 @@
    "artista": "Rotten Mind",
    "titulo": "Unflavored",
    "teto": 200,
-   "refDiscogs": 125.7311797752809
+   "refDiscogs": 104.77598314606742
   },
   {
    "chave": "home-front-games-of-power",
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 119.32349974999998
+   "refDiscogs": 96.88
   }
  ],
  "ofertas": [
-  {
-   "id": "Patuá Discos:358400651",
-   "fonte": "Patuá Discos",
-   "titulo": "Jonah Jones - Muted Jazz - LP",
-   "preco": 30,
-   "url": "https://patuadiscos.com.br/produtos/jonah-jones-muted-jazz-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6202-35877cb7238cfd751f17854104892563-1024-1024.webp",
-   "busca": "jazz",
-   "precoTotal": 30,
-   "teto": 80,
-   "criterios": {
-    "teto": true,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358412847",
-   "fonte": "Patuá Discos",
-   "titulo": "Vocal Jazz Incorporated - High Clouds - LP",
-   "preco": 45,
-   "url": "https://patuadiscos.com.br/produtos/vocal-jazz-incorporated-high-clouds-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6197-c0e4a52d0708a151d517854175345677-1024-1024.webp",
-   "busca": "jazz",
-   "precoTotal": 45,
-   "teto": 80,
-   "criterios": {
-    "teto": true,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358400230",
-   "fonte": "Patuá Discos",
-   "titulo": "Jazz-O-Matic Four - Can't We Be Friends - LP",
-   "preco": 50,
-   "url": "https://patuadiscos.com.br/produtos/jazz-o-matic-four-cant-we-be-friends-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6200-f8c29d390dd2ce902e17854099611218-1024-1024.webp",
-   "busca": "jazz",
-   "precoTotal": 50,
-   "teto": 80,
-   "criterios": {
-    "teto": true,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358281220",
-   "fonte": "Patuá Discos",
-   "titulo": "ACR - Force - LP",
-   "preco": 60,
-   "url": "https://patuadiscos.com.br/produtos/acr-force-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/16504-f6e46fda26e80f0f0717853497365246-1024-1024.webp",
-   "busca": "punk",
-   "precoTotal": 60,
-   "teto": 80,
-   "criterios": {
-    "teto": true,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358388906",
-   "fonte": "Patuá Discos",
-   "titulo": "Traditional Jazz Band - Raízes Do Jazz - LP",
-   "preco": 60,
-   "url": "https://patuadiscos.com.br/produtos/traditional-jazz-band-raizes-do-jazz-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/12557-f9a9e05310191efde817853878488455-1024-1024.webp",
-   "busca": "jazz",
-   "precoTotal": 60,
-   "teto": 80,
-   "criterios": {
-    "teto": true,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358381427",
-   "fonte": "Patuá Discos",
-   "titulo": "Reunion Jazz Band - Reunion - LP",
-   "preco": 70,
-   "url": "https://patuadiscos.com.br/produtos/reunion-jazz-band-reunion-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/whatsappimage2024-08-16at15-35-46_1-aaa6ef257e65cbee9e17853796071579-1024-1024.webp",
-   "busca": "jazz",
-   "precoTotal": 70,
-   "teto": 80,
-   "criterios": {
-    "teto": true,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
   {
    "id": "Baratos Afins:202161374",
    "fonte": "Baratos Afins",
@@ -146,38 +50,6 @@
    }
   },
   {
-   "id": "Patuá Discos:358399633",
-   "fonte": "Patuá Discos",
-   "titulo": "Gilberto Gil - Extra - LP",
-   "preco": 90,
-   "url": "https://patuadiscos.com.br/produtos/gilberto-gil-extra-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/10061-1c2c87f4899551164517854091424540-1024-1024.webp",
-   "busca": "punk",
-   "precoTotal": 90,
-   "teto": 80,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358387048",
-   "fonte": "Patuá Discos",
-   "titulo": "The Modern Jazz Quartet - At Birdland - LP",
-   "preco": 90,
-   "url": "https://patuadiscos.com.br/produtos/the-modern-jazz-quartet-at-birdland-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/image_19_95eed45d-2775-4923-8300-559f8a713fd4-7bc5e284283190a07117853856477377-1024-1024.webp",
-   "busca": "jazz",
-   "precoTotal": 90,
-   "teto": 80,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "Baratos Afins:202128501",
    "fonte": "Baratos Afins",
    "titulo": "EDDIE DANIELS - BREAKTHROUGH- LP",
@@ -185,22 +57,6 @@
    "url": "https://www.baratosafins.com.br/produto/eddie-daniels-breakthrough.html",
    "busca": "jazz",
    "precoTotal": 95,
-   "teto": 80,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358341789",
-   "fonte": "Patuá Discos",
-   "titulo": "Gang Green - Older... Budweiser - LP",
-   "preco": 100,
-   "url": "https://patuadiscos.com.br/produtos/gang-green-older-budweiser-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/16136-c13e83cf80f803859d17853632015707-1024-1024.webp",
-   "busca": "punk",
-   "precoTotal": 100,
    "teto": 80,
    "criterios": {
     "teto": false,
@@ -261,54 +117,6 @@
    "url": "https://www.baratosafins.com.br/produto/modern-jazz-quartet-three-windows.html",
    "busca": "jazz",
    "precoTotal": 120,
-   "teto": 80,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358321471",
-   "fonte": "Patuá Discos",
-   "titulo": "Dave Thompson - Dangerous Glitter - LP",
-   "preco": 139.9,
-   "url": "https://patuadiscos.com.br/produtos/dave-thompson-dangerous-glitter-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/whatsappimage2025-02-11at18-34-10-0250580a517d2bb9f517853579070639-1024-1024.webp",
-   "busca": "punk",
-   "precoTotal": 139.9,
-   "teto": 80,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358341801",
-   "fonte": "Patuá Discos",
-   "titulo": "Gang Of 4 - Hard - LP",
-   "preco": 140,
-   "url": "https://patuadiscos.com.br/produtos/gang-of-4-hard-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/15463-335800161bdb0b7ef417853632076654-1024-1024.webp",
-   "busca": "punk",
-   "precoTotal": 140,
-   "teto": 80,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358388896",
-   "fonte": "Patuá Discos",
-   "titulo": "Toy Dolls - Wakey Wakey! - LP",
-   "preco": 140,
-   "url": "https://patuadiscos.com.br/produtos/toy-dolls-wakey-wakey-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/17126-34517bda3acb32744517853878364346-1024-1024.webp",
-   "busca": "punk",
-   "precoTotal": 140,
    "teto": 80,
    "criterios": {
     "teto": false,
@@ -514,22 +322,6 @@
    }
   },
   {
-   "id": "Patuá Discos:358390254",
-   "fonte": "Patuá Discos",
-   "titulo": "Vários Artistas - Jazz Festival - LP",
-   "preco": 170,
-   "url": "https://patuadiscos.com.br/produtos/varios-artistas-jazz-festival-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/17003_557e771c-e1e0-4148-94c9-ff19eec933b9-9a40e9d31dc735c6c717853896517641-1024-1024.webp",
-   "busca": "jazz",
-   "precoTotal": 170,
-   "teto": 80,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "Baratos Afins:202112929",
    "fonte": "Baratos Afins",
    "titulo": "CHOCK GERAL - NOTICIAS DE PAZ- LP",
@@ -622,22 +414,6 @@
    }
   },
   {
-   "id": "Patuá Discos:358324237",
-   "fonte": "Patuá Discos",
-   "titulo": "Devotos - Demos E Raridades - LP",
-   "preco": 200,
-   "url": "https://patuadiscos.com.br/produtos/devotos-demos-e-raridades-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/16454-f7c2b744ce5e16824d17853584102389-1024-1024.webp",
-   "busca": "punk",
-   "precoTotal": 200,
-   "teto": 80,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "Baratos Afins:199915400",
    "fonte": "Baratos Afins",
    "titulo": "50 YEARS OF JAZZ GUITAR- LP",
@@ -645,22 +421,6 @@
    "url": "https://www.baratosafins.com.br/produto/50-years-of-jazz-guitar.html",
    "busca": "jazz",
    "precoTotal": 200,
-   "teto": 80,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358298270",
-   "fonte": "Patuá Discos",
-   "titulo": "Benny Carter - Jazz Giant - LP",
-   "preco": 210,
-   "url": "https://patuadiscos.com.br/produtos/benny-carter-jazz-giant-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/whatsappimage2024-11-27at14-40-02_3-2769e47920905b424217853527859984-1024-1024.webp",
-   "busca": "jazz",
-   "precoTotal": 210,
    "teto": 80,
    "criterios": {
     "teto": false,
@@ -725,22 +485,6 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/983776/18ACB54/330xN.jpg",
    "busca": "jazz",
    "precoTotal": 240,
-   "teto": 80,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358353530",
-   "fonte": "Patuá Discos",
-   "titulo": "Jean Carne - Jazz Is Dead 12 - LP",
-   "preco": 250,
-   "url": "https://patuadiscos.com.br/produtos/jean-carne-jazz-is-dead-12-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/14963-6da060fbc512e3d86217853670889809-1024-1024.webp",
-   "busca": "jazz",
-   "precoTotal": 250,
    "teto": 80,
    "criterios": {
     "teto": false,
@@ -819,10 +563,10 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 343.5549342105263,
+   "refDiscogs": 259.0036109375,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": true
    }
   },
@@ -924,7 +668,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 125.7311797752809,
+   "refDiscogs": 104.77598314606742,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1025,35 +769,6 @@
    }
   },
   {
-   "id": "discogs:24281603",
-   "fonte": "Discogs",
-   "titulo": "Rotten Mind - Unflavored (2022, Sweden)",
-   "preco": 79.84,
-   "precoOriginal": {
-    "valor": 79.84,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/24281603",
-   "imagem": "https://i.discogs.com/6jg7HK5OYvCX0ACubjC6_EGLLnHwLN3iS_TSRw8h7Ck/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0Mjgx/NjAzLTE2NjExOTEw/OTItNDY2Ni5qcGVn.jpeg",
-   "observacao": "Menor preço entre 9 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "rotten-mind-unflavored",
-   "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 373.48,
-   "custos": {
-    "frete": 99.4,
-    "impostoImportacao": 107.54,
-    "icms": 71.7,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 125.7311797752809,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "iMusic:7340148114065",
    "fonte": "iMusic",
    "titulo": "Rotten Mind · Unflavored (LP) (2023)",
@@ -1071,10 +786,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 125.7311797752809,
+   "refDiscogs": 104.77598314606742,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -1272,6 +987,35 @@
    }
   },
   {
+   "id": "discogs:28033284",
+   "fonte": "Discogs",
+   "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
+   "preco": 89.82,
+   "precoOriginal": {
+    "valor": 89.82,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/28033284",
+   "imagem": "https://i.discogs.com/uCkWVBE3NSaz4XE_kgsbcyWYDSc0r9H0biefBHMIgks/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDMz/Mjg0LTE2OTI2MDgw/OTYtMzAwNC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "rotten-mind-unflavored",
+   "busca": "Rotten Mind – Unflavored",
+   "precoTotal": 393.44,
+   "custos": {
+    "frete": 99.4,
+    "impostoImportacao": 113.53,
+    "icms": 75.69,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 104.77598314606742,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "iMusic:5056321659972",
    "fonte": "iMusic",
    "titulo": "Home Front · Games of Power (LP) (2023)",
@@ -1289,7 +1033,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 119.32349974999998,
+   "refDiscogs": 96.88,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1312,22 +1056,6 @@
     "icms": 76.72,
     "despacho": 15
    },
-   "teto": 80,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358391338",
-   "fonte": "Patuá Discos",
-   "titulo": "Wander Wildner - Mocochinchi Folksom - LP",
-   "preco": 400,
-   "url": "https://patuadiscos.com.br/produtos/wander-wildner-mocochinchi-folksom-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/16455-f45c4250329856540017853914147428-1024-1024.webp",
-   "busca": "punk",
-   "precoTotal": 400,
    "teto": 80,
    "criterios": {
     "teto": false,
@@ -1612,26 +1340,32 @@
    }
   },
   {
-   "id": "iMusic:0602475225065",
-   "fonte": "iMusic",
-   "titulo": "Art Blakey & the Jazz Messengers · Free for All (LP) [Blue Note Classic Vinyl edition] (2026)",
-   "preco": 137.9,
-   "url": "https://imusic.br.com/music/0602475225065/art-blakey-the-jazz-messengers-2026-free-for-all-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/065/0602475225065.jpg?art-blakey-the-jazz-messengers-2026-free-for-all-lp&class=scaled&v=1766058727",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 424.6,
+   "id": "discogs:37531311",
+   "fonte": "Discogs",
+   "titulo": "Home Front (2) - Games Of Power (2026, Europe)",
+   "preco": 109.33,
+   "precoOriginal": {
+    "valor": 109.33,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/37531311",
+   "imagem": "https://i.discogs.com/DyDY_XxAFP6dR6wHpIYrZCxDEaX2q_MvMNVYERIYw0U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMx/MzExLTE3ODQ0OTIz/MjYtMTczNS5qcGVn.jpeg",
+   "observacao": "Menor preço entre 7 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 432.46,
    "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 122.88,
-    "icms": 81.92,
+    "frete": 99.4,
+    "impostoImportacao": 125.24,
+    "icms": 83.49,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 200,
+   "refDiscogs": 96.88,
    "criterios": {
     "teto": false,
-    "discogs": null,
-    "maisBarato": null
+    "discogs": false,
+    "maisBarato": false
    }
   },
   {
@@ -1748,10 +1482,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 125.7311797752809,
+   "refDiscogs": 104.77598314606742,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -1818,41 +1552,12 @@
    }
   },
   {
-   "id": "discogs:26287316",
-   "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
-   "preco": 118.64,
-   "precoOriginal": {
-    "valor": 118.64,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/26287316",
-   "imagem": "https://i.discogs.com/6rLoqnU4DTf4MitESLfsQRPGLEQd1LhWKjte1I8qs6Q/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Mjg3/MzE2LTE2ODgyMDEx/OTMtNTI2Ni5qcGVn.jpeg",
-   "observacao": "Menor preço entre 35 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 451.08,
-   "custos": {
-    "frete": 99.4,
-    "impostoImportacao": 130.82,
-    "icms": 87.22,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 119.32349974999998,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "iMusic:5026328705057",
    "fonte": "iMusic",
-   "titulo": "Compilation · Punk 45: I'm A Mess (LP) (2022)",
+   "titulo": "Punk 45: I'm A Mess (LP) (2022)",
    "preco": 156.9,
-   "url": "https://imusic.br.com/music/5026328705057/compilation-2022-punk-45-i-m-a-mess-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/057/5026328705057.jpg?compilation-2022-punk-45-i-m-a-mess-lp&class=scaled&v=1665120228",
+   "url": "https://imusic.br.com/music/5026328705057/v-a-2022-punk-45-i-m-a-mess-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/057/5026328705057.jpg?v-a-2022-punk-45-i-m-a-mess-lp&class=scaled&v=1665120228",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
    "precoTotal": 462.6,
@@ -1933,7 +1638,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 119.32349974999998,
+   "refDiscogs": 96.88,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2194,35 +1899,6 @@
    }
   },
   {
-   "id": "discogs:27423360",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2023, US)",
-   "preco": 144.66,
-   "precoOriginal": {
-    "valor": 144.66,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/27423360",
-   "imagem": "https://i.discogs.com/5Cp2gZYkVIHbbHokK4HVnEho_Ltmoql6KqefGmvuX68/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NDIz/MzYwLTE2ODcxMzEy/NTQtOTc1Mi5qcGVn.jpeg",
-   "observacao": "Menor preço entre 27 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 503.12,
-   "custos": {
-    "frete": 99.4,
-    "impostoImportacao": 146.44,
-    "icms": 97.62,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 343.5549342105263,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "iMusic:0094638511410",
    "fonte": "iMusic",
    "titulo": "Lcd Soundsystem · Sound Of Silver (LP) (2016)",
@@ -2240,7 +1916,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 343.5549342105263,
+   "refDiscogs": 259.0036109375,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2254,6 +1930,29 @@
    "preco": 181.9,
    "url": "https://imusic.br.com/music/0196587839215/half-alive-2023-conditions-of-a-punk-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/215/0196587839215.jpg?half-alive-2023-conditions-of-a-punk-lp&class=scaled&v=1676836533",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "punk",
+   "precoTotal": 512.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 149.28,
+    "icms": 99.52,
+    "despacho": 15
+   },
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0199584400211",
+   "fonte": "iMusic",
+   "titulo": "Tyler The Creator · Don't Tap the Glass (LP) [1st Anniversary Clear Vinyl edition] (2026)",
+   "preco": 181.9,
+   "url": "https://imusic.br.com/music/0199584400211/tyler-the-creator-2026-don-t-tap-the-glass-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/211/0199584400211.jpg?tyler-the-creator-2026-don-t-tap-the-glass-lp&class=scaled&v=1784730612",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
    "precoTotal": 512.6,
@@ -2363,6 +2062,31 @@
    }
   },
   {
+   "id": "iMusic:9951193577118",
+   "fonte": "iMusic",
+   "titulo": "Home Front · Games of Power (LP) (2023)",
+   "preco": 200.9,
+   "url": "https://imusic.br.com/music/9951193577118/home-front-2023-games-of-power-lp",
+   "imagem": "https://imusic-static.b-cdn.net/images/missing.png",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 550.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 160.68,
+    "icms": 107.12,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 96.88,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "iMusic:0195497352142",
    "fonte": "iMusic",
    "titulo": "J Jazz Volume 3: Deep Modern Jazz from Japan · J Jazz Volume 3: Deep Modern Jazz From Japan (LP) (2021)",
@@ -2386,51 +2110,61 @@
    }
   },
   {
-   "id": "iMusic:9951193577118",
-   "fonte": "iMusic",
-   "titulo": "Home Front · Games of Power (LP) (2023)",
-   "preco": 206.9,
-   "url": "https://imusic.br.com/music/9951193577118/home-front-2023-games-of-power-lp",
-   "imagem": "https://imusic-static.b-cdn.net/images/missing.png",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
+   "id": "discogs:3921382",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2012, UK)",
+   "preco": 173.3,
+   "precoOriginal": {
+    "valor": 173.3,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/3921382",
+   "imagem": "https://i.discogs.com/51Zr-CJGnND4PeIrN8aDBIhThBPy07U5MB0aeFvz4FY/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MjEz/ODItMTM0OTI5OTA3/Mi0xOTMyLmpwZWc.jpeg",
+   "observacao": "Menor preço entre 12 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 560.4,
+   "custos": {
+    "frete": 99.4,
+    "impostoImportacao": 163.62,
+    "icms": 109.08,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 259.0036109375,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "discogs:1312950",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2007, US)",
+   "preco": 174.4,
+   "precoOriginal": {
+    "valor": 174.4,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/1312950",
+   "imagem": "https://i.discogs.com/hIzE3Jtg4GDuWsQk3MSJbOsPRzcT6ydO1HNFqn5_Ojw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTI5/NTAtMTU4OTI0ODUy/OS0yNzM1LmpwZWc.jpeg",
+   "observacao": "Menor preço entre 5 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 562.6,
    "custos": {
-    "frete": 66.9,
+    "frete": 99.4,
     "impostoImportacao": 164.28,
     "icms": 109.52,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 119.32349974999998,
+   "refDiscogs": 259.0036109375,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": false
-   }
-  },
-  {
-   "id": "iMusic:8714092736885",
-   "fonte": "iMusic",
-   "titulo": "Social Distortion · Born to Kill (Pink & Yellow Vinyl) (LP) [Pink & Yellow Vinyl edition] (2026)",
-   "preco": 206.9,
-   "url": "https://imusic.br.com/music/8714092736885/social-distortion-2026-born-to-kill-pink-yellow-vinyl-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/885/8714092736885.jpg?social-distortion-2026-born-to-kill-pink-yellow-vinyl-lp&class=scaled&v=1776087775",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "punk",
-   "precoTotal": 562.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 164.28,
-    "icms": 109.52,
-    "despacho": 15
-   },
-   "teto": 80,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
    }
   },
   {
@@ -2572,6 +2306,29 @@
    }
   },
   {
+   "id": "iMusic:4995879608555",
+   "fonte": "iMusic",
+   "titulo": "All That Jazz · Ghibli Jazz (Green Vinyl) (LP) [Japan Import edition] (2024)",
+   "preco": 219.9,
+   "url": "https://imusic.br.com/music/4995879608555/all-that-jazz-2024-ghibli-jazz-green-vinyl-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/555/4995879608555.jpg?all-that-jazz-2024-ghibli-jazz-green-vinyl-lp&class=scaled&v=1728989773",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 588.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 172.08,
+    "icms": 114.72,
+    "despacho": 15
+   },
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "iMusic:0829732216417",
    "fonte": "iMusic",
    "titulo": "Lcd Soundsystem · Sound Of Silver (LP) (2007)",
@@ -2589,7 +2346,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 343.5549342105263,
+   "refDiscogs": 259.0036109375,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2643,51 +2400,6 @@
    }
   },
   {
-   "id": "discogs:932618",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2007, Europe)",
-   "preco": 336.4,
-   "precoOriginal": {
-    "valor": 336.4,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/932618",
-   "imagem": "https://i.discogs.com/iTYwikBvgkWKfkl8ScjppkQTON9zzNnTU4ZL4YlMXcg/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzMjYx/OC0xNjAyNTM1MDE1/LTExOTIuanBlZw.jpeg",
-   "observacao": "Menor preço entre 8 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 886.6,
-   "custos": {
-    "frete": 99.4,
-    "impostoImportacao": 261.48,
-    "icms": 174.32,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 343.5549342105263,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
-   }
-  },
-  {
-   "id": "Patuá Discos:365565422",
-   "fonte": "Patuá Discos",
-   "titulo": "Syncro Jazz - Syncro Jazz Live - LP",
-   "preco": 900,
-   "url": "https://patuadiscos.com.br/produtos/syncro-jazz-syncro-jazz-live-lp-16ey5/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/18664-909f5cc85896c1ef2717885535703976-1024-1024.webp",
-   "busca": "jazz",
-   "precoTotal": 900,
-   "teto": 80,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "discogs:881288",
    "fonte": "Discogs",
    "titulo": "The Rapture - Pieces Of The People We Love (2006, UK & Europe)",
@@ -2717,5 +2429,8 @@
    }
   }
  ],
- "erros": []
+ "erros": [
+  "Patuá Discos: falha em \"punk\": HTTP 429 em https://www.patuadiscos.com.br/search/?q=punk",
+  "Patuá Discos: falha em \"jazz\": HTTP 429 em https://www.patuadiscos.com.br/search/?q=jazz"
+ ]
 }
