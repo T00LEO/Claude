@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-07T13:23:57.470Z",
+ "geradoEm": "2026-10-07T23:05:39.961Z",
  "teto": 200,
  "tetoVarredura": 80,
  "fatorDiscogs": 0.9,
@@ -9,7 +9,7 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 214.16597303370784
+   "refDiscogs": 291.6101552
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
@@ -23,14 +23,14 @@
    "artista": "Rotten Mind",
    "titulo": "Unflavored",
    "teto": 200,
-   "refDiscogs": 124.9752808988764
+   "refDiscogs": 124.9757808
   },
   {
    "chave": "home-front-games-of-power",
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 170.47
+   "refDiscogs": 99.93896604639998
   }
  ],
  "ofertas": [
@@ -138,22 +138,6 @@
    "url": "https://www.baratosafins.com.br/produto/joao-carlos-assis-brasil-jazz-brasil.html",
    "busca": "jazz",
    "precoTotal": 85,
-   "teto": 80,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358399633",
-   "fonte": "Patuá Discos",
-   "titulo": "Gilberto Gil - Extra - LP",
-   "preco": 90,
-   "url": "https://patuadiscos.com.br/produtos/gilberto-gil-extra-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/10061-1c2c87f4899551164517854091424540-1024-1024.webp",
-   "busca": "punk",
-   "precoTotal": 90,
    "teto": 80,
    "criterios": {
     "teto": false,
@@ -392,11 +376,12 @@
    }
   },
   {
-   "id": "Baratos Afins:363303609",
-   "fonte": "Baratos Afins",
-   "titulo": "LOS EX TRIDENTES - LP",
+   "id": "Locomotiva Discos:96812b",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
    "preco": 150,
-   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
+   "url": "https://www.locomotivadiscos.com.br/pd-96812b-lp-varios-artistas-a-divina-tragedia-alternative-post-punk-vol-3.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96812B/183D68B/330xN.jpg",
    "busca": "punk",
    "precoTotal": 150,
    "teto": 80,
@@ -407,12 +392,11 @@
    }
   },
   {
-   "id": "Locomotiva Discos:96812b",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
+   "id": "Baratos Afins:363303609",
+   "fonte": "Baratos Afins",
+   "titulo": "LOS EX TRIDENTES - LP",
    "preco": 150,
-   "url": "https://www.locomotivadiscos.com.br/pd-96812b-lp-varios-artistas-a-divina-tragedia-alternative-post-punk-vol-3.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96812B/183D68B/330xN.jpg",
+   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
    "busca": "punk",
    "precoTotal": 150,
    "teto": 80,
@@ -762,11 +746,11 @@
    "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "the-rapture-pieces-of-the-people-we-love",
    "busca": "The Rapture – Pieces of the People We Love",
-   "precoTotal": 253.48,
+   "precoTotal": 255.08,
    "custos": {
-    "frete": 99.4,
-    "impostoImportacao": 71.54,
-    "icms": 47.7,
+    "frete": 100.2,
+    "impostoImportacao": 72.02,
+    "icms": 48.02,
     "despacho": 15
    },
    "teto": 200,
@@ -819,7 +803,7 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 214.16597303370784,
+   "refDiscogs": 291.6101552,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -916,15 +900,15 @@
    "observacao": "Menor preço entre 17 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 322.82,
+   "precoTotal": 324.42,
    "custos": {
-    "frete": 99.4,
-    "impostoImportacao": 92.35,
-    "icms": 61.56,
+    "frete": 100.2,
+    "impostoImportacao": 92.83,
+    "icms": 61.88,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 124.9752808988764,
+   "refDiscogs": 124.9757808,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1038,15 +1022,15 @@
    "observacao": "Menor preço entre 9 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 372.52,
+   "precoTotal": 374.12,
    "custos": {
-    "frete": 99.4,
-    "impostoImportacao": 107.26,
-    "icms": 71.5,
+    "frete": 100.2,
+    "impostoImportacao": 107.74,
+    "icms": 71.82,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 124.9752808988764,
+   "refDiscogs": 124.9757808,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1071,7 +1055,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 124.9752808988764,
+   "refDiscogs": 124.9757808,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1318,54 +1302,6 @@
    }
   },
   {
-   "id": "iMusic:5056321659972",
-   "fonte": "iMusic",
-   "titulo": "Home Front · Games of Power (LP) (2023)",
-   "preco": 124.9,
-   "url": "https://imusic.br.com/music/5056321659972/home-front-2023-games-of-power-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/972/5056321659972.jpg?home-front-2023-games-of-power-lp&class=scaled&v=1676571614",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 398.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 115.08,
-    "icms": 76.72,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 170.47,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": true
-   }
-  },
-  {
-   "id": "iMusic:5021732589859",
-   "fonte": "iMusic",
-   "titulo": "Joey Valence & Brae · Punk Tactics (LP) (2026)",
-   "preco": 124.9,
-   "url": "https://imusic.br.com/music/5021732589859/joey-valence-brae-2026-punk-tactics-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/859/5021732589859.jpg?joey-valence-brae-2026-punk-tactics-lp&class=scaled&v=1769715998",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "punk",
-   "precoTotal": 398.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 115.08,
-    "icms": 76.72,
-    "despacho": 15
-   },
-   "teto": 80,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "Patuá Discos:358391338",
    "fonte": "Patuá Discos",
    "titulo": "Wander Wildner - Mocochinchi Folksom - LP",
@@ -1374,6 +1310,54 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/16455-f45c4250329856540017853914147428-1024-1024.webp",
    "busca": "punk",
    "precoTotal": 400,
+   "teto": 80,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:5056321659972",
+   "fonte": "iMusic",
+   "titulo": "Home Front · Games of Power (LP) (2023)",
+   "preco": 125.9,
+   "url": "https://imusic.br.com/music/5056321659972/home-front-2023-games-of-power-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/972/5056321659972.jpg?home-front-2023-games-of-power-lp&class=scaled&v=1676571614",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 400.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 115.68,
+    "icms": 77.12,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 99.93896604639998,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": true
+   }
+  },
+  {
+   "id": "iMusic:5021732589859",
+   "fonte": "iMusic",
+   "titulo": "Joey Valence & Brae · Punk Tactics (LP) (2026)",
+   "preco": 125.9,
+   "url": "https://imusic.br.com/music/5021732589859/joey-valence-brae-2026-punk-tactics-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/859/5021732589859.jpg?joey-valence-brae-2026-punk-tactics-lp&class=scaled&v=1769715998",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "punk",
+   "precoTotal": 400.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 115.68,
+    "icms": 77.12,
+    "despacho": 15
+   },
    "teto": 80,
    "criterios": {
     "teto": false,
@@ -1658,12 +1642,41 @@
    }
   },
   {
+   "id": "discogs:37531311",
+   "fonte": "Discogs",
+   "titulo": "Home Front (2) - Games Of Power (2026, Europe)",
+   "preco": 108.67,
+   "precoOriginal": {
+    "valor": 108.67,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/37531311",
+   "imagem": "https://i.discogs.com/DyDY_XxAFP6dR6wHpIYrZCxDEaX2q_MvMNVYERIYw0U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMx/MzExLTE3ODQ0OTIz/MjYtMTczNS5qcGVn.jpeg",
+   "observacao": "Menor preço entre 7 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 432.74,
+   "custos": {
+    "frete": 100.2,
+    "impostoImportacao": 125.32,
+    "icms": 83.55,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 99.93896604639998,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "discogs:24320123",
    "fonte": "Discogs",
    "titulo": "Rotten Mind - Unflavored (2022, Sweden)",
-   "preco": 111.4,
+   "preco": 111.41,
    "precoOriginal": {
-    "valor": 111.4,
+    "valor": 111.41,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/24320123",
@@ -1671,15 +1684,15 @@
    "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 436.6,
+   "precoTotal": 438.22,
    "custos": {
-    "frete": 99.4,
-    "impostoImportacao": 126.48,
-    "icms": 84.32,
+    "frete": 100.2,
+    "impostoImportacao": 126.97,
+    "icms": 84.64,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 124.9752808988764,
+   "refDiscogs": 124.9757808,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1690,16 +1703,16 @@
    "id": "iMusic:4099964165098",
    "fonte": "iMusic",
    "titulo": "A Punk Tribute to Motörhead · Killed by Deaf: a Punk Tribute to Motörhead (LP) (2025)",
-   "preco": 143.9,
+   "preco": 144.9,
    "url": "https://imusic.br.com/music/4099964165098/a-punk-tribute-to-motorhead-2025-killed-by-deaf-a-punk-tribute-to-motorhead-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/098/4099964165098.jpg?a-punk-tribute-to-motorhead-2025-killed-by-deaf-a-punk-tribute-to-motorhead-lp&class=scaled&v=1758113386",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 436.6,
+   "precoTotal": 438.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 126.48,
-    "icms": 84.32,
+    "impostoImportacao": 127.08,
+    "icms": 84.72,
     "despacho": 15
    },
    "teto": 80,
@@ -1713,16 +1726,16 @@
    "id": "iMusic:0050087400279",
    "fonte": "iMusic",
    "titulo": "Queen · Jazz (LP) [180 gram edition] (2018)",
-   "preco": 143.9,
+   "preco": 144.9,
    "url": "https://imusic.br.com/music/0050087400279/queen-2018-jazz-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/279/0050087400279.jpg?queen-2018-jazz-lp&class=scaled&v=1585992640",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 436.6,
+   "precoTotal": 438.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 126.48,
-    "icms": 84.32,
+    "impostoImportacao": 127.08,
+    "icms": 84.72,
     "despacho": 15
    },
    "teto": 80,
@@ -1736,16 +1749,16 @@
    "id": "iMusic:0888072230965",
    "fonte": "iMusic",
    "titulo": "Art Pepper · Art Pepper + Eleven (modern Jazz Classics) (LP) [Contemporary Records Acoustic Sounds Series edition] (2022)",
-   "preco": 143.9,
+   "preco": 144.9,
    "url": "https://imusic.br.com/music/0888072230965/art-pepper-2022-art-pepper-eleven-modern-jazz-classics-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/965/0888072230965.jpg?art-pepper-2022-art-pepper-eleven-modern-jazz-classics-lp&class=scaled&v=1628526541",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 436.6,
+   "precoTotal": 438.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 126.48,
-    "icms": 84.32,
+    "impostoImportacao": 127.08,
+    "icms": 84.72,
     "despacho": 15
    },
    "teto": 80,
@@ -1759,16 +1772,16 @@
    "id": "iMusic:0888072505070",
    "fonte": "iMusic",
    "titulo": "The Dave Brubeck Quartet · Jazz at Oberlin (LP) [Original Jazz Classics Series edition] (2023)",
-   "preco": 143.9,
+   "preco": 144.9,
    "url": "https://imusic.br.com/music/0888072505070/the-dave-brubeck-quartet-2023-jazz-at-oberlin-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/070/0888072505070.jpg?the-dave-brubeck-quartet-2023-jazz-at-oberlin-lp&class=scaled&v=1692993364",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 436.6,
+   "precoTotal": 438.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 126.48,
-    "icms": 84.32,
+    "impostoImportacao": 127.08,
+    "icms": 84.72,
     "despacho": 15
    },
    "teto": 80,
@@ -1913,21 +1926,21 @@
    "id": "iMusic:8721018001064",
    "fonte": "iMusic",
    "titulo": "Home Front · Games Of Power (LP) (2023)",
-   "preco": 162.9,
+   "preco": 163.9,
    "url": "https://imusic.br.com/music/8721018001064/home-front-2023-games-of-power-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/064/8721018001064.jpg?home-front-2023-games-of-power-lp&class=scaled&v=1738452802",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "desejo": "home-front-games-of-power",
    "busca": "Home Front – Games of Power",
-   "precoTotal": 474.6,
+   "precoTotal": 476.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 137.88,
-    "icms": 91.92,
+    "impostoImportacao": 138.48,
+    "icms": 92.32,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 170.47,
+   "refDiscogs": 99.93896604639998,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1938,16 +1951,16 @@
    "id": "iMusic:5014797906150",
    "fonte": "iMusic",
    "titulo": "UK Subs · A Punk Rock Anthology - 1978-2017 (Red / Yellow Vinyl) (LP) [Limited edition] (2022)",
-   "preco": 162.9,
+   "preco": 163.9,
    "url": "https://imusic.br.com/music/5014797906150/uk-subs-2022-a-punk-rock-anthology-1978-2017-red-yellow-vinyl-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/150/5014797906150.jpg?uk-subs-2022-a-punk-rock-anthology-1978-2017-red-yellow-vinyl-lp&class=scaled&v=1637102618",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 474.6,
+   "precoTotal": 476.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 137.88,
-    "icms": 91.92,
+    "impostoImportacao": 138.48,
+    "icms": 92.32,
     "despacho": 15
    },
    "teto": 80,
@@ -1961,16 +1974,16 @@
    "id": "iMusic:4029759202233",
    "fonte": "iMusic",
    "titulo": "Iggy Pop · Live at Montreux Jazz Festival 2023 (LP) (2025)",
-   "preco": 162.9,
+   "preco": 163.9,
    "url": "https://imusic.br.com/music/4029759202233/iggy-pop-2025-live-at-montreux-jazz-festival-2023-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/233/4029759202233.jpg?iggy-pop-2025-live-at-montreux-jazz-festival-2023-lp&class=scaled&v=1730228802",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 474.6,
+   "precoTotal": 476.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 137.88,
-    "icms": 91.92,
+    "impostoImportacao": 138.48,
+    "icms": 92.32,
     "despacho": 15
    },
    "teto": 80,
@@ -1984,16 +1997,16 @@
    "id": "iMusic:0888837168618",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Random Access Memories (LP) (2025)",
-   "preco": 168.9,
+   "preco": 169.9,
    "url": "https://imusic.br.com/music/0888837168618/daft-punk-2025-random-access-memories-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/618/0888837168618.jpg?daft-punk-2025-random-access-memories-lp&class=scaled&v=1366618887",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 486.6,
+   "precoTotal": 488.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 141.48,
-    "icms": 94.32,
+    "impostoImportacao": 142.08,
+    "icms": 94.72,
     "despacho": 15
    },
    "teto": 80,
@@ -2007,16 +2020,16 @@
    "id": "iMusic:7110539899587",
    "fonte": "iMusic",
    "titulo": "Jazz Sabbath (LP) (2020)",
-   "preco": 168.9,
+   "preco": 169.9,
    "url": "https://imusic.br.com/music/7110539899587/jazz-sabbath-2020-jazz-sabbath-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/587/7110539899587.jpg?jazz-sabbath-2020-jazz-sabbath-lp&class=scaled&v=1586330666",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 486.6,
+   "precoTotal": 488.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 141.48,
-    "icms": 94.32,
+    "impostoImportacao": 142.08,
+    "icms": 94.72,
     "despacho": 15
    },
    "teto": 80,
@@ -2165,35 +2178,6 @@
    }
   },
   {
-   "id": "discogs:27423360",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2023, US)",
-   "preco": 143.79,
-   "precoOriginal": {
-    "valor": 143.79,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/27423360",
-   "imagem": "https://i.discogs.com/5Cp2gZYkVIHbbHokK4HVnEho_Ltmoql6KqefGmvuX68/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NDIz/MzYwLTE2ODcxMzEy/NTQtOTc1Mi5qcGVn.jpeg",
-   "observacao": "Menor preço entre 27 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 501.38,
-   "custos": {
-    "frete": 99.4,
-    "impostoImportacao": 145.91,
-    "icms": 97.28,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 214.16597303370784,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "iMusic:0094638511410",
    "fonte": "iMusic",
    "titulo": "Lcd Soundsystem · Sound Of Silver (LP) (2016)",
@@ -2211,7 +2195,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 214.16597303370784,
+   "refDiscogs": 291.6101552,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2245,16 +2229,16 @@
    "id": "iMusic:0196588083310",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Random Access Memories (LP) [Drumless edition] (2023)",
-   "preco": 187.9,
+   "preco": 188.9,
    "url": "https://imusic.br.com/music/0196588083310/daft-punk-2023-random-access-memories-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/310/0196588083310.jpg?daft-punk-2023-random-access-memories-lp&class=scaled&v=1695916123",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 524.6,
+   "precoTotal": 526.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 152.88,
-    "icms": 101.92,
+    "impostoImportacao": 153.48,
+    "icms": 102.32,
     "despacho": 15
    },
    "teto": 80,
@@ -2268,16 +2252,16 @@
    "id": "iMusic:0826853006446",
    "fonte": "iMusic",
    "titulo": "THE DEKU TRIO · Zelda & Jazz III (LP) [Hand Pour color vinyl edition] (2026)",
-   "preco": 187.9,
+   "preco": 188.9,
    "url": "https://imusic.br.com/music/0826853006446/the-deku-trio-2026-zelda-jazz-iii-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/446/0826853006446.jpg?the-deku-trio-2026-zelda-jazz-iii-lp&class=scaled&v=1770121569",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 524.6,
+   "precoTotal": 526.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 152.88,
-    "icms": 101.92,
+    "impostoImportacao": 153.48,
+    "icms": 102.32,
     "despacho": 15
    },
    "teto": 80,
@@ -2291,16 +2275,16 @@
    "id": "iMusic:0602577089602",
    "fonte": "iMusic",
    "titulo": "Charlie Byrd Stan Getz · Jazz Samba (LP) (2019)",
-   "preco": 187.9,
+   "preco": 188.9,
    "url": "https://imusic.br.com/music/0602577089602/charlie-byrd-stan-getz-2019-jazz-samba-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/602/0602577089602.jpg?charlie-byrd-stan-getz-2019-jazz-samba-lp&class=scaled&v=1548408656",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 524.6,
+   "precoTotal": 526.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 152.88,
-    "icms": 101.92,
+    "impostoImportacao": 153.48,
+    "icms": 102.32,
     "despacho": 15
    },
    "teto": 80,
@@ -2314,16 +2298,16 @@
    "id": "iMusic:0888072556270",
    "fonte": "iMusic",
    "titulo": "Art Blakey & the Jazz Messengers · Caravan (LP) [Original Jazz Classics Series edition] (2024)",
-   "preco": 187.9,
+   "preco": 188.9,
    "url": "https://imusic.br.com/music/0888072556270/art-blakey-the-jazz-messengers-2024-caravan-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/270/0888072556270.jpg?art-blakey-the-jazz-messengers-2024-caravan-lp&class=scaled&v=1705670185",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 524.6,
+   "precoTotal": 526.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 152.88,
-    "icms": 101.92,
+    "impostoImportacao": 153.48,
+    "icms": 102.32,
     "despacho": 15
    },
    "teto": 80,
@@ -2351,7 +2335,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 170.47,
+   "refDiscogs": 99.93896604639998,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2395,15 +2379,15 @@
    "observacao": "Menor preço entre 5 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "lcd-soundsystem-sound-of-silver",
    "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 560.5,
+   "precoTotal": 562.1,
    "custos": {
-    "frete": 99.4,
-    "impostoImportacao": 163.65,
-    "icms": 109.1,
+    "frete": 100.2,
+    "impostoImportacao": 164.13,
+    "icms": 109.42,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 214.16597303370784,
+   "refDiscogs": 291.6101552,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2414,16 +2398,16 @@
    "id": "iMusic:7392004777792",
    "fonte": "iMusic",
    "titulo": "Arne Domnérus · Jazz at the Pawnshop 1 & 2 (LP) (2007)",
-   "preco": 206.9,
+   "preco": 207.9,
    "url": "https://imusic.br.com/music/7392004777792/arne-domnerus-2007-jazz-at-the-pawnshop-1-2-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/792/7392004777792.jpg?arne-domnerus-2007-jazz-at-the-pawnshop-1-2-lp&class=scaled&v=1335873674",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 562.6,
+   "precoTotal": 564.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 164.28,
-    "icms": 109.52,
+    "impostoImportacao": 164.88,
+    "icms": 109.92,
     "despacho": 15
    },
    "teto": 80,
@@ -2437,16 +2421,16 @@
    "id": "iMusic:0602488202145",
    "fonte": "iMusic",
    "titulo": "Stan Getz / Luiz Bonfá · Jazz Samba Encore! (LP) [Verve Acoustic Sounds Series edition] (2026)",
-   "preco": 212.9,
+   "preco": 213.9,
    "url": "https://imusic.br.com/music/0602488202145/stan-getz-luiz-bonfa-2026-jazz-samba-encore-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/145/0602488202145.jpg?stan-getz-luiz-bonfa-2026-jazz-samba-encore-lp&class=scaled&v=1772280662",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 574.6,
+   "precoTotal": 576.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 167.88,
-    "icms": 111.92,
+    "impostoImportacao": 168.48,
+    "icms": 112.32,
     "despacho": 15
    },
    "teto": 80,
@@ -2552,24 +2536,24 @@
    "id": "iMusic:0829732216417",
    "fonte": "iMusic",
    "titulo": "Lcd Soundsystem · Sound Of Silver (LP) (2007)",
-   "preco": 231.9,
+   "preco": 232.9,
    "url": "https://imusic.br.com/music/0829732216417/lcd-soundsystem-2007-sound-of-silver-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/417/0829732216417.jpg?lcd-soundsystem-2007-sound-of-silver-lp&class=scaled&v=1397856731",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "desejo": "lcd-soundsystem-sound-of-silver",
    "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 612.6,
+   "precoTotal": 614.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 179.28,
-    "icms": 119.52,
+    "impostoImportacao": 179.88,
+    "icms": 119.92,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 214.16597303370784,
+   "refDiscogs": 291.6101552,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": false
    }
   },
@@ -2577,16 +2561,16 @@
    "id": "iMusic:4029759219538",
    "fonte": "iMusic",
    "titulo": "Hollywood Vampires · At Montreux Jazz Festival (LP) (2026)",
-   "preco": 237.9,
+   "preco": 238.9,
    "url": "https://imusic.br.com/music/4029759219538/hollywood-vampires-2026-at-montreux-jazz-festival-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/538/4029759219538.jpg?hollywood-vampires-2026-at-montreux-jazz-festival-lp&class=scaled&v=1783416664",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 624.6,
+   "precoTotal": 626.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 182.88,
-    "icms": 121.92,
+    "impostoImportacao": 183.48,
+    "icms": 122.32,
     "despacho": 15
    },
    "teto": 80,
@@ -2623,16 +2607,16 @@
    "id": "iMusic:0722056185127",
    "fonte": "iMusic",
    "titulo": "Men I Trust · Oncle Jazz (LP) (2019)",
-   "preco": 275.9,
+   "preco": 276.9,
    "url": "https://imusic.br.com/music/0722056185127/men-i-trust-2019-oncle-jazz-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/127/0722056185127.jpg?men-i-trust-2019-oncle-jazz-lp&class=scaled&v=1572424773",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 700.6,
+   "precoTotal": 702.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 205.68,
-    "icms": 137.12,
+    "impostoImportacao": 206.28,
+    "icms": 137.52,
     "despacho": 15
    },
    "teto": 80,
@@ -2656,15 +2640,15 @@
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "home-front-games-of-power",
    "busca": "Home Front – Games of Power",
-   "precoTotal": 874.48,
+   "precoTotal": 876.08,
    "custos": {
-    "frete": 99.4,
-    "impostoImportacao": 257.84,
-    "icms": 171.9,
+    "frete": 100.2,
+    "impostoImportacao": 258.32,
+    "icms": 172.22,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 170.47,
+   "refDiscogs": 99.93896604639998,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2688,6 +2672,35 @@
    }
   },
   {
+   "id": "discogs:1114048",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2007, UK)",
+   "preco": 661.27,
+   "precoOriginal": {
+    "valor": 661.27,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/1114048",
+   "imagem": "https://i.discogs.com/lHyyMEJu5HgBzY8J07eOAhefL0BrXpiuFQjKqzrV8YQ/rs:fit/g:sm/q:90/h:374/w:494/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTQw/NDgtMTM0NDk3MzAy/OC03NTMyLmpwZWc.jpeg",
+   "observacao": "Menor preço entre 3 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 1537.94,
+   "custos": {
+    "frete": 100.2,
+    "impostoImportacao": 456.88,
+    "icms": 304.59,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 291.6101552,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "discogs:881288",
    "fonte": "Discogs",
    "titulo": "The Rapture - Pieces Of The People We Love (2006, UK & Europe)",
@@ -2701,11 +2714,11 @@
    "observacao": "Menor preço entre 3 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "the-rapture-pieces-of-the-people-we-love",
    "busca": "The Rapture – Pieces of the People We Love",
-   "precoTotal": 2121.5,
+   "precoTotal": 2123.1,
    "custos": {
-    "frete": 99.4,
-    "impostoImportacao": 631.95,
-    "icms": 421.3,
+    "frete": 100.2,
+    "impostoImportacao": 632.43,
+    "icms": 421.62,
     "despacho": 15
    },
    "teto": 200,
