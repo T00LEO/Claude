@@ -5,6 +5,15 @@ Varre sites de venda de discos de vinil atrás de bons preços, publica as ofert
 - **Página:** https://t00leo.github.io/Claude/vinil/
 - **Quando roda:** sozinho a cada 6 horas (GitHub Actions), ou na hora em *Actions → Varredura de vinil → Run workflow*.
 
+## Usando a página
+
+- **Ofertas:** os discos da sua lista e as ofertas que cabem no teto. Em "Mostrar" você escolhe entre todas dentro do teto, só as abaixo do preço de referência do Discogs ou só a mais barata de cada disco. O filtro vale na hora.
+- **Minha lista:** os discos que você procura, com o preço mais baixo encontrado de cada um. Ali você adiciona e remove discos e define o teto (padrão ou por disco).
+- **Varredura geral:** gêneros e termos buscados nas lojas e as ofertas encontradas dentro do teto da varredura.
+- **Buscar agora:** roda a varredura na hora; os resultados aparecem em 1 a 3 minutos.
+
+Editar a lista e buscar agora exigem conectar a página ao GitHub uma vez em cada aparelho, com um token pessoal (a própria página explica como criar). O token precisa só de acesso a este repositório, com as permissões **Contents** e **Actions** em "Read and write", e fica guardado apenas no navegador. As alterações ficam pendentes até você tocar em **Salvar e buscar**, que grava `config.json` no repositório e já dispara uma busca.
+
 ## O que é "bom preço"
 
 Cada oferta é avaliada pelos três critérios; na página você escolhe qual quer ver:

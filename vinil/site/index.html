@@ -8,213 +8,602 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23111'/><circle cx='50' cy='50' r='16' fill='%23e0603a'/><circle cx='50' cy='50' r='3' fill='%23111'/></svg>">
 <style>
   :root {
-    --bg: #f6f4f0; --surface: #ffffff; --text: #1d1b19; --muted: #6b655e; --line: #e4dfd7;
-    --accent: #c4471f; --accent-soft: #fbe9e2; --good: #1f7a4d; --good-soft: #e1f3e9; --warn: #8a5a00;
+    --bg: #f6f4f0; --surface: #ffffff; --surface-2: #faf8f5; --text: #1d1b19; --muted: #6b655e; --line: #e4dfd7;
+    --accent: #c4471f; --accent-soft: #fbe9e2; --good: #1f7a4d; --good-soft: #e1f3e9; --warn: #8a5a00; --warn-soft: #fbf1dc;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --bg: #151413; --surface: #1f1d1b; --text: #eeeae4; --muted: #a39c93; --line: #34312d;
-      --accent: #f07a52; --accent-soft: #3a231b; --good: #5fcf94; --good-soft: #17301f; --warn: #e2b04a;
+      --bg: #151413; --surface: #1f1d1b; --surface-2: #252320; --text: #eeeae4; --muted: #a39c93; --line: #34312d;
+      --accent: #f07a52; --accent-soft: #3a231b; --good: #5fcf94; --good-soft: #17301f; --warn: #e2b04a; --warn-soft: #33290f;
     }
   }
   :root[data-theme="dark"] {
-    --bg: #151413; --surface: #1f1d1b; --text: #eeeae4; --muted: #a39c93; --line: #34312d;
-    --accent: #f07a52; --accent-soft: #3a231b; --good: #5fcf94; --good-soft: #17301f; --warn: #e2b04a;
+    --bg: #151413; --surface: #1f1d1b; --surface-2: #252320; --text: #eeeae4; --muted: #a39c93; --line: #34312d;
+    --accent: #f07a52; --accent-soft: #3a231b; --good: #5fcf94; --good-soft: #17301f; --warn: #e2b04a; --warn-soft: #33290f;
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
-  main { max-width: 960px; margin: 0 auto; padding: 16px; }
-  header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
-  h1 { font-size: 22px; margin: 4px 0; }
+  main { max-width: 860px; margin: 0 auto; padding: 16px 16px 96px; }
+  h1 { font-size: 22px; margin: 0; }
+  h2 { font-size: 16px; margin: 0 0 2px; }
+  h3 { font-size: 15px; margin: 0 0 8px; }
   .muted { color: var(--muted); font-size: 13px; }
-  .abas { display: flex; gap: 4px; margin: 16px 0 12px; border-bottom: 1px solid var(--line); }
-  .abas button { border: 0; background: none; color: var(--muted); padding: 8px 12px; font: inherit; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+  .topo { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  button { font: inherit; cursor: pointer; border-radius: 8px; padding: 8px 14px; border: 1px solid var(--line); background: var(--surface); color: var(--text); }
+  button.primario { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  button.discreto { background: none; border-color: transparent; color: var(--muted); padding: 6px 8px; }
+  button:disabled { opacity: .55; cursor: default; }
+  input { font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; width: 100%; }
+  input:disabled { background: var(--surface-2); }
+  label.campo { display: flex; flex-direction: column; gap: 3px; font-size: 13px; color: var(--muted); }
+  .status { margin-top: 10px; padding: 8px 12px; border-radius: 8px; background: var(--warn-soft); color: var(--warn); font-size: 14px; }
+  .status.ok { background: var(--good-soft); color: var(--good); }
+  .abas { display: flex; gap: 2px; margin: 16px 0; border-bottom: 1px solid var(--line); overflow-x: auto; }
+  .abas button { border: 0; border-radius: 0; background: none; color: var(--muted); padding: 10px 12px; border-bottom: 2px solid transparent; margin-bottom: -1px; white-space: nowrap; }
   .abas button[aria-selected="true"] { color: var(--text); border-color: var(--accent); font-weight: 600; }
-  .filtros { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; margin-bottom: 8px; }
-  .filtros label { display: flex; flex-direction: column; gap: 2px; font-size: 12px; color: var(--muted); }
-  input, select { font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 7px 9px; width: 100%; }
-  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 16px; }
-  .chips button { font: inherit; font-size: 13px; border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 999px; padding: 5px 12px; cursor: pointer; }
-  .chips button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
-  .grupo { margin-bottom: 20px; }
-  .grupo h2 { font-size: 16px; margin: 0 0 2px; }
-  .grupo .muted { margin-bottom: 8px; }
+  .cartao { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px; margin-bottom: 16px; }
+  fieldset.mostrar { border: 1px solid var(--line); border-radius: 12px; padding: 8px 12px 10px; margin: 0 0 8px; background: var(--surface); }
+  fieldset.mostrar legend { font-weight: 600; padding: 0 4px; font-size: 14px; }
+  .opcao { display: flex; gap: 10px; align-items: flex-start; padding: 6px 2px; cursor: pointer; }
+  .opcao input { width: auto; margin-top: 3px; accent-color: var(--accent); }
+  .opcao span span { display: block; }
+  .contagem { margin: 4px 0 16px; }
+  .grupo { margin-bottom: 22px; }
+  .grupo > .muted { margin-bottom: 8px; }
   .lista { display: flex; flex-direction: column; gap: 8px; }
   .oferta { display: flex; gap: 12px; align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px; text-decoration: none; color: inherit; }
   .oferta:hover { border-color: var(--accent); }
   .oferta img, .oferta .sem-capa { width: 56px; height: 56px; border-radius: 6px; object-fit: cover; flex: none; background: var(--line); }
   .oferta .info { flex: 1; min-width: 0; }
   .oferta .titulo { overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
-  .oferta .preco { font-weight: 700; font-size: 17px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .preco { font-weight: 700; font-size: 17px; white-space: nowrap; font-variant-numeric: tabular-nums; }
   .selos { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
   .selo { font-size: 11px; padding: 1px 7px; border-radius: 999px; background: var(--line); color: var(--muted); }
   .selo.bom { background: var(--good-soft); color: var(--good); font-weight: 600; }
-  .vazio { color: var(--muted); padding: 24px 0; text-align: center; }
-  details { margin-top: 24px; font-size: 13px; }
-  details summary { cursor: pointer; color: var(--warn); }
-  details li { color: var(--muted); }
+  .vazio { color: var(--muted); padding: 10px 12px; border: 1px dashed var(--line); border-radius: 10px; font-size: 14px; margin: 0; }
+  .desejo { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; align-items: center; padding: 12px 0; border-top: 1px solid var(--line); }
+  .desejo.novo { background: var(--good-soft); margin: 0 -14px; padding: 12px 14px; }
+  .teto-disco { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); }
+  .teto-disco input { width: 100px; padding: 6px 8px; }
+  .form-novo { display: grid; grid-template-columns: 1fr 1fr 110px auto; gap: 8px; align-items: end; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); }
+  @media (max-width: 560px) { .form-novo { grid-template-columns: 1fr 1fr; } .form-novo .largo { grid-column: 1 / -1; } }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { display: inline-flex; align-items: center; gap: 2px; padding: 4px 4px 4px 12px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--line); font-size: 14px; }
+  .chip button { padding: 0 8px; border: 0; background: none; color: var(--muted); font-size: 17px; line-height: 1; }
+  .linha { display: flex; gap: 8px; align-items: end; flex-wrap: wrap; }
+  .linha > * { flex: 1; min-width: 140px; }
+  .linha > button, .linha > .discreto { flex: none; min-width: 0; }
+  .barra-salvar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--surface); border-top: 1px solid var(--line); box-shadow: 0 -4px 16px rgb(0 0 0 / .08); padding: 12px 16px; }
+  .barra-salvar > div { max-width: 860px; margin: 0 auto; display: flex; gap: 8px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+  details { font-size: 13px; }
+  details summary { cursor: pointer; color: var(--muted); }
+  #avisos { margin-top: 24px; }
+  ol.passos { padding-left: 20px; margin: 8px 0; }
+  ol.passos li { margin-bottom: 4px; }
+  a { color: var(--accent); }
+  [hidden] { display: none !important; }
 </style>
 </head>
 <body>
 <main>
-  <header>
-    <h1>Caça Vinil</h1>
-    <span class="muted" id="atualizado">Carregando…</span>
-  </header>
+  <div class="topo">
+    <div>
+      <h1>Caça Vinil</h1>
+      <div class="muted" id="atualizado">Carregando…</div>
+    </div>
+    <button class="primario" id="buscar-agora" title="Roda a varredura agora em vez de esperar a próxima automática">Buscar agora</button>
+  </div>
+  <div id="status" class="status" role="status" hidden></div>
 
   <div class="abas" role="tablist">
-    <button role="tab" data-aba="desejos" aria-selected="true">Lista de desejos</button>
+    <button role="tab" data-aba="ofertas" aria-selected="true">Ofertas</button>
+    <button role="tab" data-aba="lista" aria-selected="false">Minha lista</button>
     <button role="tab" data-aba="varredura" aria-selected="false">Varredura geral</button>
   </div>
 
-  <div class="filtros">
-    <label>Buscar <input id="busca" type="search" placeholder="artista, título…"></label>
-    <label>Teto, preço total (R$) <input id="teto" type="number" min="0" step="10" placeholder="da configuração"></label>
-    <label>Fonte <select id="fonte"><option value="">Todas</option></select></label>
-    <label>Estado <select id="condicao"><option value="">Qualquer</option><option value="novo">Novo</option><option value="usado">Usado</option></select></label>
-  </div>
+  <section id="aba-ofertas">
+    <fieldset class="mostrar">
+      <legend>Mostrar</legend>
+      <label class="opcao"><input type="radio" name="filtro" value="teto" checked><span><b>Todas dentro do teto</b><span class="muted">Preço total (com frete e impostos, se importado) até o teto do disco.</span></span></label>
+      <label class="opcao"><input type="radio" name="filtro" value="discogs"><span><b>Só abaixo do preço do Discogs</b><span class="muted">Dentro do teto e até 90% do valor de referência do disco no Discogs.</span></span></label>
+      <label class="opcao"><input type="radio" name="filtro" value="maisBarato"><span><b>Só a mais barata de cada disco</b><span class="muted">Dentro do teto e a menor entre todas as lojas que têm o disco.</span></span></label>
+    </fieldset>
+    <p class="muted contagem" id="contagem"></p>
+    <div id="lista-ofertas"></div>
+  </section>
 
-  <div class="chips" id="criterios">
-    <button data-criterio="teto" aria-pressed="true">Todas dentro do teto</button>
-    <button data-criterio="discogs" aria-pressed="false">Abaixo do Discogs</button>
-    <button data-criterio="maisBarato" aria-pressed="false">Mais barato entre lojas</button>
-  </div>
+  <section id="aba-lista" hidden>
+    <div id="conectar" class="cartao"></div>
+    <div class="cartao">
+      <label class="campo" style="max-width:260px">Teto padrão (R$, preço total)<input id="teto-padrao" type="number" min="1" step="any"></label>
+      <p class="muted">Vale para os discos sem teto próprio. Discos importados contam frete e impostos.</p>
+      <div id="desejos"></div>
+      <form class="form-novo" id="form-novo">
+        <label class="campo">Artista<input name="artista" required autocomplete="off"></label>
+        <label class="campo">Título do disco<input name="titulo" required autocomplete="off"></label>
+        <label class="campo">Teto (opcional)<input name="teto" type="number" min="1" step="any" placeholder="padrão"></label>
+        <button class="largo" type="submit">Adicionar</button>
+      </form>
+    </div>
+  </section>
 
-  <div id="conteudo"></div>
+  <section id="aba-varredura" hidden>
+    <div class="cartao">
+      <h3>O que procurar nas lojas</h3>
+      <div class="chips" id="generos"></div>
+      <form class="linha" id="form-genero" style="margin-top:12px">
+        <label class="campo">Gênero ou termo de busca<input name="termo" required placeholder="ex.: post-punk, blue note" autocomplete="off"></label>
+        <button type="submit">Adicionar</button>
+      </form>
+      <label class="campo" style="max-width:260px;margin-top:12px">Teto da varredura (R$, preço total)<input id="teto-varredura" type="number" min="1" step="any"></label>
+    </div>
+    <p class="muted contagem" id="contagem-varredura"></p>
+    <div id="lista-varredura"></div>
+  </section>
+
   <details id="avisos" hidden><summary></summary><ul></ul></details>
 </main>
 
+<div class="barra-salvar" id="barra-salvar" hidden>
+  <div>
+    <span id="pendencias"></span>
+    <span style="display:flex;gap:8px">
+      <button id="descartar">Descartar</button>
+      <button class="primario" id="salvar">Salvar e buscar</button>
+    </span>
+  </div>
+</div>
+
 <script>
-const estado = { aba: "desejos", criterio: "teto", dados: null };
-try { const s = JSON.parse(localStorage.getItem("cacaVinil") || "{}"); Object.assign(estado, { aba: s.aba || estado.aba, criterio: s.criterio || estado.criterio }); } catch {}
+// Onde a configuração mora no GitHub. A página só lê e grava estes arquivos.
+const GH = { dono: "T00LEO", repo: "Claude", ramo: "claude/beverage-inventory-app-d7z84o", workflow: "vinil.yml" };
+const CAMINHO_CONFIG = "vinil/config.json";
+const CAMINHO_OFERTAS = "vinil/site/ofertas.json";
+
+const estado = {
+  aba: "ofertas",
+  filtro: "teto",
+  dados: null,      // ofertas.json
+  config: null,     // config.json como está salvo no GitHub
+  rascunho: null,   // config.json com as mudanças ainda não salvas
+  shaConfig: null,
+  token: null,
+  novos: new Set(), // discos adicionados nesta visita, para destacar
+};
+
+function ler(k) { try { return localStorage.getItem(k); } catch { return null; } }
+function gravar(k, v) { try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch {} }
+estado.token = ler("cacaVinil.token");
+try {
+  const s = JSON.parse(ler("cacaVinil") || "{}");
+  if (["ofertas", "lista", "varredura"].includes(s.aba)) estado.aba = s.aba;
+  if (["teto", "discogs", "maisBarato"].includes(s.filtro)) estado.filtro = s.filtro;
+} catch {}
 
 const $ = (s) => document.querySelector(s);
 const reais = (n) => n.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 const norm = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const seguro = (u) => (/^https?:\/\//i.test(u || "") ? u : null);
+const total = (o) => o.precoTotal ?? o.preco;
+// Igual a chaveDesejo() de src/texto.ts, para ligar cada disco da lista às suas ofertas.
+const chave = (artista, titulo) => norm(`${artista} ${titulo}`).replace(/[^a-z0-9]+/g, " ").trim().replace(/ /g, "-");
 
 function el(tag, props = {}, ...filhos) {
   const e = document.createElement(tag);
   Object.assign(e, props);
-  for (const f of filhos) if (f != null) e.append(f);
+  for (const f of filhos) if (f != null && f !== false) e.append(f);
   return e;
 }
 
-// Preço com frete e impostos de importação; arquivos antigos não têm o campo.
-const total = (o) => o.precoTotal ?? o.preco;
-
-// Só aparece o que cabe no teto pelo preço total. O teto é recalculado aqui
-// para o campo "Teto" valer na hora.
-function tetoEfetivo(padrao) {
-  const t = Number($("#teto").value);
-  return $("#teto").value && t > 0 ? t : padrao;
+function avisar(texto, ok = false) {
+  const s = $("#status");
+  s.hidden = !texto;
+  s.textContent = texto || "";
+  s.className = ok ? "status ok" : "status";
 }
 
-function dentroDoTeto(o) {
-  return total(o) <= tetoEfetivo(o.teto);
+// ---------- GitHub ----------
+
+async function gh(caminho, opcoes = {}) {
+  const res = await fetch(`https://api.github.com/repos/${GH.dono}/${GH.repo}${caminho}`, {
+    ...opcoes,
+    headers: { Accept: "application/vnd.github+json", Authorization: `Bearer ${estado.token}`, ...opcoes.headers },
+  });
+  if (res.status === 401) throw new Error("o GitHub recusou o token (expirado ou inválido)");
+  if (res.status === 403 || res.status === 404) throw new Error("o token não tem as permissões necessárias neste repositório");
+  if (res.status === 409) throw new Error("a lista mudou no GitHub enquanto você editava; recarregue a página");
+  if (!res.ok) throw new Error(`o GitHub respondeu ${res.status}`);
+  return res;
 }
 
-function atende(o, criterio) {
-  return dentroDoTeto(o) && (criterio === "teto" || o.criterios[criterio] === true);
+function paraBase64(texto) {
+  let bin = "";
+  for (const b of new TextEncoder().encode(texto)) bin += String.fromCharCode(b);
+  return btoa(bin);
+}
+const deBase64 = (b64) => new TextDecoder().decode(Uint8Array.from(atob(b64.replace(/\n/g, "")), (c) => c.charCodeAt(0)));
+
+async function carregarConfig() {
+  const r = await (await gh(`/contents/${CAMINHO_CONFIG}?ref=${encodeURIComponent(GH.ramo)}`)).json();
+  estado.config = JSON.parse(deBase64(r.content));
+  estado.shaConfig = r.sha;
+  estado.rascunho = structuredClone(estado.config);
 }
 
-function visiveis() {
-  const termo = norm($("#busca").value.trim());
-  const fonte = $("#fonte").value;
-  const condicao = $("#condicao").value;
-  return estado.dados.ofertas.filter((o) =>
-    (estado.aba === "desejos" ? o.desejo : !o.desejo) &&
-    (!fonte || o.fonte === fonte) &&
-    (!condicao || o.condicao === condicao) &&
-    (!termo || norm(o.titulo + " " + o.busca).includes(termo)) &&
-    atende(o, estado.criterio));
+// Com token, lê as ofertas direto do repositório: chegam assim que a busca
+// termina, sem esperar a página ser publicada de novo.
+async function carregarOfertas() {
+  if (estado.token) {
+    try {
+      const res = await gh(`/contents/${CAMINHO_OFERTAS}?ref=${encodeURIComponent(GH.ramo)}`, { headers: { Accept: "application/vnd.github.raw+json" } });
+      return await res.json();
+    } catch {}
+  }
+  const r = await fetch("ofertas.json", { cache: "no-store" });
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  return r.json();
 }
 
-function cartao(o) {
+let buscando = false;
+async function dispararBusca() {
+  if (buscando) return;
+  buscando = true;
+  $("#buscar-agora").disabled = true;
+  try {
+    const inicio = new Date(Date.now() - 10_000).toISOString();
+    await gh(`/actions/workflows/${GH.workflow}/dispatches`, { method: "POST", body: JSON.stringify({ ref: GH.ramo }) });
+    avisar("Busca iniciada. Leva de 1 a 3 minutos; pode deixar esta página aberta.");
+    for (let i = 0; i < 48; i++) {
+      await new Promise((r) => setTimeout(r, 10_000));
+      const runs = await (await gh(`/actions/workflows/${GH.workflow}/runs?event=workflow_dispatch&per_page=5`)).json();
+      const run = runs.workflow_runs.find((w) => w.created_at >= inicio);
+      if (!run) continue;
+      if (run.status !== "completed") { avisar("Buscando nas lojas…"); continue; }
+      if (run.conclusion !== "success") throw new Error("a busca falhou; veja os detalhes na aba Actions do GitHub");
+      estado.dados = await carregarOfertas();
+      estado.novos.clear();
+      render();
+      avisar("Pronto: ofertas atualizadas.", true);
+      return;
+    }
+    avisar("A busca está demorando mais que o normal. Recarregue a página daqui a alguns minutos.");
+  } finally {
+    buscando = false;
+    $("#buscar-agora").disabled = false;
+  }
+}
+
+// ---------- Rascunho da configuração ----------
+
+function mudancas() {
+  if (!estado.config) return 0;
+  const a = estado.config, b = estado.rascunho;
+  const diff = (xa, xb) => [...xa].filter((x) => !xb.has(x)).length + [...xb].filter((x) => !xa.has(x)).length;
+  const tetos = (c) => new Map(c.listaDeDesejos.map((d) => [chave(d.artista, d.titulo), d.teto]));
+  const ta = tetos(a), tb = tetos(b);
+  // Disco adicionado ou removido conta uma vez; teto alterado num disco que ficou, também.
+  const discos = diff(new Set(ta.keys()), new Set(tb.keys())) + [...tb].filter(([k, t]) => ta.has(k) && ta.get(k) !== t).length;
+  const termos = (c) => new Set([...c.varredura.generos, ...c.varredura.termos]);
+  return discos + diff(termos(a), termos(b)) + (a.criterios.teto !== b.criterios.teto) + (a.varredura.teto !== b.varredura.teto);
+}
+
+function atualizarBarra() {
+  const n = mudancas();
+  $("#barra-salvar").hidden = n === 0;
+  $("#pendencias").textContent = n === 1 ? "1 alteração não salva" : `${n} alterações não salvas`;
+}
+
+async function salvar() {
+  $("#salvar").disabled = true;
+  try {
+    const r = await (await gh(`/contents/${CAMINHO_CONFIG}`, {
+      method: "PUT",
+      body: JSON.stringify({
+        message: "Caça Vinil: configuração atualizada pela página",
+        content: paraBase64(JSON.stringify(estado.rascunho, null, 2) + "\n"),
+        sha: estado.shaConfig,
+        branch: GH.ramo,
+      }),
+    })).json();
+    estado.shaConfig = r.content.sha;
+    estado.config = structuredClone(estado.rascunho);
+    atualizarBarra();
+    avisar("Salvo.", true);
+  } catch (e) {
+    avisar(`Não consegui salvar: ${e.message}.`);
+    return;
+  } finally {
+    $("#salvar").disabled = false;
+  }
+  dispararBusca().catch((e) => avisar(`Salvo, mas não consegui iniciar a busca: ${e.message}.`));
+}
+
+// ---------- Telas ----------
+
+const dentroDoTeto = (o) => total(o) <= o.teto;
+const atende = (o) => dentroDoTeto(o) && (estado.filtro === "teto" || o.criterios[estado.filtro] === true);
+
+function cartaoOferta(o) {
   const selos = [el("span", { className: "selo", textContent: o.fonte })];
   if (o.condicao) selos.push(el("span", { className: "selo", textContent: o.condicao }));
-  if (o.freteGratis) selos.push(el("span", { className: "selo", textContent: "frete grátis" }));
   if (o.custos) selos.push(el("span", { className: "selo", textContent: "importado" }));
   if (o.criterios.discogs) selos.push(el("span", { className: "selo bom", textContent: "abaixo do Discogs" }));
-  if (o.criterios.maisBarato) selos.push(el("span", { className: "selo bom", textContent: "mais barato" }));
+  if (o.criterios.maisBarato) selos.push(el("span", { className: "selo bom", textContent: "a mais barata" }));
+  const c = o.custos;
   const capa = seguro(o.imagem)
     ? el("img", { src: o.imagem, alt: "", loading: "lazy", referrerPolicy: "no-referrer" })
     : el("div", { className: "sem-capa" });
-  const c = o.custos;
-  const detalhe = c
-    ? el("div", { className: "muted", textContent: `disco ${reais(o.preco)} + frete ${reais(c.frete)} + impostos ${reais(c.impostoImportacao + c.icms + c.despacho)}` })
-    : null;
-  return el("a", { className: "oferta", href: seguro(o.url) || "#", target: "_blank", rel: "noopener noreferrer", title: o.observacao || "" },
+  return el("a", { className: "oferta", href: seguro(o.url) || "#", target: "_blank", rel: "noopener noreferrer" },
     capa,
     el("div", { className: "info" },
       el("div", { className: "titulo", textContent: o.titulo }),
-      detalhe,
-      o.observacao ? el("div", { className: "muted", textContent: o.observacao }) : null,
+      c ? el("div", { className: "muted", textContent: `disco ${reais(o.preco)} + frete ${reais(c.frete)} + impostos ${reais(c.impostoImportacao + c.icms + c.despacho)}` }) : null,
       el("div", { className: "selos" }, ...selos)),
     el("div", { className: "preco", textContent: reais(total(o)) }));
 }
 
-function render() {
+const maisBarata = (lista) => lista.slice().sort((a, b) => total(a) - total(b))[0];
+
+function renderOfertas() {
   const d = estado.dados;
-  document.querySelectorAll(".abas button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.aba === estado.aba)));
-  document.querySelectorAll("#criterios button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.criterio === estado.criterio)));
-  // "Mais barato" só faz sentido comparando o mesmo disco entre lojas.
-  $('#criterios [data-criterio="maisBarato"]').hidden = estado.aba !== "desejos";
-  $('#criterios [data-criterio="discogs"]').hidden = estado.aba !== "desejos";
-  if (estado.aba !== "desejos" && ["maisBarato", "discogs"].includes(estado.criterio)) estado.criterio = "teto";
-  $("#teto").placeholder = estado.aba === "desejos" ? `${d.teto} (padrão)` : `${d.tetoVarredura} (padrão)`;
-
-  const ofertas = visiveis();
-  const alvo = $("#conteudo");
-  alvo.replaceChildren();
-
-  if (estado.aba === "desejos") {
-    if (d.desejos.length === 0) return alvo.append(el("p", { className: "vazio", textContent: "A lista de desejos está vazia. Adicione discos em vinil/config.json." }));
-    let algum = false;
-    for (const desejo of d.desejos) {
-      const doDisco = ofertas.filter((o) => o.desejo === desejo.chave);
-      const encontradas = d.ofertas.filter((o) => o.desejo === desejo.chave).length;
-      if (doDisco.length > 0) algum = true;
-      const info = [`teto ${reais(tetoEfetivo(desejo.teto))}`];
-      if (desejo.refDiscogs) info.push(`referência Discogs (VG+) ${reais(desejo.refDiscogs)}`);
-      info.push(`${encontradas} oferta(s) encontrada(s), ${doDisco.length} dentro do teto`);
-      alvo.append(el("section", { className: "grupo" },
-        el("h2", { textContent: `${desejo.artista} – ${desejo.titulo}` }),
-        el("div", { className: "muted", textContent: info.join(" · ") }),
-        doDisco.length ? el("div", { className: "lista" }, ...doDisco.map(cartao)) : el("p", { className: "muted", textContent: "Nenhuma oferta dentro do teto agora." })));
-    }
-    if (!algum) alvo.prepend(el("p", { className: "vazio", textContent: "Nenhum disco da lista tem oferta dentro do teto que atenda a esse critério agora." }));
-  } else {
-    alvo.append(ofertas.length
-      ? el("div", { className: "lista" }, ...ofertas.map(cartao))
-      : el("p", { className: "vazio", textContent: "Nenhuma oferta com esses filtros." }));
+  const daLista = d.ofertas.filter((o) => o.desejo);
+  const visiveis = daLista.filter(atende);
+  $("#contagem").textContent = `Mostrando ${visiveis.length} de ${daLista.length} ofertas encontradas para os ${d.desejos.length} discos da sua lista.`;
+  const alvo = $("#lista-ofertas");
+  if (d.desejos.length === 0) {
+    alvo.replaceChildren(el("p", { className: "vazio", textContent: "Sua lista está vazia. Adicione discos na aba Minha lista." }));
+    return;
   }
+  // Discos com oferta aparecem primeiro.
+  const grupos = d.desejos.map((desejo) => {
+    const todas = daLista.filter((o) => o.desejo === desejo.chave);
+    return { desejo, todas, boas: todas.filter(atende) };
+  }).sort((a, b) => (b.boas.length > 0) - (a.boas.length > 0));
+  alvo.replaceChildren(...grupos.map(({ desejo, todas, boas }) => {
+    const info = [`teto ${reais(desejo.teto)}`];
+    if (desejo.refDiscogs) info.push(`referência Discogs ${reais(desejo.refDiscogs)}`);
+    const melhor = maisBarata(todas);
+    const corpo = boas.length
+      ? el("div", { className: "lista" }, ...boas.map(cartaoOferta))
+      : el("p", { className: "vazio", textContent: melhor
+        ? `Nada que atenda a este filtro agora. A mais barata encontrada custa ${reais(total(melhor))} (${melhor.fonte}).`
+        : "Nenhuma oferta encontrada nas lojas pesquisadas." });
+    return el("section", { className: "grupo" },
+      el("h2", { textContent: `${desejo.artista} – ${desejo.titulo}` }),
+      el("div", { className: "muted", textContent: info.join(" · ") }),
+      corpo);
+  }));
 }
 
-function salvar() {
-  try { localStorage.setItem("cacaVinil", JSON.stringify({ aba: estado.aba, criterio: estado.criterio })); } catch {}
-}
-
-document.querySelectorAll(".abas button").forEach((b) => b.addEventListener("click", () => { estado.aba = b.dataset.aba; salvar(); render(); }));
-document.querySelectorAll("#criterios button").forEach((b) => b.addEventListener("click", () => { estado.criterio = b.dataset.criterio; salvar(); render(); }));
-for (const id of ["#busca", "#teto", "#fonte", "#condicao"]) $(id).addEventListener("input", () => render());
-
-fetch("ofertas.json", { cache: "no-store" })
-  .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
-  .then((d) => {
-    estado.dados = d;
-    $("#atualizado").textContent = d.geradoEm
-      ? `Atualizado em ${new Date(d.geradoEm).toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" })}`
-      : "Ainda não houve nenhuma varredura";
-    for (const f of [...new Set(d.ofertas.map((o) => o.fonte))].sort()) $("#fonte").append(el("option", { value: f, textContent: f }));
-    if (d.erros.length) {
-      $("#avisos summary").textContent = `${d.erros.length} aviso(s) da última varredura`;
-      $("#avisos ul").append(...d.erros.map((e) => el("li", { textContent: e })));
-      $("#avisos").hidden = false;
+function renderConectar() {
+  const box = $("#conectar");
+  if (estado.rascunho) {
+    const sair = el("button", { className: "discreto", textContent: "Desconectar" });
+    sair.addEventListener("click", () => {
+      if (mudancas() > 0 && !confirm("Descartar as alterações não salvas?")) return;
+      gravar("cacaVinil.token", null);
+      Object.assign(estado, { token: null, config: null, rascunho: null, shaConfig: null });
+      atualizarBarra();
+      avisar("");
+      render();
+    });
+    box.replaceChildren(el("div", { className: "linha" },
+      el("span", { className: "muted", textContent: "✓ Conectado ao GitHub: você pode editar a lista e buscar agora." }), sair));
+    return;
+  }
+  const input = el("input", { type: "password", placeholder: "github_pat_…", autocomplete: "off", required: true });
+  const botao = el("button", { className: "primario", type: "submit", textContent: "Conectar" });
+  const form = el("form", { className: "linha" }, el("label", { className: "campo" }, "Token do GitHub", input), botao);
+  form.addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    estado.token = input.value.trim();
+    botao.disabled = true;
+    try {
+      await carregarConfig();
+      gravar("cacaVinil.token", estado.token);
+      estado.dados = await carregarOfertas();
+      avisar("Conectado. Agora você pode editar a lista e buscar quando quiser.", true);
+      render();
+    } catch (e) {
+      estado.token = null;
+      avisar(`Não consegui conectar: ${e.message}.`);
+    } finally {
+      botao.disabled = false;
     }
+  });
+  const link = el("a", { href: "https://github.com/settings/personal-access-tokens/new", target: "_blank", rel: "noopener", textContent: "Abra a criação de token no GitHub" });
+  box.replaceChildren(
+    el("h3", { textContent: "Para editar a lista, conecte o GitHub" }),
+    el("p", { className: "muted", textContent: "A lista fica salva no repositório do GitHub. A conexão é feita uma vez em cada aparelho e o token fica guardado só neste navegador." }),
+    el("details", {},
+      el("summary", { textContent: "Como criar o token (2 minutos)" }),
+      el("ol", { className: "passos" },
+        el("li", {}, link, " e entre com sua conta."),
+        el("li", { textContent: "Token name: Caça Vinil. Expiration: até 1 ano." }),
+        el("li", { textContent: `Repository access: Only select repositories → ${GH.dono}/${GH.repo}.` }),
+        el("li", { textContent: "Permissions → Repository permissions: Contents = Read and write; Actions = Read and write." }),
+        el("li", { textContent: "Clique em Generate token, copie e cole abaixo." }))),
+    form);
+}
+
+function renderLista() {
+  renderConectar();
+  const cfg = estado.rascunho;
+  const editavel = Boolean(cfg);
+  const padrao = cfg ? cfg.criterios.teto : estado.dados.teto;
+  $("#teto-padrao").value = padrao;
+  $("#teto-padrao").disabled = !editavel;
+  $("#form-novo").hidden = !editavel;
+
+  const itens = cfg
+    ? cfg.listaDeDesejos.map((d, i) => ({ ...d, i, k: chave(d.artista, d.titulo) }))
+    : estado.dados.desejos.map((d) => ({ artista: d.artista, titulo: d.titulo, teto: d.teto === padrao ? undefined : d.teto, k: d.chave }));
+  const alvo = $("#desejos");
+  if (itens.length === 0) {
+    alvo.replaceChildren(el("p", { className: "vazio", textContent: "Nenhum disco na lista ainda." }));
+    return;
+  }
+  alvo.replaceChildren(...itens.map((d) => {
+    const melhor = maisBarata(estado.dados.ofertas.filter((o) => o.desejo === d.k));
+    const novo = estado.novos.has(d.k);
+    const situacao = melhor
+      ? `Mais barata agora: ${reais(total(melhor))} (${melhor.fonte})`
+      : novo ? "Novo: entra na próxima busca." : "Nenhuma oferta encontrada até agora.";
+    const teto = el("input", { type: "number", min: 1, step: "any", placeholder: String(padrao), value: d.teto ?? "", disabled: !editavel });
+    teto.setAttribute("aria-label", `Teto próprio de ${d.titulo}`);
+    teto.addEventListener("change", () => {
+      const v = Number(teto.value);
+      if (teto.value && v > 0) cfg.listaDeDesejos[d.i].teto = v;
+      else delete cfg.listaDeDesejos[d.i].teto;
+      atualizarBarra();
+    });
+    const remover = el("button", { textContent: "Remover", disabled: !editavel });
+    remover.addEventListener("click", () => {
+      cfg.listaDeDesejos.splice(d.i, 1);
+      atualizarBarra();
+      renderLista();
+    });
+    return el("div", { className: novo ? "desejo novo" : "desejo" },
+      el("div", {}, el("b", { textContent: `${d.artista} – ${d.titulo}` }), el("div", { className: "muted", textContent: situacao })),
+      remover,
+      el("label", { className: "teto-disco" }, "Teto próprio: R$", teto));
+  }));
+}
+
+function renderVarredura() {
+  const cfg = estado.rascunho;
+  const d = estado.dados;
+  const todas = d.ofertas.filter((o) => !o.desejo);
+  const termos = cfg ? [...cfg.varredura.generos, ...cfg.varredura.termos] : [...new Set(todas.map((o) => o.busca))];
+  $("#generos").replaceChildren(...(termos.length ? termos.map((t) => {
+    const x = el("button", { textContent: "×", title: `Remover ${t}`, hidden: !cfg });
+    x.setAttribute("aria-label", `Remover ${t}`);
+    x.addEventListener("click", () => {
+      cfg.varredura.generos = cfg.varredura.generos.filter((g) => g !== t);
+      cfg.varredura.termos = cfg.varredura.termos.filter((g) => g !== t);
+      atualizarBarra();
+      renderVarredura();
+    });
+    return el("span", { className: "chip" }, t, x);
+  }) : [el("span", { className: "muted", textContent: "Nenhum gênero ou termo." })]));
+  $("#form-genero").hidden = !cfg;
+  $("#teto-varredura").value = cfg ? cfg.varredura.teto : d.tetoVarredura;
+  $("#teto-varredura").disabled = !cfg;
+
+  const visiveis = todas.filter(dentroDoTeto);
+  $("#contagem-varredura").textContent = `Mostrando ${visiveis.length} de ${todas.length} ofertas encontradas, dentro do teto de ${reais(d.tetoVarredura)}.`;
+  $("#lista-varredura").replaceChildren(visiveis.length
+    ? el("div", { className: "lista" }, ...visiveis.map(cartaoOferta))
+    : el("p", { className: "vazio", textContent: "Nenhuma oferta da varredura dentro do teto agora." }));
+}
+
+function render() {
+  for (const b of document.querySelectorAll(".abas button")) b.setAttribute("aria-selected", String(b.dataset.aba === estado.aba));
+  for (const id of ["ofertas", "lista", "varredura"]) $(`#aba-${id}`).hidden = estado.aba !== id;
+  for (const r of document.querySelectorAll('input[name="filtro"]')) r.checked = r.value === estado.filtro;
+  const d = estado.dados;
+  if (!d) return;
+  $("#atualizado").textContent = d.geradoEm
+    ? `Última busca: ${new Date(d.geradoEm).toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" })} · automática a cada 6 h`
+    : "Ainda não houve nenhuma busca";
+  renderOfertas();
+  renderLista();
+  renderVarredura();
+  const avisos = $("#avisos");
+  avisos.hidden = d.erros.length === 0;
+  avisos.querySelector("summary").textContent = `${d.erros.length} aviso(s) da última busca`;
+  avisos.querySelector("ul").replaceChildren(...d.erros.map((e) => el("li", { textContent: e })));
+}
+
+const salvarPreferencias = () => gravar("cacaVinil", JSON.stringify({ aba: estado.aba, filtro: estado.filtro }));
+
+// ---------- Eventos ----------
+
+for (const b of document.querySelectorAll(".abas button")) {
+  b.addEventListener("click", () => { estado.aba = b.dataset.aba; salvarPreferencias(); render(); });
+}
+for (const r of document.querySelectorAll('input[name="filtro"]')) {
+  r.addEventListener("change", () => { estado.filtro = r.value; salvarPreferencias(); renderOfertas(); });
+}
+
+$("#buscar-agora").addEventListener("click", () => {
+  if (!estado.token) {
+    estado.aba = "lista";
     render();
-  })
-  .catch((e) => { $("#conteudo").replaceChildren(el("p", { className: "vazio", textContent: `Não consegui carregar as ofertas (${e.message}).` })); $("#atualizado").textContent = ""; });
+    avisar("Para buscar agora, conecte o GitHub (uma vez só) aqui na aba Minha lista.");
+    return;
+  }
+  dispararBusca().catch((e) => avisar(`Não consegui iniciar a busca: ${e.message}.`));
+});
+
+$("#form-novo").addEventListener("submit", (ev) => {
+  ev.preventDefault();
+  const f = new FormData(ev.target);
+  const artista = String(f.get("artista")).trim();
+  const titulo = String(f.get("titulo")).trim();
+  const teto = Number(f.get("teto"));
+  const k = chave(artista, titulo);
+  if (estado.rascunho.listaDeDesejos.some((d) => chave(d.artista, d.titulo) === k)) {
+    avisar("Esse disco já está na lista.");
+    return;
+  }
+  estado.rascunho.listaDeDesejos.push(teto > 0 ? { artista, titulo, teto } : { artista, titulo });
+  estado.novos.add(k);
+  ev.target.reset();
+  avisar("");
+  atualizarBarra();
+  renderLista();
+});
+
+$("#form-genero").addEventListener("submit", (ev) => {
+  ev.preventDefault();
+  const termo = String(new FormData(ev.target).get("termo")).trim();
+  const v = estado.rascunho.varredura;
+  if (termo && !v.generos.includes(termo) && !v.termos.includes(termo)) v.termos.push(termo);
+  ev.target.reset();
+  atualizarBarra();
+  renderVarredura();
+});
+
+$("#teto-padrao").addEventListener("change", (ev) => {
+  const v = Number(ev.target.value);
+  if (v > 0) { estado.rascunho.criterios.teto = v; atualizarBarra(); renderLista(); }
+});
+$("#teto-varredura").addEventListener("change", (ev) => {
+  const v = Number(ev.target.value);
+  if (v > 0) { estado.rascunho.varredura.teto = v; atualizarBarra(); }
+});
+
+$("#descartar").addEventListener("click", () => {
+  estado.rascunho = structuredClone(estado.config);
+  estado.novos.clear();
+  atualizarBarra();
+  render();
+});
+$("#salvar").addEventListener("click", salvar);
+
+window.addEventListener("beforeunload", (ev) => { if (mudancas() > 0) ev.preventDefault(); });
+
+// ---------- Início ----------
+
+(async () => {
+  render();
+  try {
+    if (estado.token) {
+      try {
+        await carregarConfig();
+      } catch (e) {
+        avisar(`Não consegui ler a lista no GitHub: ${e.message}. Reconecte na aba Minha lista.`);
+        estado.token = null;
+      }
+    }
+    estado.dados = await carregarOfertas();
+    render();
+  } catch (e) {
+    $("#lista-ofertas").replaceChildren(el("p", { className: "vazio", textContent: `Não consegui carregar as ofertas (${e.message}).` }));
+    $("#atualizado").textContent = "";
+  }
+})();
 </script>
 </body>
 </html>
