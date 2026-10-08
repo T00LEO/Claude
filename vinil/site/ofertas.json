@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-07T23:05:39.961Z",
+ "geradoEm": "2026-10-08T06:04:10.458Z",
  "teto": 200,
  "tetoVarredura": 80,
  "fatorDiscogs": 0.9,
@@ -9,7 +9,7 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 291.6101552
+   "refDiscogs": 259.2468
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
@@ -23,14 +23,14 @@
    "artista": "Rotten Mind",
    "titulo": "Unflavored",
    "teto": 200,
-   "refDiscogs": 124.9757808
+   "refDiscogs": 104.14648400000002
   },
   {
    "chave": "home-front-games-of-power",
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 99.93896604639998
+   "refDiscogs": 118.60612399999998
   }
  ],
  "ofertas": [
@@ -803,7 +803,7 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 291.6101552,
+   "refDiscogs": 259.2468,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -908,7 +908,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 124.9757808,
+   "refDiscogs": 104.14648400000002,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1009,35 +1009,6 @@
    }
   },
   {
-   "id": "discogs:24281603",
-   "fonte": "Discogs",
-   "titulo": "Rotten Mind - Unflavored (2022, Sweden)",
-   "preco": 79.36,
-   "precoOriginal": {
-    "valor": 79.36,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/24281603",
-   "imagem": "https://i.discogs.com/6jg7HK5OYvCX0ACubjC6_EGLLnHwLN3iS_TSRw8h7Ck/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0Mjgx/NjAzLTE2NjExOTEw/OTItNDY2Ni5qcGVn.jpeg",
-   "observacao": "Menor preço entre 9 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "rotten-mind-unflavored",
-   "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 374.12,
-   "custos": {
-    "frete": 100.2,
-    "impostoImportacao": 107.74,
-    "icms": 71.82,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 124.9757808,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "iMusic:7340148114065",
    "fonte": "iMusic",
    "titulo": "Rotten Mind · Unflavored (LP) (2023)",
@@ -1055,7 +1026,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 124.9757808,
+   "refDiscogs": 104.14648400000002,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1302,6 +1273,35 @@
    }
   },
   {
+   "id": "discogs:28033284",
+   "fonte": "Discogs",
+   "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
+   "preco": 89.28,
+   "precoOriginal": {
+    "valor": 89.28,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/28033284",
+   "imagem": "https://i.discogs.com/uCkWVBE3NSaz4XE_kgsbcyWYDSc0r9H0biefBHMIgks/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDMz/Mjg0LTE2OTI2MDgw/OTYtMzAwNC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "rotten-mind-unflavored",
+   "busca": "Rotten Mind – Unflavored",
+   "precoTotal": 393.96,
+   "custos": {
+    "frete": 100.2,
+    "impostoImportacao": 113.69,
+    "icms": 75.79,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 104.14648400000002,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "Patuá Discos:358391338",
    "fonte": "Patuá Discos",
    "titulo": "Wander Wildner - Mocochinchi Folksom - LP",
@@ -1335,7 +1335,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 99.93896604639998,
+   "refDiscogs": 118.60612399999998,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1642,35 +1642,6 @@
    }
   },
   {
-   "id": "discogs:37531311",
-   "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2026, Europe)",
-   "preco": 108.67,
-   "precoOriginal": {
-    "valor": 108.67,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/37531311",
-   "imagem": "https://i.discogs.com/DyDY_XxAFP6dR6wHpIYrZCxDEaX2q_MvMNVYERIYw0U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMx/MzExLTE3ODQ0OTIz/MjYtMTczNS5qcGVn.jpeg",
-   "observacao": "Menor preço entre 7 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 432.74,
-   "custos": {
-    "frete": 100.2,
-    "impostoImportacao": 125.32,
-    "icms": 83.55,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 99.93896604639998,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "discogs:24320123",
    "fonte": "Discogs",
    "titulo": "Rotten Mind - Unflavored (2022, Sweden)",
@@ -1692,10 +1663,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 124.9757808,
+   "refDiscogs": 104.14648400000002,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -1854,6 +1825,35 @@
    }
   },
   {
+   "id": "discogs:26287316",
+   "fonte": "Discogs",
+   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
+   "preco": 118.76,
+   "precoOriginal": {
+    "valor": 118.76,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/26287316",
+   "imagem": "https://i.discogs.com/6rLoqnU4DTf4MitESLfsQRPGLEQd1LhWKjte1I8qs6Q/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Mjg3/MzE2LTE2ODgyMDEx/OTMtNTI2Ni5qcGVn.jpeg",
+   "observacao": "Menor preço entre 35 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 452.92,
+   "custos": {
+    "frete": 100.2,
+    "impostoImportacao": 131.38,
+    "icms": 87.58,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 118.60612399999998,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "iMusic:5026328705057",
    "fonte": "iMusic",
    "titulo": "Compilation · Punk 45: I'm A Mess (LP) (2022)",
@@ -1940,7 +1940,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 99.93896604639998,
+   "refDiscogs": 118.60612399999998,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2195,7 +2195,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 291.6101552,
+   "refDiscogs": 259.2468,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2318,31 +2318,6 @@
    }
   },
   {
-   "id": "iMusic:9951193577118",
-   "fonte": "iMusic",
-   "titulo": "Home Front · Games of Power (LP) (2023)",
-   "preco": 200.9,
-   "url": "https://imusic.br.com/music/9951193577118/home-front-2023-games-of-power-lp",
-   "imagem": "https://imusic-static.b-cdn.net/images/missing.png",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 550.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 160.68,
-    "icms": 107.12,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 99.93896604639998,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "iMusic:0195497352142",
    "fonte": "iMusic",
    "titulo": "J Jazz Volume 3: Deep Modern Jazz from Japan · J Jazz Volume 3: Deep Modern Jazz From Japan (LP) (2021)",
@@ -2363,6 +2338,35 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:3921382",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2012, UK)",
+   "preco": 172.26,
+   "precoOriginal": {
+    "valor": 172.26,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/3921382",
+   "imagem": "https://i.discogs.com/51Zr-CJGnND4PeIrN8aDBIhThBPy07U5MB0aeFvz4FY/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MjEz/ODItMTM0OTI5OTA3/Mi0xOTMyLmpwZWc.jpeg",
+   "observacao": "Menor preço entre 12 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 559.92,
+   "custos": {
+    "frete": 100.2,
+    "impostoImportacao": 163.48,
+    "icms": 108.98,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 259.2468,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
    }
   },
   {
@@ -2387,10 +2391,35 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 291.6101552,
+   "refDiscogs": 259.2468,
    "criterios": {
     "teto": false,
     "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "iMusic:9951193577118",
+   "fonte": "iMusic",
+   "titulo": "Home Front · Games of Power (LP) (2023)",
+   "preco": 207.9,
+   "url": "https://imusic.br.com/music/9951193577118/home-front-2023-games-of-power-lp",
+   "imagem": "https://imusic-static.b-cdn.net/images/missing.png",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 564.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 164.88,
+    "icms": 109.92,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 118.60612399999998,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -2550,7 +2579,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 291.6101552,
+   "refDiscogs": 259.2468,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2627,35 +2656,6 @@
    }
   },
   {
-   "id": "discogs:26264924",
-   "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
-   "preco": 330.34,
-   "precoOriginal": {
-    "valor": 330.34,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/26264924",
-   "imagem": "https://i.discogs.com/-z-_OQVI-HkRe0IH1E4ldf-S9_sDHn9DV_hFAdukSLw/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MjY0/OTI0LTE3MTIyNzQx/NzAtNTU0MC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 876.08,
-   "custos": {
-    "frete": 100.2,
-    "impostoImportacao": 258.32,
-    "icms": 172.22,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 99.93896604639998,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "Patuá Discos:365565422",
    "fonte": "Patuá Discos",
    "titulo": "Syncro Jazz - Syncro Jazz Live - LP",
@@ -2669,35 +2669,6 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:1114048",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2007, UK)",
-   "preco": 661.27,
-   "precoOriginal": {
-    "valor": 661.27,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/1114048",
-   "imagem": "https://i.discogs.com/lHyyMEJu5HgBzY8J07eOAhefL0BrXpiuFQjKqzrV8YQ/rs:fit/g:sm/q:90/h:374/w:494/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTQw/NDgtMTM0NDk3MzAy/OC03NTMyLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 3 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 1537.94,
-   "custos": {
-    "frete": 100.2,
-    "impostoImportacao": 456.88,
-    "icms": 304.59,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 291.6101552,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
    }
   },
   {
