@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-08T06:04:10.458Z",
+ "geradoEm": "2026-10-08T13:29:40.689Z",
  "teto": 200,
  "tetoVarredura": 80,
  "fatorDiscogs": 0.9,
@@ -9,28 +9,28 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 259.2468
+   "refDiscogs": 215.46133174157302
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
    "artista": "The Rapture",
    "titulo": "Pieces of the People We Love",
    "teto": 200,
-   "refDiscogs": 261.71294117647057
+   "refDiscogs": 259.83146284829724
   },
   {
    "chave": "rotten-mind-unflavored",
    "artista": "Rotten Mind",
    "titulo": "Unflavored",
    "teto": 200,
-   "refDiscogs": 104.14648400000002
+   "refDiscogs": 104.77598314606742
   },
   {
    "chave": "home-front-games-of-power",
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 118.60612399999998
+   "refDiscogs": 171.5
   }
  ],
  "ofertas": [
@@ -575,11 +575,12 @@
    }
   },
   {
-   "id": "Baratos Afins:202187181",
-   "fonte": "Baratos Afins",
-   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
+   "id": "Locomotiva Discos:9754cd",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP CONDE FAVELA SEXTETO - ABC GUETO JAZZ (NOVO)",
    "preco": 190,
-   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
+   "url": "https://www.locomotivadiscos.com.br/pd-9754cd-lp-conde-favela-sexteto-abc-gueto-jazz-novo.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9754CD/1872BE8/330xN.jpg",
    "busca": "jazz",
    "precoTotal": 190,
    "teto": 80,
@@ -590,12 +591,11 @@
    }
   },
   {
-   "id": "Locomotiva Discos:9754cd",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP CONDE FAVELA SEXTETO - ABC GUETO JAZZ (NOVO)",
+   "id": "Baratos Afins:202187181",
+   "fonte": "Baratos Afins",
+   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
    "preco": 190,
-   "url": "https://www.locomotivadiscos.com.br/pd-9754cd-lp-conde-favela-sexteto-abc-gueto-jazz-novo.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9754CD/1872BE8/330xN.jpg",
+   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
    "busca": "jazz",
    "precoTotal": 190,
    "teto": 80,
@@ -736,9 +736,9 @@
    "id": "discogs:1324380",
    "fonte": "Discogs",
    "titulo": "The Rapture - Pieces Of The People We Love (2007, UK)",
-   "preco": 19.84,
+   "preco": 19.7,
    "precoOriginal": {
-    "valor": 19.84,
+    "valor": 19.7,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/1324380",
@@ -746,15 +746,15 @@
    "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "the-rapture-pieces-of-the-people-we-love",
    "busca": "The Rapture – Pieces of the People We Love",
-   "precoTotal": 255.08,
+   "precoTotal": 254.8,
    "custos": {
     "frete": 100.2,
-    "impostoImportacao": 72.02,
-    "icms": 48.02,
+    "impostoImportacao": 71.94,
+    "icms": 47.96,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 261.71294117647057,
+   "refDiscogs": 259.83146284829724,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -803,7 +803,7 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 259.2468,
+   "refDiscogs": 215.46133174157302,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -887,35 +887,6 @@
    }
   },
   {
-   "id": "discogs:26840834",
-   "fonte": "Discogs",
-   "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
-   "preco": 54.51,
-   "precoOriginal": {
-    "valor": 54.51,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/26840834",
-   "imagem": "https://i.discogs.com/l1ocrtJ3F3wFoUMAofLJ3mcudz-YE2JxyDp09a1QWr0/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2ODQw/ODM0LTE2ODU2MDM0/NjMtMTk5MS5qcGVn.jpeg",
-   "observacao": "Menor preço entre 17 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "rotten-mind-unflavored",
-   "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 324.42,
-   "custos": {
-    "frete": 100.2,
-    "impostoImportacao": 92.83,
-    "icms": 61.88,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 104.14648400000002,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": true
-   }
-  },
-  {
    "id": "iMusic:8436542012447",
    "fonte": "iMusic",
    "titulo": "Stan Getz · Jazz Samba (LP) (2013)",
@@ -936,6 +907,35 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:26840834",
+   "fonte": "Discogs",
+   "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
+   "preco": 54.84,
+   "precoOriginal": {
+    "valor": 54.84,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/26840834",
+   "imagem": "https://i.discogs.com/l1ocrtJ3F3wFoUMAofLJ3mcudz-YE2JxyDp09a1QWr0/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2ODQw/ODM0LTE2ODU2MDM0/NjMtMTk5MS5qcGVn.jpeg",
+   "observacao": "Menor preço entre 17 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "rotten-mind-unflavored",
+   "busca": "Rotten Mind – Unflavored",
+   "precoTotal": 325.08,
+   "custos": {
+    "frete": 100.2,
+    "impostoImportacao": 93.02,
+    "icms": 62.02,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 104.77598314606742,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": true
    }
   },
   {
@@ -1026,7 +1026,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 104.14648400000002,
+   "refDiscogs": 104.77598314606742,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1276,9 +1276,9 @@
    "id": "discogs:28033284",
    "fonte": "Discogs",
    "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
-   "preco": 89.28,
+   "preco": 89.82,
    "precoOriginal": {
-    "valor": 89.28,
+    "valor": 89.82,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/28033284",
@@ -1286,15 +1286,15 @@
    "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 393.96,
+   "precoTotal": 395.04,
    "custos": {
     "frete": 100.2,
-    "impostoImportacao": 113.69,
-    "icms": 75.79,
+    "impostoImportacao": 114.01,
+    "icms": 76.01,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 104.14648400000002,
+   "refDiscogs": 104.77598314606742,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1335,10 +1335,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 118.60612399999998,
+   "refDiscogs": 171.5,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": true
    }
   },
@@ -1642,35 +1642,6 @@
    }
   },
   {
-   "id": "discogs:24320123",
-   "fonte": "Discogs",
-   "titulo": "Rotten Mind - Unflavored (2022, Sweden)",
-   "preco": 111.41,
-   "precoOriginal": {
-    "valor": 111.41,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/24320123",
-   "imagem": "https://i.discogs.com/sJdNBQwC-83kCRLKyZ4rbVo8sgAuJgGfSpz4lNm3PXc/rs:fit/g:sm/q:90/h:592/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MzIw/MTIzLTE2ODgwNzk0/ODYtNTY3Mi5qcGVn.jpeg",
-   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "rotten-mind-unflavored",
-   "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 438.22,
-   "custos": {
-    "frete": 100.2,
-    "impostoImportacao": 126.97,
-    "icms": 84.64,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 104.14648400000002,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "iMusic:4099964165098",
    "fonte": "iMusic",
    "titulo": "A Punk Tribute to Motörhead · Killed by Deaf: a Punk Tribute to Motörhead (LP) (2025)",
@@ -1763,6 +1734,35 @@
    }
   },
   {
+   "id": "discogs:24320123",
+   "fonte": "Discogs",
+   "titulo": "Rotten Mind - Unflavored (2022, Sweden)",
+   "preco": 112.08,
+   "precoOriginal": {
+    "valor": 112.08,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/24320123",
+   "imagem": "https://i.discogs.com/sJdNBQwC-83kCRLKyZ4rbVo8sgAuJgGfSpz4lNm3PXc/rs:fit/g:sm/q:90/h:592/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MzIw/MTIzLTE2ODgwNzk0/ODYtNTY3Mi5qcGVn.jpeg",
+   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "rotten-mind-unflavored",
+   "busca": "Rotten Mind – Unflavored",
+   "precoTotal": 439.56,
+   "custos": {
+    "frete": 100.2,
+    "impostoImportacao": 127.37,
+    "icms": 84.91,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 104.77598314606742,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "Locomotiva Discos:9861b9",
    "fonte": "Locomotiva Discos",
    "titulo": "LP SYNCRO JAZZ LIVE - SYNCRO JAZZ LIVE (COM OBI) (NOVO) IMPORTADO",
@@ -1822,35 +1822,6 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:26287316",
-   "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
-   "preco": 118.76,
-   "precoOriginal": {
-    "valor": 118.76,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/26287316",
-   "imagem": "https://i.discogs.com/6rLoqnU4DTf4MitESLfsQRPGLEQd1LhWKjte1I8qs6Q/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Mjg3/MzE2LTE2ODgyMDEx/OTMtNTI2Ni5qcGVn.jpeg",
-   "observacao": "Menor preço entre 35 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 452.92,
-   "custos": {
-    "frete": 100.2,
-    "impostoImportacao": 131.38,
-    "icms": 87.58,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 118.60612399999998,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
    }
   },
   {
@@ -1940,7 +1911,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 118.60612399999998,
+   "refDiscogs": 171.5,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2178,6 +2149,35 @@
    }
   },
   {
+   "id": "discogs:27423360",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2023, US)",
+   "preco": 144.66,
+   "precoOriginal": {
+    "valor": 144.66,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/27423360",
+   "imagem": "https://i.discogs.com/5Cp2gZYkVIHbbHokK4HVnEho_Ltmoql6KqefGmvuX68/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NDIz/MzYwLTE2ODcxMzEy/NTQtOTc1Mi5qcGVn.jpeg",
+   "observacao": "Menor preço entre 29 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 504.72,
+   "custos": {
+    "frete": 100.2,
+    "impostoImportacao": 146.92,
+    "icms": 97.94,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 215.46133174157302,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "iMusic:0094638511410",
    "fonte": "iMusic",
    "titulo": "Lcd Soundsystem · Sound Of Silver (LP) (2016)",
@@ -2195,7 +2195,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 259.2468,
+   "refDiscogs": 215.46133174157302,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2341,41 +2341,12 @@
    }
   },
   {
-   "id": "discogs:3921382",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2012, UK)",
-   "preco": 172.26,
-   "precoOriginal": {
-    "valor": 172.26,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/3921382",
-   "imagem": "https://i.discogs.com/51Zr-CJGnND4PeIrN8aDBIhThBPy07U5MB0aeFvz4FY/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MjEz/ODItMTM0OTI5OTA3/Mi0xOTMyLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 12 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 559.92,
-   "custos": {
-    "frete": 100.2,
-    "impostoImportacao": 163.48,
-    "icms": 108.98,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 259.2468,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "discogs:1312950",
    "fonte": "Discogs",
    "titulo": "LCD Soundsystem - Sound Of Silver (2007, US)",
-   "preco": 173.35,
+   "preco": 174.4,
    "precoOriginal": {
-    "valor": 173.35,
+    "valor": 174.4,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/1312950",
@@ -2383,15 +2354,15 @@
    "observacao": "Menor preço entre 5 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "lcd-soundsystem-sound-of-silver",
    "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 562.1,
+   "precoTotal": 564.2,
    "custos": {
     "frete": 100.2,
-    "impostoImportacao": 164.13,
-    "icms": 109.42,
+    "impostoImportacao": 164.76,
+    "icms": 109.84,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 259.2468,
+   "refDiscogs": 215.46133174157302,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2416,7 +2387,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 118.60612399999998,
+   "refDiscogs": 171.5,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2579,10 +2550,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 259.2468,
+   "refDiscogs": 215.46133174157302,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -2656,6 +2627,35 @@
    }
   },
   {
+   "id": "discogs:26264924",
+   "fonte": "Discogs",
+   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
+   "preco": 327.96,
+   "precoOriginal": {
+    "valor": 327.96,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/26264924",
+   "imagem": "https://i.discogs.com/-z-_OQVI-HkRe0IH1E4ldf-S9_sDHn9DV_hFAdukSLw/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MjY0/OTI0LTE3MTIyNzQx/NzAtNTU0MC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 871.32,
+   "custos": {
+    "frete": 100.2,
+    "impostoImportacao": 256.9,
+    "icms": 171.26,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 171.5,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "Patuá Discos:365565422",
    "fonte": "Patuá Discos",
    "titulo": "Syncro Jazz - Syncro Jazz Live - LP",
@@ -2675,9 +2675,9 @@
    "id": "discogs:881288",
    "fonte": "Discogs",
    "titulo": "The Rapture - Pieces Of The People We Love (2006, UK & Europe)",
-   "preco": 953.85,
+   "preco": 952.95,
    "precoOriginal": {
-    "valor": 953.85,
+    "valor": 952.95,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/881288",
@@ -2685,15 +2685,15 @@
    "observacao": "Menor preço entre 3 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "the-rapture-pieces-of-the-people-we-love",
    "busca": "The Rapture – Pieces of the People We Love",
-   "precoTotal": 2123.1,
+   "precoTotal": 2121.3,
    "custos": {
     "frete": 100.2,
-    "impostoImportacao": 632.43,
-    "icms": 421.62,
+    "impostoImportacao": 631.89,
+    "icms": 421.26,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 261.71294117647057,
+   "refDiscogs": 259.83146284829724,
    "criterios": {
     "teto": false,
     "discogs": false,
