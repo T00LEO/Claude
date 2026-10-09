@@ -60,6 +60,11 @@
     {
       "artista": "Foals",
       "titulo": "What went down"
+    },
+    {
+      "artista": "Schedule 1",
+      "titulo": "Crucible",
+      "teto": 200
     }
   ],
   "varredura": {
