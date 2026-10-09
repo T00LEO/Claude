@@ -1,7 +1,7 @@
 {
- "geradoEm": "2026-10-08T23:21:38.740Z",
+ "geradoEm": "2026-10-09T01:34:59.794Z",
  "teto": 200,
- "tetoVarredura": 80,
+ "tetoVarredura": 100,
  "fatorDiscogs": 0.9,
  "desejos": [
   {
@@ -9,7 +9,7 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 215.46133174157302
+   "refDiscogs": 293.3727528089888
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
@@ -30,7 +30,7 @@
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 96.88
+   "refDiscogs": 171.5
   }
  ],
  "ofertas": [
@@ -43,7 +43,7 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6202-35877cb7238cfd751f17854104892563-1024-1024.webp",
    "busca": "jazz",
    "precoTotal": 30,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": true,
     "discogs": null,
@@ -59,7 +59,7 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6197-c0e4a52d0708a151d517854175345677-1024-1024.webp",
    "busca": "jazz",
    "precoTotal": 45,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": true,
     "discogs": null,
@@ -75,7 +75,7 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6200-f8c29d390dd2ce902e17854099611218-1024-1024.webp",
    "busca": "jazz",
    "precoTotal": 50,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": true,
     "discogs": null,
@@ -91,7 +91,7 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/16504-f6e46fda26e80f0f0717853497365246-1024-1024.webp",
    "busca": "punk",
    "precoTotal": 60,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": true,
     "discogs": null,
@@ -107,7 +107,7 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/12557-f9a9e05310191efde817853878488455-1024-1024.webp",
    "busca": "jazz",
    "precoTotal": 60,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": true,
     "discogs": null,
@@ -123,7 +123,7 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/whatsappimage2024-08-16at15-35-46_1-aaa6ef257e65cbee9e17853796071579-1024-1024.webp",
    "busca": "jazz",
    "precoTotal": 70,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": true,
     "discogs": null,
@@ -138,9 +138,9 @@
    "url": "https://www.baratosafins.com.br/produto/joao-carlos-assis-brasil-jazz-brasil.html",
    "busca": "jazz",
    "precoTotal": 85,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
-    "teto": false,
+    "teto": true,
     "discogs": null,
     "maisBarato": null
    }
@@ -154,9 +154,9 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/image_19_95eed45d-2775-4923-8300-559f8a713fd4-7bc5e284283190a07117853856477377-1024-1024.webp",
    "busca": "jazz",
    "precoTotal": 90,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
-    "teto": false,
+    "teto": true,
     "discogs": null,
     "maisBarato": null
    }
@@ -169,9 +169,9 @@
    "url": "https://www.baratosafins.com.br/produto/eddie-daniels-breakthrough.html",
    "busca": "jazz",
    "precoTotal": 95,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
-    "teto": false,
+    "teto": true,
     "discogs": null,
     "maisBarato": null
    }
@@ -185,9 +185,9 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/16136-c13e83cf80f803859d17853632015707-1024-1024.webp",
    "busca": "punk",
    "precoTotal": 100,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
-    "teto": false,
+    "teto": true,
     "discogs": null,
     "maisBarato": null
    }
@@ -200,7 +200,7 @@
    "url": "https://www.baratosafins.com.br/produto/roy-eldridge-little-jazz.html",
    "busca": "jazz",
    "precoTotal": 110,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -215,7 +215,7 @@
    "url": "https://www.baratosafins.com.br/produto/lionel-hampton-and-his-jazz-giants.html",
    "busca": "jazz",
    "precoTotal": 110,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -230,7 +230,7 @@
    "url": "https://www.baratosafins.com.br/produto/bocato-aqui-jazz-brazil.html",
    "busca": "jazz",
    "precoTotal": 120,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -245,7 +245,7 @@
    "url": "https://www.baratosafins.com.br/produto/modern-jazz-quartet-three-windows.html",
    "busca": "jazz",
    "precoTotal": 120,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -261,7 +261,7 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/whatsappimage2025-02-11at18-34-10-0250580a517d2bb9f517853579070639-1024-1024.webp",
    "busca": "punk",
    "precoTotal": 139.9,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -277,7 +277,7 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/15463-335800161bdb0b7ef417853632076654-1024-1024.webp",
    "busca": "punk",
    "precoTotal": 140,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -293,7 +293,7 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/17126-34517bda3acb32744517853878364346-1024-1024.webp",
    "busca": "punk",
    "precoTotal": 140,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -308,7 +308,7 @@
    "url": "https://www.baratosafins.com.br/produto/jazz-arranger-vol1.html",
    "busca": "jazz",
    "precoTotal": 140,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -323,7 +323,7 @@
    "url": "https://www.baratosafins.com.br/produto/1930s-jazz-big-bands.html",
    "busca": "jazz",
    "precoTotal": 140,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -338,7 +338,7 @@
    "url": "https://www.baratosafins.com.br/produto/peter-appleyard-orch-percussive-jazz.html",
    "busca": "jazz",
    "precoTotal": 140,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -353,7 +353,7 @@
    "url": "https://www.baratosafins.com.br/produto/frank-zappa-jazz-from-hell.html",
    "busca": "jazz",
    "precoTotal": 140,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -368,7 +368,7 @@
    "url": "https://www.baratosafins.com.br/produto/johnny-hates-jazz-turn-back-the-clock.html",
    "busca": "jazz",
    "precoTotal": 140,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -384,7 +384,7 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96812B/183D68B/330xN.jpg",
    "busca": "punk",
    "precoTotal": 150,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -399,7 +399,7 @@
    "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
    "busca": "punk",
    "precoTotal": 150,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -414,7 +414,7 @@
    "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-mainstream.html",
    "busca": "jazz",
    "precoTotal": 160,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -429,7 +429,7 @@
    "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-introspection.html",
    "busca": "jazz",
    "precoTotal": 160,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -444,7 +444,7 @@
    "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-bebop.html",
    "busca": "jazz",
    "precoTotal": 160,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -459,7 +459,7 @@
    "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-west-coast.html",
    "busca": "jazz",
    "precoTotal": 160,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -474,7 +474,7 @@
    "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-post-bop.html",
    "busca": "jazz",
    "precoTotal": 160,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -490,7 +490,7 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/93B3C7/17A0CD2/330xN.jpg",
    "busca": "punk",
    "precoTotal": 170,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -506,7 +506,7 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/17003_557e771c-e1e0-4148-94c9-ff19eec933b9-9a40e9d31dc735c6c717853896517641-1024-1024.webp",
    "busca": "jazz",
    "precoTotal": 170,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -521,7 +521,7 @@
    "url": "https://www.baratosafins.com.br/produto/chock-geral-noticias-de-paz.html",
    "busca": "punk",
    "precoTotal": 180,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -536,7 +536,7 @@
    "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-piano.html",
    "busca": "jazz",
    "precoTotal": 180,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -551,7 +551,7 @@
    "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-the-avant-garde.html",
    "busca": "jazz",
    "precoTotal": 180,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -567,22 +567,7 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/97CC6F/1891646/330xN.jpg",
    "busca": "jazz",
    "precoTotal": 185,
-   "teto": 80,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Baratos Afins:202187181",
-   "fonte": "Baratos Afins",
-   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
-   "preco": 190,
-   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
-   "busca": "jazz",
-   "precoTotal": 190,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -598,7 +583,22 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9754CD/1872BE8/330xN.jpg",
    "busca": "jazz",
    "precoTotal": 190,
-   "teto": 80,
+   "teto": 100,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202187181",
+   "fonte": "Baratos Afins",
+   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
+   "preco": 190,
+   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
+   "busca": "jazz",
+   "precoTotal": 190,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -614,7 +614,7 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/16454-f7c2b744ce5e16824d17853584102389-1024-1024.webp",
    "busca": "punk",
    "precoTotal": 200,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -629,7 +629,7 @@
    "url": "https://www.baratosafins.com.br/produto/50-years-of-jazz-guitar.html",
    "busca": "jazz",
    "precoTotal": 200,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -645,7 +645,7 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/whatsappimage2024-11-27at14-40-02_3-2769e47920905b424217853527859984-1024-1024.webp",
    "busca": "jazz",
    "precoTotal": 210,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -661,7 +661,7 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9870ED/18BBB2A/330xN.jpg",
    "busca": "punk",
    "precoTotal": 220,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -677,7 +677,7 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/97D97E/1894AAD/330xN.jpg",
    "busca": "punk",
    "precoTotal": 220,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -693,7 +693,7 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/94DD92/17DF231/330xN.jpg",
    "busca": "punk",
    "precoTotal": 230,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -709,7 +709,7 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/983776/18ACB54/330xN.jpg",
    "busca": "jazz",
    "precoTotal": 240,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -725,7 +725,7 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/14963-6da060fbc512e3d86217853670889809-1024-1024.webp",
    "busca": "jazz",
    "precoTotal": 250,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -770,7 +770,7 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/972FD9/1869FE9/330xN.jpg",
    "busca": "punk",
    "precoTotal": 280,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -785,7 +785,7 @@
    "url": "https://www.baratosafins.com.br/produto/tulio-mourao-jazz-mineiro.html",
    "busca": "jazz",
    "precoTotal": 280,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -803,7 +803,7 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 215.46133174157302,
+   "refDiscogs": 293.3727528089888,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -826,7 +826,7 @@
     "icms": 59.52,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -849,7 +849,7 @@
     "icms": 59.52,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -864,7 +864,7 @@
    "url": "https://www.baratosafins.com.br/red-hot-chili-peppers-mothers-milk-lp",
    "busca": "punk",
    "precoTotal": 320,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -879,7 +879,7 @@
    "url": "https://www.baratosafins.com.br/produto/elis-regina-montreaux-jazz-festival.html",
    "busca": "jazz",
    "precoTotal": 320,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -902,7 +902,7 @@
     "icms": 61.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -954,7 +954,7 @@
     "icms": 64.32,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -969,7 +969,7 @@
    "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-singers.html",
    "busca": "jazz",
    "precoTotal": 340,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -985,7 +985,7 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/987FEF/18BFD76/330xN.jpg",
    "busca": "punk",
    "precoTotal": 350,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1001,7 +1001,7 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/94BAA0/17D7C54/330xN.jpg",
    "busca": "punk",
    "precoTotal": 350,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1049,7 +1049,7 @@
     "icms": 71.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1072,7 +1072,7 @@
     "icms": 71.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1095,7 +1095,7 @@
     "icms": 71.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1118,7 +1118,7 @@
     "icms": 71.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1141,7 +1141,7 @@
     "icms": 71.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1164,7 +1164,7 @@
     "icms": 71.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1180,7 +1180,7 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9874AA/18BCBAC/330xN.jpg",
    "busca": "jazz",
    "precoTotal": 380,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1203,7 +1203,7 @@
     "icms": 74.32,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1226,7 +1226,7 @@
     "icms": 74.72,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1242,7 +1242,7 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/986C21/18BA566/330xN.jpg",
    "busca": "jazz",
    "precoTotal": 390,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1287,7 +1287,7 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/16455-f45c4250329856540017853914147428-1024-1024.webp",
    "busca": "punk",
    "precoTotal": 400,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1312,10 +1312,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 96.88,
+   "refDiscogs": 171.5,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": true
    }
   },
@@ -1335,7 +1335,7 @@
     "icms": 77.12,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1358,7 +1358,7 @@
     "icms": 81.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1381,7 +1381,7 @@
     "icms": 81.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1404,7 +1404,7 @@
     "icms": 81.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1427,7 +1427,7 @@
     "icms": 81.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1450,7 +1450,7 @@
     "icms": 81.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1473,7 +1473,7 @@
     "icms": 81.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1496,7 +1496,7 @@
     "icms": 81.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1519,7 +1519,7 @@
     "icms": 81.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1542,7 +1542,7 @@
     "icms": 81.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1565,7 +1565,7 @@
     "icms": 81.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1588,7 +1588,7 @@
     "icms": 81.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1611,40 +1611,11 @@
     "icms": 81.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:37531311",
-   "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2026, Europe)",
-   "preco": 109.33,
-   "precoOriginal": {
-    "valor": 109.33,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/37531311",
-   "imagem": "https://i.discogs.com/DyDY_XxAFP6dR6wHpIYrZCxDEaX2q_MvMNVYERIYw0U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMx/MzExLTE3ODQ0OTIz/MjYtMTczNS5qcGVn.jpeg",
-   "observacao": "Menor preço entre 7 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 434.46,
-   "custos": {
-    "frete": 100.4,
-    "impostoImportacao": 125.84,
-    "icms": 83.89,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 96.88,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
    }
   },
   {
@@ -1663,7 +1634,7 @@
     "icms": 84.72,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1686,7 +1657,7 @@
     "icms": 84.72,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1709,7 +1680,7 @@
     "icms": 84.72,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1754,7 +1725,7 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9861B9/18B7DAF/330xN.jpg",
    "busca": "jazz",
    "precoTotal": 450,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1777,7 +1748,7 @@
     "icms": 87.12,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1800,7 +1771,7 @@
     "icms": 87.12,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1823,7 +1794,7 @@
     "icms": 87.12,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1846,7 +1817,7 @@
     "icms": 89.52,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1869,7 +1840,7 @@
     "icms": 89.52,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1894,7 +1865,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 96.88,
+   "refDiscogs": 171.5,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1917,7 +1888,7 @@
     "icms": 92.32,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1940,7 +1911,7 @@
     "icms": 92.32,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1963,7 +1934,7 @@
     "icms": 92.32,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -1986,7 +1957,7 @@
     "icms": 94.72,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2009,7 +1980,7 @@
     "icms": 94.72,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2032,7 +2003,7 @@
     "icms": 97.12,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2055,7 +2026,7 @@
     "icms": 97.12,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2078,7 +2049,7 @@
     "icms": 97.12,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2101,7 +2072,7 @@
     "icms": 97.12,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2124,7 +2095,7 @@
     "icms": 97.12,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2147,7 +2118,7 @@
     "icms": 97.12,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2170,40 +2141,11 @@
     "icms": 97.12,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:27423360",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2023, US)",
-   "preco": 144.66,
-   "precoOriginal": {
-    "valor": 144.66,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/27423360",
-   "imagem": "https://i.discogs.com/5Cp2gZYkVIHbbHokK4HVnEho_Ltmoql6KqefGmvuX68/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NDIz/MzYwLTE2ODcxMzEy/NTQtOTc1Mi5qcGVn.jpeg",
-   "observacao": "Menor preço entre 29 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 505.12,
-   "custos": {
-    "frete": 100.4,
-    "impostoImportacao": 147.04,
-    "icms": 98.02,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 215.46133174157302,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
    }
   },
   {
@@ -2224,7 +2166,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 215.46133174157302,
+   "refDiscogs": 293.3727528089888,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2247,11 +2189,40 @@
     "icms": 99.52,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:27423360",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2023, US)",
+   "preco": 149.7,
+   "precoOriginal": {
+    "valor": 149.7,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/27423360",
+   "imagem": "https://i.discogs.com/5Cp2gZYkVIHbbHokK4HVnEho_Ltmoql6KqefGmvuX68/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NDIz/MzYwLTE2ODcxMzEy/NTQtOTc1Mi5qcGVn.jpeg",
+   "observacao": "Menor preço entre 28 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 515.2,
+   "custos": {
+    "frete": 100.4,
+    "impostoImportacao": 150.06,
+    "icms": 100.04,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 293.3727528089888,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
    }
   },
   {
@@ -2270,7 +2241,7 @@
     "icms": 102.32,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2293,7 +2264,7 @@
     "icms": 102.32,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2316,7 +2287,7 @@
     "icms": 102.32,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2339,7 +2310,7 @@
     "icms": 102.32,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2362,40 +2333,11 @@
     "icms": 107.12,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:1312950",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2007, US)",
-   "preco": 174.35,
-   "precoOriginal": {
-    "valor": 174.35,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/1312950",
-   "imagem": "https://i.discogs.com/hIzE3Jtg4GDuWsQk3MSJbOsPRzcT6ydO1HNFqn5_Ojw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTI5/NTAtMTU4OTI0ODUy/OS0yNzM1LmpwZWc.jpeg",
-   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 564.5,
-   "custos": {
-    "frete": 100.4,
-    "impostoImportacao": 164.85,
-    "icms": 109.9,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 215.46133174157302,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
    }
   },
   {
@@ -2416,7 +2358,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 96.88,
+   "refDiscogs": 171.5,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2439,7 +2381,7 @@
     "icms": 109.92,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2462,7 +2404,7 @@
     "icms": 112.32,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2485,7 +2427,7 @@
     "icms": 114.72,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2508,7 +2450,7 @@
     "icms": 114.72,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2531,7 +2473,7 @@
     "icms": 114.72,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2554,7 +2496,7 @@
     "icms": 114.72,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2579,10 +2521,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 215.46133174157302,
+   "refDiscogs": 293.3727528089888,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": false
    }
   },
@@ -2602,7 +2544,7 @@
     "icms": 122.32,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2625,7 +2567,7 @@
     "icms": 124.72,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
@@ -2648,11 +2590,40 @@
     "icms": 137.52,
     "despacho": 15
    },
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:26264924",
+   "fonte": "Discogs",
+   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
+   "preco": 327.96,
+   "precoOriginal": {
+    "valor": 327.96,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/26264924",
+   "imagem": "https://i.discogs.com/-z-_OQVI-HkRe0IH1E4ldf-S9_sDHn9DV_hFAdukSLw/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MjY0/OTI0LTE3MTIyNzQx/NzAtNTU0MC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 871.72,
+   "custos": {
+    "frete": 100.4,
+    "impostoImportacao": 257.02,
+    "icms": 171.34,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 171.5,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
    }
   },
   {
@@ -2664,11 +2635,40 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/18664-909f5cc85896c1ef2717885535703976-1024-1024.webp",
    "busca": "jazz",
    "precoTotal": 900,
-   "teto": 80,
+   "teto": 100,
    "criterios": {
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:1114048",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2007, UK)",
+   "preco": 656.51,
+   "precoOriginal": {
+    "valor": 656.51,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/1114048",
+   "imagem": "https://i.discogs.com/lHyyMEJu5HgBzY8J07eOAhefL0BrXpiuFQjKqzrV8YQ/rs:fit/g:sm/q:90/h:374/w:494/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTQw/NDgtMTM0NDk3MzAy/OC03NTMyLmpwZWc.jpeg",
+   "observacao": "Menor preço entre 3 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 1528.82,
+   "custos": {
+    "frete": 100.4,
+    "impostoImportacao": 454.15,
+    "icms": 302.76,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 293.3727528089888,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
    }
   },
   {
