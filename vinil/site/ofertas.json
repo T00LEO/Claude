@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-09T13:17:21.996Z",
+ "geradoEm": "2026-10-09T14:59:12.925Z",
  "teto": 200,
  "tetoVarredura": 100,
  "fatorDiscogs": 0.9,
@@ -31,6 +31,13 @@
    "titulo": "Games of Power",
    "teto": 200,
    "refDiscogs": 172.53
+  },
+  {
+   "chave": "foals-what-went-down",
+   "artista": "Foals",
+   "titulo": "What went down",
+   "teto": 200,
+   "refDiscogs": 194.28803618421054
   }
  ],
  "ofertas": [
@@ -43,22 +50,6 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6202-35877cb7238cfd751f17854104892563-1024-1024.webp",
    "busca": "jazz",
    "precoTotal": 30,
-   "teto": 100,
-   "criterios": {
-    "teto": true,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358412847",
-   "fonte": "Patuá Discos",
-   "titulo": "Vocal Jazz Incorporated - High Clouds - LP",
-   "preco": 45,
-   "url": "https://patuadiscos.com.br/produtos/vocal-jazz-incorporated-high-clouds-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6197-c0e4a52d0708a151d517854175345677-1024-1024.webp",
-   "busca": "jazz",
-   "precoTotal": 45,
    "teto": 100,
    "criterios": {
     "teto": true,
@@ -123,6 +114,22 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/whatsappimage2024-08-16at15-35-46_1-aaa6ef257e65cbee9e17853796071579-1024-1024.webp",
    "busca": "jazz",
    "precoTotal": 70,
+   "teto": 100,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358407305",
+   "fonte": "Patuá Discos",
+   "titulo": "Swedish Radio Jazz Group - Rainbow Sketches - LP",
+   "preco": 75,
+   "url": "https://patuadiscos.com.br/produtos/swedish-radio-jazz-group-rainbow-sketches-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6812-5f655ad845f31dc00c17854151180842-1024-1024.webp",
+   "busca": "jazz",
+   "precoTotal": 75,
    "teto": 100,
    "criterios": {
     "teto": true,
@@ -376,12 +383,11 @@
    }
   },
   {
-   "id": "Locomotiva Discos:96812b",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
+   "id": "Baratos Afins:363303609",
+   "fonte": "Baratos Afins",
+   "titulo": "LOS EX TRIDENTES - LP",
    "preco": 150,
-   "url": "https://www.locomotivadiscos.com.br/pd-96812b-lp-varios-artistas-a-divina-tragedia-alternative-post-punk-vol-3.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96812B/183D68B/330xN.jpg",
+   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
    "busca": "punk",
    "precoTotal": 150,
    "teto": 100,
@@ -392,11 +398,12 @@
    }
   },
   {
-   "id": "Baratos Afins:363303609",
-   "fonte": "Baratos Afins",
-   "titulo": "LOS EX TRIDENTES - LP",
+   "id": "Locomotiva Discos:96812b",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
    "preco": 150,
-   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
+   "url": "https://www.locomotivadiscos.com.br/pd-96812b-lp-varios-artistas-a-divina-tragedia-alternative-post-punk-vol-3.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96812B/183D68B/330xN.jpg",
    "busca": "punk",
    "precoTotal": 150,
    "teto": 100,
@@ -857,6 +864,35 @@
    }
   },
   {
+   "id": "discogs:7392977",
+   "fonte": "Discogs",
+   "titulo": "Foals - What Went Down (2015, UK & Europe)",
+   "preco": 50.2,
+   "precoOriginal": {
+    "valor": 50.2,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/7392977",
+   "imagem": "https://i.discogs.com/59a1RRECUuB-8DYG6mDzsuBCh7Ud5rcF1Fpu0fqRA0I/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczOTI5/NzctMTQ0MDUyNjY2/NC01MjAzLmpwZWc.jpeg",
+   "observacao": "Menor preço entre 65 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "foals-what-went-down",
+   "busca": "Foals – What went down",
+   "precoTotal": 316.2,
+   "custos": {
+    "frete": 100.4,
+    "impostoImportacao": 90.36,
+    "icms": 60.24,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 194.28803618421054,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": true
+   }
+  },
+  {
    "id": "Baratos Afins:375651404",
    "fonte": "Baratos Afins",
    "titulo": "RED HOT CHILI PEPPERS - MOTHER'S MILK - LP",
@@ -1172,6 +1208,35 @@
    }
   },
   {
+   "id": "discogs:15492475",
+   "fonte": "Discogs",
+   "titulo": "Foals - What Went Down (2015, UK & Europe)",
+   "preco": 80.92,
+   "precoOriginal": {
+    "valor": 80.92,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/15492475",
+   "imagem": "https://i.discogs.com/hN4taDZHlkTFowUvGOqQ40KMM7UwxymMyE8J6v0hTlk/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NDky/NDc1LTE1OTI0MzIx/MjAtNTY5NC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 12 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "foals-what-went-down",
+   "busca": "Foals – What went down",
+   "precoTotal": 377.64,
+   "custos": {
+    "frete": 100.4,
+    "impostoImportacao": 108.79,
+    "icms": 72.53,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 194.28803618421054,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "Locomotiva Discos:9874aa",
    "fonte": "Locomotiva Discos",
    "titulo": "LP CAP'N JAZZ - BURRITOS, INSPIRATION POINT, FORK... (NOVO/LACRADO)",
@@ -1340,6 +1405,31 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0825646075034",
+   "fonte": "iMusic",
+   "titulo": "Foals · What Went Down (LP) (2015)",
+   "preco": 137.9,
+   "url": "https://imusic.br.com/music/0825646075034/foals-2015-what-went-down-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/034/0825646075034.jpg?foals-2015-what-went-down-lp&class=scaled&v=1437484076",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "desejo": "foals-what-went-down",
+   "busca": "Foals – What went down",
+   "precoTotal": 424.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 122.88,
+    "icms": 81.92,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 194.28803618421054,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
    }
   },
   {
@@ -1642,6 +1732,31 @@
    }
   },
   {
+   "id": "iMusic:5021732733139",
+   "fonte": "iMusic",
+   "titulo": "Foals · What Went Down (10th Anniversa (LP) [Limited edition] (2025)",
+   "preco": 144.9,
+   "url": "https://imusic.br.com/music/5021732733139/foals-2025-what-went-down-10th-anniversa-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/139/5021732733139.jpg?foals-2025-what-went-down-10th-anniversa-lp&class=scaled&v=1753812425",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "desejo": "foals-what-went-down",
+   "busca": "Foals – What went down",
+   "precoTotal": 438.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 127.08,
+    "icms": 84.72,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 194.28803618421054,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "iMusic:4099964165098",
    "fonte": "iMusic",
    "titulo": "A Punk Tribute to Motörhead · Killed by Deaf: a Punk Tribute to Motörhead (LP) (2025)",
@@ -1694,6 +1809,29 @@
    "preco": 144.9,
    "url": "https://imusic.br.com/music/0888072505070/the-dave-brubeck-quartet-2023-jazz-at-oberlin-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/070/0888072505070.jpg?the-dave-brubeck-quartet-2023-jazz-at-oberlin-lp&class=scaled&v=1692993364",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 438.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 127.08,
+    "icms": 84.72,
+    "despacho": 15
+   },
+   "teto": 100,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0602547885081",
+   "fonte": "iMusic",
+   "titulo": "Guru · Jazzmatazz Volume 1 (LP) (2018)",
+   "preco": 144.9,
+   "url": "https://imusic.br.com/music/0602547885081/guru-2018-jazzmatazz-volume-1-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/081/0602547885081.jpg?guru-2018-jazzmatazz-volume-1-lp&class=scaled&v=1593420714",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
    "precoTotal": 438.6,
@@ -2109,29 +2247,6 @@
    "preco": 175.9,
    "url": "https://imusic.br.com/music/0888072240957/benny-carter-2022-jazz-giant-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/957/0888072240957.jpg?benny-carter-2022-jazz-giant-lp&class=scaled&v=1741866639",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 500.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 145.68,
-    "icms": 97.12,
-    "despacho": 15
-   },
-   "teto": 100,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:0602547885081",
-   "fonte": "iMusic",
-   "titulo": "Guru · Jazzmatazz Volume 1 (LP) (2018)",
-   "preco": 175.9,
-   "url": "https://imusic.br.com/music/0602547885081/guru-2018-jazzmatazz-volume-1-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/081/0602547885081.jpg?guru-2018-jazzmatazz-volume-1-lp&class=scaled&v=1593420714",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
    "precoTotal": 500.6,
@@ -2669,6 +2784,35 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:7404155",
+   "fonte": "Discogs",
+   "titulo": "Foals - What Went Down (2015, UK & Europe)",
+   "preco": 594.47,
+   "precoOriginal": {
+    "valor": 594.47,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/7404155",
+   "imagem": "https://i.discogs.com/m1CNprznkjDgJ_dvwk9dy8_AeNjXkcktVqVRBlBPHbc/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0MDQx/NTUtMTc4ODk0MDc5/OS05OTQwLmpwZWc.jpeg",
+   "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "foals-what-went-down",
+   "busca": "Foals – What went down",
+   "precoTotal": 1404.74,
+   "custos": {
+    "frete": 100.4,
+    "impostoImportacao": 416.92,
+    "icms": 277.95,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 194.28803618421054,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
    }
   },
   {
