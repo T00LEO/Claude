@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-09T01:34:59.794Z",
+ "geradoEm": "2026-10-09T06:08:55.655Z",
  "teto": 200,
  "tetoVarredura": 100,
  "fatorDiscogs": 0.9,
@@ -9,7 +9,7 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 293.3727528089888
+   "refDiscogs": 237.98527044400979
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
@@ -23,7 +23,7 @@
    "artista": "Rotten Mind",
    "titulo": "Unflavored",
    "teto": 200,
-   "refDiscogs": 104.77598314606742
+   "refDiscogs": 125.7311797752809
   },
   {
    "chave": "home-front-games-of-power",
@@ -43,22 +43,6 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6202-35877cb7238cfd751f17854104892563-1024-1024.webp",
    "busca": "jazz",
    "precoTotal": 30,
-   "teto": 100,
-   "criterios": {
-    "teto": true,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358412847",
-   "fonte": "Patuá Discos",
-   "titulo": "Vocal Jazz Incorporated - High Clouds - LP",
-   "preco": 45,
-   "url": "https://patuadiscos.com.br/produtos/vocal-jazz-incorporated-high-clouds-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6197-c0e4a52d0708a151d517854175345677-1024-1024.webp",
-   "busca": "jazz",
-   "precoTotal": 45,
    "teto": 100,
    "criterios": {
     "teto": true,
@@ -123,6 +107,22 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/whatsappimage2024-08-16at15-35-46_1-aaa6ef257e65cbee9e17853796071579-1024-1024.webp",
    "busca": "jazz",
    "precoTotal": 70,
+   "teto": 100,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358407305",
+   "fonte": "Patuá Discos",
+   "titulo": "Swedish Radio Jazz Group - Rainbow Sketches - LP",
+   "preco": 75,
+   "url": "https://patuadiscos.com.br/produtos/swedish-radio-jazz-group-rainbow-sketches-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6812-5f655ad845f31dc00c17854151180842-1024-1024.webp",
+   "busca": "jazz",
+   "precoTotal": 75,
    "teto": 100,
    "criterios": {
     "teto": true,
@@ -803,7 +803,7 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 293.3727528089888,
+   "refDiscogs": 237.98527044400979,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -931,7 +931,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 104.77598314606742,
+   "refDiscogs": 125.7311797752809,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1026,10 +1026,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 104.77598314606742,
+   "refDiscogs": 125.7311797752809,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": false
    }
   },
@@ -1172,6 +1172,35 @@
    }
   },
   {
+   "id": "discogs:24281603",
+   "fonte": "Discogs",
+   "titulo": "Rotten Mind - Unflavored (2022, Sweden)",
+   "preco": 79.84,
+   "precoOriginal": {
+    "valor": 79.84,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/24281603",
+   "imagem": "https://i.discogs.com/6jg7HK5OYvCX0ACubjC6_EGLLnHwLN3iS_TSRw8h7Ck/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0Mjgx/NjAzLTE2NjExOTEw/OTItNDY2Ni5qcGVn.jpeg",
+   "observacao": "Menor preço entre 9 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "rotten-mind-unflavored",
+   "busca": "Rotten Mind – Unflavored",
+   "precoTotal": 375.48,
+   "custos": {
+    "frete": 100.4,
+    "impostoImportacao": 108.14,
+    "icms": 72.1,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 125.7311797752809,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "Locomotiva Discos:9874aa",
    "fonte": "Locomotiva Discos",
    "titulo": "LP CAP'N JAZZ - BURRITOS, INSPIRATION POINT, FORK... (NOVO/LACRADO)",
@@ -1247,35 +1276,6 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:28033284",
-   "fonte": "Discogs",
-   "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
-   "preco": 89.82,
-   "precoOriginal": {
-    "valor": 89.82,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/28033284",
-   "imagem": "https://i.discogs.com/uCkWVBE3NSaz4XE_kgsbcyWYDSc0r9H0biefBHMIgks/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDMz/Mjg0LTE2OTI2MDgw/OTYtMzAwNC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "rotten-mind-unflavored",
-   "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 395.44,
-   "custos": {
-    "frete": 100.4,
-    "impostoImportacao": 114.13,
-    "icms": 76.09,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 104.77598314606742,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
    }
   },
   {
@@ -1709,10 +1709,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 104.77598314606742,
+   "refDiscogs": 125.7311797752809,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": false
    }
   },
@@ -2166,7 +2166,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 293.3727528089888,
+   "refDiscogs": 237.98527044400979,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2197,28 +2197,28 @@
    }
   },
   {
-   "id": "discogs:27423360",
+   "id": "discogs:9691744",
    "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2023, US)",
-   "preco": 149.7,
+   "titulo": "LCD Soundsystem - Sound Of Silver (2016, Europe)",
+   "preco": 149.65,
    "precoOriginal": {
-    "valor": 149.7,
+    "valor": 149.65,
     "moeda": "BRL"
    },
-   "url": "https://www.discogs.com/sell/release/27423360",
-   "imagem": "https://i.discogs.com/5Cp2gZYkVIHbbHokK4HVnEho_Ltmoql6KqefGmvuX68/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NDIz/MzYwLTE2ODcxMzEy/NTQtOTc1Mi5qcGVn.jpeg",
-   "observacao": "Menor preço entre 28 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "url": "https://www.discogs.com/sell/release/9691744",
+   "imagem": "https://i.discogs.com/UhDD5b6JzdNIWBxvpEe_0pIpIw_ZWejlmcMJsJAXf1M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2OTE3/NDQtMTU4MDA0Mzk5/Ni04MjY0LmpwZWc.jpeg",
+   "observacao": "Menor preço entre 68 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "lcd-soundsystem-sound-of-silver",
    "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 515.2,
+   "precoTotal": 515.1,
    "custos": {
     "frete": 100.4,
-    "impostoImportacao": 150.06,
-    "icms": 100.04,
+    "impostoImportacao": 150.03,
+    "icms": 100.02,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 293.3727528089888,
+   "refDiscogs": 237.98527044400979,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2338,6 +2338,35 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:1312950",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2007, US)",
+   "preco": 174.35,
+   "precoOriginal": {
+    "valor": 174.35,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/1312950",
+   "imagem": "https://i.discogs.com/hIzE3Jtg4GDuWsQk3MSJbOsPRzcT6ydO1HNFqn5_Ojw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTI5/NTAtMTU4OTI0ODUy/OS0yNzM1LmpwZWc.jpeg",
+   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 564.5,
+   "custos": {
+    "frete": 100.4,
+    "impostoImportacao": 164.85,
+    "icms": 109.9,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 237.98527044400979,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
    }
   },
   {
@@ -2521,10 +2550,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 293.3727528089888,
+   "refDiscogs": 237.98527044400979,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -2640,35 +2669,6 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:1114048",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2007, UK)",
-   "preco": 656.51,
-   "precoOriginal": {
-    "valor": 656.51,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/1114048",
-   "imagem": "https://i.discogs.com/lHyyMEJu5HgBzY8J07eOAhefL0BrXpiuFQjKqzrV8YQ/rs:fit/g:sm/q:90/h:374/w:494/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTQw/NDgtMTM0NDk3MzAy/OC03NTMyLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 3 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 1528.82,
-   "custos": {
-    "frete": 100.4,
-    "impostoImportacao": 454.15,
-    "icms": 302.76,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 293.3727528089888,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
    }
   },
   {
