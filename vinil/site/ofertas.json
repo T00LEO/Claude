@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-10T12:32:30.465Z",
+ "geradoEm": "2026-10-10T15:24:43.395Z",
  "teto": 200,
  "tetoVarredura": 100,
  "fatorDiscogs": 0.9,
@@ -9,14 +9,14 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 187.67289325842697
+   "refDiscogs": 215.89311797752805
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
    "artista": "The Rapture",
    "titulo": "Pieces of the People We Love",
    "teto": 200,
-   "refDiscogs": 47.03370786516854
+   "refDiscogs": 260.3521671826626
   },
   {
    "chave": "rotten-mind-unflavored",
@@ -30,14 +30,14 @@
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 171.84
+   "refDiscogs": 186.875
   },
   {
    "chave": "foals-what-went-down",
    "artista": "Foals",
    "titulo": "What went down",
    "teto": 200,
-   "refDiscogs": 165.45786516853934
+   "refDiscogs": 193.51398026315792
   },
   {
    "chave": "schedule-1-crucible",
@@ -57,22 +57,6 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6202-35877cb7238cfd751f17854104892563-1024-1024.webp",
    "busca": "jazz",
    "precoTotal": 30,
-   "teto": 100,
-   "criterios": {
-    "teto": true,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Patuá Discos:358412847",
-   "fonte": "Patuá Discos",
-   "titulo": "Vocal Jazz Incorporated - High Clouds - LP",
-   "preco": 45,
-   "url": "https://patuadiscos.com.br/produtos/vocal-jazz-incorporated-high-clouds-lp/",
-   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6197-c0e4a52d0708a151d517854175345677-1024-1024.webp",
-   "busca": "jazz",
-   "precoTotal": 45,
    "teto": 100,
    "criterios": {
     "teto": true,
@@ -137,6 +121,22 @@
    "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/whatsappimage2024-08-16at15-35-46_1-aaa6ef257e65cbee9e17853796071579-1024-1024.webp",
    "busca": "jazz",
    "precoTotal": 70,
+   "teto": 100,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Patuá Discos:358407305",
+   "fonte": "Patuá Discos",
+   "titulo": "Swedish Radio Jazz Group - Rainbow Sketches - LP",
+   "preco": 75,
+   "url": "https://patuadiscos.com.br/produtos/swedish-radio-jazz-group-rainbow-sketches-lp/",
+   "imagem": "https://acdn-us.mitiendanube.com/stores/006/826/985/products/6812-5f655ad845f31dc00c17854151180842-1024-1024.webp",
+   "busca": "jazz",
+   "precoTotal": 75,
    "teto": 100,
    "criterios": {
     "teto": true,
@@ -768,36 +768,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 47.03370786516854,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:1324386",
-   "fonte": "Discogs",
-   "titulo": "The Rapture - Pieces Of The People We Love (2007, UK)",
-   "preco": 22.47,
-   "precoOriginal": {
-    "valor": 22.47,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/1324386",
-   "imagem": "https://i.discogs.com/G4xOIesjUESvvKB1rRp9SsSxqPkFIzTTaxjI72iXjnY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjQz/ODYtMTI2OTExNjM1/NC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 11 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "the-rapture-pieces-of-the-people-we-love",
-   "busca": "The Rapture – Pieces of the People We Love",
-   "precoTotal": 260.34,
-   "custos": {
-    "frete": 100.2,
-    "impostoImportacao": 73.6,
-    "icms": 49.07,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 47.03370786516854,
+   "refDiscogs": 260.3521671826626,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -846,7 +817,7 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 187.67289325842697,
+   "refDiscogs": 215.89311797752805,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -921,7 +892,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 165.45786516853934,
+   "refDiscogs": 193.51398026315792,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1244,6 +1215,35 @@
    }
   },
   {
+   "id": "discogs:15492475",
+   "fonte": "Discogs",
+   "titulo": "Foals - What Went Down (2015, UK & Europe)",
+   "preco": 80.59,
+   "precoOriginal": {
+    "valor": 80.59,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/15492475",
+   "imagem": "https://i.discogs.com/hN4taDZHlkTFowUvGOqQ40KMM7UwxymMyE8J6v0hTlk/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NDky/NDc1LTE1OTI0MzIx/MjAtNTY5NC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 12 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "foals-what-went-down",
+   "busca": "Foals – What went down",
+   "precoTotal": 376.58,
+   "custos": {
+    "frete": 100.2,
+    "impostoImportacao": 108.47,
+    "icms": 72.32,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 193.51398026315792,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "Locomotiva Discos:9874aa",
    "fonte": "Locomotiva Discos",
    "titulo": "LP CAP'N JAZZ - BURRITOS, INSPIRATION POINT, FORK... (NOVO/LACRADO)",
@@ -1368,7 +1368,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 171.84,
+   "refDiscogs": 186.875,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1432,7 +1432,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 165.45786516853934,
+   "refDiscogs": 193.51398026315792,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1716,6 +1716,35 @@
    }
   },
   {
+   "id": "discogs:37531311",
+   "fonte": "Discogs",
+   "titulo": "Home Front (2) - Games Of Power (2026, Europe)",
+   "preco": 109.55,
+   "precoOriginal": {
+    "valor": 109.55,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/37531311",
+   "imagem": "https://i.discogs.com/DyDY_XxAFP6dR6wHpIYrZCxDEaX2q_MvMNVYERIYw0U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMx/MzExLTE3ODQ0OTIz/MjYtMTczNS5qcGVn.jpeg",
+   "observacao": "Menor preço entre 7 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 434.5,
+   "custos": {
+    "frete": 100.2,
+    "impostoImportacao": 125.85,
+    "icms": 83.9,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 186.875,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "iMusic:5021732733139",
    "fonte": "iMusic",
    "titulo": "Foals · What Went Down (10th Anniversa (LP) [Limited edition] (2025)",
@@ -1733,7 +1762,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 165.45786516853934,
+   "refDiscogs": 193.51398026315792,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1947,35 +1976,6 @@
    }
   },
   {
-   "id": "discogs:12060565",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2016, US)",
-   "preco": 122.38,
-   "precoOriginal": {
-    "valor": 122.38,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/12060565",
-   "imagem": "https://i.discogs.com/doMuynSyHaY6kTKzH34MxCF0IRGNad6njmo9VAebuQY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDYw/NTY1LTE3Njk4NjM1/MzgtODIyMy5qcGVn.jpeg",
-   "observacao": "Menor preço entre 15 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 460.16,
-   "custos": {
-    "frete": 100.2,
-    "impostoImportacao": 133.55,
-    "icms": 89.03,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 187.67289325842697,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "iMusic:8435395504550",
    "fonte": "iMusic",
    "titulo": "Chet Baker · Late Night Jazz (LP) [Deluxe, Limited edition] (2024)",
@@ -2068,10 +2068,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 171.84,
+   "refDiscogs": 186.875,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": false
    }
   },
@@ -2188,35 +2188,6 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:35365384",
-   "fonte": "Discogs",
-   "titulo": "Foals - What Went Down (2025, Worldwide)",
-   "preco": 138.35,
-   "precoOriginal": {
-    "valor": 138.35,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/35365384",
-   "imagem": "https://i.discogs.com/yJWVWkmZfK4LBBJxe4-EqM9B0QrTKdgfsZUb-OGzOss/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MzY1/Mzg0LTE3NjAzNzU2/MTEtODcxOC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 34 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "foals-what-went-down",
-   "busca": "Foals – What went down",
-   "precoTotal": 492.1,
-   "custos": {
-    "frete": 100.2,
-    "impostoImportacao": 143.13,
-    "icms": 95.42,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 165.45786516853934,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
    }
   },
   {
@@ -2352,10 +2323,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 187.67289325842697,
+   "refDiscogs": 215.89311797752805,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": false
    }
   },
@@ -2383,6 +2354,35 @@
    }
   },
   {
+   "id": "discogs:9691744",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2016, Europe)",
+   "preco": 149.95,
+   "precoOriginal": {
+    "valor": 149.95,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/9691744",
+   "imagem": "https://i.discogs.com/UhDD5b6JzdNIWBxvpEe_0pIpIw_ZWejlmcMJsJAXf1M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2OTE3/NDQtMTU4MDA0Mzk5/Ni04MjY0LmpwZWc.jpeg",
+   "observacao": "Menor preço entre 66 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 515.3,
+   "custos": {
+    "frete": 100.2,
+    "impostoImportacao": 150.09,
+    "icms": 100.06,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 215.89311797752805,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "discogs:27423360",
    "fonte": "Discogs",
    "titulo": "LCD Soundsystem - Sound Of Silver (2023, US)",
@@ -2404,7 +2404,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 187.67289325842697,
+   "refDiscogs": 215.89311797752805,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2573,7 +2573,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 171.84,
+   "refDiscogs": 186.875,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2601,6 +2601,35 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:1312950",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2007, US)",
+   "preco": 174.75,
+   "precoOriginal": {
+    "valor": 174.75,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/1312950",
+   "imagem": "https://i.discogs.com/hIzE3Jtg4GDuWsQk3MSJbOsPRzcT6ydO1HNFqn5_Ojw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTI5/NTAtMTU4OTI0ODUy/OS0yNzM1LmpwZWc.jpeg",
+   "observacao": "Menor preço entre 5 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 564.9,
+   "custos": {
+    "frete": 100.2,
+    "impostoImportacao": 164.97,
+    "icms": 109.98,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 215.89311797752805,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
    }
   },
   {
@@ -2736,7 +2765,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 187.67289325842697,
+   "refDiscogs": 215.89311797752805,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2834,7 +2863,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 171.84,
+   "refDiscogs": 186.875,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2902,11 +2931,40 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 165.45786516853934,
+   "refDiscogs": 193.51398026315792,
    "criterios": {
     "teto": false,
     "discogs": false,
     "maisBarato": false
+   }
+  },
+  {
+   "id": "discogs:881288",
+   "fonte": "Discogs",
+   "titulo": "The Rapture - Pieces Of The People We Love (2006, UK & Europe)",
+   "preco": 961.54,
+   "precoOriginal": {
+    "valor": 961.54,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/881288",
+   "imagem": "https://i.discogs.com/S5xXm7o85iJg3LA-ngtZk-98QCiBPuccgNVdygW1yxI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg4MTI4/OC0xNTQwNTYyODQ4/LTYxODQuanBlZw.jpeg",
+   "observacao": "Menor preço entre 3 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "the-rapture-pieces-of-the-people-we-love",
+   "busca": "The Rapture – Pieces of the People We Love",
+   "precoTotal": 2138.48,
+   "custos": {
+    "frete": 100.2,
+    "impostoImportacao": 637.04,
+    "icms": 424.7,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 260.3521671826626,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": null
    }
   }
  ],
