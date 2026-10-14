@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-14T17:10:51.398Z",
+ "geradoEm": "2026-10-14T21:41:48.548Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -23,14 +23,14 @@
    "artista": "Rotten Mind",
    "titulo": "Unflavored",
    "teto": 200,
-   "refDiscogs": 105.61587078651687
+   "refDiscogs": 126.73904494382023
   },
   {
    "chave": "home-front-games-of-power",
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 187.99625
+   "refDiscogs": 169.18
   },
   {
    "chave": "foals-what-went-down",
@@ -959,6 +959,29 @@
    }
   },
   {
+   "id": "iMusic:0888072618411",
+   "fonte": "iMusic",
+   "titulo": "Jazz Dispensary: The Golden Hour (RSD Kintsugi Vinyl) (LP) [Black Friday 2024 edition] (2024)",
+   "preco": 87.9,
+   "url": "https://imusic.br.com/music/0888072618411/2024-jazz-dispensary-the-golden-hour-rsd-kintsugi-vinyl-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/411/0888072618411.jpg?2024-jazz-dispensary-the-golden-hour-rsd-kintsugi-vinyl-lp&class=scaled&v=1728472876",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 324.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 92.88,
+    "icms": 61.92,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "discogs:26840834",
    "fonte": "Discogs",
    "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
@@ -980,7 +1003,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 105.61587078651687,
+   "refDiscogs": 126.73904494382023,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1121,10 +1144,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 105.61587078651687,
+   "refDiscogs": 126.73904494382023,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": false
    }
   },
@@ -1244,6 +1267,35 @@
    }
   },
   {
+   "id": "discogs:24281603",
+   "fonte": "Discogs",
+   "titulo": "Rotten Mind - Unflavored (2022, Sweden)",
+   "preco": 80.48,
+   "precoOriginal": {
+    "valor": 80.48,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/24281603",
+   "imagem": "https://i.discogs.com/6jg7HK5OYvCX0ACubjC6_EGLLnHwLN3iS_TSRw8h7Ck/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0Mjgx/NjAzLTE2NjExOTEw/OTItNDY2Ni5qcGVn.jpeg",
+   "observacao": "Menor preço entre 9 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "rotten-mind-unflavored",
+   "busca": "Rotten Mind – Unflavored",
+   "precoTotal": 376.76,
+   "custos": {
+    "frete": 100.4,
+    "impostoImportacao": 108.53,
+    "icms": 72.35,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 126.73904494382023,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "discogs:15492475",
    "fonte": "Discogs",
    "titulo": "Foals - What Went Down (2015, UK & Europe)",
@@ -1328,35 +1380,6 @@
    }
   },
   {
-   "id": "discogs:28033284",
-   "fonte": "Discogs",
-   "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
-   "preco": 90.54,
-   "precoOriginal": {
-    "valor": 90.54,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/28033284",
-   "imagem": "https://i.discogs.com/uCkWVBE3NSaz4XE_kgsbcyWYDSc0r9H0biefBHMIgks/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDMz/Mjg0LTE2OTI2MDgw/OTYtMzAwNC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "rotten-mind-unflavored",
-   "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 396.88,
-   "custos": {
-    "frete": 100.4,
-    "impostoImportacao": 114.56,
-    "icms": 76.38,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 105.61587078651687,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "Patuá Discos:358391338",
    "fonte": "Patuá Discos",
    "titulo": "Wander Wildner - Mocochinchi Folksom - LP",
@@ -1390,7 +1413,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 187.99625,
+   "refDiscogs": 169.18,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1745,26 +1768,32 @@
    }
   },
   {
-   "id": "iMusic:0602475225065",
-   "fonte": "iMusic",
-   "titulo": "Art Blakey & the Jazz Messengers · Free for All (LP) [Blue Note Classic Vinyl edition] (2026)",
-   "preco": 137.9,
-   "url": "https://imusic.br.com/music/0602475225065/art-blakey-the-jazz-messengers-2026-free-for-all-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/065/0602475225065.jpg?art-blakey-the-jazz-messengers-2026-free-for-all-lp&class=scaled&v=1766058727",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 424.6,
+   "id": "discogs:37531311",
+   "fonte": "Discogs",
+   "titulo": "Home Front (2) - Games Of Power (2026, Europe)",
+   "preco": 110.21,
+   "precoOriginal": {
+    "valor": 110.21,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/37531311",
+   "imagem": "https://i.discogs.com/DyDY_XxAFP6dR6wHpIYrZCxDEaX2q_MvMNVYERIYw0U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMx/MzExLTE3ODQ0OTIz/MjYtMTczNS5qcGVn.jpeg",
+   "observacao": "Menor preço entre 8 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 436.22,
    "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 122.88,
-    "icms": 81.92,
+    "frete": 100.4,
+    "impostoImportacao": 126.37,
+    "icms": 84.24,
     "despacho": 15
    },
-   "teto": 120,
+   "teto": 200,
+   "refDiscogs": 169.18,
    "criterios": {
     "teto": false,
-    "discogs": null,
-    "maisBarato": null
+    "discogs": true,
+    "maisBarato": false
    }
   },
   {
@@ -1929,10 +1958,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 105.61587078651687,
+   "refDiscogs": 126.73904494382023,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": false
    }
   },
@@ -1996,35 +2025,6 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:26287316",
-   "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
-   "preco": 120.44,
-   "precoOriginal": {
-    "valor": 120.44,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/26287316",
-   "imagem": "https://i.discogs.com/6rLoqnU4DTf4MitESLfsQRPGLEQd1LhWKjte1I8qs6Q/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Mjg3/MzE2LTE2ODgyMDEx/OTMtNTI2Ni5qcGVn.jpeg",
-   "observacao": "Menor preço entre 35 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 456.68,
-   "custos": {
-    "frete": 100.4,
-    "impostoImportacao": 132.5,
-    "icms": 88.34,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 187.99625,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
    }
   },
   {
@@ -2097,35 +2097,6 @@
    }
   },
   {
-   "id": "discogs:12060565",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2016, US)",
-   "preco": 123.98,
-   "precoOriginal": {
-    "valor": 123.98,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/12060565",
-   "imagem": "https://i.discogs.com/doMuynSyHaY6kTKzH34MxCF0IRGNad6njmo9VAebuQY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDYw/NTY1LTE3Njk4NjM1/MzgtODIyMy5qcGVn.jpeg",
-   "observacao": "Menor preço entre 16 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 463.76,
-   "custos": {
-    "frete": 100.4,
-    "impostoImportacao": 134.63,
-    "icms": 89.75,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 217.18847668539325,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "discogs:30813726",
    "fonte": "Discogs",
    "titulo": "Schedule 1 - Crucible (2024, US)",
@@ -2172,10 +2143,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 187.99625,
+   "refDiscogs": 169.18,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -2435,6 +2406,35 @@
    }
   },
   {
+   "id": "discogs:27423360",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2023, US)",
+   "preco": 150.9,
+   "precoOriginal": {
+    "valor": 150.9,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/27423360",
+   "imagem": "https://i.discogs.com/5Cp2gZYkVIHbbHokK4HVnEho_Ltmoql6KqefGmvuX68/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NDIz/MzYwLTE2ODcxMzEy/NTQtOTc1Mi5qcGVn.jpeg",
+   "observacao": "Menor preço entre 29 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 517.6,
+   "custos": {
+    "frete": 100.4,
+    "impostoImportacao": 150.78,
+    "icms": 100.52,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 217.18847668539325,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "iMusic:0196588083310",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Random Access Memories (LP) [Drumless edition] (2023)",
@@ -2596,7 +2596,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 187.99625,
+   "refDiscogs": 169.18,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2886,7 +2886,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 187.99625,
+   "refDiscogs": 169.18,
    "criterios": {
     "teto": false,
     "discogs": false,
