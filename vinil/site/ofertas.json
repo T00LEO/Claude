@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-20T17:09:31.637Z",
+ "geradoEm": "2026-10-20T21:38:00.604Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -30,7 +30,7 @@
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 226.4925
+   "refDiscogs": 153.02
   },
   {
    "chave": "foals-what-went-down",
@@ -406,11 +406,12 @@
    }
   },
   {
-   "id": "Baratos Afins:363303609",
-   "fonte": "Baratos Afins",
-   "titulo": "LOS EX TRIDENTES - LP",
+   "id": "Locomotiva Discos:96812b",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
    "preco": 150,
-   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
+   "url": "https://www.locomotivadiscos.com.br/pd-96812b-lp-varios-artistas-a-divina-tragedia-alternative-post-punk-vol-3.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96812B/183D68B/330xN.jpg",
    "busca": "punk",
    "precoTotal": 150,
    "teto": 120,
@@ -421,12 +422,11 @@
    }
   },
   {
-   "id": "Locomotiva Discos:96812b",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
+   "id": "Baratos Afins:363303609",
+   "fonte": "Baratos Afins",
+   "titulo": "LOS EX TRIDENTES - LP",
    "preco": 150,
-   "url": "https://www.locomotivadiscos.com.br/pd-96812b-lp-varios-artistas-a-divina-tragedia-alternative-post-punk-vol-3.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96812B/183D68B/330xN.jpg",
+   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
    "busca": "punk",
    "precoTotal": 150,
    "teto": 120,
@@ -1453,11 +1453,11 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 226.4925,
+   "refDiscogs": 153.02,
    "criterios": {
     "teto": false,
-    "discogs": true,
-    "maisBarato": true
+    "discogs": false,
+    "maisBarato": null
    }
   },
   {
@@ -1810,29 +1810,6 @@
    }
   },
   {
-   "id": "iMusic:0602547885081",
-   "fonte": "iMusic",
-   "titulo": "Guru · Jazzmatazz Volume 1 (LP) (2018)",
-   "preco": 144.9,
-   "url": "https://imusic.br.com/music/0602547885081/guru-2018-jazzmatazz-volume-1-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/081/0602547885081.jpg?guru-2018-jazzmatazz-volume-1-lp&class=scaled&v=1593420714",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 438.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 127.08,
-    "icms": 84.72,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "iMusic:0888072505070",
    "fonte": "iMusic",
    "titulo": "The Dave Brubeck Quartet · Jazz at Oberlin (LP) [Original Jazz Classics Series edition] (2023)",
@@ -2010,11 +1987,11 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 226.4925,
+   "refDiscogs": 153.02,
    "criterios": {
     "teto": false,
-    "discogs": true,
-    "maisBarato": false
+    "discogs": false,
+    "maisBarato": null
    }
   },
   {
@@ -2300,6 +2277,29 @@
    }
   },
   {
+   "id": "iMusic:0602547885081",
+   "fonte": "iMusic",
+   "titulo": "Guru · Jazzmatazz Volume 1 (LP) (2018)",
+   "preco": 176.9,
+   "url": "https://imusic.br.com/music/0602547885081/guru-2018-jazzmatazz-volume-1-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/081/0602547885081.jpg?guru-2018-jazzmatazz-volume-1-lp&class=scaled&v=1593420714",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 502.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 146.28,
+    "icms": 97.52,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "iMusic:0094638511410",
    "fonte": "iMusic",
    "titulo": "Lcd Soundsystem · Sound Of Silver (LP) (2016)",
@@ -2538,11 +2538,11 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 226.4925,
+   "refDiscogs": 153.02,
    "criterios": {
     "teto": false,
     "discogs": false,
-    "maisBarato": false
+    "maisBarato": null
    }
   },
   {
@@ -2778,35 +2778,6 @@
    }
   },
   {
-   "id": "discogs:26264924",
-   "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
-   "preco": 336.33,
-   "precoOriginal": {
-    "valor": 336.33,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/26264924",
-   "imagem": "https://i.discogs.com/-z-_OQVI-HkRe0IH1E4ldf-S9_sDHn9DV_hFAdukSLw/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MjY0/OTI0LTE3MTIyNzQx/NzAtNTU0MC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 888.46,
-   "custos": {
-    "frete": 100.4,
-    "impostoImportacao": 262.04,
-    "icms": 174.69,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 226.4925,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "Patuá Discos:365565422",
    "fonte": "Patuá Discos",
    "titulo": "Syncro Jazz - Syncro Jazz Live - LP",
@@ -2874,35 +2845,6 @@
    },
    "teto": 200,
    "refDiscogs": 296.9002808988764,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
-   }
-  },
-  {
-   "id": "discogs:26399480",
-   "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
-   "preco": 794.38,
-   "precoOriginal": {
-    "valor": 794.38,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/26399480",
-   "imagem": "https://i.discogs.com/GzUJ0rg786VuvlUmmRDB7mVqYL-ghHFgb53WsHkAezA/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Mzk5/NDgwLTE3MTIyNzQy/MDctNDQxNC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 1804.56,
-   "custos": {
-    "frete": 100.4,
-    "impostoImportacao": 536.87,
-    "icms": 357.91,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 226.4925,
    "criterios": {
     "teto": false,
     "discogs": false,
