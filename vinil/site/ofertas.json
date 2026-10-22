@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-21T21:43:33.394Z",
+ "geradoEm": "2026-10-22T04:45:17.436Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -9,7 +9,7 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 242.60802219720586
+   "refDiscogs": 295.1379748296963
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
@@ -30,7 +30,7 @@
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 225.14664877034986
+   "refDiscogs": 172.53
   },
   {
    "chave": "foals-what-went-down",
@@ -397,12 +397,11 @@
    }
   },
   {
-   "id": "Locomotiva Discos:9754cd",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP CONDE FAVELA SEXTETO - ABC GUETO JAZZ (NOVO)",
+   "id": "Baratos Afins:202187181",
+   "fonte": "Baratos Afins",
+   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
    "preco": 190,
-   "url": "https://www.locomotivadiscos.com.br/pd-9754cd-lp-conde-favela-sexteto-abc-gueto-jazz-novo.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9754CD/1872BE8/330xN.jpg",
+   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
    "busca": "jazz",
    "precoTotal": 190,
    "teto": 120,
@@ -413,11 +412,12 @@
    }
   },
   {
-   "id": "Baratos Afins:202187181",
-   "fonte": "Baratos Afins",
-   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
+   "id": "Locomotiva Discos:9754cd",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP CONDE FAVELA SEXTETO - ABC GUETO JAZZ (NOVO)",
    "preco": 190,
-   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
+   "url": "https://www.locomotivadiscos.com.br/pd-9754cd-lp-conde-favela-sexteto-abc-gueto-jazz-novo.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9754CD/1872BE8/330xN.jpg",
    "busca": "jazz",
    "precoTotal": 190,
    "teto": 120,
@@ -577,7 +577,7 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 242.60802219720586,
+   "refDiscogs": 295.1379748296963,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1168,7 +1168,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 225.14664877034986,
+   "refDiscogs": 172.53,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1596,16 +1596,16 @@
    "id": "iMusic:5054197177897",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Homework Remixes (LP) [Limited edition] (2022)",
-   "preco": 151.9,
+   "preco": 150.9,
    "url": "https://imusic.br.com/music/5054197177897/daft-punk-2022-homework-remixes-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/897/5054197177897.jpg?daft-punk-2022-homework-remixes-lp&class=scaled&v=1669456393",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 452.6,
+   "precoTotal": 450.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 131.28,
-    "icms": 87.52,
+    "impostoImportacao": 130.68,
+    "icms": 87.12,
     "despacho": 15
    },
    "teto": 120,
@@ -1731,10 +1731,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 225.14664877034986,
+   "refDiscogs": 172.53,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -1834,16 +1834,16 @@
    "id": "iMusic:0888837168618",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Random Access Memories (LP) (2025)",
-   "preco": 170.9,
+   "preco": 169.9,
    "url": "https://imusic.br.com/music/0888837168618/daft-punk-2025-random-access-memories-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/618/0888837168618.jpg?daft-punk-2025-random-access-memories-lp&class=scaled&v=1366618887",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 490.6,
+   "precoTotal": 488.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 142.68,
-    "icms": 95.12,
+    "impostoImportacao": 142.08,
+    "icms": 94.72,
     "despacho": 15
    },
    "teto": 120,
@@ -2061,7 +2061,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 242.60802219720586,
+   "refDiscogs": 295.1379748296963,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2092,48 +2092,19 @@
    }
   },
   {
-   "id": "discogs:9691744",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2016, Europe)",
-   "preco": 150.55,
-   "precoOriginal": {
-    "valor": 150.55,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/9691744",
-   "imagem": "https://i.discogs.com/UhDD5b6JzdNIWBxvpEe_0pIpIw_ZWejlmcMJsJAXf1M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2OTE3/NDQtMTU4MDA0Mzk5/Ni04MjY0LmpwZWc.jpeg",
-   "observacao": "Menor preço entre 69 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 516.9,
-   "custos": {
-    "frete": 100.4,
-    "impostoImportacao": 150.57,
-    "icms": 100.38,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 242.60802219720586,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "iMusic:0196588083310",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Random Access Memories (LP) [Drumless edition] (2023)",
-   "preco": 189.9,
+   "preco": 188.9,
    "url": "https://imusic.br.com/music/0196588083310/daft-punk-2023-random-access-memories-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/310/0196588083310.jpg?daft-punk-2023-random-access-memories-lp&class=scaled&v=1695916123",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 528.6,
+   "precoTotal": 526.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 154.08,
-    "icms": 102.72,
+    "impostoImportacao": 153.48,
+    "icms": 102.32,
     "despacho": 15
    },
    "teto": 120,
@@ -2147,16 +2118,16 @@
    "id": "iMusic:0826853006446",
    "fonte": "iMusic",
    "titulo": "THE DEKU TRIO · Zelda & Jazz III (LP) [Hand Pour color vinyl edition] (2026)",
-   "preco": 189.9,
+   "preco": 188.9,
    "url": "https://imusic.br.com/music/0826853006446/the-deku-trio-2026-zelda-jazz-iii-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/446/0826853006446.jpg?the-deku-trio-2026-zelda-jazz-iii-lp&class=scaled&v=1770121569",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 528.6,
+   "precoTotal": 526.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 154.08,
-    "icms": 102.72,
+    "impostoImportacao": 153.48,
+    "icms": 102.32,
     "despacho": 15
    },
    "teto": 120,
@@ -2170,16 +2141,16 @@
    "id": "iMusic:0602577089602",
    "fonte": "iMusic",
    "titulo": "Charlie Byrd Stan Getz · Jazz Samba (LP) (2019)",
-   "preco": 189.9,
+   "preco": 188.9,
    "url": "https://imusic.br.com/music/0602577089602/charlie-byrd-stan-getz-2019-jazz-samba-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/602/0602577089602.jpg?charlie-byrd-stan-getz-2019-jazz-samba-lp&class=scaled&v=1548408656",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 528.6,
+   "precoTotal": 526.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 154.08,
-    "icms": 102.72,
+    "impostoImportacao": 153.48,
+    "icms": 102.32,
     "despacho": 15
    },
    "teto": 120,
@@ -2193,16 +2164,16 @@
    "id": "iMusic:0888072556270",
    "fonte": "iMusic",
    "titulo": "Art Blakey & the Jazz Messengers · Caravan (LP) [Original Jazz Classics Series edition] (2024)",
-   "preco": 189.9,
+   "preco": 188.9,
    "url": "https://imusic.br.com/music/0888072556270/art-blakey-the-jazz-messengers-2024-caravan-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/270/0888072556270.jpg?art-blakey-the-jazz-messengers-2024-caravan-lp&class=scaled&v=1705670185",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 528.6,
+   "precoTotal": 526.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 154.08,
-    "icms": 102.72,
+    "impostoImportacao": 153.48,
+    "icms": 102.32,
     "despacho": 15
    },
    "teto": 120,
@@ -2234,7 +2205,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 242.60802219720586,
+   "refDiscogs": 295.1379748296963,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2311,7 +2282,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 225.14664877034986,
+   "refDiscogs": 172.53,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2339,35 +2310,6 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:3921382",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2012, UK)",
-   "preco": 176.15,
-   "precoOriginal": {
-    "valor": 176.15,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/3921382",
-   "imagem": "https://i.discogs.com/51Zr-CJGnND4PeIrN8aDBIhThBPy07U5MB0aeFvz4FY/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MjEz/ODItMTM0OTI5OTA3/Mi0xOTMyLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 11 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 568.1,
-   "custos": {
-    "frete": 100.4,
-    "impostoImportacao": 165.93,
-    "icms": 110.62,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 242.60802219720586,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
    }
   },
   {
@@ -2489,24 +2431,24 @@
    "id": "iMusic:0829732216417",
    "fonte": "iMusic",
    "titulo": "Lcd Soundsystem · Sound Of Silver (LP) (2007)",
-   "preco": 233.9,
+   "preco": 232.9,
    "url": "https://imusic.br.com/music/0829732216417/lcd-soundsystem-2007-sound-of-silver-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/417/0829732216417.jpg?lcd-soundsystem-2007-sound-of-silver-lp&class=scaled&v=1397856731",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "desejo": "lcd-soundsystem-sound-of-silver",
    "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 616.6,
+   "precoTotal": 614.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 180.48,
-    "icms": 120.32,
+    "impostoImportacao": 179.88,
+    "icms": 119.92,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 242.60802219720586,
+   "refDiscogs": 295.1379748296963,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": false
    }
   },
@@ -2560,16 +2502,16 @@
    "id": "iMusic:0722056185127",
    "fonte": "iMusic",
    "titulo": "Men I Trust · Oncle Jazz (LP) (2019)",
-   "preco": 252.9,
+   "preco": 251.9,
    "url": "https://imusic.br.com/music/0722056185127/men-i-trust-2019-oncle-jazz-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/127/0722056185127.jpg?men-i-trust-2019-oncle-jazz-lp&class=scaled&v=1572424773",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 654.6,
+   "precoTotal": 652.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 191.88,
-    "icms": 127.92,
+    "impostoImportacao": 191.28,
+    "icms": 127.52,
     "despacho": 15
    },
    "teto": 120,
@@ -2601,7 +2543,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 225.14664877034986,
+   "refDiscogs": 172.53,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2638,28 +2580,28 @@
    }
   },
   {
-   "id": "discogs:26399480",
+   "id": "discogs:1114048",
    "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
-   "preco": 789.67,
+   "titulo": "LCD Soundsystem - Sound Of Silver (2007, UK)",
+   "preco": 635.8,
    "precoOriginal": {
-    "valor": 789.67,
+    "valor": 635.8,
     "moeda": "BRL"
    },
-   "url": "https://www.discogs.com/sell/release/26399480",
-   "imagem": "https://i.discogs.com/GzUJ0rg786VuvlUmmRDB7mVqYL-ghHFgb53WsHkAezA/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Mzk5/NDgwLTE3MTIyNzQy/MDctNDQxNC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 1795.14,
+   "url": "https://www.discogs.com/sell/release/1114048",
+   "imagem": "https://i.discogs.com/lHyyMEJu5HgBzY8J07eOAhefL0BrXpiuFQjKqzrV8YQ/rs:fit/g:sm/q:90/h:374/w:494/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTQw/NDgtMTM0NDk3MzAy/OC03NTMyLmpwZWc.jpeg",
+   "observacao": "Menor preço entre 3 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 1487.4,
    "custos": {
     "frete": 100.4,
-    "impostoImportacao": 534.04,
-    "icms": 356.03,
+    "impostoImportacao": 441.72,
+    "icms": 294.48,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 225.14664877034986,
+   "refDiscogs": 295.1379748296963,
    "criterios": {
     "teto": false,
     "discogs": false,
