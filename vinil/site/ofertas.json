@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-23T17:07:26.164Z",
+ "geradoEm": "2026-10-23T21:25:06.185Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -9,7 +9,7 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 296.31235955056184
+   "refDiscogs": 263.4282
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
@@ -30,14 +30,14 @@
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 173.22
+   "refDiscogs": 152.72
   },
   {
    "chave": "foals-what-went-down",
    "artista": "Foals",
    "titulo": "What went down",
    "teto": 200,
-   "refDiscogs": 166.78152808988764
+   "refDiscogs": 197.66292
   },
   {
    "chave": "schedule-1-crucible",
@@ -397,12 +397,11 @@
    }
   },
   {
-   "id": "Locomotiva Discos:9754cd",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP CONDE FAVELA SEXTETO - ABC GUETO JAZZ (NOVO)",
+   "id": "Baratos Afins:202187181",
+   "fonte": "Baratos Afins",
+   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
    "preco": 190,
-   "url": "https://www.locomotivadiscos.com.br/pd-9754cd-lp-conde-favela-sexteto-abc-gueto-jazz-novo.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9754CD/1872BE8/330xN.jpg",
+   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
    "busca": "jazz",
    "precoTotal": 190,
    "teto": 120,
@@ -413,11 +412,12 @@
    }
   },
   {
-   "id": "Baratos Afins:202187181",
-   "fonte": "Baratos Afins",
-   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
+   "id": "Locomotiva Discos:9754cd",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP CONDE FAVELA SEXTETO - ABC GUETO JAZZ (NOVO)",
    "preco": 190,
-   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
+   "url": "https://www.locomotivadiscos.com.br/pd-9754cd-lp-conde-favela-sexteto-abc-gueto-jazz-novo.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9754CD/1872BE8/330xN.jpg",
    "busca": "jazz",
    "precoTotal": 190,
    "teto": 120,
@@ -577,7 +577,7 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 296.31235955056184,
+   "refDiscogs": 263.4282,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -875,35 +875,6 @@
    }
   },
   {
-   "id": "discogs:7392977",
-   "fonte": "Discogs",
-   "titulo": "Foals - What Went Down (2015, UK & Europe)",
-   "preco": 75.6,
-   "precoOriginal": {
-    "valor": 75.6,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/7392977",
-   "imagem": "https://i.discogs.com/59a1RRECUuB-8DYG6mDzsuBCh7Ud5rcF1Fpu0fqRA0I/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczOTI5/NzctMTQ0MDUyNjY2/NC01MjAzLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 56 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "foals-what-went-down",
-   "busca": "Foals – What went down",
-   "precoTotal": 368.2,
-   "custos": {
-    "frete": 101,
-    "impostoImportacao": 105.96,
-    "icms": 70.64,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 166.78152808988764,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": true
-   }
-  },
-  {
    "id": "iMusic:0888072685284",
    "fonte": "iMusic",
    "titulo": "Hank Mobley · Jazz Message #2 (LP) [Original Jazz Classics edition] (2025)",
@@ -1089,6 +1060,35 @@
    }
   },
   {
+   "id": "discogs:15492475",
+   "fonte": "Discogs",
+   "titulo": "Foals - What Went Down (2015, UK & Europe)",
+   "preco": 82.98,
+   "precoOriginal": {
+    "valor": 82.98,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/15492475",
+   "imagem": "https://i.discogs.com/hN4taDZHlkTFowUvGOqQ40KMM7UwxymMyE8J6v0hTlk/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NDky/NDc1LTE1OTI0MzIx/MjAtNTY5NC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 13 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "foals-what-went-down",
+   "busca": "Foals – What went down",
+   "precoTotal": 382.96,
+   "custos": {
+    "frete": 101,
+    "impostoImportacao": 110.39,
+    "icms": 73.59,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 197.66292,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": true
+   }
+  },
+  {
    "id": "iMusic:0602507465681",
    "fonte": "iMusic",
    "titulo": "Art Blakey and the Jazz Messengers · Moanin' (LP) [Blue Note Classic Vinyl edition] (2021)",
@@ -1168,11 +1168,11 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 173.22,
+   "refDiscogs": 152.72,
    "criterios": {
     "teto": false,
-    "discogs": true,
-    "maisBarato": true
+    "discogs": false,
+    "maisBarato": null
    }
   },
   {
@@ -1193,7 +1193,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 166.78152808988764,
+   "refDiscogs": 197.66292,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1425,7 +1425,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 166.78152808988764,
+   "refDiscogs": 197.66292,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1737,11 +1737,11 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 173.22,
+   "refDiscogs": 152.72,
    "criterios": {
     "teto": false,
     "discogs": false,
-    "maisBarato": false
+    "maisBarato": null
    }
   },
   {
@@ -1857,35 +1857,6 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:35365384",
-   "fonte": "Discogs",
-   "titulo": "Foals - What Went Down (2025, Worldwide)",
-   "preco": 139.46,
-   "precoOriginal": {
-    "valor": 139.46,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/35365384",
-   "imagem": "https://i.discogs.com/yJWVWkmZfK4LBBJxe4-EqM9B0QrTKdgfsZUb-OGzOss/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MzY1/Mzg0LTE3NjAzNzU2/MTEtODcxOC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 36 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "foals-what-went-down",
-   "busca": "Foals – What went down",
-   "precoTotal": 495.92,
-   "custos": {
-    "frete": 101,
-    "impostoImportacao": 144.28,
-    "icms": 96.18,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 166.78152808988764,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
    }
   },
   {
@@ -2090,7 +2061,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 296.31235955056184,
+   "refDiscogs": 263.4282,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2118,6 +2089,64 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:26682263",
+   "fonte": "Discogs",
+   "titulo": "Foals - What Went Down (2022, UK & Europe)",
+   "preco": 150.95,
+   "precoOriginal": {
+    "valor": 150.95,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/26682263",
+   "imagem": "https://i.discogs.com/0yGwhQL0wM9IGObxY0nImpzSIOYp_9CkWeqBD6IYxSc/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Njgy/MjYzLTE2ODA4OTIy/NDktMjQyNC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "foals-what-went-down",
+   "busca": "Foals – What went down",
+   "precoTotal": 518.9,
+   "custos": {
+    "frete": 101,
+    "impostoImportacao": 151.17,
+    "icms": 100.78,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 197.66292,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "discogs:9691744",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2016, Europe)",
+   "preco": 151.15,
+   "precoOriginal": {
+    "valor": 151.15,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/9691744",
+   "imagem": "https://i.discogs.com/UhDD5b6JzdNIWBxvpEe_0pIpIw_ZWejlmcMJsJAXf1M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2OTE3/NDQtMTU4MDA0Mzk5/Ni04MjY0LmpwZWc.jpeg",
+   "observacao": "Menor preço entre 69 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 519.3,
+   "custos": {
+    "frete": 101,
+    "impostoImportacao": 151.29,
+    "icms": 100.86,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 263.4282,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
    }
   },
   {
@@ -2242,35 +2271,6 @@
    }
   },
   {
-   "id": "discogs:1312950",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2007, US)",
-   "preco": 161.28,
-   "precoOriginal": {
-    "valor": 161.28,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/1312950",
-   "imagem": "https://i.discogs.com/hIzE3Jtg4GDuWsQk3MSJbOsPRzcT6ydO1HNFqn5_Ojw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTI5/NTAtMTU4OTI0ODUy/OS0yNzM1LmpwZWc.jpeg",
-   "observacao": "Menor preço entre 5 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 539.56,
-   "custos": {
-    "frete": 101,
-    "impostoImportacao": 157.37,
-    "icms": 104.91,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 296.31235955056184,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "iMusic:0195497352142",
    "fonte": "iMusic",
    "titulo": "J Jazz Volume 3: Deep Modern Jazz from Japan · J Jazz Volume 3: Deep Modern Jazz From Japan (LP) (2021)",
@@ -2311,11 +2311,11 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 173.22,
+   "refDiscogs": 152.72,
    "criterios": {
     "teto": false,
     "discogs": false,
-    "maisBarato": false
+    "maisBarato": null
    }
   },
   {
@@ -2339,6 +2339,35 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:3921382",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2012, UK)",
+   "preco": 176.85,
+   "precoOriginal": {
+    "valor": 176.85,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/3921382",
+   "imagem": "https://i.discogs.com/51Zr-CJGnND4PeIrN8aDBIhThBPy07U5MB0aeFvz4FY/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MjEz/ODItMTM0OTI5OTA3/Mi0xOTMyLmpwZWc.jpeg",
+   "observacao": "Menor preço entre 11 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 570.7,
+   "custos": {
+    "frete": 101,
+    "impostoImportacao": 166.71,
+    "icms": 111.14,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 263.4282,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
    }
   },
   {
@@ -2474,7 +2503,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 296.31235955056184,
+   "refDiscogs": 263.4282,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2551,35 +2580,6 @@
    }
   },
   {
-   "id": "discogs:26264924",
-   "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
-   "preco": 335.66,
-   "precoOriginal": {
-    "valor": 335.66,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/26264924",
-   "imagem": "https://i.discogs.com/-z-_OQVI-HkRe0IH1E4ldf-S9_sDHn9DV_hFAdukSLw/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MjY0/OTI0LTE3MTIyNzQx/NzAtNTU0MC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 888.32,
-   "custos": {
-    "frete": 101,
-    "impostoImportacao": 262,
-    "icms": 174.66,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 173.22,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "discogs:7404155",
    "fonte": "Discogs",
    "titulo": "Foals - What Went Down (2015, UK & Europe)",
@@ -2601,36 +2601,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 166.78152808988764,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
-   }
-  },
-  {
-   "id": "discogs:1114048",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2007, UK)",
-   "preco": 638.33,
-   "precoOriginal": {
-    "valor": 638.33,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/1114048",
-   "imagem": "https://i.discogs.com/lHyyMEJu5HgBzY8J07eOAhefL0BrXpiuFQjKqzrV8YQ/rs:fit/g:sm/q:90/h:374/w:494/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTQw/NDgtMTM0NDk3MzAy/OC03NTMyLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 3 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 1493.66,
-   "custos": {
-    "frete": 101,
-    "impostoImportacao": 443.6,
-    "icms": 295.73,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 296.31235955056184,
+   "refDiscogs": 197.66292,
    "criterios": {
     "teto": false,
     "discogs": false,
