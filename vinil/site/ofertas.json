@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-24T15:57:22.562Z",
+ "geradoEm": "2026-10-24T20:50:06.746Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -9,7 +9,7 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 265.28332816901406
+   "refDiscogs": 351.6231209399999
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
@@ -30,7 +30,7 @@
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 188.37
+   "refDiscogs": 97.85
   },
   {
    "chave": "foals-what-went-down",
@@ -397,11 +397,12 @@
    }
   },
   {
-   "id": "Baratos Afins:202187181",
-   "fonte": "Baratos Afins",
-   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
+   "id": "Locomotiva Discos:9754cd",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP CONDE FAVELA SEXTETO - ABC GUETO JAZZ (NOVO)",
    "preco": 190,
-   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
+   "url": "https://www.locomotivadiscos.com.br/pd-9754cd-lp-conde-favela-sexteto-abc-gueto-jazz-novo.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9754CD/1872BE8/330xN.jpg",
    "busca": "jazz",
    "precoTotal": 190,
    "teto": 120,
@@ -412,12 +413,11 @@
    }
   },
   {
-   "id": "Locomotiva Discos:9754cd",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP CONDE FAVELA SEXTETO - ABC GUETO JAZZ (NOVO)",
+   "id": "Baratos Afins:202187181",
+   "fonte": "Baratos Afins",
+   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
    "preco": 190,
-   "url": "https://www.locomotivadiscos.com.br/pd-9754cd-lp-conde-favela-sexteto-abc-gueto-jazz-novo.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9754CD/1872BE8/330xN.jpg",
+   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
    "busca": "jazz",
    "precoTotal": 190,
    "teto": 120,
@@ -577,10 +577,10 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 265.28332816901406,
+   "refDiscogs": 351.6231209399999,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": true
    }
   },
@@ -1168,10 +1168,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 188.37,
+   "refDiscogs": 97.85,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": true
    }
   },
@@ -1662,6 +1662,35 @@
    }
   },
   {
+   "id": "discogs:37531311",
+   "fonte": "Discogs",
+   "titulo": "Home Front (2) - Games Of Power (2026, Europe)",
+   "preco": 125.95,
+   "precoOriginal": {
+    "valor": 125.95,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/37531311",
+   "imagem": "https://i.discogs.com/DyDY_XxAFP6dR6wHpIYrZCxDEaX2q_MvMNVYERIYw0U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMx/MzExLTE3ODQ0OTIz/MjYtMTczNS5qcGVn.jpeg",
+   "observacao": "Menor preço entre 7 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 468.9,
+   "custos": {
+    "frete": 101,
+    "impostoImportacao": 136.17,
+    "icms": 90.78,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 97.85,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "iMusic:8721018001064",
    "fonte": "iMusic",
    "titulo": "Home Front · Games Of Power (LP) (2023)",
@@ -1679,10 +1708,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 188.37,
+   "refDiscogs": 97.85,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -1767,35 +1796,6 @@
    "url": "https://www.discogs.com/sell/release/30813726",
    "imagem": "https://i.discogs.com/TDIjRdwBlQePemTozG3eAiKyUH9-0EmSlMGMnVuPzaI/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwODEz/NzI2LTE3MzgyNzUz/ODEtNzE3Ny5qcGVn.jpeg",
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "schedule-1-crucible",
-   "busca": "Schedule 1 – Crucible",
-   "precoTotal": 477.5,
-   "custos": {
-    "frete": 101,
-    "impostoImportacao": 138.75,
-    "icms": 92.5,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 101.59280898876405,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:30474635",
-   "fonte": "Discogs",
-   "titulo": "Schedule 1 - Crucible (2024, Spain)",
-   "preco": 130.25,
-   "precoOriginal": {
-    "valor": 130.25,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/30474635",
-   "imagem": "https://i.discogs.com/qBFSO8u60xMW-S-z5fAW8vhYHuCP_npGqDCl_xBeAPM/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNDc0/NjM1LTE3MTM4MDMz/NzctNDYzNC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "schedule-1-crucible",
    "busca": "Schedule 1 – Crucible",
    "precoTotal": 477.5,
@@ -2090,7 +2090,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 265.28332816901406,
+   "refDiscogs": 351.6231209399999,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2242,35 +2242,6 @@
    }
   },
   {
-   "id": "discogs:1312950",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2007, US)",
-   "preco": 161.28,
-   "precoOriginal": {
-    "valor": 161.28,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/1312950",
-   "imagem": "https://i.discogs.com/hIzE3Jtg4GDuWsQk3MSJbOsPRzcT6ydO1HNFqn5_Ojw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTI5/NTAtMTU4OTI0ODUy/OS0yNzM1LmpwZWc.jpeg",
-   "observacao": "Menor preço entre 5 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 539.56,
-   "custos": {
-    "frete": 101,
-    "impostoImportacao": 157.37,
-    "icms": 104.91,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 265.28332816901406,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "iMusic:0195497352142",
    "fonte": "iMusic",
    "titulo": "J Jazz Volume 3: Deep Modern Jazz from Japan · J Jazz Volume 3: Deep Modern Jazz From Japan (LP) (2021)",
@@ -2311,7 +2282,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 188.37,
+   "refDiscogs": 97.85,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2363,7 +2334,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 265.28332816901406,
+   "refDiscogs": 351.6231209399999,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2503,7 +2474,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 265.28332816901406,
+   "refDiscogs": 351.6231209399999,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2580,28 +2551,28 @@
    }
   },
   {
-   "id": "discogs:26264924",
+   "id": "discogs:932618",
    "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
-   "preco": 335.66,
+   "titulo": "LCD Soundsystem - Sound Of Silver (2007, Europe)",
+   "preco": 339.78,
    "precoOriginal": {
-    "valor": 335.66,
+    "valor": 339.78,
     "moeda": "BRL"
    },
-   "url": "https://www.discogs.com/sell/release/26264924",
-   "imagem": "https://i.discogs.com/-z-_OQVI-HkRe0IH1E4ldf-S9_sDHn9DV_hFAdukSLw/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MjY0/OTI0LTE3MTIyNzQx/NzAtNTU0MC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 888.32,
+   "url": "https://www.discogs.com/sell/release/932618",
+   "imagem": "https://i.discogs.com/iTYwikBvgkWKfkl8ScjppkQTON9zzNnTU4ZL4YlMXcg/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzMjYx/OC0xNjAyNTM1MDE1/LTExOTIuanBlZw.jpeg",
+   "observacao": "Menor preço entre 8 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 896.56,
    "custos": {
     "frete": 101,
-    "impostoImportacao": 262,
-    "icms": 174.66,
+    "impostoImportacao": 264.47,
+    "icms": 176.31,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 188.37,
+   "refDiscogs": 351.6231209399999,
    "criterios": {
     "teto": false,
     "discogs": false,
