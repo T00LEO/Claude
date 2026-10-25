@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-24T20:50:06.746Z",
+ "geradoEm": "2026-10-25T04:41:36.443Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -16,7 +16,7 @@
    "artista": "The Rapture",
    "titulo": "Pieces of the People We Love",
    "teto": 200,
-   "refDiscogs": 265.93345281176465
+   "refDiscogs": 47.40997752808989
   },
   {
    "chave": "rotten-mind-unflavored",
@@ -397,12 +397,11 @@
    }
   },
   {
-   "id": "Locomotiva Discos:9754cd",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP CONDE FAVELA SEXTETO - ABC GUETO JAZZ (NOVO)",
+   "id": "Baratos Afins:202187181",
+   "fonte": "Baratos Afins",
+   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
    "preco": 190,
-   "url": "https://www.locomotivadiscos.com.br/pd-9754cd-lp-conde-favela-sexteto-abc-gueto-jazz-novo.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9754CD/1872BE8/330xN.jpg",
+   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
    "busca": "jazz",
    "precoTotal": 190,
    "teto": 120,
@@ -413,11 +412,12 @@
    }
   },
   {
-   "id": "Baratos Afins:202187181",
-   "fonte": "Baratos Afins",
-   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
+   "id": "Locomotiva Discos:9754cd",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP CONDE FAVELA SEXTETO - ABC GUETO JAZZ (NOVO)",
    "preco": 190,
-   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
+   "url": "https://www.locomotivadiscos.com.br/pd-9754cd-lp-conde-favela-sexteto-abc-gueto-jazz-novo.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9754CD/1872BE8/330xN.jpg",
    "busca": "jazz",
    "precoTotal": 190,
    "teto": 120,
@@ -528,7 +528,36 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 265.93345281176465,
+   "refDiscogs": 47.40997752808989,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:1324386",
+   "fonte": "Discogs",
+   "titulo": "The Rapture - Pieces Of The People We Love (2007, UK)",
+   "preco": 22.65,
+   "precoOriginal": {
+    "valor": 22.65,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/1324386",
+   "imagem": "https://i.discogs.com/G4xOIesjUESvvKB1rRp9SsSxqPkFIzTTaxjI72iXjnY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjQz/ODYtMTI2OTExNjM1/NC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 11 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "the-rapture-pieces-of-the-people-we-love",
+   "busca": "The Rapture – Pieces of the People We Love",
+   "precoTotal": 262.3,
+   "custos": {
+    "frete": 101,
+    "impostoImportacao": 74.19,
+    "icms": 49.46,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 47.40997752808989,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -998,12 +1027,12 @@
    }
   },
   {
-   "id": "iMusic:7393465133301",
+   "id": "iMusic:0888072685284",
    "fonte": "iMusic",
-   "titulo": "Jan Johansson · Jazz På Svenska (LP) (2014)",
+   "titulo": "Hank Mobley · Jazz Message #2 (LP) [Original Jazz Classics edition] (2025)",
    "preco": 111.9,
-   "url": "https://imusic.br.com/music/7393465133301/jan-johansson-2014-jazz-paa-svenska-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/301/7393465133301.jpg?jan-johansson-2014-jazz-paa-svenska-lp&class=scaled&v=1718027611",
+   "url": "https://imusic.br.com/music/0888072685284/hank-mobley-2025-jazz-message-2-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/284/0888072685284.jpg?hank-mobley-2025-jazz-message-2-lp&class=scaled&v=1758532045",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
    "precoTotal": 372.6,
@@ -1021,12 +1050,12 @@
    }
   },
   {
-   "id": "iMusic:0888072685284",
+   "id": "iMusic:7393465133301",
    "fonte": "iMusic",
-   "titulo": "Hank Mobley · Jazz Message #2 (LP) [Original Jazz Classics edition] (2025)",
+   "titulo": "Jan Johansson · Jazz På Svenska (LP) (2014)",
    "preco": 111.9,
-   "url": "https://imusic.br.com/music/0888072685284/hank-mobley-2025-jazz-message-2-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/284/0888072685284.jpg?hank-mobley-2025-jazz-message-2-lp&class=scaled&v=1758532045",
+   "url": "https://imusic.br.com/music/7393465133301/jan-johansson-2014-jazz-paa-svenska-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/301/7393465133301.jpg?jan-johansson-2014-jazz-paa-svenska-lp&class=scaled&v=1718027611",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
    "precoTotal": 372.6,
@@ -1814,6 +1843,35 @@
    }
   },
   {
+   "id": "discogs:30474635",
+   "fonte": "Discogs",
+   "titulo": "Schedule 1 - Crucible (2024, Spain)",
+   "preco": 130.25,
+   "precoOriginal": {
+    "valor": 130.25,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/30474635",
+   "imagem": "https://i.discogs.com/qBFSO8u60xMW-S-z5fAW8vhYHuCP_npGqDCl_xBeAPM/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNDc0/NjM1LTE3MTM4MDMz/NzctNDYzNC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "schedule-1-crucible",
+   "busca": "Schedule 1 – Crucible",
+   "precoTotal": 477.5,
+   "custos": {
+    "frete": 101,
+    "impostoImportacao": 138.75,
+    "icms": 92.5,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 101.59280898876405,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "iMusic:0888837168618",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Random Access Memories (LP) (2025)",
@@ -1839,10 +1897,10 @@
   {
    "id": "iMusic:5026328705057",
    "fonte": "iMusic",
-   "titulo": "Compilation · Punk 45: I'm A Mess (LP) (2022)",
+   "titulo": "Punk 45: I'm A Mess (LP) (2022)",
    "preco": 167.9,
-   "url": "https://imusic.br.com/music/5026328705057/compilation-2022-punk-45-i-m-a-mess-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/057/5026328705057.jpg?compilation-2022-punk-45-i-m-a-mess-lp&class=scaled&v=1665120228",
+   "url": "https://imusic.br.com/music/5026328705057/v-a-2022-punk-45-i-m-a-mess-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/057/5026328705057.jpg?v-a-2022-punk-45-i-m-a-mess-lp&class=scaled&v=1665120228",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
    "precoTotal": 484.6,
@@ -1937,10 +1995,10 @@
   {
    "id": "iMusic:5026328005423",
    "fonte": "iMusic",
-   "titulo": "Compilation · PUNK 45: There’s No Such Thing As Society (LP) [Coloured edition] (2024)",
+   "titulo": "PUNK 45: There’s No Such Thing As Society (LP) [Coloured edition] (2024)",
    "preco": 173.9,
-   "url": "https://imusic.br.com/music/5026328005423/compilation-2024-punk-45-there-s-no-such-thing-as-society-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/423/5026328005423.jpg?compilation-2024-punk-45-there-s-no-such-thing-as-society-lp&class=scaled&v=1705661852",
+   "url": "https://imusic.br.com/music/5026328005423/v-a-2024-punk-45-there-s-no-such-thing-as-society-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/423/5026328005423.jpg?v-a-2024-punk-45-there-s-no-such-thing-as-society-lp&class=scaled&v=1705661852",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
    "precoTotal": 496.6,
@@ -2265,6 +2323,35 @@
    }
   },
   {
+   "id": "discogs:31394993",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2024, Argentina)",
+   "preco": 170.4,
+   "precoOriginal": {
+    "valor": 170.4,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/31394993",
+   "imagem": "https://i.discogs.com/xOAnHDNLNGcNNwA2rrbBPGKHER71V_Vlj1J9CHptNf0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMzk0/OTkzLTE3MjI3Mzg1/OTMtMTMwMS5qcGVn.jpeg",
+   "observacao": "Menor preço entre 8 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 557.8,
+   "custos": {
+    "frete": 101,
+    "impostoImportacao": 162.84,
+    "icms": 108.56,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 351.6231209399999,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "iMusic:9951193577118",
    "fonte": "iMusic",
    "titulo": "Home Front · Games of Power (LP) (2023)",
@@ -2310,35 +2397,6 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:3921382",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2012, UK)",
-   "preco": 176.85,
-   "precoOriginal": {
-    "valor": 176.85,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/3921382",
-   "imagem": "https://i.discogs.com/51Zr-CJGnND4PeIrN8aDBIhThBPy07U5MB0aeFvz4FY/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MjEz/ODItMTM0OTI5OTA3/Mi0xOTMyLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 11 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 570.7,
-   "custos": {
-    "frete": 101,
-    "impostoImportacao": 166.71,
-    "icms": 111.14,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 351.6231209399999,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
    }
   },
   {
@@ -2606,35 +2664,6 @@
     "teto": false,
     "discogs": false,
     "maisBarato": false
-   }
-  },
-  {
-   "id": "discogs:881288",
-   "fonte": "Discogs",
-   "titulo": "The Rapture - Pieces Of The People We Love (2006, UK & Europe)",
-   "preco": 976.06,
-   "precoOriginal": {
-    "valor": 976.06,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/881288",
-   "imagem": "https://i.discogs.com/S5xXm7o85iJg3LA-ngtZk-98QCiBPuccgNVdygW1yxI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg4MTI4/OC0xNTQwNTYyODQ4/LTYxODQuanBlZw.jpeg",
-   "observacao": "Menor preço entre 2 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "the-rapture-pieces-of-the-people-we-love",
-   "busca": "The Rapture – Pieces of the People We Love",
-   "precoTotal": 2169.12,
-   "custos": {
-    "frete": 101,
-    "impostoImportacao": 646.24,
-    "icms": 430.82,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 265.93345281176465,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": null
    }
   }
  ],
