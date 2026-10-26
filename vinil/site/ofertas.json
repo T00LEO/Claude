@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-25T20:51:27.578Z",
+ "geradoEm": "2026-10-26T04:47:28.471Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -9,35 +9,35 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 215.46133174157302
+   "refDiscogs": 241.1585496666667
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
    "artista": "The Rapture",
    "titulo": "Pieces of the People We Love",
    "teto": 200,
-   "refDiscogs": 46.9396404494382
+   "refDiscogs": 263.2958823529412
   },
   {
    "chave": "rotten-mind-unflavored",
    "artista": "Rotten Mind",
    "titulo": "Unflavored",
    "teto": 200,
-   "refDiscogs": 125.7311797752809
+   "refDiscogs": 104.77598314606742
   },
   {
    "chave": "home-front-games-of-power",
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 100.54303342696629
+   "refDiscogs": 96.88
   },
   {
    "chave": "foals-what-went-down",
    "artista": "Foals",
    "titulo": "What went down",
    "teto": 200,
-   "refDiscogs": 165.12694943820227
+   "refDiscogs": 195.70197833333336
   },
   {
    "chave": "schedule-1-crucible",
@@ -397,12 +397,11 @@
    }
   },
   {
-   "id": "Locomotiva Discos:9754cd",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP CONDE FAVELA SEXTETO - ABC GUETO JAZZ (NOVO)",
+   "id": "Baratos Afins:202187181",
+   "fonte": "Baratos Afins",
+   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
    "preco": 190,
-   "url": "https://www.locomotivadiscos.com.br/pd-9754cd-lp-conde-favela-sexteto-abc-gueto-jazz-novo.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9754CD/1872BE8/330xN.jpg",
+   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
    "busca": "jazz",
    "precoTotal": 190,
    "teto": 120,
@@ -413,11 +412,12 @@
    }
   },
   {
-   "id": "Baratos Afins:202187181",
-   "fonte": "Baratos Afins",
-   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
+   "id": "Locomotiva Discos:9754cd",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP CONDE FAVELA SEXTETO - ABC GUETO JAZZ (NOVO)",
    "preco": 190,
-   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
+   "url": "https://www.locomotivadiscos.com.br/pd-9754cd-lp-conde-favela-sexteto-abc-gueto-jazz-novo.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9754CD/1872BE8/330xN.jpg",
    "busca": "jazz",
    "precoTotal": 190,
    "teto": 120,
@@ -528,36 +528,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 46.9396404494382,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:1324386",
-   "fonte": "Discogs",
-   "titulo": "The Rapture - Pieces Of The People We Love (2007, UK)",
-   "preco": 22.43,
-   "precoOriginal": {
-    "valor": 22.43,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/1324386",
-   "imagem": "https://i.discogs.com/G4xOIesjUESvvKB1rRp9SsSxqPkFIzTTaxjI72iXjnY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjQz/ODYtMTI2OTExNjM1/NC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 11 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "the-rapture-pieces-of-the-people-we-love",
-   "busca": "The Rapture – Pieces of the People We Love",
-   "precoTotal": 261.86,
-   "custos": {
-    "frete": 101,
-    "impostoImportacao": 74.06,
-    "icms": 49.37,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 46.9396404494382,
+   "refDiscogs": 263.2958823529412,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -606,7 +577,7 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 215.46133174157302,
+   "refDiscogs": 241.1585496666667,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -734,7 +705,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 125.7311797752809,
+   "refDiscogs": 104.77598314606742,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -904,35 +875,6 @@
    }
   },
   {
-   "id": "discogs:7392977",
-   "fonte": "Discogs",
-   "titulo": "Foals - What Went Down (2015, UK & Europe)",
-   "preco": 74.85,
-   "precoOriginal": {
-    "valor": 74.85,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/7392977",
-   "imagem": "https://i.discogs.com/59a1RRECUuB-8DYG6mDzsuBCh7Ud5rcF1Fpu0fqRA0I/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczOTI5/NzctMTQ0MDUyNjY2/NC01MjAzLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 56 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "foals-what-went-down",
-   "busca": "Foals – What went down",
-   "precoTotal": 366.7,
-   "custos": {
-    "frete": 101,
-    "impostoImportacao": 105.51,
-    "icms": 70.34,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 165.12694943820227,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": true
-   }
-  },
-  {
    "id": "iMusic:7340148114065",
    "fonte": "iMusic",
    "titulo": "Rotten Mind · Unflavored (LP) (2023)",
@@ -950,10 +892,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 125.7311797752809,
+   "refDiscogs": 104.77598314606742,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -1073,35 +1015,6 @@
    }
   },
   {
-   "id": "discogs:24281603",
-   "fonte": "Discogs",
-   "titulo": "Rotten Mind - Unflavored (2022, Sweden)",
-   "preco": 79.84,
-   "precoOriginal": {
-    "valor": 79.84,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/24281603",
-   "imagem": "https://i.discogs.com/6jg7HK5OYvCX0ACubjC6_EGLLnHwLN3iS_TSRw8h7Ck/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0Mjgx/NjAzLTE2NjExOTEw/OTItNDY2Ni5qcGVn.jpeg",
-   "observacao": "Menor preço entre 9 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "rotten-mind-unflavored",
-   "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 376.68,
-   "custos": {
-    "frete": 101,
-    "impostoImportacao": 108.5,
-    "icms": 72.34,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 125.7311797752809,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "Locomotiva Discos:9874aa",
    "fonte": "Locomotiva Discos",
    "titulo": "LP CAP'N JAZZ - BURRITOS, INSPIRATION POINT, FORK... (NOVO/LACRADO)",
@@ -1115,6 +1028,35 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:15492475",
+   "fonte": "Discogs",
+   "titulo": "Foals - What Went Down (2015, UK & Europe)",
+   "preco": 82.16,
+   "precoOriginal": {
+    "valor": 82.16,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/15492475",
+   "imagem": "https://i.discogs.com/hN4taDZHlkTFowUvGOqQ40KMM7UwxymMyE8J6v0hTlk/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NDky/NDc1LTE1OTI0MzIx/MjAtNTY5NC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 13 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "foals-what-went-down",
+   "busca": "Foals – What went down",
+   "precoTotal": 381.32,
+   "custos": {
+    "frete": 101,
+    "impostoImportacao": 109.9,
+    "icms": 73.26,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 195.70197833333336,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": true
    }
   },
   {
@@ -1180,6 +1122,35 @@
    }
   },
   {
+   "id": "discogs:28033284",
+   "fonte": "Discogs",
+   "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
+   "preco": 89.82,
+   "precoOriginal": {
+    "valor": 89.82,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/28033284",
+   "imagem": "https://i.discogs.com/uCkWVBE3NSaz4XE_kgsbcyWYDSc0r9H0biefBHMIgks/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDMz/Mjg0LTE2OTI2MDgw/OTYtMzAwNC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "rotten-mind-unflavored",
+   "busca": "Rotten Mind – Unflavored",
+   "precoTotal": 396.64,
+   "custos": {
+    "frete": 101,
+    "impostoImportacao": 114.49,
+    "icms": 76.33,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 104.77598314606742,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "iMusic:5056321659972",
    "fonte": "iMusic",
    "titulo": "Home Front · Games of Power (LP) (2023)",
@@ -1197,7 +1168,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 100.54303342696629,
+   "refDiscogs": 96.88,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1222,7 +1193,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 165.12694943820227,
+   "refDiscogs": 195.70197833333336,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1431,7 +1402,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 165.12694943820227,
+   "refDiscogs": 195.70197833333336,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1552,10 +1523,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 125.7311797752809,
+   "refDiscogs": 104.77598314606742,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -1689,7 +1660,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 100.54303342696629,
+   "refDiscogs": 96.88,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1718,7 +1689,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 215.46133174157302,
+   "refDiscogs": 241.1585496666667,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1743,7 +1714,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 100.54303342696629,
+   "refDiscogs": 96.88,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1831,6 +1802,35 @@
    "url": "https://www.discogs.com/sell/release/30813726",
    "imagem": "https://i.discogs.com/TDIjRdwBlQePemTozG3eAiKyUH9-0EmSlMGMnVuPzaI/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwODEz/NzI2LTE3MzgyNzUz/ODEtNzE3Ny5qcGVn.jpeg",
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "schedule-1-crucible",
+   "busca": "Schedule 1 – Crucible",
+   "precoTotal": 474.92,
+   "custos": {
+    "frete": 101,
+    "impostoImportacao": 137.98,
+    "icms": 91.98,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 100.58494382022474,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:30474635",
+   "fonte": "Discogs",
+   "titulo": "Schedule 1 - Crucible (2024, Spain)",
+   "preco": 128.96,
+   "precoOriginal": {
+    "valor": 128.96,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/30474635",
+   "imagem": "https://i.discogs.com/qBFSO8u60xMW-S-z5fAW8vhYHuCP_npGqDCl_xBeAPM/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNDc0/NjM1LTE3MTM4MDMz/NzctNDYzNC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "schedule-1-crucible",
    "busca": "Schedule 1 – Crucible",
    "precoTotal": 474.92,
@@ -2119,7 +2119,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 215.46133174157302,
+   "refDiscogs": 241.1585496666667,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2150,6 +2150,35 @@
    }
   },
   {
+   "id": "discogs:26682263",
+   "fonte": "Discogs",
+   "titulo": "Foals - What Went Down (2022, UK & Europe)",
+   "preco": 149.45,
+   "precoOriginal": {
+    "valor": 149.45,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/26682263",
+   "imagem": "https://i.discogs.com/0yGwhQL0wM9IGObxY0nImpzSIOYp_9CkWeqBD6IYxSc/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Njgy/MjYzLTE2ODA4OTIy/NDktMjQyNC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "foals-what-went-down",
+   "busca": "Foals – What went down",
+   "precoTotal": 515.9,
+   "custos": {
+    "frete": 101,
+    "impostoImportacao": 150.27,
+    "icms": 100.18,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 195.70197833333336,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "discogs:9691744",
    "fonte": "Discogs",
    "titulo": "LCD Soundsystem - Sound Of Silver (2016, Europe)",
@@ -2171,7 +2200,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 215.46133174157302,
+   "refDiscogs": 241.1585496666667,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2300,64 +2329,6 @@
    }
   },
   {
-   "id": "discogs:1312950",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2007, US)",
-   "preco": 159.68,
-   "precoOriginal": {
-    "valor": 159.68,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/1312950",
-   "imagem": "https://i.discogs.com/hIzE3Jtg4GDuWsQk3MSJbOsPRzcT6ydO1HNFqn5_Ojw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTI5/NTAtMTU4OTI0ODUy/OS0yNzM1LmpwZWc.jpeg",
-   "observacao": "Menor preço entre 5 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 536.36,
-   "custos": {
-    "frete": 101,
-    "impostoImportacao": 156.41,
-    "icms": 104.27,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 215.46133174157302,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
-   "id": "discogs:35923357",
-   "fonte": "Discogs",
-   "titulo": "Foals - What Went Down (UK & Europe)",
-   "preco": 161.61,
-   "precoOriginal": {
-    "valor": 161.61,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/35923357",
-   "imagem": "https://i.discogs.com/BZDKZVqNxPCaHhRFjAGiGcQAfpYdGpOpsckwUsyk8JM/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1OTIz/MzU3LTE3Njk5NTk1/NDAtODQzNS5qcGVn.jpeg",
-   "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "foals-what-went-down",
-   "busca": "Foals – What went down",
-   "precoTotal": 540.22,
-   "custos": {
-    "frete": 101,
-    "impostoImportacao": 157.57,
-    "icms": 105.04,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 165.12694943820227,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "iMusic:0195497352142",
    "fonte": "iMusic",
    "titulo": "J Jazz Volume 3: Deep Modern Jazz from Japan · J Jazz Volume 3: Deep Modern Jazz From Japan (LP) (2021)",
@@ -2398,7 +2369,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 100.54303342696629,
+   "refDiscogs": 96.88,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2426,6 +2397,35 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:3921382",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2012, UK)",
+   "preco": 175.1,
+   "precoOriginal": {
+    "valor": 175.1,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/3921382",
+   "imagem": "https://i.discogs.com/51Zr-CJGnND4PeIrN8aDBIhThBPy07U5MB0aeFvz4FY/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MjEz/ODItMTM0OTI5OTA3/Mi0xOTMyLmpwZWc.jpeg",
+   "observacao": "Menor preço entre 11 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 567.2,
+   "custos": {
+    "frete": 101,
+    "impostoImportacao": 165.66,
+    "icms": 110.44,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 241.1585496666667,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
    }
   },
   {
@@ -2561,7 +2561,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 215.46133174157302,
+   "refDiscogs": 241.1585496666667,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2659,7 +2659,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 165.12694943820227,
+   "refDiscogs": 195.70197833333336,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2688,7 +2688,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 46.9396404494382,
+   "refDiscogs": 263.2958823529412,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2696,5 +2696,8 @@
    }
   }
  ],
- "erros": []
+ "erros": [
+  "Locomotiva Discos: falha em \"Schedule 1 – Crucible\": HTTP 503 em https://www.locomotivadiscos.com.br/search.html?searchQuery=Schedule%201%20Crucible",
+  "Locomotiva Discos: falha em \"Ottis Redding\": HTTP 503 em https://www.locomotivadiscos.com.br/search.html?searchQuery=Ottis%20Redding"
+ ]
 }
