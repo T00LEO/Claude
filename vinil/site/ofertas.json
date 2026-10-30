@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-29T22:45:34.285Z",
+ "geradoEm": "2026-10-30T05:49:25.752Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -9,7 +9,7 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 280.54764665492957
+   "refDiscogs": 257.59019433333333
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
@@ -30,7 +30,7 @@
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 179.27
+   "refDiscogs": 106.20039805555555
   },
   {
    "chave": "foals-what-went-down",
@@ -48,22 +48,6 @@
   }
  ],
  "ofertas": [
-  {
-   "id": "Locomotiva Discos:8eec54",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP OHIO EXPRESS - SAUSALITO PINCH ME MERCY (USADO) (EX)",
-   "preco": 60,
-   "url": "https://www.locomotivadiscos.com.br/pd-8eec54-lp-ohio-express-sausalito-pinch-me-mercy-usado-ex.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/8EEC54/169F138/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 60,
-   "teto": 120,
-   "criterios": {
-    "teto": true,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
   {
    "id": "Baratos Afins:202161374",
    "fonte": "Baratos Afins",
@@ -116,6 +100,22 @@
    "preco": 110,
    "url": "https://www.baratosafins.com.br/produto/lionel-hampton-and-his-jazz-giants.html",
    "busca": "jazz",
+   "precoTotal": 110,
+   "teto": 120,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:6f7573",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP NITZER EBB - LIGHTNING MAN (1990) IMPORTADO (NM)",
+   "preco": 110,
+   "url": "https://www.locomotivadiscos.com.br/pd-6f7573-lp-nitzer-ebb-lightning-man-1990-importado-nm.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/6F7573/11458BD/330xN.jpg",
+   "busca": "Ottis Redding",
    "precoTotal": 110,
    "teto": 120,
    "criterios": {
@@ -397,22 +397,6 @@
    }
   },
   {
-   "id": "Locomotiva Discos:6f124c",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP ROCKETSHIP - THANKS TO YOU (NOVO/LACRADO)",
-   "preco": 180,
-   "url": "https://www.locomotivadiscos.com.br/pd-6f124c-lp-rocketship-thanks-to-you-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/6F124C/1135346/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 180,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "Locomotiva Discos:97cc6f",
    "fonte": "Locomotiva Discos",
    "titulo": "LP MULAMBO JAZZAGRÁRIO - MULAMBO (NOVO/LACRADO)",
@@ -475,22 +459,6 @@
    }
   },
   {
-   "id": "Locomotiva Discos:96d418",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP RENATA ROSA - ZUNIDO DA MATA (NOVO/LACRADO)",
-   "preco": 210,
-   "url": "https://www.locomotivadiscos.com.br/pd-96d418-lp-renata-rosa-zunido-da-mata-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96D418/1852FB7/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 210,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "Locomotiva Discos:9870ed",
    "fonte": "Locomotiva Discos",
    "titulo": "LP PETER AND THE TEST TUBE BABIES - THE LOUD BLARING PUNK ROCK LP",
@@ -514,22 +482,6 @@
    "url": "https://www.locomotivadiscos.com.br/pd-97d97e-lp-the-exploited-punks-not-dead-novo-lacrado.html",
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/97D97E/1894AAD/330xN.jpg",
    "busca": "punk",
-   "precoTotal": 220,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Locomotiva Discos:8ea660",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP ALICE COOPER - KILLER (USADO) (EX)",
-   "preco": 220,
-   "url": "https://www.locomotivadiscos.com.br/pd-8ea660-lp-alice-cooper-killer-usado-ex.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/8EA660/1691098/330xN.jpg",
-   "busca": "Ottis Redding",
    "precoTotal": 220,
    "teto": 120,
    "criterios": {
@@ -563,6 +515,22 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/983776/18ACB54/330xN.jpg",
    "busca": "jazz",
    "precoTotal": 240,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:97df7a",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP SILVERSUN PICKUPS - BETTER NATURE (DUPLO/NOVO/LACRADO/IMP)",
+   "preco": 260,
+   "url": "https://www.locomotivadiscos.com.br/pd-97df7a-lp-silversun-pickups-better-nature-duplo-novo-lacrado-imp.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/97DF7A/1895FE1/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 260,
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -641,7 +609,7 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 280.54764665492957,
+   "refDiscogs": 257.59019433333333,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -708,52 +676,6 @@
    }
   },
   {
-   "id": "iMusic:0889397218805",
-   "fonte": "iMusic",
-   "titulo": "Art Blakey & the Jazz Messengers · Art Blakey & The Jazz Messengers (LP) [Limited edition] (2017)",
-   "preco": 86.9,
-   "url": "https://imusic.br.com/music/0889397218805/art-blakey-the-jazz-messengers-2017-art-blakey-the-jazz-messengers-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/805/0889397218805.jpg?art-blakey-the-jazz-messengers-2017-art-blakey-the-jazz-messengers-lp&class=scaled&v=1534514214",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 322.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 92.28,
-    "icms": 61.52,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:0889397218393",
-   "fonte": "iMusic",
-   "titulo": "Bill Evans Trio · Portrait In Jazz (LP) (2017)",
-   "preco": 86.9,
-   "url": "https://imusic.br.com/music/0889397218393/bill-evans-trio-2017-portrait-in-jazz-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/393/0889397218393.jpg?bill-evans-trio-2017-portrait-in-jazz-lp&class=scaled&v=1513588910",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 322.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 92.28,
-    "icms": 61.52,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "iMusic:0025218603614",
    "fonte": "iMusic",
    "titulo": "Wes Montgomery · Incredible Jazz Guitar (LP) (2023)",
@@ -767,6 +689,29 @@
     "frete": 66.9,
     "impostoImportacao": 92.28,
     "icms": 61.52,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0889397218805",
+   "fonte": "iMusic",
+   "titulo": "Art Blakey & the Jazz Messengers · Art Blakey & The Jazz Messengers (LP) [Limited edition] (2017)",
+   "preco": 87.9,
+   "url": "https://imusic.br.com/music/0889397218805/art-blakey-the-jazz-messengers-2017-art-blakey-the-jazz-messengers-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/805/0889397218805.jpg?art-blakey-the-jazz-messengers-2017-art-blakey-the-jazz-messengers-lp&class=scaled&v=1534514214",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 324.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 92.88,
+    "icms": 61.92,
     "despacho": 15
    },
    "teto": 120,
@@ -800,13 +745,21 @@
    }
   },
   {
-   "id": "Baratos Afins:202092464",
-   "fonte": "Baratos Afins",
-   "titulo": "ATLANTIC JAZZ SINGERS- LP",
-   "preco": 340,
-   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-singers.html",
+   "id": "iMusic:0889397218393",
+   "fonte": "iMusic",
+   "titulo": "Bill Evans Trio · Portrait In Jazz (LP) (2017)",
+   "preco": 87.9,
+   "url": "https://imusic.br.com/music/0889397218393/bill-evans-trio-2017-portrait-in-jazz-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/393/0889397218393.jpg?bill-evans-trio-2017-portrait-in-jazz-lp&class=scaled&v=1513588910",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 340,
+   "precoTotal": 324.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 92.88,
+    "icms": 61.92,
+    "despacho": 15
+   },
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -815,50 +768,13 @@
    }
   },
   {
-   "id": "discogs:26840834",
-   "fonte": "Discogs",
-   "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
-   "preco": 58.58,
-   "precoOriginal": {
-    "valor": 58.58,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/26840834",
-   "imagem": "https://i.discogs.com/l1ocrtJ3F3wFoUMAofLJ3mcudz-YE2JxyDp09a1QWr0/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2ODQw/ODM0LTE2ODU2MDM0/NjMtMTk5MS5qcGVn.jpeg",
-   "observacao": "Menor preço entre 17 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "rotten-mind-unflavored",
-   "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 346.16,
-   "custos": {
-    "frete": 107,
-    "impostoImportacao": 99.35,
-    "icms": 66.23,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 132.80583333333334,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
-   "id": "iMusic:0888072297937",
-   "fonte": "iMusic",
-   "titulo": "Go Ahead Punk Make My Day RSD2022 (LP) (2022)",
-   "preco": 99.9,
-   "url": "https://imusic.br.com/music/0888072297937/2022-go-ahead-punk-make-my-day-rsd2022-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/937/0888072297937.jpg?2022-go-ahead-punk-make-my-day-rsd2022-lp&class=scaled&v=1646826975",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "punk",
-   "precoTotal": 348.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 100.08,
-    "icms": 66.72,
-    "despacho": 15
-   },
+   "id": "Baratos Afins:202092464",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ SINGERS- LP",
+   "preco": 340,
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-singers.html",
+   "busca": "jazz",
+   "precoTotal": 340,
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -899,19 +815,42 @@
    }
   },
   {
+   "id": "iMusic:0888072297937",
+   "fonte": "iMusic",
+   "titulo": "Go Ahead Punk Make My Day RSD2022 (LP) (2022)",
+   "preco": 100.9,
+   "url": "https://imusic.br.com/music/0888072297937/2022-go-ahead-punk-make-my-day-rsd2022-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/937/0888072297937.jpg?2022-go-ahead-punk-make-my-day-rsd2022-lp&class=scaled&v=1646826975",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "punk",
+   "precoTotal": 350.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 100.68,
+    "icms": 67.12,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "iMusic:0093624986959",
    "fonte": "iMusic",
    "titulo": "Green Day · Dookie (LP) (2019)",
-   "preco": 106.9,
+   "preco": 107.9,
    "url": "https://imusic.br.com/music/0093624986959/green-day-2019-dookie-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/959/0093624986959.jpg?green-day-2019-dookie-lp&class=scaled&v=1570432564",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 362.6,
+   "precoTotal": 364.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 104.28,
-    "icms": 69.52,
+    "impostoImportacao": 104.88,
+    "icms": 69.92,
     "despacho": 15
    },
    "teto": 120,
@@ -948,16 +887,16 @@
    "id": "iMusic:7298594209678",
    "fonte": "iMusic",
    "titulo": "Afrika Corps: 10 Punk Bands from Republic of / Var · Afrika Corps - 10 Punk Bands From Republic Of South Africa (LP) (2024)",
-   "preco": 112.9,
+   "preco": 114.9,
    "url": "https://imusic.br.com/music/7298594209678/afrika-corps-10-punk-bands-from-republic-of-var-2024-afrika-corps-10-punk-bands-from-republic-of-south-africa-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/678/7298594209678.jpg?afrika-corps-10-punk-bands-from-republic-of-var-2024-afrika-corps-10-punk-bands-from-republic-of-south-africa-lp&class=scaled&v=1733059152",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 374.6,
+   "precoTotal": 378.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 107.88,
-    "icms": 71.92,
+    "impostoImportacao": 109.08,
+    "icms": 72.72,
     "despacho": 15
    },
    "teto": 120,
@@ -971,16 +910,16 @@
    "id": "iMusic:5020422048218",
    "fonte": "iMusic",
    "titulo": "Thee Headcoatees · Punk Girls (LP) (2017)",
-   "preco": 112.9,
+   "preco": 114.9,
    "url": "https://imusic.br.com/music/5020422048218/thee-headcoatees-2017-punk-girls-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/218/5020422048218.jpg?thee-headcoatees-2017-punk-girls-lp&class=scaled&v=1501344002",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 374.6,
+   "precoTotal": 378.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 107.88,
-    "icms": 71.92,
+    "impostoImportacao": 109.08,
+    "icms": 72.72,
     "despacho": 15
    },
    "teto": 120,
@@ -994,16 +933,16 @@
    "id": "iMusic:0729859421773",
    "fonte": "iMusic",
    "titulo": "Australia - Murder Punk / Various · Australia - Murder Punk (LP) (2025)",
-   "preco": 112.9,
+   "preco": 114.9,
    "url": "https://imusic.br.com/music/0729859421773/australia-murder-punk-various-2025-australia-murder-punk-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/773/0729859421773.jpg?australia-murder-punk-various-2025-australia-murder-punk-lp&class=scaled&v=1751292688",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 374.6,
+   "precoTotal": 378.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 107.88,
-    "icms": 71.92,
+    "impostoImportacao": 109.08,
+    "icms": 72.72,
     "despacho": 15
    },
    "teto": 120,
@@ -1022,77 +961,6 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9874AA/18BCBAC/330xN.jpg",
    "busca": "jazz",
    "precoTotal": 380,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:7340148114065",
-   "fonte": "iMusic",
-   "titulo": "Rotten Mind · Unflavored (LP) (2023)",
-   "preco": 119.9,
-   "url": "https://imusic.br.com/music/7340148114065/rotten-mind-2023-unflavored-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/065/7340148114065.jpg?rotten-mind-2023-unflavored-lp&class=scaled&v=1677777164",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "desejo": "rotten-mind-unflavored",
-   "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 388.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 112.08,
-    "icms": 74.72,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 132.80583333333334,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
-   }
-  },
-  {
-   "id": "iMusic:9951193594603",
-   "fonte": "iMusic",
-   "titulo": "Reverend Elvis and the Undead Syncopators · Punk (LP) (1980)",
-   "preco": 119.9,
-   "url": "https://imusic.br.com/music/9951193594603/reverend-elvis-and-the-undead-syncopators-1980-punk-lp",
-   "imagem": "https://imusic-static.b-cdn.net/images/missing.png",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "punk",
-   "precoTotal": 388.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 112.08,
-    "icms": 74.72,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:7393465133301",
-   "fonte": "iMusic",
-   "titulo": "Jan Johansson · Jazz På Svenska (LP) (2014)",
-   "preco": 119.9,
-   "url": "https://imusic.br.com/music/7393465133301/jan-johansson-2014-jazz-paa-svenska-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/301/7393465133301.jpg?jan-johansson-2014-jazz-paa-svenska-lp&class=scaled&v=1718027611",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 388.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 112.08,
-    "icms": 74.72,
-    "despacho": 15
-   },
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -1146,19 +1014,90 @@
    }
   },
   {
+   "id": "iMusic:7340148114065",
+   "fonte": "iMusic",
+   "titulo": "Rotten Mind · Unflavored (LP) (2023)",
+   "preco": 120.9,
+   "url": "https://imusic.br.com/music/7340148114065/rotten-mind-2023-unflavored-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/065/7340148114065.jpg?rotten-mind-2023-unflavored-lp&class=scaled&v=1677777164",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "desejo": "rotten-mind-unflavored",
+   "busca": "Rotten Mind – Unflavored",
+   "precoTotal": 390.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 112.68,
+    "icms": 75.12,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 132.80583333333334,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "iMusic:9951193594603",
+   "fonte": "iMusic",
+   "titulo": "Reverend Elvis and the Undead Syncopators · Punk (LP) (1980)",
+   "preco": 120.9,
+   "url": "https://imusic.br.com/music/9951193594603/reverend-elvis-and-the-undead-syncopators-1980-punk-lp",
+   "imagem": "https://imusic-static.b-cdn.net/images/missing.png",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "punk",
+   "precoTotal": 390.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 112.68,
+    "icms": 75.12,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:7393465133301",
+   "fonte": "iMusic",
+   "titulo": "Jan Johansson · Jazz På Svenska (LP) (2014)",
+   "preco": 120.9,
+   "url": "https://imusic.br.com/music/7393465133301/jan-johansson-2014-jazz-paa-svenska-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/301/7393465133301.jpg?jan-johansson-2014-jazz-paa-svenska-lp&class=scaled&v=1718027611",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 390.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 112.68,
+    "icms": 75.12,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "iMusic:0602507465681",
    "fonte": "iMusic",
    "titulo": "Art Blakey and the Jazz Messengers · Moanin' (LP) [Blue Note Classic Vinyl edition] (2021)",
-   "preco": 126.9,
+   "preco": 127.9,
    "url": "https://imusic.br.com/music/0602507465681/art-blakey-and-the-jazz-messengers-2021-moanin-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/681/0602507465681.jpg?art-blakey-and-the-jazz-messengers-2021-moanin-lp&class=scaled&v=1653473306",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 402.6,
+   "precoTotal": 404.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 116.28,
-    "icms": 77.52,
+    "impostoImportacao": 116.88,
+    "icms": 77.92,
     "despacho": 15
    },
    "teto": 120,
@@ -1172,18 +1111,63 @@
    "id": "iMusic:5021732589859",
    "fonte": "iMusic",
    "titulo": "Joey Valence & Brae · Punk Tactics (LP) (2026)",
-   "preco": 132.9,
+   "preco": 134.9,
    "url": "https://imusic.br.com/music/5021732589859/joey-valence-brae-2026-punk-tactics-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/859/5021732589859.jpg?joey-valence-brae-2026-punk-tactics-lp&class=scaled&v=1769715998",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 414.6,
+   "precoTotal": 418.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 119.88,
-    "icms": 79.92,
+    "impostoImportacao": 121.08,
+    "icms": 80.72,
     "despacho": 15
    },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:28033284",
+   "fonte": "Discogs",
+   "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
+   "preco": 95.94,
+   "precoOriginal": {
+    "valor": 95.94,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/28033284",
+   "imagem": "https://i.discogs.com/uCkWVBE3NSaz4XE_kgsbcyWYDSc0r9H0biefBHMIgks/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDMz/Mjg0LTE2OTI2MDgw/OTYtMzAwNC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "rotten-mind-unflavored",
+   "busca": "Rotten Mind – Unflavored",
+   "precoTotal": 420.88,
+   "custos": {
+    "frete": 107,
+    "impostoImportacao": 121.76,
+    "icms": 81.18,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 132.80583333333334,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "Locomotiva Discos:98208e",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP MV BILL - DECLARAÇÃO DE GUERRA (2xLPs) (180g VERMELHO) (NOV/LAC)",
+   "preco": 430,
+   "url": "https://www.locomotivadiscos.com.br/pd-98208e-lp-mv-bill-declaracao-de-guerra-2xlps-180g-vermelho-nov-lac.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/98208E/18A6E40/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 430,
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -1195,24 +1179,24 @@
    "id": "iMusic:5056321659972",
    "fonte": "iMusic",
    "titulo": "Home Front · Games of Power (LP) (2023)",
-   "preco": 146.9,
+   "preco": 147.9,
    "url": "https://imusic.br.com/music/5056321659972/home-front-2023-games-of-power-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/972/5056321659972.jpg?home-front-2023-games-of-power-lp&class=scaled&v=1676571614",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "desejo": "home-front-games-of-power",
    "busca": "Home Front – Games of Power",
-   "precoTotal": 442.6,
+   "precoTotal": 444.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 128.28,
-    "icms": 85.52,
+    "impostoImportacao": 128.88,
+    "icms": 85.92,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 179.27,
+   "refDiscogs": 106.20039805555555,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": true
    }
   },
@@ -1220,17 +1204,17 @@
    "id": "iMusic:0825646075034",
    "fonte": "iMusic",
    "titulo": "Foals · What Went Down (LP) (2015)",
-   "preco": 146.9,
+   "preco": 147.9,
    "url": "https://imusic.br.com/music/0825646075034/foals-2015-what-went-down-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/034/0825646075034.jpg?foals-2015-what-went-down-lp&class=scaled&v=1437484076",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "desejo": "foals-what-went-down",
    "busca": "Foals – What went down",
-   "precoTotal": 442.6,
+   "precoTotal": 444.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 128.28,
-    "icms": 85.52,
+    "impostoImportacao": 128.88,
+    "icms": 85.92,
     "despacho": 15
    },
    "teto": 200,
@@ -1245,16 +1229,16 @@
    "id": "iMusic:0190296617164",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Discovery (LP) (2022)",
-   "preco": 146.9,
+   "preco": 147.9,
    "url": "https://imusic.br.com/music/0190296617164/daft-punk-2022-discovery-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/164/0190296617164.jpg?daft-punk-2022-discovery-lp&class=scaled&v=1633070235",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 442.6,
+   "precoTotal": 444.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 128.28,
-    "icms": 85.52,
+    "impostoImportacao": 128.88,
+    "icms": 85.92,
     "despacho": 15
    },
    "teto": 120,
@@ -1268,16 +1252,16 @@
    "id": "iMusic:0190296611926",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Homework (LP) (2022)",
-   "preco": 146.9,
+   "preco": 147.9,
    "url": "https://imusic.br.com/music/0190296611926/daft-punk-2022-homework-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/926/0190296611926.jpg?daft-punk-2022-homework-lp&class=scaled&v=1632723980",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 442.6,
+   "precoTotal": 444.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 128.28,
-    "icms": 85.52,
+    "impostoImportacao": 128.88,
+    "icms": 85.92,
     "despacho": 15
    },
    "teto": 120,
@@ -1291,16 +1275,16 @@
    "id": "iMusic:0190296611902",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Human After All (LP) (2022)",
-   "preco": 146.9,
+   "preco": 147.9,
    "url": "https://imusic.br.com/music/0190296611902/daft-punk-2022-human-after-all-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/902/0190296611902.jpg?daft-punk-2022-human-after-all-lp&class=scaled&v=1633070256",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 442.6,
+   "precoTotal": 444.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 128.28,
-    "icms": 85.52,
+    "impostoImportacao": 128.88,
+    "icms": 85.92,
     "despacho": 15
    },
    "teto": 120,
@@ -1314,16 +1298,16 @@
    "id": "iMusic:0045778736010",
    "fonte": "iMusic",
    "titulo": "Nofx · Punk in Drublic (LP) [Reissue edition] (2022)",
-   "preco": 146.9,
+   "preco": 147.9,
    "url": "https://imusic.br.com/music/0045778736010/nofx-2022-punk-in-drublic-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/010/0045778736010.jpg?nofx-2022-punk-in-drublic-lp&class=scaled&v=1671801866",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 442.6,
+   "precoTotal": 444.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 128.28,
-    "icms": 85.52,
+    "impostoImportacao": 128.88,
+    "icms": 85.92,
     "despacho": 15
    },
    "teto": 120,
@@ -1337,16 +1321,16 @@
    "id": "iMusic:0190296611865",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Daft Club (LP) (2022)",
-   "preco": 146.9,
+   "preco": 147.9,
    "url": "https://imusic.br.com/music/0190296611865/daft-punk-2022-daft-club-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/865/0190296611865.jpg?daft-punk-2022-daft-club-lp&class=scaled&v=1633070265",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 442.6,
+   "precoTotal": 444.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 128.28,
-    "icms": 85.52,
+    "impostoImportacao": 128.88,
+    "icms": 85.92,
     "despacho": 15
    },
    "teto": 120,
@@ -1360,16 +1344,16 @@
    "id": "iMusic:0190296618116",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Alive 1997 (LP) (2022)",
-   "preco": 146.9,
+   "preco": 147.9,
    "url": "https://imusic.br.com/music/0190296618116/daft-punk-2022-alive-1997-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/116/0190296618116.jpg?daft-punk-2022-alive-1997-lp&class=scaled&v=1643283353",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 442.6,
+   "precoTotal": 444.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 128.28,
-    "icms": 85.52,
+    "impostoImportacao": 128.88,
+    "icms": 85.92,
     "despacho": 15
    },
    "teto": 120,
@@ -1383,16 +1367,16 @@
    "id": "iMusic:0603497860692",
    "fonte": "iMusic",
    "titulo": "Not Good for Your Health: Punk Nuggets 1 · Not Good For Your Health: Punk (LP) [Coloured edition] (2018)",
-   "preco": 146.9,
+   "preco": 147.9,
    "url": "https://imusic.br.com/music/0603497860692/not-good-for-your-health-punk-nuggets-1-2018-not-good-for-your-health-punk-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/692/0603497860692.jpg?not-good-for-your-health-punk-nuggets-1-2018-not-good-for-your-health-punk-lp&class=scaled&v=1530714707",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 442.6,
+   "precoTotal": 444.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 128.28,
-    "icms": 85.52,
+    "impostoImportacao": 128.88,
+    "icms": 85.92,
     "despacho": 15
    },
    "teto": 120,
@@ -1406,16 +1390,16 @@
    "id": "iMusic:8714092815115",
    "fonte": "iMusic",
    "titulo": "Fake Names · Punk Ruins (LP) [Coke Bottle Clear edition] (2026)",
-   "preco": 146.9,
+   "preco": 147.9,
    "url": "https://imusic.br.com/music/8714092815115/fake-names-2026-punk-ruins-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/115/8714092815115.jpg?fake-names-2026-punk-ruins-lp&class=scaled&v=1788232102",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 442.6,
+   "precoTotal": 444.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 128.28,
-    "icms": 85.52,
+    "impostoImportacao": 128.88,
+    "icms": 85.92,
     "despacho": 15
    },
    "teto": 120,
@@ -1429,16 +1413,16 @@
    "id": "iMusic:0889466515514",
    "fonte": "iMusic",
    "titulo": "Punk Floyd - A Tribute To Pink Floyd/ Various · Punk Floyd (LP) [Limited edition] (2024)",
-   "preco": 146.9,
+   "preco": 147.9,
    "url": "https://imusic.br.com/music/0889466515514/punk-floyd-a-tribute-to-pink-floyd-various-2024-punk-floyd-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/514/0889466515514.jpg?punk-floyd-a-tribute-to-pink-floyd-various-2024-punk-floyd-lp&class=scaled&v=1718019946",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 442.6,
+   "precoTotal": 444.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 128.28,
-    "icms": 85.52,
+    "impostoImportacao": 128.88,
+    "icms": 85.92,
     "despacho": 15
    },
    "teto": 120,
@@ -1452,16 +1436,16 @@
    "id": "iMusic:8719262040656",
    "fonte": "iMusic",
    "titulo": "Ornette Coleman Double Quartet · Free Jazz (LP) [White Vinyl edition] (2025)",
-   "preco": 146.9,
+   "preco": 147.9,
    "url": "https://imusic.br.com/music/8719262040656/ornette-coleman-double-quartet-2025-free-jazz-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/656/8719262040656.jpg?ornette-coleman-double-quartet-2025-free-jazz-lp&class=scaled&v=1762421507",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 442.6,
+   "precoTotal": 444.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 128.28,
-    "icms": 85.52,
+    "impostoImportacao": 128.88,
+    "icms": 85.92,
     "despacho": 15
    },
    "teto": 120,
@@ -1491,17 +1475,17 @@
    "id": "iMusic:5021732733139",
    "fonte": "iMusic",
    "titulo": "Foals · What Went Down (10th Anniversa (LP) [Limited edition] (2025)",
-   "preco": 152.9,
+   "preco": 154.9,
    "url": "https://imusic.br.com/music/5021732733139/foals-2025-what-went-down-10th-anniversa-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/139/5021732733139.jpg?foals-2025-what-went-down-10th-anniversa-lp&class=scaled&v=1753812425",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "desejo": "foals-what-went-down",
    "busca": "Foals – What went down",
-   "precoTotal": 454.6,
+   "precoTotal": 458.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 131.88,
-    "icms": 87.92,
+    "impostoImportacao": 133.08,
+    "icms": 88.72,
     "despacho": 15
    },
    "teto": 200,
@@ -1516,16 +1500,16 @@
    "id": "iMusic:5021732776716",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Human After All Remixes (LP) [Limited edition] (2025)",
-   "preco": 152.9,
+   "preco": 154.9,
    "url": "https://imusic.br.com/music/5021732776716/daft-punk-2025-human-after-all-remixes-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/716/5021732776716.jpg?daft-punk-2025-human-after-all-remixes-lp&class=scaled&v=1760534387",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 454.6,
+   "precoTotal": 458.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 131.88,
-    "icms": 87.92,
+    "impostoImportacao": 133.08,
+    "icms": 88.72,
     "despacho": 15
    },
    "teto": 120,
@@ -1539,16 +1523,16 @@
    "id": "iMusic:8714092698114",
    "fonte": "iMusic",
    "titulo": "Refused · The Shape Of Punk To Come (LP) (2022)",
-   "preco": 152.9,
+   "preco": 154.9,
    "url": "https://imusic.br.com/music/8714092698114/refused-2022-the-shape-of-punk-to-come-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/114/8714092698114.jpg?refused-2022-the-shape-of-punk-to-come-lp&class=scaled&v=1645434199",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 454.6,
+   "precoTotal": 458.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 131.88,
-    "icms": 87.92,
+    "impostoImportacao": 133.08,
+    "icms": 88.72,
     "despacho": 15
    },
    "teto": 120,
@@ -1562,16 +1546,16 @@
    "id": "iMusic:4099964165098",
    "fonte": "iMusic",
    "titulo": "A Punk Tribute to Motörhead · Killed by Deaf: a Punk Tribute to Motörhead (LP) (2025)",
-   "preco": 152.9,
+   "preco": 154.9,
    "url": "https://imusic.br.com/music/4099964165098/a-punk-tribute-to-motorhead-2025-killed-by-deaf-a-punk-tribute-to-motorhead-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/098/4099964165098.jpg?a-punk-tribute-to-motorhead-2025-killed-by-deaf-a-punk-tribute-to-motorhead-lp&class=scaled&v=1758113386",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 454.6,
+   "precoTotal": 458.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 131.88,
-    "icms": 87.92,
+    "impostoImportacao": 133.08,
+    "icms": 88.72,
     "despacho": 15
    },
    "teto": 120,
@@ -1585,16 +1569,16 @@
    "id": "iMusic:0888072505070",
    "fonte": "iMusic",
    "titulo": "The Dave Brubeck Quartet · Jazz at Oberlin (LP) [Original Jazz Classics Series edition] (2023)",
-   "preco": 152.9,
+   "preco": 154.9,
    "url": "https://imusic.br.com/music/0888072505070/the-dave-brubeck-quartet-2023-jazz-at-oberlin-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/070/0888072505070.jpg?the-dave-brubeck-quartet-2023-jazz-at-oberlin-lp&class=scaled&v=1692993364",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 454.6,
+   "precoTotal": 458.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 131.88,
-    "icms": 87.92,
+    "impostoImportacao": 133.08,
+    "icms": 88.72,
     "despacho": 15
    },
    "teto": 120,
@@ -1626,10 +1610,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 179.27,
+   "refDiscogs": 106.20039805555555,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -1666,16 +1650,16 @@
    "id": "iMusic:0888072230965",
    "fonte": "iMusic",
    "titulo": "Art Pepper · Art Pepper + Eleven (modern Jazz Classics) (LP) [Contemporary Records Acoustic Sounds Series edition] (2022)",
-   "preco": 159.9,
+   "preco": 161.9,
    "url": "https://imusic.br.com/music/0888072230965/art-pepper-2022-art-pepper-eleven-modern-jazz-classics-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/965/0888072230965.jpg?art-pepper-2022-art-pepper-eleven-modern-jazz-classics-lp&class=scaled&v=1628526541",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 468.6,
+   "precoTotal": 472.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 136.08,
-    "icms": 90.72,
+    "impostoImportacao": 137.28,
+    "icms": 91.52,
     "despacho": 15
    },
    "teto": 120,
@@ -1689,16 +1673,16 @@
    "id": "iMusic:5054197177897",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Homework Remixes (LP) [Limited edition] (2022)",
-   "preco": 166.9,
+   "preco": 167.9,
    "url": "https://imusic.br.com/music/5054197177897/daft-punk-2022-homework-remixes-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/897/5054197177897.jpg?daft-punk-2022-homework-remixes-lp&class=scaled&v=1669456393",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 482.6,
+   "precoTotal": 484.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 140.28,
-    "icms": 93.52,
+    "impostoImportacao": 140.88,
+    "icms": 93.92,
     "despacho": 15
    },
    "teto": 120,
@@ -1712,16 +1696,16 @@
    "id": "iMusic:0050087400279",
    "fonte": "iMusic",
    "titulo": "Queen · Jazz (LP) [180 gram edition] (2018)",
-   "preco": 166.9,
+   "preco": 167.9,
    "url": "https://imusic.br.com/music/0050087400279/queen-2018-jazz-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/279/0050087400279.jpg?queen-2018-jazz-lp&class=scaled&v=1585992640",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 482.6,
+   "precoTotal": 484.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 140.28,
-    "icms": 93.52,
+    "impostoImportacao": 140.88,
+    "icms": 93.92,
     "despacho": 15
    },
    "teto": 120,
@@ -1735,16 +1719,16 @@
    "id": "iMusic:8435395504550",
    "fonte": "iMusic",
    "titulo": "Chet Baker · Late Night Jazz (LP) [Deluxe, Limited edition] (2024)",
-   "preco": 166.9,
+   "preco": 167.9,
    "url": "https://imusic.br.com/music/8435395504550/chet-baker-2024-late-night-jazz-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/550/8435395504550.jpg?chet-baker-2024-late-night-jazz-lp&class=scaled&v=1728903850",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 482.6,
+   "precoTotal": 484.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 140.28,
-    "icms": 93.52,
+    "impostoImportacao": 140.88,
+    "icms": 93.92,
     "despacho": 15
    },
    "teto": 120,
@@ -1758,16 +1742,16 @@
    "id": "iMusic:0602465226249",
    "fonte": "iMusic",
    "titulo": "Art Blakey & the Jazz Messengers · Art Blakey and His Jazz Messengers (LP) (2024)",
-   "preco": 166.9,
+   "preco": 167.9,
    "url": "https://imusic.br.com/music/0602465226249/art-blakey-the-jazz-messengers-2024-art-blakey-and-his-jazz-messengers-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/249/0602465226249.jpg?art-blakey-the-jazz-messengers-2024-art-blakey-and-his-jazz-messengers-lp&class=scaled&v=1722586596",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 482.6,
+   "precoTotal": 484.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 140.28,
-    "icms": 93.52,
+    "impostoImportacao": 140.88,
+    "icms": 93.92,
     "despacho": 15
    },
    "teto": 120,
@@ -1781,21 +1765,21 @@
    "id": "iMusic:8721018001064",
    "fonte": "iMusic",
    "titulo": "Home Front · Games Of Power (LP) (2023)",
-   "preco": 172.9,
+   "preco": 174.9,
    "url": "https://imusic.br.com/music/8721018001064/home-front-2023-games-of-power-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/064/8721018001064.jpg?home-front-2023-games-of-power-lp&class=scaled&v=1738452802",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "desejo": "home-front-games-of-power",
    "busca": "Home Front – Games of Power",
-   "precoTotal": 494.6,
+   "precoTotal": 498.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 143.88,
-    "icms": 95.92,
+    "impostoImportacao": 145.08,
+    "icms": 96.72,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 179.27,
+   "refDiscogs": 106.20039805555555,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1806,16 +1790,16 @@
    "id": "iMusic:7798093713015",
    "fonte": "iMusic",
    "titulo": "Compilation · Street Punk (Coloured Vinyl) (LP) [Coloured edition] (2022)",
-   "preco": 172.9,
+   "preco": 174.9,
    "url": "https://imusic.br.com/music/7798093713015/compilation-2022-street-punk-coloured-vinyl-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/015/7798093713015.jpg?compilation-2022-street-punk-coloured-vinyl-lp&class=scaled&v=1663621774",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 494.6,
+   "precoTotal": 498.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 143.88,
-    "icms": 95.92,
+    "impostoImportacao": 145.08,
+    "icms": 96.72,
     "despacho": 15
    },
    "teto": 120,
@@ -1829,16 +1813,16 @@
    "id": "iMusic:5014797906150",
    "fonte": "iMusic",
    "titulo": "UK Subs · A Punk Rock Anthology - 1978-2017 (Red / Yellow Vinyl) (LP) [Limited edition] (2022)",
-   "preco": 172.9,
+   "preco": 174.9,
    "url": "https://imusic.br.com/music/5014797906150/uk-subs-2022-a-punk-rock-anthology-1978-2017-red-yellow-vinyl-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/150/5014797906150.jpg?uk-subs-2022-a-punk-rock-anthology-1978-2017-red-yellow-vinyl-lp&class=scaled&v=1637102618",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 494.6,
+   "precoTotal": 498.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 143.88,
-    "icms": 95.92,
+    "impostoImportacao": 145.08,
+    "icms": 96.72,
     "despacho": 15
    },
    "teto": 120,
@@ -1852,16 +1836,16 @@
    "id": "iMusic:4029759202233",
    "fonte": "iMusic",
    "titulo": "Iggy Pop · Live at Montreux Jazz Festival 2023 (LP) (2025)",
-   "preco": 172.9,
+   "preco": 174.9,
    "url": "https://imusic.br.com/music/4029759202233/iggy-pop-2025-live-at-montreux-jazz-festival-2023-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/233/4029759202233.jpg?iggy-pop-2025-live-at-montreux-jazz-festival-2023-lp&class=scaled&v=1730228802",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 494.6,
+   "precoTotal": 498.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 143.88,
-    "icms": 95.92,
+    "impostoImportacao": 145.08,
+    "icms": 96.72,
     "despacho": 15
    },
    "teto": 120,
@@ -1901,19 +1885,48 @@
    }
   },
   {
+   "id": "discogs:30474635",
+   "fonte": "Discogs",
+   "titulo": "Schedule 1 - Crucible (2024, Spain)",
+   "preco": 136.21,
+   "precoOriginal": {
+    "valor": 136.21,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/30474635",
+   "imagem": "https://i.discogs.com/qBFSO8u60xMW-S-z5fAW8vhYHuCP_npGqDCl_xBeAPM/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNDc0/NjM1LTE3MTM4MDMz/NzctNDYzNC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "schedule-1-crucible",
+   "busca": "Schedule 1 – Crucible",
+   "precoTotal": 501.42,
+   "custos": {
+    "frete": 107,
+    "impostoImportacao": 145.93,
+    "icms": 97.28,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 106.24466666666667,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "iMusic:0888837168618",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Random Access Memories (LP) (2025)",
-   "preco": 179.9,
+   "preco": 181.9,
    "url": "https://imusic.br.com/music/0888837168618/daft-punk-2025-random-access-memories-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/618/0888837168618.jpg?daft-punk-2025-random-access-memories-lp&class=scaled&v=1366618887",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 508.6,
+   "precoTotal": 512.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 148.08,
-    "icms": 98.72,
+    "impostoImportacao": 149.28,
+    "icms": 99.52,
     "despacho": 15
    },
    "teto": 120,
@@ -1927,177 +1940,16 @@
    "id": "iMusic:5026328705057",
    "fonte": "iMusic",
    "titulo": "Compilation · Punk 45: I'm A Mess (LP) (2022)",
-   "preco": 179.9,
+   "preco": 181.9,
    "url": "https://imusic.br.com/music/5026328705057/compilation-2022-punk-45-i-m-a-mess-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/057/5026328705057.jpg?compilation-2022-punk-45-i-m-a-mess-lp&class=scaled&v=1665120228",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 508.6,
+   "precoTotal": 512.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 148.08,
-    "icms": 98.72,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:5026328005423",
-   "fonte": "iMusic",
-   "titulo": "Compilation · PUNK 45: There’s No Such Thing As Society (LP) [Coloured edition] (2024)",
-   "preco": 179.9,
-   "url": "https://imusic.br.com/music/5026328005423/compilation-2024-punk-45-there-s-no-such-thing-as-society-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/423/5026328005423.jpg?compilation-2024-punk-45-there-s-no-such-thing-as-society-lp&class=scaled&v=1705661852",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "punk",
-   "precoTotal": 508.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 148.08,
-    "icms": 98.72,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:5026328005454",
-   "fonte": "iMusic",
-   "titulo": "Soul Jazz Records presents · PUNK 45: Kill The Hippies! Kill Yourself! – The American Nation Destroys Its Young: Underground Punk in the United States of America 1978-1980 (LP) [RSD 2024 Orange edition] (2024)",
-   "preco": 186.9,
-   "url": "https://imusic.br.com/music/5026328005454/soul-jazz-records-presents-2024-punk-45-kill-the-hippies-kill-yourself-the-american-nation-destroys-its-young-underground-punk-in-the-united-states-of-america-1978-1980-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/454/5026328005454.jpg?soul-jazz-records-presents-2024-punk-45-kill-the-hippies-kill-yourself-the-american-nation-destroys-its-young-underground-punk-in-the-united-states-of-america-1978-1980-lp&class=scaled&v=1708590926",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "punk",
-   "precoTotal": 522.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 152.28,
-    "icms": 101.52,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:4260019715920",
-   "fonte": "iMusic",
-   "titulo": "Ry Cooder · Jazz (LP) [180 Gram Audiophile edition] (2019)",
-   "preco": 186.9,
-   "url": "https://imusic.br.com/music/4260019715920/ry-cooder-2019-jazz-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/920/4260019715920.jpg?ry-cooder-2019-jazz-lp&class=scaled&v=1786962589",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 522.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 152.28,
-    "icms": 101.52,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:7110539899587",
-   "fonte": "iMusic",
-   "titulo": "Jazz Sabbath (LP) (2020)",
-   "preco": 186.9,
-   "url": "https://imusic.br.com/music/7110539899587/jazz-sabbath-2020-jazz-sabbath-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/587/7110539899587.jpg?jazz-sabbath-2020-jazz-sabbath-lp&class=scaled&v=1586330666",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 522.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 152.28,
-    "icms": 101.52,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:0888072240957",
-   "fonte": "iMusic",
-   "titulo": "Benny Carter · Jazz Giant (LP) [Contemporary Records Acoustic Sounds Series edition] (2022)",
-   "preco": 186.9,
-   "url": "https://imusic.br.com/music/0888072240957/benny-carter-2022-jazz-giant-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/957/0888072240957.jpg?benny-carter-2022-jazz-giant-lp&class=scaled&v=1741866639",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 522.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 152.28,
-    "icms": 101.52,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:0602547885081",
-   "fonte": "iMusic",
-   "titulo": "Guru · Jazzmatazz Volume 1 (LP) (2018)",
-   "preco": 186.9,
-   "url": "https://imusic.br.com/music/0602547885081/guru-2018-jazzmatazz-volume-1-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/081/0602547885081.jpg?guru-2018-jazzmatazz-volume-1-lp&class=scaled&v=1593420714",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 522.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 152.28,
-    "icms": 101.52,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:4260019716064",
-   "fonte": "iMusic",
-   "titulo": "Ornette Coleman · Shape Of Jazz To Come (LP) [Speakers Corner edition] (2021)",
-   "preco": 186.9,
-   "url": "https://imusic.br.com/music/4260019716064/ornette-coleman-2021-shape-of-jazz-to-come-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/064/4260019716064.jpg?ornette-coleman-2021-shape-of-jazz-to-come-lp&class=scaled&v=1619693306",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 522.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 152.28,
-    "icms": 101.52,
+    "impostoImportacao": 149.28,
+    "icms": 99.52,
     "despacho": 15
    },
    "teto": 120,
@@ -2137,24 +1989,185 @@
    }
   },
   {
+   "id": "iMusic:5026328005454",
+   "fonte": "iMusic",
+   "titulo": "Soul Jazz Records presents · PUNK 45: Kill The Hippies! Kill Yourself! – The American Nation Destroys Its Young: Underground Punk in the United States of America 1978-1980 (LP) [RSD 2024 Orange edition] (2024)",
+   "preco": 188.9,
+   "url": "https://imusic.br.com/music/5026328005454/soul-jazz-records-presents-2024-punk-45-kill-the-hippies-kill-yourself-the-american-nation-destroys-its-young-underground-punk-in-the-united-states-of-america-1978-1980-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/454/5026328005454.jpg?soul-jazz-records-presents-2024-punk-45-kill-the-hippies-kill-yourself-the-american-nation-destroys-its-young-underground-punk-in-the-united-states-of-america-1978-1980-lp&class=scaled&v=1708590926",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "punk",
+   "precoTotal": 526.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 153.48,
+    "icms": 102.32,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:5026328005423",
+   "fonte": "iMusic",
+   "titulo": "Compilation · PUNK 45: There’s No Such Thing As Society (LP) [Coloured edition] (2024)",
+   "preco": 188.9,
+   "url": "https://imusic.br.com/music/5026328005423/compilation-2024-punk-45-there-s-no-such-thing-as-society-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/423/5026328005423.jpg?compilation-2024-punk-45-there-s-no-such-thing-as-society-lp&class=scaled&v=1705661852",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "punk",
+   "precoTotal": 526.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 153.48,
+    "icms": 102.32,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:4260019715920",
+   "fonte": "iMusic",
+   "titulo": "Ry Cooder · Jazz (LP) [180 Gram Audiophile edition] (2019)",
+   "preco": 188.9,
+   "url": "https://imusic.br.com/music/4260019715920/ry-cooder-2019-jazz-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/920/4260019715920.jpg?ry-cooder-2019-jazz-lp&class=scaled&v=1786962589",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 526.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 153.48,
+    "icms": 102.32,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:7110539899587",
+   "fonte": "iMusic",
+   "titulo": "Jazz Sabbath (LP) (2020)",
+   "preco": 188.9,
+   "url": "https://imusic.br.com/music/7110539899587/jazz-sabbath-2020-jazz-sabbath-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/587/7110539899587.jpg?jazz-sabbath-2020-jazz-sabbath-lp&class=scaled&v=1586330666",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 526.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 153.48,
+    "icms": 102.32,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0888072240957",
+   "fonte": "iMusic",
+   "titulo": "Benny Carter · Jazz Giant (LP) [Contemporary Records Acoustic Sounds Series edition] (2022)",
+   "preco": 188.9,
+   "url": "https://imusic.br.com/music/0888072240957/benny-carter-2022-jazz-giant-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/957/0888072240957.jpg?benny-carter-2022-jazz-giant-lp&class=scaled&v=1741866639",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 526.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 153.48,
+    "icms": 102.32,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0602547885081",
+   "fonte": "iMusic",
+   "titulo": "Guru · Jazzmatazz Volume 1 (LP) (2018)",
+   "preco": 188.9,
+   "url": "https://imusic.br.com/music/0602547885081/guru-2018-jazzmatazz-volume-1-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/081/0602547885081.jpg?guru-2018-jazzmatazz-volume-1-lp&class=scaled&v=1593420714",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 526.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 153.48,
+    "icms": 102.32,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:4260019716064",
+   "fonte": "iMusic",
+   "titulo": "Ornette Coleman · Shape Of Jazz To Come (LP) [Speakers Corner edition] (2021)",
+   "preco": 188.9,
+   "url": "https://imusic.br.com/music/4260019716064/ornette-coleman-2021-shape-of-jazz-to-come-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/064/4260019716064.jpg?ornette-coleman-2021-shape-of-jazz-to-come-lp&class=scaled&v=1619693306",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 526.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 153.48,
+    "icms": 102.32,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "iMusic:0094638511410",
    "fonte": "iMusic",
    "titulo": "Lcd Soundsystem · Sound Of Silver (LP) (2016)",
-   "preco": 192.9,
+   "preco": 194.9,
    "url": "https://imusic.br.com/music/0094638511410/lcd-soundsystem-2016-sound-of-silver-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/410/0094638511410.jpg?lcd-soundsystem-2016-sound-of-silver-lp&class=scaled&v=1176629323",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "desejo": "lcd-soundsystem-sound-of-silver",
    "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 534.6,
+   "precoTotal": 538.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 155.88,
-    "icms": 103.92,
+    "impostoImportacao": 157.08,
+    "icms": 104.72,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 280.54764665492957,
+   "refDiscogs": 257.59019433333333,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2165,85 +2178,16 @@
    "id": "iMusic:0196587839215",
    "fonte": "iMusic",
    "titulo": "Half•alive · Conditions Of A Punk (LP) (2023)",
-   "preco": 192.9,
+   "preco": 194.9,
    "url": "https://imusic.br.com/music/0196587839215/half-alive-2023-conditions-of-a-punk-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/215/0196587839215.jpg?half-alive-2023-conditions-of-a-punk-lp&class=scaled&v=1676836533",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 534.6,
+   "precoTotal": 538.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 155.88,
-    "icms": 103.92,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:0196588083310",
-   "fonte": "iMusic",
-   "titulo": "Daft Punk · Random Access Memories (LP) [Drumless edition] (2023)",
-   "preco": 199.9,
-   "url": "https://imusic.br.com/music/0196588083310/daft-punk-2023-random-access-memories-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/310/0196588083310.jpg?daft-punk-2023-random-access-memories-lp&class=scaled&v=1695916123",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "punk",
-   "precoTotal": 548.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 160.08,
-    "icms": 106.72,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:0826853006446",
-   "fonte": "iMusic",
-   "titulo": "THE DEKU TRIO · Zelda & Jazz III (LP) [Hand Pour color vinyl edition] (2026)",
-   "preco": 199.9,
-   "url": "https://imusic.br.com/music/0826853006446/the-deku-trio-2026-zelda-jazz-iii-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/446/0826853006446.jpg?the-deku-trio-2026-zelda-jazz-iii-lp&class=scaled&v=1770121569",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 548.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 160.08,
-    "icms": 106.72,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:0602577089602",
-   "fonte": "iMusic",
-   "titulo": "Charlie Byrd Stan Getz · Jazz Samba (LP) (2019)",
-   "preco": 199.9,
-   "url": "https://imusic.br.com/music/0602577089602/charlie-byrd-stan-getz-2019-jazz-samba-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/602/0602577089602.jpg?charlie-byrd-stan-getz-2019-jazz-samba-lp&class=scaled&v=1548408656",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 548.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 160.08,
-    "icms": 106.72,
+    "impostoImportacao": 157.08,
+    "icms": 104.72,
     "despacho": 15
    },
    "teto": 120,
@@ -2275,11 +2219,109 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 280.54764665492957,
+   "refDiscogs": 257.59019433333333,
    "criterios": {
     "teto": false,
     "discogs": true,
     "maisBarato": false
+   }
+  },
+  {
+   "id": "discogs:27423360",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2023, US)",
+   "preco": 159.9,
+   "precoOriginal": {
+    "valor": 159.9,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/27423360",
+   "imagem": "https://i.discogs.com/5Cp2gZYkVIHbbHokK4HVnEho_Ltmoql6KqefGmvuX68/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NDIz/MzYwLTE2ODcxMzEy/NTQtOTc1Mi5qcGVn.jpeg",
+   "observacao": "Menor preço entre 33 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 548.8,
+   "custos": {
+    "frete": 107,
+    "impostoImportacao": 160.14,
+    "icms": 106.76,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 257.59019433333333,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
+   "id": "iMusic:0196588083310",
+   "fonte": "iMusic",
+   "titulo": "Daft Punk · Random Access Memories (LP) [Drumless edition] (2023)",
+   "preco": 201.9,
+   "url": "https://imusic.br.com/music/0196588083310/daft-punk-2023-random-access-memories-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/310/0196588083310.jpg?daft-punk-2023-random-access-memories-lp&class=scaled&v=1695916123",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "punk",
+   "precoTotal": 552.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 161.28,
+    "icms": 107.52,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0826853006446",
+   "fonte": "iMusic",
+   "titulo": "THE DEKU TRIO · Zelda & Jazz III (LP) [Hand Pour color vinyl edition] (2026)",
+   "preco": 201.9,
+   "url": "https://imusic.br.com/music/0826853006446/the-deku-trio-2026-zelda-jazz-iii-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/446/0826853006446.jpg?the-deku-trio-2026-zelda-jazz-iii-lp&class=scaled&v=1770121569",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 552.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 161.28,
+    "icms": 107.52,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0602577089602",
+   "fonte": "iMusic",
+   "titulo": "Charlie Byrd Stan Getz · Jazz Samba (LP) (2019)",
+   "preco": 201.9,
+   "url": "https://imusic.br.com/music/0602577089602/charlie-byrd-stan-getz-2019-jazz-samba-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/602/0602577089602.jpg?charlie-byrd-stan-getz-2019-jazz-samba-lp&class=scaled&v=1548408656",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 552.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 161.28,
+    "icms": 107.52,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
    }
   },
   {
@@ -2315,16 +2357,16 @@
    "id": "iMusic:0050087487003",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Tron Legacy (LP) [Blue & Clear Vinyl edition] (2021)",
-   "preco": 213.9,
+   "preco": 215.9,
    "url": "https://imusic.br.com/music/0050087487003/daft-punk-2021-tron-legacy-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/003/0050087487003.jpg?daft-punk-2021-tron-legacy-lp&class=scaled&v=1742556326",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 576.6,
+   "precoTotal": 580.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 168.48,
-    "icms": 112.32,
+    "impostoImportacao": 169.68,
+    "icms": 113.12,
     "despacho": 15
    },
    "teto": 120,
@@ -2338,16 +2380,16 @@
    "id": "iMusic:0195497352142",
    "fonte": "iMusic",
    "titulo": "J Jazz Volume 3: Deep Modern Jazz from Japan · J Jazz Volume 3: Deep Modern Jazz From Japan (LP) (2021)",
-   "preco": 213.9,
+   "preco": 215.9,
    "url": "https://imusic.br.com/music/0195497352142/j-jazz-volume-3-deep-modern-jazz-from-japan-2021-j-jazz-volume-3-deep-modern-jazz-from-japan-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/142/0195497352142.jpg?j-jazz-volume-3-deep-modern-jazz-from-japan-2021-j-jazz-volume-3-deep-modern-jazz-from-japan-lp&class=scaled&v=1611912134",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 576.6,
+   "precoTotal": 580.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 168.48,
-    "icms": 112.32,
+    "impostoImportacao": 169.68,
+    "icms": 113.12,
     "despacho": 15
    },
    "teto": 120,
@@ -2361,21 +2403,21 @@
    "id": "iMusic:9951193577118",
    "fonte": "iMusic",
    "titulo": "Home Front · Games of Power (LP) (2023)",
-   "preco": 219.9,
+   "preco": 221.9,
    "url": "https://imusic.br.com/music/9951193577118/home-front-2023-games-of-power-lp",
    "imagem": "https://imusic-static.b-cdn.net/images/missing.png",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "desejo": "home-front-games-of-power",
    "busca": "Home Front – Games of Power",
-   "precoTotal": 588.6,
+   "precoTotal": 592.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 172.08,
-    "icms": 114.72,
+    "impostoImportacao": 173.28,
+    "icms": 115.52,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 179.27,
+   "refDiscogs": 106.20039805555555,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2386,16 +2428,16 @@
    "id": "iMusic:7392004777792",
    "fonte": "iMusic",
    "titulo": "Arne Domnérus · Jazz at the Pawnshop 1 & 2 (LP) (2007)",
-   "preco": 219.9,
+   "preco": 221.9,
    "url": "https://imusic.br.com/music/7392004777792/arne-domnerus-2007-jazz-at-the-pawnshop-1-2-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/792/7392004777792.jpg?arne-domnerus-2007-jazz-at-the-pawnshop-1-2-lp&class=scaled&v=1335873674",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 588.6,
+   "precoTotal": 592.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 172.08,
-    "icms": 114.72,
+    "impostoImportacao": 173.28,
+    "icms": 115.52,
     "despacho": 15
    },
    "teto": 120,
@@ -2427,7 +2469,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 280.54764665492957,
+   "refDiscogs": 257.59019433333333,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2438,62 +2480,16 @@
    "id": "iMusic:0602488202145",
    "fonte": "iMusic",
    "titulo": "Stan Getz / Luiz Bonfá · Jazz Samba Encore! (LP) [Verve Acoustic Sounds Series edition] (2026)",
-   "preco": 226.9,
+   "preco": 228.9,
    "url": "https://imusic.br.com/music/0602488202145/stan-getz-luiz-bonfa-2026-jazz-samba-encore-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/145/0602488202145.jpg?stan-getz-luiz-bonfa-2026-jazz-samba-encore-lp&class=scaled&v=1772280662",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 602.6,
+   "precoTotal": 606.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 176.28,
-    "icms": 117.52,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:0602448644183",
-   "fonte": "iMusic",
-   "titulo": "Stan Getz & Charlie Byrd · Jazz Samba (LP) [Verve Acoustic Sounds Series edition] (2023)",
-   "preco": 233.9,
-   "url": "https://imusic.br.com/music/0602448644183/stan-getz-charlie-byrd-2023-jazz-samba-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/183/0602448644183.jpg?stan-getz-charlie-byrd-2023-jazz-samba-lp&class=scaled&v=1680952512",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 616.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 180.48,
-    "icms": 120.32,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:8718858195169",
-   "fonte": "iMusic",
-   "titulo": "Jazz Sabbath · Jazz Sabbath Live (LP) (2026)",
-   "preco": 233.9,
-   "url": "https://imusic.br.com/music/8718858195169/jazz-sabbath-2026-jazz-sabbath-live-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/169/8718858195169.jpg?jazz-sabbath-2026-jazz-sabbath-live-lp&class=scaled&v=1766929091",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 616.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 180.48,
-    "icms": 120.32,
+    "impostoImportacao": 177.48,
+    "icms": 118.32,
     "despacho": 15
    },
    "teto": 120,
@@ -2507,16 +2503,39 @@
    "id": "iMusic:0190296611964",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Alive 2007 (LP) (2022)",
-   "preco": 239.9,
+   "preco": 235.9,
    "url": "https://imusic.br.com/music/0190296611964/daft-punk-2022-alive-2007-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/964/0190296611964.jpg?daft-punk-2022-alive-2007-lp&class=scaled&v=1643283177",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
-   "precoTotal": 628.6,
+   "precoTotal": 620.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 184.08,
-    "icms": 122.72,
+    "impostoImportacao": 181.68,
+    "icms": 121.12,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0602448644183",
+   "fonte": "iMusic",
+   "titulo": "Stan Getz & Charlie Byrd · Jazz Samba (LP) [Verve Acoustic Sounds Series edition] (2023)",
+   "preco": 235.9,
+   "url": "https://imusic.br.com/music/0602448644183/stan-getz-charlie-byrd-2023-jazz-samba-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/183/0602448644183.jpg?stan-getz-charlie-byrd-2023-jazz-samba-lp&class=scaled&v=1680952512",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 620.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 181.68,
+    "icms": 121.12,
     "despacho": 15
    },
    "teto": 120,
@@ -2530,16 +2549,39 @@
    "id": "iMusic:4995879608753",
    "fonte": "iMusic",
    "titulo": "All That Jazz · Ghibli Jazz 2 (LP) [Limited Yellow Vinyl edition] (2026)",
-   "preco": 239.9,
+   "preco": 242.9,
    "url": "https://imusic.br.com/music/4995879608753/all-that-jazz-2026-ghibli-jazz-2-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/753/4995879608753.jpg?all-that-jazz-2026-ghibli-jazz-2-lp&class=scaled&v=1762928500",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 628.6,
+   "precoTotal": 634.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 184.08,
-    "icms": 122.72,
+    "impostoImportacao": 185.88,
+    "icms": 123.92,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:8718858195169",
+   "fonte": "iMusic",
+   "titulo": "Jazz Sabbath · Jazz Sabbath Live (LP) (2026)",
+   "preco": 242.9,
+   "url": "https://imusic.br.com/music/8718858195169/jazz-sabbath-2026-jazz-sabbath-live-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/169/8718858195169.jpg?jazz-sabbath-2026-jazz-sabbath-live-lp&class=scaled&v=1766929091",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 634.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 185.88,
+    "icms": 123.92,
     "despacho": 15
    },
    "teto": 120,
@@ -2553,24 +2595,24 @@
    "id": "iMusic:0829732216417",
    "fonte": "iMusic",
    "titulo": "Lcd Soundsystem · Sound Of Silver (LP) (2007)",
-   "preco": 246.9,
+   "preco": 248.9,
    "url": "https://imusic.br.com/music/0829732216417/lcd-soundsystem-2007-sound-of-silver-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/417/0829732216417.jpg?lcd-soundsystem-2007-sound-of-silver-lp&class=scaled&v=1397856731",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "desejo": "lcd-soundsystem-sound-of-silver",
    "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 642.6,
+   "precoTotal": 646.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 188.28,
-    "icms": 125.52,
+    "impostoImportacao": 189.48,
+    "icms": 126.32,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 280.54764665492957,
+   "refDiscogs": 257.59019433333333,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -2578,16 +2620,16 @@
    "id": "iMusic:4029759219538",
    "fonte": "iMusic",
    "titulo": "Hollywood Vampires · At Montreux Jazz Festival (LP) (2026)",
-   "preco": 253.9,
+   "preco": 255.9,
    "url": "https://imusic.br.com/music/4029759219538/hollywood-vampires-2026-at-montreux-jazz-festival-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/538/4029759219538.jpg?hollywood-vampires-2026-at-montreux-jazz-festival-lp&class=scaled&v=1783416664",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 656.6,
+   "precoTotal": 660.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 192.48,
-    "icms": 128.32,
+    "impostoImportacao": 193.68,
+    "icms": 129.12,
     "despacho": 15
    },
    "teto": 120,
@@ -2601,16 +2643,16 @@
    "id": "iMusic:0602547202741",
    "fonte": "iMusic",
    "titulo": "Queen · Jazz (LP) [High quality, Limited edition] (2015)",
-   "preco": 259.9,
+   "preco": 262.9,
    "url": "https://imusic.br.com/music/0602547202741/queen-2015-jazz-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/741/0602547202741.jpg?queen-2015-jazz-lp&class=scaled&v=1439838774",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 668.6,
+   "precoTotal": 674.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 196.08,
-    "icms": 130.72,
+    "impostoImportacao": 197.88,
+    "icms": 131.92,
     "despacho": 15
    },
    "teto": 120,
@@ -2624,16 +2666,16 @@
    "id": "iMusic:0722056185127",
    "fonte": "iMusic",
    "titulo": "Men I Trust · Oncle Jazz (LP) (2019)",
-   "preco": 266.9,
+   "preco": 269.9,
    "url": "https://imusic.br.com/music/0722056185127/men-i-trust-2019-oncle-jazz-lp",
    "imagem": "https://imusic.b-cdn.net/images/item/original/127/0722056185127.jpg?men-i-trust-2019-oncle-jazz-lp&class=scaled&v=1572424773",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
-   "precoTotal": 682.6,
+   "precoTotal": 688.6,
    "custos": {
     "frete": 66.9,
-    "impostoImportacao": 200.28,
-    "icms": 133.52,
+    "impostoImportacao": 202.08,
+    "icms": 134.72,
     "despacho": 15
    },
    "teto": 120,
@@ -2665,7 +2707,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 179.27,
+   "refDiscogs": 106.20039805555555,
    "criterios": {
     "teto": false,
     "discogs": false,
