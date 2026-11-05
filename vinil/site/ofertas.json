@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-05T06:46:40.909Z",
+ "geradoEm": "2026-11-05T19:57:52.175Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -23,7 +23,7 @@
    "artista": "Rotten Mind",
    "titulo": "Unflavored",
    "teto": 200,
-   "refDiscogs": 114.85463483146067
+   "refDiscogs": 137.8255617977528
   },
   {
    "chave": "home-front-games-of-power",
@@ -37,7 +37,7 @@
    "artista": "Foals",
    "titulo": "What went down",
    "teto": 200,
-   "refDiscogs": 181.01090449438203
+   "refDiscogs": 144.51148648648646
   },
   {
    "chave": "schedule-1-crucible",
@@ -459,6 +459,22 @@
    }
   },
   {
+   "id": "Locomotiva Discos:986cf8",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP WAKRAT - WAKRAT (USADO/NM)",
+   "preco": 220,
+   "url": "https://www.locomotivadiscos.com.br/pd-986cf8-lp-wakrat-wakrat-usado-nm.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/986CF8/18BA93C/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 220,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "Locomotiva Discos:94dd92",
    "fonte": "Locomotiva Discos",
    "titulo": "LP NOFX - PUNK IN DRUBLIC (NOVO/LACRADO)",
@@ -561,7 +577,7 @@
    },
    "url": "https://www.discogs.com/sell/release/1324386",
    "imagem": "https://i.discogs.com/G4xOIesjUESvvKB1rRp9SsSxqPkFIzTTaxjI72iXjnY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjQz/ODYtMTI2OTExNjM1/NC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 11 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 12 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "the-rapture-pieces-of-the-people-we-love",
    "busca": "The Rapture – Pieces of the People We Love",
    "precoTotal": 282.96,
@@ -598,6 +614,35 @@
    }
   },
   {
+   "id": "discogs:24281603",
+   "fonte": "Discogs",
+   "titulo": "Rotten Mind - Unflavored (2022, Sweden)",
+   "preco": 43.02,
+   "precoOriginal": {
+    "valor": 43.02,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/24281603",
+   "imagem": "https://i.discogs.com/6jg7HK5OYvCX0ACubjC6_EGLLnHwLN3iS_TSRw8h7Ck/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0Mjgx/NjAzLTE2NjExOTEw/OTItNDY2Ni5qcGVn.jpeg",
+   "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "rotten-mind-unflavored",
+   "busca": "Rotten Mind – Unflavored",
+   "precoTotal": 319.84,
+   "custos": {
+    "frete": 109.4,
+    "impostoImportacao": 91.45,
+    "icms": 60.97,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 137.8255617977528,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": true
+   }
+  },
+  {
    "id": "Baratos Afins:375651404",
    "fonte": "Baratos Afins",
    "titulo": "RED HOT CHILI PEPPERS - MOTHER'S MILK - LP",
@@ -619,6 +664,22 @@
    "preco": 320,
    "url": "https://www.baratosafins.com.br/produto/elis-regina-montreaux-jazz-festival.html",
    "busca": "jazz",
+   "precoTotal": 320,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:988c4c",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP PHOEBE BRIDGERS - LOST WEEKEND (2xLPs ROGUE PLANET COLOR LIMITED)",
+   "preco": 320,
+   "url": "https://www.locomotivadiscos.com.br/pd-988c4c-lp-phoebe-bridgers-lost-weekend-2xlps-rogue-planet-color-limited.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/988C4C/18C31D9/330xN.jpg",
+   "busca": "Ottis Redding",
    "precoTotal": 320,
    "teto": 120,
    "criterios": {
@@ -757,6 +818,22 @@
    "preco": 350,
    "url": "https://www.locomotivadiscos.com.br/pd-94baa0-lp-daft-punk-homework-novo-lacrado-duplo.html",
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/94BAA0/17D7C54/330xN.jpg",
+   "busca": "punk",
+   "precoTotal": 350,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:94ba9d",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP DAFT PUNK - DISCOVERY (NOVO/LACRADO/DUPLO)",
+   "preco": 350,
+   "url": "https://www.locomotivadiscos.com.br/pd-94ba9d-lp-daft-punk-discovery-novo-lacrado-duplo.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/94BA9D/17D7C4A/330xN.jpg",
    "busca": "punk",
    "precoTotal": 350,
    "teto": 120,
@@ -977,11 +1054,11 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 114.85463483146067,
+   "refDiscogs": 137.8255617977528,
    "criterios": {
     "teto": false,
-    "discogs": false,
-    "maisBarato": true
+    "discogs": true,
+    "maisBarato": false
    }
   },
   {
@@ -1028,35 +1105,6 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:7392977",
-   "fonte": "Discogs",
-   "titulo": "Foals - What Went Down (2015, UK & Europe)",
-   "preco": 82.05,
-   "precoOriginal": {
-    "valor": 82.05,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/7392977",
-   "imagem": "https://i.discogs.com/59a1RRECUuB-8DYG6mDzsuBCh7Ud5rcF1Fpu0fqRA0I/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczOTI5/NzctMTQ0MDUyNjY2/NC01MjAzLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 52 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "foals-what-went-down",
-   "busca": "Foals – What went down",
-   "precoTotal": 397.9,
-   "custos": {
-    "frete": 109.4,
-    "impostoImportacao": 114.87,
-    "icms": 76.58,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 181.01090449438203,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": true
    }
   },
   {
@@ -1129,35 +1177,6 @@
    }
   },
   {
-   "id": "discogs:28033284",
-   "fonte": "Discogs",
-   "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
-   "preco": 98.46,
-   "precoOriginal": {
-    "valor": 98.46,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/28033284",
-   "imagem": "https://i.discogs.com/uCkWVBE3NSaz4XE_kgsbcyWYDSc0r9H0biefBHMIgks/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDMz/Mjg0LTE2OTI2MDgw/OTYtMzAwNC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "rotten-mind-unflavored",
-   "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 430.72,
-   "custos": {
-    "frete": 109.4,
-    "impostoImportacao": 124.72,
-    "icms": 83.14,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 114.85463483146067,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "Locomotiva Discos:9861b9",
    "fonte": "Locomotiva Discos",
    "titulo": "LP SYNCRO JAZZ LIVE - SYNCRO JAZZ LIVE (COM OBI) (NOVO) IMPORTADO",
@@ -1216,11 +1235,11 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 181.01090449438203,
+   "refDiscogs": 144.51148648648646,
    "criterios": {
     "teto": false,
-    "discogs": true,
-    "maisBarato": false
+    "discogs": false,
+    "maisBarato": true
    }
   },
   {
@@ -1475,11 +1494,27 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 114.85463483146067,
+   "refDiscogs": 137.8255617977528,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": false
+   }
+  },
+  {
+   "id": "Locomotiva Discos:94ba9c",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP DAFT PUNK - RANDOM ACCESS MEMORIES (10TH ANNIVERSARY EDITION)",
+   "preco": 460,
+   "url": "https://www.locomotivadiscos.com.br/pd-94ba9c-lp-daft-punk-random-access-memories-10th-anniversary-edition.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/94BA9C/17D7C48/330xN.jpg",
+   "busca": "punk",
+   "precoTotal": 460,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
    }
   },
   {
@@ -1500,10 +1535,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 181.01090449438203,
+   "refDiscogs": 144.51148648648646,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -1667,10 +1702,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 114.85463483146067,
+   "refDiscogs": 137.8255617977528,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": false
    }
   },
@@ -1835,35 +1870,6 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:12060565",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2016, US)",
-   "preco": 136.75,
-   "precoOriginal": {
-    "valor": 136.75,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/12060565",
-   "imagem": "https://i.discogs.com/doMuynSyHaY6kTKzH34MxCF0IRGNad6njmo9VAebuQY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDYw/NTY1LTE3Njk4NjM1/MzgtODIyMy5qcGVn.jpeg",
-   "observacao": "Menor preço entre 18 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 507.3,
-   "custos": {
-    "frete": 109.4,
-    "impostoImportacao": 147.69,
-    "icms": 98.46,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 236.1870710674157,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
    }
   },
   {
@@ -2063,12 +2069,12 @@
    }
   },
   {
-   "id": "iMusic:0602547885081",
+   "id": "iMusic:4260019716064",
    "fonte": "iMusic",
-   "titulo": "Guru · Jazzmatazz Volume 1 (LP) (2018)",
+   "titulo": "Ornette Coleman · Shape Of Jazz To Come (LP) [Speakers Corner edition] (2021)",
    "preco": 191.9,
-   "url": "https://imusic.br.com/music/0602547885081/guru-2018-jazzmatazz-volume-1-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/081/0602547885081.jpg?guru-2018-jazzmatazz-volume-1-lp&class=scaled&v=1593420714",
+   "url": "https://imusic.br.com/music/4260019716064/ornette-coleman-2021-shape-of-jazz-to-come-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/064/4260019716064.jpg?ornette-coleman-2021-shape-of-jazz-to-come-lp&class=scaled&v=1619693306",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
    "precoTotal": 532.6,
@@ -2086,12 +2092,12 @@
    }
   },
   {
-   "id": "iMusic:4260019716064",
+   "id": "iMusic:0602547885081",
    "fonte": "iMusic",
-   "titulo": "Ornette Coleman · Shape Of Jazz To Come (LP) [Speakers Corner edition] (2021)",
+   "titulo": "Guru · Jazzmatazz Volume 1 (LP) (2018)",
    "preco": 191.9,
-   "url": "https://imusic.br.com/music/4260019716064/ornette-coleman-2021-shape-of-jazz-to-come-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/064/4260019716064.jpg?ornette-coleman-2021-shape-of-jazz-to-come-lp&class=scaled&v=1619693306",
+   "url": "https://imusic.br.com/music/0602547885081/guru-2018-jazzmatazz-volume-1-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/081/0602547885081.jpg?guru-2018-jazzmatazz-volume-1-lp&class=scaled&v=1593420714",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "jazz",
    "precoTotal": 532.6,
@@ -2223,6 +2229,35 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:27423360",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2023, US)",
+   "preco": 164.1,
+   "precoOriginal": {
+    "valor": 164.1,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/27423360",
+   "imagem": "https://i.discogs.com/5Cp2gZYkVIHbbHokK4HVnEho_Ltmoql6KqefGmvuX68/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NDIz/MzYwLTE2ODcxMzEy/NTQtOTc1Mi5qcGVn.jpeg",
+   "observacao": "Menor preço entre 31 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 562,
+   "custos": {
+    "frete": 109.4,
+    "impostoImportacao": 164.1,
+    "icms": 109.4,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 236.1870710674157,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
    }
   },
   {
@@ -2370,7 +2405,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 181.01090449438203,
+   "refDiscogs": 144.51148648648646,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2643,7 +2678,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 181.01090449438203,
+   "refDiscogs": 144.51148648648646,
    "criterios": {
     "teto": false,
     "discogs": false,
