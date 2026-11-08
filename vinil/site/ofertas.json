@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-08T13:25:01.426Z",
+ "geradoEm": "2026-11-08T22:05:11.903Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -30,7 +30,7 @@
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 188.75
+   "refDiscogs": 199.72
   },
   {
    "chave": "foals-what-went-down",
@@ -48,22 +48,6 @@
   }
  ],
  "ofertas": [
-  {
-   "id": "Locomotiva Discos:8ff393",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP A TURMA DA PILANTRAGEM - O SOM DA PILANTRAGEM (USADO) (EX)",
-   "preco": 65,
-   "url": "https://www.locomotivadiscos.com.br/pd-8ff393-lp-a-turma-da-pilantragem-o-som-da-pilantragem-usado-ex.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/8FF393/16D3194/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 65,
-   "teto": 120,
-   "criterios": {
-    "teto": true,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
   {
    "id": "Baratos Afins:202161374",
    "fonte": "Baratos Afins",
@@ -215,21 +199,6 @@
    }
   },
   {
-   "id": "Baratos Afins:363303609",
-   "fonte": "Baratos Afins",
-   "titulo": "LOS EX TRIDENTES - LP",
-   "preco": 150,
-   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
-   "busca": "punk",
-   "precoTotal": 150,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "Locomotiva Discos:96812b",
    "fonte": "Locomotiva Discos",
    "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
@@ -246,13 +215,12 @@
    }
   },
   {
-   "id": "Locomotiva Discos:66d4e",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP KAFKA - OBRA DOS SONHOS",
+   "id": "Baratos Afins:363303609",
+   "fonte": "Baratos Afins",
+   "titulo": "LOS EX TRIDENTES - LP",
    "preco": 150,
-   "url": "https://www.locomotivadiscos.com.br/pd-66d4e-lp-kafka-obra-dos-sonhos.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/66D4E/11772AF/330xN.jpg",
-   "busca": "Ottis Redding",
+   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
+   "busca": "punk",
    "precoTotal": 150,
    "teto": 120,
    "criterios": {
@@ -429,22 +397,6 @@
    }
   },
   {
-   "id": "Locomotiva Discos:94af12",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP LIXOMANIA - VIOLÊNCIA E SOBREVIVÊNCIA E MAIS (NOVO/LACRADO)",
-   "preco": 195,
-   "url": "https://www.locomotivadiscos.com.br/pd-94af12-lp-lixomania-violencia-e-sobrevivencia-e-mais-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/94AF12/17D57FD/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 195,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "Baratos Afins:199915400",
    "fonte": "Baratos Afins",
    "titulo": "50 YEARS OF JAZZ GUITAR- LP",
@@ -483,22 +435,6 @@
    "url": "https://www.locomotivadiscos.com.br/pd-97d97e-lp-the-exploited-punks-not-dead-novo-lacrado.html",
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/97D97E/1894AAD/330xN.jpg",
    "busca": "punk",
-   "precoTotal": 220,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Locomotiva Discos:96d457",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP JOÃO DONATO E JARDS MACALÉ - SÍNTESE DO LANCE (NOVO/LACRADO)",
-   "preco": 220,
-   "url": "https://www.locomotivadiscos.com.br/pd-96d457-lp-joao-donato-e-jards-macale-sintese-do-lance-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96D457/18530AA/330xN.jpg",
-   "busca": "Ottis Redding",
    "precoTotal": 220,
    "teto": 120,
    "criterios": {
@@ -823,6 +759,22 @@
    "url": "https://www.locomotivadiscos.com.br/pd-94ba9d-lp-daft-punk-discovery-novo-lacrado-duplo.html",
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/94BA9D/17D7C4A/330xN.jpg",
    "busca": "punk",
+   "precoTotal": 350,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:978c14",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP DE LA SOUL - 3 FEET HIGH AND RESING (2xLPs) (NOV/LAC) AMARELO",
+   "preco": 350,
+   "url": "https://www.locomotivadiscos.com.br/pd-978c14-lp-de-la-soul-3-feet-high-and-resing-2xlps-nov-lac-amarelo.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/978C14/18807DD/330xN.jpg",
+   "busca": "Ottis Redding",
    "precoTotal": 350,
    "teto": 120,
    "criterios": {
@@ -1204,7 +1156,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 188.75,
+   "refDiscogs": 199.72,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1796,22 +1748,6 @@
    }
   },
   {
-   "id": "Locomotiva Discos:85f0d1",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP LEOPOLDO FEDERICO & EL ARRANQUE -RARAS PARTITURAS 6(IMP/USADO)(NM)",
-   "preco": 500,
-   "url": "https://www.locomotivadiscos.com.br/pd-85f0d1-lp-leopoldo-federico-el-arranque-raras-partituras-6-imp-usado-nm.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/85F0D1/14F2530/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 500,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "iMusic:8721018001064",
    "fonte": "iMusic",
    "titulo": "Home Front · Games Of Power (LP) (2023)",
@@ -1829,10 +1765,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 188.75,
+   "refDiscogs": 199.72,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": false
    }
   },
@@ -1903,6 +1839,35 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:37531311",
+   "fonte": "Discogs",
+   "titulo": "Home Front (2) - Games Of Power (2026, Europe)",
+   "preco": 137.69,
+   "precoOriginal": {
+    "valor": 137.69,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/37531311",
+   "imagem": "https://i.discogs.com/DyDY_XxAFP6dR6wHpIYrZCxDEaX2q_MvMNVYERIYw0U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMx/MzExLTE3ODQ0OTIz/MjYtMTczNS5qcGVn.jpeg",
+   "observacao": "Menor preço entre 9 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 510.38,
+   "custos": {
+    "frete": 110,
+    "impostoImportacao": 148.61,
+    "icms": 99.08,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 199.72,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
    }
   },
   {
@@ -2252,7 +2217,7 @@
    },
    "url": "https://www.discogs.com/sell/release/27423360",
    "imagem": "https://i.discogs.com/5Cp2gZYkVIHbbHokK4HVnEho_Ltmoql6KqefGmvuX68/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NDIz/MzYwLTE2ODcxMzEy/NTQtOTc1Mi5qcGVn.jpeg",
-   "observacao": "Menor preço entre 32 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 30 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "lcd-soundsystem-sound-of-silver",
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 565.6,
@@ -2340,35 +2305,6 @@
    }
   },
   {
-   "id": "discogs:1312950",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2007, US)",
-   "preco": 176.32,
-   "precoOriginal": {
-    "valor": 176.32,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/1312950",
-   "imagem": "https://i.discogs.com/hIzE3Jtg4GDuWsQk3MSJbOsPRzcT6ydO1HNFqn5_Ojw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTI5/NTAtMTU4OTI0ODUy/OS0yNzM1LmpwZWc.jpeg",
-   "observacao": "Menor preço entre 7 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 587.64,
-   "custos": {
-    "frete": 110,
-    "impostoImportacao": 171.79,
-    "icms": 114.53,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 235.27072472222218,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "discogs:26682263",
    "fonte": "Discogs",
    "titulo": "Foals - What Went Down (2022, UK & Europe)",
@@ -2415,7 +2351,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 188.75,
+   "refDiscogs": 199.72,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2443,6 +2379,35 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:1312950",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2007, US)",
+   "preco": 192.57,
+   "precoOriginal": {
+    "valor": 192.57,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/1312950",
+   "imagem": "https://i.discogs.com/hIzE3Jtg4GDuWsQk3MSJbOsPRzcT6ydO1HNFqn5_Ojw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTI5/NTAtMTU4OTI0ODUy/OS0yNzM1LmpwZWc.jpeg",
+   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 620.14,
+   "custos": {
+    "frete": 110,
+    "impostoImportacao": 181.54,
+    "icms": 121.03,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 235.27072472222218,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
    }
   },
   {
@@ -2682,7 +2647,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 188.75,
+   "refDiscogs": 199.72,
    "criterios": {
     "teto": false,
     "discogs": false,
