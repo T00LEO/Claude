@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-07T21:51:14.093Z",
+ "geradoEm": "2026-11-08T06:00:30.140Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -16,7 +16,7 @@
    "artista": "The Rapture",
    "titulo": "Pieces of the People We Love",
    "teto": 200,
-   "refDiscogs": 290.7335294117647
+   "refDiscogs": 51.255244444444436
   },
   {
    "chave": "rotten-mind-unflavored",
@@ -199,11 +199,12 @@
    }
   },
   {
-   "id": "Baratos Afins:363303609",
-   "fonte": "Baratos Afins",
-   "titulo": "LOS EX TRIDENTES - LP",
+   "id": "Locomotiva Discos:96812b",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
    "preco": 150,
-   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
+   "url": "https://www.locomotivadiscos.com.br/pd-96812b-lp-varios-artistas-a-divina-tragedia-alternative-post-punk-vol-3.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96812B/183D68B/330xN.jpg",
    "busca": "punk",
    "precoTotal": 150,
    "teto": 120,
@@ -214,12 +215,11 @@
    }
   },
   {
-   "id": "Locomotiva Discos:96812b",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
+   "id": "Baratos Afins:363303609",
+   "fonte": "Baratos Afins",
+   "titulo": "LOS EX TRIDENTES - LP",
    "preco": 150,
-   "url": "https://www.locomotivadiscos.com.br/pd-96812b-lp-varios-artistas-a-divina-tragedia-alternative-post-punk-vol-3.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96812B/183D68B/330xN.jpg",
+   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
    "busca": "punk",
    "precoTotal": 150,
    "teto": 120,
@@ -297,6 +297,22 @@
    "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-post-bop.html",
    "busca": "jazz",
    "precoTotal": 160,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:96d45a",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP RAFAEL MACEDO - TALVEZ UMA DANSA (NOVO/LACRADO)",
+   "preco": 165,
+   "url": "https://www.locomotivadiscos.com.br/pd-96d45a-lp-rafael-macedo-talvez-uma-dansa-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96D45A/18530B5/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 165,
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -444,6 +460,22 @@
    }
   },
   {
+   "id": "Locomotiva Discos:985faa",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP MOCOFAIA - MOCOFAIA (NOVO/LACRADO)",
+   "preco": 225,
+   "url": "https://www.locomotivadiscos.com.br/pd-985faa-lp-mocofaia-mocofaia-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/985FAA/18B756B/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 225,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "Locomotiva Discos:94dd92",
    "fonte": "Locomotiva Discos",
    "titulo": "LP NOFX - PUNK IN DRUBLIC (NOVO/LACRADO)",
@@ -476,22 +508,6 @@
    }
   },
   {
-   "id": "Locomotiva Discos:984ea8",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP BAD RELIGION - HOW COULD HELL BE ANY WORSE? (NOVO/LACRADO)",
-   "preco": 250,
-   "url": "https://www.locomotivadiscos.com.br/pd-984ea8-lp-bad-religion-how-could-hell-be-any-worse-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/984EA8/18B2A77/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 250,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "discogs:1324380",
    "fonte": "Discogs",
    "titulo": "The Rapture - Pieces Of The People We Love (2007, UK)",
@@ -513,7 +529,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 290.7335294117647,
+   "refDiscogs": 51.255244444444436,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -548,6 +564,35 @@
    "criterios": {
     "teto": false,
     "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:1324386",
+   "fonte": "Discogs",
+   "titulo": "The Rapture - Pieces Of The People We Love (2007, UK)",
+   "preco": 24.49,
+   "precoOriginal": {
+    "valor": 24.49,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/1324386",
+   "imagem": "https://i.discogs.com/G4xOIesjUESvvKB1rRp9SsSxqPkFIzTTaxjI72iXjnY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjQz/ODYtMTI2OTExNjM1/NC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 11 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "the-rapture-pieces-of-the-people-we-love",
+   "busca": "The Rapture – Pieces of the People We Love",
+   "precoTotal": 283.98,
+   "custos": {
+    "frete": 110,
+    "impostoImportacao": 80.69,
+    "icms": 53.8,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 51.255244444444436,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
     "maisBarato": null
    }
   },
@@ -1006,7 +1051,7 @@
    },
    "url": "https://www.discogs.com/sell/release/7392977",
    "imagem": "https://i.discogs.com/59a1RRECUuB-8DYG6mDzsuBCh7Ud5rcF1Fpu0fqRA0I/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczOTI5/NzctMTQ0MDUyNjY2/NC01MjAzLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 53 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 54 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "foals-what-went-down",
    "busca": "Foals – What went down",
    "precoTotal": 400.3,
@@ -2132,29 +2177,6 @@
    }
   },
   {
-   "id": "iMusic:0888072240957",
-   "fonte": "iMusic",
-   "titulo": "Benny Carter · Jazz Giant (LP) [Contemporary Records Acoustic Sounds Series edition] (2022)",
-   "preco": 205.9,
-   "url": "https://imusic.br.com/music/0888072240957/benny-carter-2022-jazz-giant-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/957/0888072240957.jpg?benny-carter-2022-jazz-giant-lp&class=scaled&v=1741866639",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 560.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 163.68,
-    "icms": 109.12,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "iMusic:0826853006446",
    "fonte": "iMusic",
    "titulo": "THE DEKU TRIO · Zelda & Jazz III (LP) [Hand Pour color vinyl edition] (2026)",
@@ -2238,6 +2260,29 @@
    "imagem": "https://imusic.b-cdn.net/images/item/original/003/0050087487003.jpg?daft-punk-2021-tron-legacy-lp&class=scaled&v=1742556326",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
+   "precoTotal": 586.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 171.48,
+    "icms": 114.32,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "iMusic:0888072240957",
+   "fonte": "iMusic",
+   "titulo": "Benny Carter · Jazz Giant (LP) [Contemporary Records Acoustic Sounds Series edition] (2022)",
+   "preco": 218.9,
+   "url": "https://imusic.br.com/music/0888072240957/benny-carter-2022-jazz-giant-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/957/0888072240957.jpg?benny-carter-2022-jazz-giant-lp&class=scaled&v=1741866639",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
    "precoTotal": 586.6,
    "custos": {
     "frete": 66.9,
@@ -2676,7 +2721,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 290.7335294117647,
+   "refDiscogs": 51.255244444444436,
    "criterios": {
     "teto": false,
     "discogs": false,
