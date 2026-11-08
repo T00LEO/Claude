@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-08T06:00:30.140Z",
+ "geradoEm": "2026-11-08T13:25:01.426Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -37,7 +37,7 @@
    "artista": "Foals",
    "titulo": "What went down",
    "teto": 200,
-   "refDiscogs": 180.30862777777776
+   "refDiscogs": 143.6273333333333
   },
   {
    "chave": "schedule-1-crucible",
@@ -48,6 +48,22 @@
   }
  ],
  "ofertas": [
+  {
+   "id": "Locomotiva Discos:8ff393",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP A TURMA DA PILANTRAGEM - O SOM DA PILANTRAGEM (USADO) (EX)",
+   "preco": 65,
+   "url": "https://www.locomotivadiscos.com.br/pd-8ff393-lp-a-turma-da-pilantragem-o-som-da-pilantragem-usado-ex.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/8FF393/16D3194/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 65,
+   "teto": 120,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
   {
    "id": "Baratos Afins:202161374",
    "fonte": "Baratos Afins",
@@ -199,6 +215,21 @@
    }
   },
   {
+   "id": "Baratos Afins:363303609",
+   "fonte": "Baratos Afins",
+   "titulo": "LOS EX TRIDENTES - LP",
+   "preco": 150,
+   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
+   "busca": "punk",
+   "precoTotal": 150,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "Locomotiva Discos:96812b",
    "fonte": "Locomotiva Discos",
    "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
@@ -215,12 +246,13 @@
    }
   },
   {
-   "id": "Baratos Afins:363303609",
-   "fonte": "Baratos Afins",
-   "titulo": "LOS EX TRIDENTES - LP",
+   "id": "Locomotiva Discos:66d4e",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP KAFKA - OBRA DOS SONHOS",
    "preco": 150,
-   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
-   "busca": "punk",
+   "url": "https://www.locomotivadiscos.com.br/pd-66d4e-lp-kafka-obra-dos-sonhos.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/66D4E/11772AF/330xN.jpg",
+   "busca": "Ottis Redding",
    "precoTotal": 150,
    "teto": 120,
    "criterios": {
@@ -297,22 +329,6 @@
    "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-post-bop.html",
    "busca": "jazz",
    "precoTotal": 160,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Locomotiva Discos:96d45a",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP RAFAEL MACEDO - TALVEZ UMA DANSA (NOVO/LACRADO)",
-   "preco": 165,
-   "url": "https://www.locomotivadiscos.com.br/pd-96d45a-lp-rafael-macedo-talvez-uma-dansa-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96D45A/18530B5/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 165,
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -413,6 +429,22 @@
    }
   },
   {
+   "id": "Locomotiva Discos:94af12",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP LIXOMANIA - VIOLÊNCIA E SOBREVIVÊNCIA E MAIS (NOVO/LACRADO)",
+   "preco": 195,
+   "url": "https://www.locomotivadiscos.com.br/pd-94af12-lp-lixomania-violencia-e-sobrevivencia-e-mais-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/94AF12/17D57FD/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 195,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "Baratos Afins:199915400",
    "fonte": "Baratos Afins",
    "titulo": "50 YEARS OF JAZZ GUITAR- LP",
@@ -460,14 +492,14 @@
    }
   },
   {
-   "id": "Locomotiva Discos:985faa",
+   "id": "Locomotiva Discos:96d457",
    "fonte": "Locomotiva Discos",
-   "titulo": "LP MOCOFAIA - MOCOFAIA (NOVO/LACRADO)",
-   "preco": 225,
-   "url": "https://www.locomotivadiscos.com.br/pd-985faa-lp-mocofaia-mocofaia-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/985FAA/18B756B/330xN.jpg",
+   "titulo": "LP JOÃO DONATO E JARDS MACALÉ - SÍNTESE DO LANCE (NOVO/LACRADO)",
+   "preco": 220,
+   "url": "https://www.locomotivadiscos.com.br/pd-96d457-lp-joao-donato-e-jards-macale-sintese-do-lance-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96D457/18530AA/330xN.jpg",
    "busca": "Ottis Redding",
-   "precoTotal": 225,
+   "precoTotal": 220,
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -1041,35 +1073,6 @@
    }
   },
   {
-   "id": "discogs:7392977",
-   "fonte": "Discogs",
-   "titulo": "Foals - What Went Down (2015, UK & Europe)",
-   "preco": 82.65,
-   "precoOriginal": {
-    "valor": 82.65,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/7392977",
-   "imagem": "https://i.discogs.com/59a1RRECUuB-8DYG6mDzsuBCh7Ud5rcF1Fpu0fqRA0I/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczOTI5/NzctMTQ0MDUyNjY2/NC01MjAzLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 54 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "foals-what-went-down",
-   "busca": "Foals – What went down",
-   "precoTotal": 400.3,
-   "custos": {
-    "frete": 110,
-    "impostoImportacao": 115.59,
-    "icms": 77.06,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 180.30862777777776,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": true
-   }
-  },
-  {
    "id": "iMusic:0602507465681",
    "fonte": "iMusic",
    "titulo": "Art Blakey and the Jazz Messengers · Moanin' (LP) [Blue Note Classic Vinyl edition] (2021)",
@@ -1226,11 +1229,11 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 180.30862777777776,
+   "refDiscogs": 143.6273333333333,
    "criterios": {
     "teto": false,
-    "discogs": true,
-    "maisBarato": false
+    "discogs": false,
+    "maisBarato": true
    }
   },
   {
@@ -1418,6 +1421,29 @@
    }
   },
   {
+   "id": "iMusic:0889466515514",
+   "fonte": "iMusic",
+   "titulo": "Punk Floyd - A Tribute To Pink Floyd/ Various · Punk Floyd (LP) [Limited edition] (2024)",
+   "preco": 150.9,
+   "url": "https://imusic.br.com/music/0889466515514/punk-floyd-a-tribute-to-pink-floyd-various-2024-punk-floyd-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/514/0889466515514.jpg?punk-floyd-a-tribute-to-pink-floyd-various-2024-punk-floyd-lp&class=scaled&v=1718019946",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "punk",
+   "precoTotal": 450.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 130.68,
+    "icms": 87.12,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "iMusic:8719262040656",
    "fonte": "iMusic",
    "titulo": "Ornette Coleman Double Quartet · Free Jazz (LP) [White Vinyl edition] (2025)",
@@ -1444,9 +1470,9 @@
    "id": "discogs:26840834",
    "fonte": "Discogs",
    "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
-   "preco": 111.2,
+   "preco": 111.43,
    "precoOriginal": {
-    "valor": 111.2,
+    "valor": 111.43,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/26840834",
@@ -1454,11 +1480,11 @@
    "observacao": "Menor preço entre 22 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 457.4,
+   "precoTotal": 457.86,
    "custos": {
     "frete": 110,
-    "impostoImportacao": 132.72,
-    "icms": 88.48,
+    "impostoImportacao": 132.86,
+    "icms": 88.57,
     "despacho": 15
    },
    "teto": 200,
@@ -1503,10 +1529,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 180.30862777777776,
+   "refDiscogs": 143.6273333333333,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -1672,29 +1698,6 @@
    }
   },
   {
-   "id": "iMusic:0720841301615",
-   "fonte": "iMusic",
-   "titulo": "Fontaines D.c. · Skinty Fia (LP) (2022)",
-   "preco": 164.9,
-   "url": "https://imusic.br.com/music/0720841301615/fontaines-d-c-2022-skinty-fia-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/615/0720841301615.jpg?fontaines-d-c-2022-skinty-fia-lp&class=scaled&v=1646909551",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "punk",
-   "precoTotal": 478.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 139.08,
-    "icms": 92.72,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "discogs:24320123",
    "fonte": "Discogs",
    "titulo": "Rotten Mind - Unflavored (2022, Sweden)",
@@ -1785,6 +1788,22 @@
     "icms": 95.12,
     "despacho": 15
    },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:85f0d1",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP LEOPOLDO FEDERICO & EL ARRANQUE -RARAS PARTITURAS 6(IMP/USADO)(NM)",
+   "preco": 500,
+   "url": "https://www.locomotivadiscos.com.br/pd-85f0d1-lp-leopoldo-federico-el-arranque-raras-partituras-6-imp-usado-nm.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/85F0D1/14F2530/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 500,
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -2350,6 +2369,35 @@
    }
   },
   {
+   "id": "discogs:26682263",
+   "fonte": "Discogs",
+   "titulo": "Foals - What Went Down (2022, UK & Europe)",
+   "preco": 181.15,
+   "precoOriginal": {
+    "valor": 181.15,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/26682263",
+   "imagem": "https://i.discogs.com/0yGwhQL0wM9IGObxY0nImpzSIOYp_9CkWeqBD6IYxSc/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Njgy/MjYzLTE2ODA4OTIy/NDktMjQyNC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 5 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "foals-what-went-down",
+   "busca": "Foals – What went down",
+   "precoTotal": 597.3,
+   "custos": {
+    "frete": 110,
+    "impostoImportacao": 174.69,
+    "icms": 116.46,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 143.6273333333333,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "iMusic:9951193577118",
    "fonte": "iMusic",
    "titulo": "Home Front · Games of Power (LP) (2023)",
@@ -2663,7 +2711,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 180.30862777777776,
+   "refDiscogs": 143.6273333333333,
    "criterios": {
     "teto": false,
     "discogs": false,
