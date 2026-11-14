@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-14T06:22:42.290Z",
+ "geradoEm": "2026-11-14T18:01:09.993Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -9,7 +9,7 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 329.0661111111111
+   "refDiscogs": 241.67555388888889
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
@@ -37,7 +37,7 @@
    "artista": "Foals",
    "titulo": "What went down",
    "teto": 200,
-   "refDiscogs": 185.2172111111111
+   "refDiscogs": 145.59605263157894
   },
   {
    "chave": "schedule-1-crucible",
@@ -199,11 +199,12 @@
    }
   },
   {
-   "id": "Baratos Afins:363303609",
-   "fonte": "Baratos Afins",
-   "titulo": "LOS EX TRIDENTES - LP",
+   "id": "Locomotiva Discos:96812b",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
    "preco": 150,
-   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
+   "url": "https://www.locomotivadiscos.com.br/pd-96812b-lp-varios-artistas-a-divina-tragedia-alternative-post-punk-vol-3.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96812B/183D68B/330xN.jpg",
    "busca": "punk",
    "precoTotal": 150,
    "teto": 120,
@@ -214,12 +215,11 @@
    }
   },
   {
-   "id": "Locomotiva Discos:96812b",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
+   "id": "Baratos Afins:363303609",
+   "fonte": "Baratos Afins",
+   "titulo": "LOS EX TRIDENTES - LP",
    "preco": 150,
-   "url": "https://www.locomotivadiscos.com.br/pd-96812b-lp-varios-artistas-a-divina-tragedia-alternative-post-punk-vol-3.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96812B/183D68B/330xN.jpg",
+   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
    "busca": "punk",
    "precoTotal": 150,
    "teto": 120,
@@ -397,14 +397,13 @@
    }
   },
   {
-   "id": "Locomotiva Discos:965277",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP THE MAKERS - HOWL (NOVO/LACRADO)",
-   "preco": 195,
-   "url": "https://www.locomotivadiscos.com.br/pd-965277-lp-the-makers-howl-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/965277/1831A3C/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 195,
+   "id": "Baratos Afins:199915400",
+   "fonte": "Baratos Afins",
+   "titulo": "50 YEARS OF JAZZ GUITAR- LP",
+   "preco": 200,
+   "url": "https://www.baratosafins.com.br/produto/50-years-of-jazz-guitar.html",
+   "busca": "jazz",
+   "precoTotal": 200,
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -413,13 +412,14 @@
    }
   },
   {
-   "id": "Baratos Afins:199915400",
-   "fonte": "Baratos Afins",
-   "titulo": "50 YEARS OF JAZZ GUITAR- LP",
-   "preco": 200,
-   "url": "https://www.baratosafins.com.br/produto/50-years-of-jazz-guitar.html",
-   "busca": "jazz",
-   "precoTotal": 200,
+   "id": "Locomotiva Discos:96d256",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP THIAGO ELNIÑO - PEDRAS, FLECHAS, LANÇAS, ESPADAS (NOVO/LACRADO)",
+   "preco": 210,
+   "url": "https://www.locomotivadiscos.com.br/pd-96d256-lp-thiago-elnino-pedras-flechas-lancas-espadas-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96D256/18527A8/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 210,
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -492,6 +492,22 @@
    }
   },
   {
+   "id": "Locomotiva Discos:972fd9",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP DAFT PUNK - DISCOVERY (2xLPs) (NOVO/LACRADO)",
+   "preco": 280,
+   "url": "https://www.locomotivadiscos.com.br/pd-972fd9-lp-daft-punk-discovery-2xlps-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/972FD9/1869FE9/330xN.jpg",
+   "busca": "punk",
+   "precoTotal": 280,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "Baratos Afins:202254140",
    "fonte": "Baratos Afins",
    "titulo": "TULIO MOURÃO - JAZZ MINEIRO- LP",
@@ -507,13 +523,13 @@
    }
   },
   {
-   "id": "Locomotiva Discos:972fd9",
+   "id": "Locomotiva Discos:988bbb",
    "fonte": "Locomotiva Discos",
-   "titulo": "LP DAFT PUNK - DISCOVERY (2xLPs) (NOVO/LACRADO)",
+   "titulo": "LP RUBINHO E MAURO ASSUMPÇÃO - PERFEITAMENTE (NOVO/LACRADO)",
    "preco": 280,
-   "url": "https://www.locomotivadiscos.com.br/pd-972fd9-lp-daft-punk-discovery-2xlps-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/972FD9/1869FE9/330xN.jpg",
-   "busca": "punk",
+   "url": "https://www.locomotivadiscos.com.br/pd-988bbb-lp-rubinho-e-mauro-assumpcao-perfeitamente-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/988BBB/18C3006/330xN.jpg",
+   "busca": "Ottis Redding",
    "precoTotal": 280,
    "teto": 120,
    "criterios": {
@@ -562,10 +578,10 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 329.0661111111111,
+   "refDiscogs": 241.67555388888889,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": true
    }
   },
@@ -699,29 +715,6 @@
    "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-singers.html",
    "busca": "jazz",
    "precoTotal": 340,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:8436542012447",
-   "fonte": "iMusic",
-   "titulo": "Stan Getz · Jazz Samba (LP) (2013)",
-   "preco": 97.9,
-   "url": "https://imusic.br.com/music/8436542012447/stan-getz-2013-jazz-samba-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/447/8436542012447.jpg?stan-getz-2013-jazz-samba-lp&class=scaled&v=1365936765",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
-   "precoTotal": 344.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 98.88,
-    "icms": 65.92,
-    "despacho": 15
-   },
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -996,35 +989,6 @@
    }
   },
   {
-   "id": "discogs:7392977",
-   "fonte": "Discogs",
-   "titulo": "Foals - What Went Down (2015, UK & Europe)",
-   "preco": 84.9,
-   "precoOriginal": {
-    "valor": 84.9,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/7392977",
-   "imagem": "https://i.discogs.com/59a1RRECUuB-8DYG6mDzsuBCh7Ud5rcF1Fpu0fqRA0I/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczOTI5/NzctMTQ0MDUyNjY2/NC01MjAzLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 72 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "foals-what-went-down",
-   "busca": "Foals – What went down",
-   "precoTotal": 411.2,
-   "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 118.86,
-    "icms": 79.24,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 185.2172111111111,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": true
-   }
-  },
-  {
    "id": "iMusic:9951193594603",
    "fonte": "iMusic",
    "titulo": "Reverend Elvis and the Undead Syncopators · Punk (LP) (1980)",
@@ -1117,6 +1081,29 @@
    }
   },
   {
+   "id": "iMusic:0602448650498",
+   "fonte": "iMusic",
+   "titulo": "Modest Jazz Trio · Good Friday Blues (LP) [Tone Poet Series Edition] (2024)",
+   "preco": 145.9,
+   "url": "https://imusic.br.com/music/0602448650498/modest-jazz-trio-2024-good-friday-blues-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/498/0602448650498.jpg?modest-jazz-trio-2024-good-friday-blues-lp&class=scaled&v=1721645559",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 440.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 127.68,
+    "icms": 85.12,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "discogs:28033284",
    "fonte": "Discogs",
    "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
@@ -1188,11 +1175,11 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 185.2172111111111,
+   "refDiscogs": 145.59605263157894,
    "criterios": {
     "teto": false,
-    "discogs": true,
-    "maisBarato": false
+    "discogs": false,
+    "maisBarato": true
    }
   },
   {
@@ -1419,10 +1406,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 185.2172111111111,
+   "refDiscogs": 145.59605263157894,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -1809,12 +1796,12 @@
    }
   },
   {
-   "id": "iMusic:5026328705057",
+   "id": "iMusic:5014797906150",
    "fonte": "iMusic",
-   "titulo": "Compilation · Punk 45: I'm A Mess (LP) (2022)",
+   "titulo": "UK Subs · A Punk Rock Anthology - 1978-2017 (Red / Yellow Vinyl) (LP) [Limited Edition] (2022)",
    "preco": 181.9,
-   "url": "https://imusic.br.com/music/5026328705057/compilation-2022-punk-45-i-m-a-mess-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/057/5026328705057.jpg?compilation-2022-punk-45-i-m-a-mess-lp&class=scaled&v=1665120228",
+   "url": "https://imusic.br.com/music/5014797906150/uk-subs-2022-a-punk-rock-anthology-1978-2017-red-yellow-vinyl-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/150/5014797906150.jpg?uk-subs-2022-a-punk-rock-anthology-1978-2017-red-yellow-vinyl-lp&class=scaled&v=1637102618",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
    "precoTotal": 512.6,
@@ -1832,12 +1819,12 @@
    }
   },
   {
-   "id": "iMusic:5014797906150",
+   "id": "iMusic:5026328705057",
    "fonte": "iMusic",
-   "titulo": "UK Subs · A Punk Rock Anthology - 1978-2017 (Red / Yellow Vinyl) (LP) [Limited Edition] (2022)",
+   "titulo": "Compilation · Punk 45: I'm A Mess (LP) (2022)",
    "preco": 181.9,
-   "url": "https://imusic.br.com/music/5014797906150/uk-subs-2022-a-punk-rock-anthology-1978-2017-red-yellow-vinyl-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/150/5014797906150.jpg?uk-subs-2022-a-punk-rock-anthology-1978-2017-red-yellow-vinyl-lp&class=scaled&v=1637102618",
+   "url": "https://imusic.br.com/music/5026328705057/compilation-2022-punk-45-i-m-a-mess-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/057/5026328705057.jpg?compilation-2022-punk-45-i-m-a-mess-lp&class=scaled&v=1665120228",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
    "precoTotal": 512.6,
@@ -1875,6 +1862,35 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:12060565",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2016, US)",
+   "preco": 139.51,
+   "precoOriginal": {
+    "valor": 139.51,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/12060565",
+   "imagem": "https://i.discogs.com/doMuynSyHaY6kTKzH34MxCF0IRGNad6njmo9VAebuQY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDYw/NTY1LTE3Njk4NjM1/MzgtODIyMy5qcGVn.jpeg",
+   "observacao": "Menor preço entre 18 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 520.42,
+   "custos": {
+    "frete": 113.2,
+    "impostoImportacao": 151.63,
+    "icms": 101.08,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 241.67555388888889,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
    }
   },
   {
@@ -2085,7 +2101,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 329.0661111111111,
+   "refDiscogs": 241.67555388888889,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2113,35 +2129,6 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:35365384",
-   "fonte": "Discogs",
-   "titulo": "Foals - What Went Down (2025, Worldwide)",
-   "preco": 156.61,
-   "precoOriginal": {
-    "valor": 156.61,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/35365384",
-   "imagem": "https://i.discogs.com/yJWVWkmZfK4LBBJxe4-EqM9B0QrTKdgfsZUb-OGzOss/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MzY1/Mzg0LTE3NjAzNzU2/MTEtODcxOC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 33 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "foals-what-went-down",
-   "busca": "Foals – What went down",
-   "precoTotal": 554.62,
-   "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 161.89,
-    "icms": 107.92,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 185.2172111111111,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
    }
   },
   {
@@ -2211,6 +2198,35 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:26682263",
+   "fonte": "Discogs",
+   "titulo": "Foals - What Went Down (2022, UK & Europe)",
+   "preco": 169.52,
+   "precoOriginal": {
+    "valor": 169.52,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/26682263",
+   "imagem": "https://i.discogs.com/0yGwhQL0wM9IGObxY0nImpzSIOYp_9CkWeqBD6IYxSc/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Njgy/MjYzLTE2ODA4OTIy/NDktMjQyNC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 7 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "foals-what-went-down",
+   "busca": "Foals – What went down",
+   "precoTotal": 580.44,
+   "custos": {
+    "frete": 113.2,
+    "impostoImportacao": 169.63,
+    "icms": 113.09,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 145.59605263157894,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
    }
   },
   {
@@ -2329,7 +2345,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 329.0661111111111,
+   "refDiscogs": 241.67555388888889,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2446,10 +2462,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 329.0661111111111,
+   "refDiscogs": 241.67555388888889,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -2602,36 +2618,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 185.2172111111111,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
-   }
-  },
-  {
-   "id": "discogs:1114048",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2007, UK)",
-   "preco": 707.43,
-   "precoOriginal": {
-    "valor": 707.43,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/1114048",
-   "imagem": "https://i.discogs.com/lHyyMEJu5HgBzY8J07eOAhefL0BrXpiuFQjKqzrV8YQ/rs:fit/g:sm/q:90/h:374/w:494/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTQw/NDgtMTM0NDk3MzAy/OC03NTMyLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 1656.26,
-   "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 492.38,
-    "icms": 328.25,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 329.0661111111111,
+   "refDiscogs": 145.59605263157894,
    "criterios": {
     "teto": false,
     "discogs": false,
