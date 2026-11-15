@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-15T06:32:07.307Z",
+ "geradoEm": "2026-11-15T18:51:34.341Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -9,7 +9,7 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 325.45
+   "refDiscogs": 389.68355263157895
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
@@ -30,7 +30,7 @@
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 205.15
+   "refDiscogs": 135.30258300000003
   },
   {
    "chave": "foals-what-went-down",
@@ -366,22 +366,6 @@
    }
   },
   {
-   "id": "Locomotiva Discos:7a72aa",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP GRAHAM FELLOWS - LOVE AT THE HAÇIENDA (NOVO/LACRADO)",
-   "preco": 180,
-   "url": "https://www.locomotivadiscos.com.br/pd-7a72aa-lp-graham-fellows-love-at-the-hacienda-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/7A72AA/1302EF2/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 180,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "Locomotiva Discos:97cc6f",
    "fonte": "Locomotiva Discos",
    "titulo": "LP MULAMBO JAZZAGRÁRIO - MULAMBO (NOVO/LACRADO)",
@@ -405,38 +389,6 @@
    "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
    "busca": "jazz",
    "precoTotal": 190,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Locomotiva Discos:62eb5",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP ZUMBIS DO ESPAÇO - NÓS VIEMOS EM PAZ (VINIL VERMELHO)",
-   "preco": 195,
-   "url": "https://www.locomotivadiscos.com.br/pd-62eb5-lp-zumbis-do-espaco-nos-viemos-em-paz-vinil-vermelho.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/62EB5/D271D/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 195,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Locomotiva Discos:97be65",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP APNEA - BEYOND THE CITY LIMITS (NOVO/LACRADO)",
-   "preco": 195,
-   "url": "https://www.locomotivadiscos.com.br/pd-97be65-lp-apnea-beyond-the-city-limits-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/97BE65/188D924/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 195,
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -594,10 +546,10 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 325.45,
+   "refDiscogs": 389.68355263157895,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": true
    }
   },
@@ -833,6 +785,22 @@
    }
   },
   {
+   "id": "Locomotiva Discos:9872f4",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP AEROSMITH - GET A GRIP (2xLPs) (USADO/NM)",
+   "preco": 370,
+   "url": "https://www.locomotivadiscos.com.br/pd-9872f4-lp-aerosmith-get-a-grip-2xlps-usado-nm.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9872F4/18BC4A7/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 370,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "iMusic:0700498011716",
    "fonte": "iMusic",
    "titulo": "Various - Garage Punk Unknowns · Garage Punk Unknowns - the Last Of... Vol.6 (LP) (2023)",
@@ -1038,7 +1006,7 @@
    },
    "url": "https://www.discogs.com/sell/release/7392977",
    "imagem": "https://i.discogs.com/59a1RRECUuB-8DYG6mDzsuBCh7Ud5rcF1Fpu0fqRA0I/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczOTI5/NzctMTQ0MDUyNjY2/NC01MjAzLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 74 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 73 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "foals-what-went-down",
    "busca": "Foals – What went down",
    "precoTotal": 411.2,
@@ -1128,10 +1096,10 @@
   {
    "id": "iMusic:0603497860692",
    "fonte": "iMusic",
-   "titulo": "Not Good For Your Health: Punk (LP) [Coloured Edition] (2018)",
+   "titulo": "Compilation · Not Good For Your Health: Punk (LP) [Coloured Edition] (2018)",
    "preco": 139.9,
-   "url": "https://imusic.br.com/music/0603497860692/v-a-2018-not-good-for-your-health-punk-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/692/0603497860692.jpg?v-a-2018-not-good-for-your-health-punk-lp&class=scaled&v=1530714707",
+   "url": "https://imusic.br.com/music/0603497860692/compilation-2018-not-good-for-your-health-punk-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/692/0603497860692.jpg?compilation-2018-not-good-for-your-health-punk-lp&class=scaled&v=1530714707",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
    "precoTotal": 428.6,
@@ -1218,10 +1186,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 205.15,
+   "refDiscogs": 135.30258300000003,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": true
    }
   },
@@ -1689,6 +1657,35 @@
    }
   },
   {
+   "id": "discogs:37531311",
+   "fonte": "Discogs",
+   "titulo": "Home Front (2) - Games Of Power (2026, Europe)",
+   "preco": 121.29,
+   "precoOriginal": {
+    "valor": 121.29,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/37531311",
+   "imagem": "https://i.discogs.com/DyDY_XxAFP6dR6wHpIYrZCxDEaX2q_MvMNVYERIYw0U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMx/MzExLTE3ODQ0OTIz/MjYtMTczNS5qcGVn.jpeg",
+   "observacao": "Menor preço entre 12 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 483.98,
+   "custos": {
+    "frete": 113.2,
+    "impostoImportacao": 140.69,
+    "icms": 93.8,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 135.30258300000003,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "iMusic:5054197177897",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Homework Remixes (LP) [Limited Edition] (2022)",
@@ -1708,35 +1705,6 @@
    "criterios": {
     "teto": false,
     "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:30474635",
-   "fonte": "Discogs",
-   "titulo": "Schedule 1 - Crucible (2024, Spain)",
-   "preco": 123.77,
-   "precoOriginal": {
-    "valor": 123.77,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/30474635",
-   "imagem": "https://i.discogs.com/qBFSO8u60xMW-S-z5fAW8vhYHuCP_npGqDCl_xBeAPM/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNDc0/NjM1LTE3MTM4MDMz/NzctNDYzNC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "schedule-1-crucible",
-   "busca": "Schedule 1 – Crucible",
-   "precoTotal": 488.94,
-   "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 142.18,
-    "icms": 94.79,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 111.58285714285714,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
     "maisBarato": null
    }
   },
@@ -1856,10 +1824,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 205.15,
+   "refDiscogs": 135.30258300000003,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": false
    }
   },
@@ -1889,10 +1857,10 @@
   {
    "id": "iMusic:5026328705057",
    "fonte": "iMusic",
-   "titulo": "Punk 45: I'm A Mess (LP) (2022)",
+   "titulo": "Compilation · Punk 45: I'm A Mess (LP) (2022)",
    "preco": 181.9,
-   "url": "https://imusic.br.com/music/5026328705057/v-a-2022-punk-45-i-m-a-mess-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/057/5026328705057.jpg?v-a-2022-punk-45-i-m-a-mess-lp&class=scaled&v=1665120228",
+   "url": "https://imusic.br.com/music/5026328705057/compilation-2022-punk-45-i-m-a-mess-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/057/5026328705057.jpg?compilation-2022-punk-45-i-m-a-mess-lp&class=scaled&v=1665120228",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
    "precoTotal": 512.6,
@@ -1933,35 +1901,6 @@
    }
   },
   {
-   "id": "discogs:37531311",
-   "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2026, Europe)",
-   "preco": 141.44,
-   "precoOriginal": {
-    "valor": 141.44,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/37531311",
-   "imagem": "https://i.discogs.com/DyDY_XxAFP6dR6wHpIYrZCxDEaX2q_MvMNVYERIYw0U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMx/MzExLTE3ODQ0OTIz/MjYtMTczNS5qcGVn.jpeg",
-   "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 524.28,
-   "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 152.78,
-    "icms": 101.86,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 205.15,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "iMusic:0888837168618",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Random Access Memories (LP) (2025)",
@@ -1987,10 +1926,10 @@
   {
    "id": "iMusic:5026328005423",
    "fonte": "iMusic",
-   "titulo": "PUNK 45: There’s No Such Thing As Society (LP) [Coloured Edition] (2024)",
+   "titulo": "Compilation · PUNK 45: There’s No Such Thing As Society (LP) [Coloured Edition] (2024)",
    "preco": 188.9,
-   "url": "https://imusic.br.com/music/5026328005423/v-a-2024-punk-45-there-s-no-such-thing-as-society-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/423/5026328005423.jpg?v-a-2024-punk-45-there-s-no-such-thing-as-society-lp&class=scaled&v=1705661852",
+   "url": "https://imusic.br.com/music/5026328005423/compilation-2024-punk-45-there-s-no-such-thing-as-society-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/423/5026328005423.jpg?compilation-2024-punk-45-there-s-no-such-thing-as-society-lp&class=scaled&v=1705661852",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
    "precoTotal": 526.6,
@@ -2169,7 +2108,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 325.45,
+   "refDiscogs": 389.68355263157895,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2332,7 +2271,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 205.15,
+   "refDiscogs": 135.30258300000003,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2360,35 +2299,6 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:1312950",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2007, US)",
-   "preco": 186.78,
-   "precoOriginal": {
-    "valor": 186.78,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/1312950",
-   "imagem": "https://i.discogs.com/hIzE3Jtg4GDuWsQk3MSJbOsPRzcT6ydO1HNFqn5_Ojw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTI5/NTAtMTU4OTI0ODUy/OS0yNzM1LmpwZWc.jpeg",
-   "observacao": "Menor preço entre 8 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 614.96,
-   "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 179.99,
-    "icms": 119.99,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 325.45,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
    }
   },
   {
@@ -2478,7 +2388,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 325.45,
+   "refDiscogs": 389.68355263157895,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -2584,6 +2494,35 @@
    }
   },
   {
+   "id": "discogs:932618",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2007, Europe)",
+   "preco": 310.99,
+   "precoOriginal": {
+    "valor": 310.99,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/932618",
+   "imagem": "https://i.discogs.com/iTYwikBvgkWKfkl8ScjppkQTON9zzNnTU4ZL4YlMXcg/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzMjYx/OC0xNjAyNTM1MDE1/LTExOTIuanBlZw.jpeg",
+   "observacao": "Menor preço entre 8 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 863.38,
+   "custos": {
+    "frete": 113.2,
+    "impostoImportacao": 254.51,
+    "icms": 169.68,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 389.68355263157895,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "discogs:26264924",
    "fonte": "Discogs",
    "titulo": "Home Front (2) - Games Of Power (2023, UK)",
@@ -2605,7 +2544,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 205.15,
+   "refDiscogs": 135.30258300000003,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2663,7 +2602,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 325.45,
+   "refDiscogs": 389.68355263157895,
    "criterios": {
     "teto": false,
     "discogs": false,
