@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-16T06:29:35.116Z",
+ "geradoEm": "2026-11-16T22:02:08.973Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -30,7 +30,7 @@
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 185.13
+   "refDiscogs": 123.42
   },
   {
    "chave": "foals-what-went-down",
@@ -115,22 +115,6 @@
    "preco": 120,
    "url": "https://www.baratosafins.com.br/produto/modern-jazz-quartet-three-windows.html",
    "busca": "jazz",
-   "precoTotal": 120,
-   "teto": 120,
-   "criterios": {
-    "teto": true,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Locomotiva Discos:94e55f",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP D. SELVAGI - ON THE TO ROAD TO IXTLAN (NOVO/LACRADO)",
-   "preco": 120,
-   "url": "https://www.locomotivadiscos.com.br/pd-94e55f-lp-d-selvagi-on-the-to-road-to-ixtlan-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/94E55F/17E0896/330xN.jpg",
-   "busca": "Ottis Redding",
    "precoTotal": 120,
    "teto": 120,
    "criterios": {
@@ -536,11 +520,11 @@
    "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "the-rapture-pieces-of-the-people-we-love",
    "busca": "The Rapture – Pieces of the People We Love",
-   "precoTotal": 286.08,
+   "precoTotal": 288.08,
    "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 81.32,
-    "icms": 54.22,
+    "frete": 114.2,
+    "impostoImportacao": 81.92,
+    "icms": 54.62,
     "despacho": 15
    },
    "teto": 200,
@@ -567,22 +551,6 @@
     "teto": false,
     "discogs": false,
     "maisBarato": true
-   }
-  },
-  {
-   "id": "Locomotiva Discos:9618fc",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP AEROBLUS - ARCHIVOS SECRETOS CAPTURADOS VIVOS 1977 (NOVO/LACRADO)",
-   "preco": 295,
-   "url": "https://www.locomotivadiscos.com.br/pd-9618fc-lp-aeroblus-archivos-secretos-capturados-vivos-1977-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9618FC/1823A36/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 295,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
    }
   },
   {
@@ -675,11 +643,11 @@
    "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 328.48,
+   "precoTotal": 330.48,
    "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 94.04,
-    "icms": 62.7,
+    "frete": 114.2,
+    "impostoImportacao": 94.64,
+    "icms": 63.1,
     "despacho": 15
    },
    "teto": 200,
@@ -846,52 +814,6 @@
    }
   },
   {
-   "id": "iMusic:0700498011716",
-   "fonte": "iMusic",
-   "titulo": "Various - Garage Punk Unknowns · Garage Punk Unknowns - the Last Of... Vol.6 (LP) (2023)",
-   "preco": 111.9,
-   "url": "https://imusic.br.com/music/0700498011716/various-garage-punk-unknowns-2023-garage-punk-unknowns-the-last-of-vol-6-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/716/0700498011716.jpg?various-garage-punk-unknowns-2023-garage-punk-unknowns-the-last-of-vol-6-lp&class=scaled&v=1461094680",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "punk",
-   "precoTotal": 372.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 107.28,
-    "icms": 71.52,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "iMusic:0700498011617",
-   "fonte": "iMusic",
-   "titulo": "Various - Garage Punk Unknowns · Garage Punk Unknowns - The Last Of... Vol. 5 (LP) (2023)",
-   "preco": 111.9,
-   "url": "https://imusic.br.com/music/0700498011617/various-garage-punk-unknowns-2023-garage-punk-unknowns-the-last-of-vol-5-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/617/0700498011617.jpg?various-garage-punk-unknowns-2023-garage-punk-unknowns-the-last-of-vol-5-lp&class=scaled&v=1475992226",
-   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "punk",
-   "precoTotal": 372.6,
-   "custos": {
-    "frete": 66.9,
-    "impostoImportacao": 107.28,
-    "icms": 71.52,
-    "despacho": 15
-   },
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "iMusic:0602438568369",
    "fonte": "iMusic",
    "titulo": "The Gil Evans Orchestra · Great Jazz Standards (LP) [Tone Poet Series Edition] (2023)",
@@ -931,12 +853,12 @@
    }
   },
   {
-   "id": "iMusic:5020422048218",
+   "id": "iMusic:0602577951398",
    "fonte": "iMusic",
-   "titulo": "Thee Headcoatees · Punk Girls (LP) (2017)",
+   "titulo": "The Offspring · Americana (LP) (2019)",
    "preco": 118.9,
-   "url": "https://imusic.br.com/music/5020422048218/thee-headcoatees-2017-punk-girls-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/218/5020422048218.jpg?thee-headcoatees-2017-punk-girls-lp&class=scaled&v=1501344002",
+   "url": "https://imusic.br.com/music/0602577951398/the-offspring-2019-americana-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/398/0602577951398.jpg?the-offspring-2019-americana-lp&class=scaled&v=1788532694",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
    "precoTotal": 386.6,
@@ -954,12 +876,12 @@
    }
   },
   {
-   "id": "iMusic:0729859421773",
+   "id": "iMusic:5020422048218",
    "fonte": "iMusic",
-   "titulo": "Australia - Murder Punk / Various · Australia - Murder Punk (LP) (2025)",
+   "titulo": "Thee Headcoatees · Punk Girls (LP) (2017)",
    "preco": 118.9,
-   "url": "https://imusic.br.com/music/0729859421773/australia-murder-punk-various-2025-australia-murder-punk-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/773/0729859421773.jpg?australia-murder-punk-various-2025-australia-murder-punk-lp&class=scaled&v=1751292688",
+   "url": "https://imusic.br.com/music/5020422048218/thee-headcoatees-2017-punk-girls-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/218/5020422048218.jpg?thee-headcoatees-2017-punk-girls-lp&class=scaled&v=1501344002",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
    "precoTotal": 386.6,
@@ -1041,6 +963,29 @@
    }
   },
   {
+   "id": "iMusic:0700498011716",
+   "fonte": "iMusic",
+   "titulo": "Various - Garage Punk Unknowns · Garage Punk Unknowns - the Last Of... Vol.6 (LP) (2023)",
+   "preco": 125.9,
+   "url": "https://imusic.br.com/music/0700498011716/various-garage-punk-unknowns-2023-garage-punk-unknowns-the-last-of-vol-6-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/716/0700498011716.jpg?various-garage-punk-unknowns-2023-garage-punk-unknowns-the-last-of-vol-6-lp&class=scaled&v=1461094680",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "punk",
+   "precoTotal": 400.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 115.68,
+    "icms": 77.12,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "iMusic:7393465133301",
    "fonte": "iMusic",
    "titulo": "Jan Johansson · Jazz På Svenska (LP) (2014)",
@@ -1074,14 +1019,14 @@
    },
    "url": "https://www.discogs.com/sell/release/7392977",
    "imagem": "https://i.discogs.com/59a1RRECUuB-8DYG6mDzsuBCh7Ud5rcF1Fpu0fqRA0I/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczOTI5/NzctMTQ0MDUyNjY2/NC01MjAzLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 74 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 76 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "foals-what-went-down",
    "busca": "Foals – What went down",
-   "precoTotal": 411.2,
+   "precoTotal": 413.2,
    "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 118.86,
-    "icms": 79.24,
+    "frete": 114.2,
+    "impostoImportacao": 119.46,
+    "icms": 79.64,
     "despacho": 15
    },
    "teto": 200,
@@ -1225,10 +1170,10 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 185.13,
+   "refDiscogs": 123.42,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": true
    }
   },
@@ -1396,12 +1341,12 @@
    }
   },
   {
-   "id": "iMusic:0889466515514",
+   "id": "iMusic:4251896108219",
    "fonte": "iMusic",
-   "titulo": "Punk Floyd - A Tribute To Pink Floyd/ Various · Punk Floyd (LP) [Limited Edition] (2024)",
+   "titulo": "Deutsche Laichen · Punk Ist Scheiße, Punk Ist Geil (LP) (2026)",
    "preco": 153.9,
-   "url": "https://imusic.br.com/music/0889466515514/punk-floyd-a-tribute-to-pink-floyd-various-2024-punk-floyd-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/514/0889466515514.jpg?punk-floyd-a-tribute-to-pink-floyd-various-2024-punk-floyd-lp&class=scaled&v=1718019946",
+   "url": "https://imusic.br.com/music/4251896108219/deutsche-laichen-2026-punk-ist-schei-e-punk-ist-geil-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/219/4251896108219.jpg?deutsche-laichen-2026-punk-ist-schei-e-punk-ist-geil-lp&class=scaled&v=1790582789",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
    "busca": "punk",
    "precoTotal": 456.6,
@@ -1471,11 +1416,11 @@
    "observacao": "Menor preço entre 16 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 466,
+   "precoTotal": 468,
    "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 135.3,
-    "icms": 90.2,
+    "frete": 114.2,
+    "impostoImportacao": 135.9,
+    "icms": 90.6,
     "despacho": 15
    },
    "teto": 200,
@@ -1719,6 +1664,35 @@
    }
   },
   {
+   "id": "discogs:37531311",
+   "fonte": "Discogs",
+   "titulo": "Home Front (2) - Games Of Power (2026, Europe)",
+   "preco": 121.29,
+   "precoOriginal": {
+    "valor": 121.29,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/37531311",
+   "imagem": "https://i.discogs.com/DyDY_XxAFP6dR6wHpIYrZCxDEaX2q_MvMNVYERIYw0U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMx/MzExLTE3ODQ0OTIz/MjYtMTczNS5qcGVn.jpeg",
+   "observacao": "Menor preço entre 12 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 485.98,
+   "custos": {
+    "frete": 114.2,
+    "impostoImportacao": 141.29,
+    "icms": 94.2,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 123.42,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "discogs:30474635",
    "fonte": "Discogs",
    "titulo": "Schedule 1 - Crucible (2024, Spain)",
@@ -1732,11 +1706,11 @@
    "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "schedule-1-crucible",
    "busca": "Schedule 1 – Crucible",
-   "precoTotal": 488.94,
+   "precoTotal": 490.94,
    "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 142.18,
-    "icms": 94.79,
+    "frete": 114.2,
+    "impostoImportacao": 142.78,
+    "icms": 95.19,
     "despacho": 15
    },
    "teto": 200,
@@ -1761,11 +1735,11 @@
    "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 490.06,
+   "precoTotal": 492.06,
    "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 142.52,
-    "icms": 95.01,
+    "frete": 114.2,
+    "impostoImportacao": 143.12,
+    "icms": 95.41,
     "despacho": 15
    },
    "teto": 200,
@@ -1846,35 +1820,6 @@
    }
   },
   {
-   "id": "discogs:26287316",
-   "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
-   "preco": 134.57,
-   "precoOriginal": {
-    "valor": 134.57,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/26287316",
-   "imagem": "https://i.discogs.com/6rLoqnU4DTf4MitESLfsQRPGLEQd1LhWKjte1I8qs6Q/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Mjg3/MzE2LTE2ODgyMDEx/OTMtNTI2Ni5qcGVn.jpeg",
-   "observacao": "Menor preço entre 37 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 510.54,
-   "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 148.66,
-    "icms": 99.11,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 185.13,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "iMusic:8721018001064",
    "fonte": "iMusic",
    "titulo": "Home Front · Games Of Power (LP) (2023)",
@@ -1892,7 +1837,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 185.13,
+   "refDiscogs": 123.42,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1946,14 +1891,14 @@
    }
   },
   {
-   "id": "iMusic:4029759202233",
+   "id": "iMusic:0602547047250",
    "fonte": "iMusic",
-   "titulo": "Iggy Pop · Live at Montreux Jazz Festival 2023 (LP) (2025)",
+   "titulo": "No Doubt · Tragic Kingdom (LP) (2015)",
    "preco": 181.9,
-   "url": "https://imusic.br.com/music/4029759202233/iggy-pop-2025-live-at-montreux-jazz-festival-2023-lp",
-   "imagem": "https://imusic.b-cdn.net/images/item/original/233/4029759202233.jpg?iggy-pop-2025-live-at-montreux-jazz-festival-2023-lp&class=scaled&v=1730228802",
+   "url": "https://imusic.br.com/music/0602547047250/no-doubt-2015-tragic-kingdom-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/250/0602547047250.jpg?no-doubt-2015-tragic-kingdom-lp&class=scaled&v=1428230777",
    "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
-   "busca": "jazz",
+   "busca": "punk",
    "precoTotal": 512.6,
    "custos": {
     "frete": 66.9,
@@ -2015,6 +1960,29 @@
    }
   },
   {
+   "id": "iMusic:0730003305115",
+   "fonte": "iMusic",
+   "titulo": "Mulatu Astatke · New York - Addis - London The Story of Ethio Jazz 1965-1975 (LP) (2009)",
+   "preco": 188.9,
+   "url": "https://imusic.br.com/music/0730003305115/mulatu-astatke-2009-new-york-addis-london-the-story-of-ethio-jazz-1965-1975-lp",
+   "imagem": "https://imusic.b-cdn.net/images/item/original/115/0730003305115.jpg?mulatu-astatke-2009-new-york-addis-london-the-story-of-ethio-jazz-1965-1975-lp&class=scaled&v=1398781897",
+   "observacao": "Loja no exterior, ainda fora do Remessa Conforme: total inclui frete e impostos estimados",
+   "busca": "jazz",
+   "precoTotal": 526.6,
+   "custos": {
+    "frete": 66.9,
+    "impostoImportacao": 153.48,
+    "icms": 102.32,
+    "despacho": 15
+   },
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "discogs:30813726",
    "fonte": "Discogs",
    "titulo": "Schedule 1 - Crucible (2024, US)",
@@ -2028,11 +1996,11 @@
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "schedule-1-crucible",
    "busca": "Schedule 1 – Crucible",
-   "precoTotal": 527.5,
+   "precoTotal": 529.5,
    "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 153.75,
-    "icms": 102.5,
+    "frete": 114.2,
+    "impostoImportacao": 154.35,
+    "icms": 102.9,
     "despacho": 15
    },
    "teto": 200,
@@ -2207,6 +2175,35 @@
    }
   },
   {
+   "id": "discogs:35365384",
+   "fonte": "Discogs",
+   "titulo": "Foals - What Went Down (2025, Worldwide)",
+   "preco": 156.61,
+   "precoOriginal": {
+    "valor": 156.61,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/35365384",
+   "imagem": "https://i.discogs.com/yJWVWkmZfK4LBBJxe4-EqM9B0QrTKdgfsZUb-OGzOss/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MzY1/Mzg0LTE3NjAzNzU2/MTEtODcxOC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 33 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "foals-what-went-down",
+   "busca": "Foals – What went down",
+   "precoTotal": 556.62,
+   "custos": {
+    "frete": 114.2,
+    "impostoImportacao": 162.49,
+    "icms": 108.32,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 183.1818571428571,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "iMusic:0196588083310",
    "fonte": "iMusic",
    "titulo": "Daft Punk · Random Access Memories (LP) [Drumless Edition] (2023)",
@@ -2250,35 +2247,6 @@
     "teto": false,
     "discogs": null,
     "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:26682263",
-   "fonte": "Discogs",
-   "titulo": "Foals - What Went Down (2022, UK & Europe)",
-   "preco": 169.52,
-   "precoOriginal": {
-    "valor": 169.52,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/26682263",
-   "imagem": "https://i.discogs.com/0yGwhQL0wM9IGObxY0nImpzSIOYp_9CkWeqBD6IYxSc/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Njgy/MjYzLTE2ODA4OTIy/NDktMjQyNC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "foals-what-went-down",
-   "busca": "Foals – What went down",
-   "precoTotal": 580.44,
-   "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 169.63,
-    "icms": 113.09,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 183.1818571428571,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
    }
   },
   {
@@ -2345,7 +2313,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 185.13,
+   "refDiscogs": 123.42,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -2386,14 +2354,14 @@
    },
    "url": "https://www.discogs.com/sell/release/1312950",
    "imagem": "https://i.discogs.com/hIzE3Jtg4GDuWsQk3MSJbOsPRzcT6ydO1HNFqn5_Ojw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTI5/NTAtMTU4OTI0ODUy/OS0yNzM1LmpwZWc.jpeg",
-   "observacao": "Menor preço entre 7 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 8 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "lcd-soundsystem-sound-of-silver",
    "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 614.96,
+   "precoTotal": 616.96,
    "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 179.99,
-    "icms": 119.99,
+    "frete": 114.2,
+    "impostoImportacao": 180.59,
+    "icms": 120.39,
     "despacho": 15
    },
    "teto": 200,
@@ -2558,11 +2526,11 @@
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "schedule-1-crucible",
    "busca": "Schedule 1 – Crucible",
-   "precoTotal": 694.2,
+   "precoTotal": 696.2,
    "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 203.76,
-    "icms": 135.84,
+    "frete": 114.2,
+    "impostoImportacao": 204.36,
+    "icms": 136.24,
     "despacho": 15
    },
    "teto": 200,
@@ -2597,6 +2565,35 @@
    }
   },
   {
+   "id": "discogs:932618",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2007, Europe)",
+   "preco": 310.99,
+   "precoOriginal": {
+    "valor": 310.99,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/932618",
+   "imagem": "https://i.discogs.com/iTYwikBvgkWKfkl8ScjppkQTON9zzNnTU4ZL4YlMXcg/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzMjYx/OC0xNjAyNTM1MDE1/LTExOTIuanBlZw.jpeg",
+   "observacao": "Menor preço entre 9 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 865.38,
+   "custos": {
+    "frete": 114.2,
+    "impostoImportacao": 255.11,
+    "icms": 170.08,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 325.45,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "discogs:7404155",
    "fonte": "Discogs",
    "titulo": "Foals - What Went Down (2015, UK & Europe)",
@@ -2610,11 +2607,11 @@
    "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "foals-what-went-down",
    "busca": "Foals – What went down",
-   "precoTotal": 1581.92,
+   "precoTotal": 1583.92,
    "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 470.08,
-    "icms": 313.38,
+    "frete": 114.2,
+    "impostoImportacao": 470.68,
+    "icms": 313.78,
     "despacho": 15
    },
    "teto": 200,
@@ -2639,11 +2636,11 @@
    "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "lcd-soundsystem-sound-of-silver",
    "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 1656.26,
+   "precoTotal": 1658.26,
    "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 492.38,
-    "icms": 328.25,
+    "frete": 114.2,
+    "impostoImportacao": 492.98,
+    "icms": 328.65,
     "despacho": 15
    },
    "teto": 200,
@@ -2668,11 +2665,11 @@
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "the-rapture-pieces-of-the-people-we-love",
    "busca": "The Rapture – Pieces of the People We Love",
-   "precoTotal": 3338.86,
+   "precoTotal": 3340.86,
    "custos": {
-    "frete": 113.2,
-    "impostoImportacao": 997.16,
-    "icms": 664.77,
+    "frete": 114.2,
+    "impostoImportacao": 997.76,
+    "icms": 665.17,
     "despacho": 15
    },
    "teto": 200,
