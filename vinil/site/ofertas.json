@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-17T20:55:33.223Z",
+ "geradoEm": "2026-11-18T07:28:56.122Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -9,61 +9,45 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 328.8999999999999
+   "refDiscogs": 243.66503928571422
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
    "artista": "The Rapture",
    "titulo": "Pieces of the People We Love",
    "teto": 200,
-   "refDiscogs": 297.84287925696594
+   "refDiscogs": 53.08399999999998
   },
   {
    "chave": "rotten-mind-unflavored",
    "artista": "Rotten Mind",
    "titulo": "Unflavored",
    "teto": 200,
-   "refDiscogs": 140.95714285714283
+   "refDiscogs": 142.1892857142857
   },
   {
    "chave": "home-front-games-of-power",
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 213.785
+   "refDiscogs": 215.65374999999997
   },
   {
    "chave": "foals-what-went-down",
    "artista": "Foals",
    "titulo": "What went down",
    "teto": 200,
-   "refDiscogs": 185.12371428571424
+   "refDiscogs": 186.7419285714285
   },
   {
    "chave": "schedule-1-crucible",
    "artista": "Schedule 1",
    "titulo": "Crucible",
    "teto": 200,
-   "refDiscogs": 112.76571428571427
+   "refDiscogs": 113.75142857142855
   }
  ],
  "ofertas": [
-  {
-   "id": "Locomotiva Discos:2a3a73",
-   "fonte": "Locomotiva Discos",
-   "titulo": "​LP SHADOW VIGNETTES ‎- BIRTH OF A NOTION (EX)",
-   "preco": 40,
-   "url": "https://www.locomotivadiscos.com.br/pd-2a3a73--lp-shadow-vignettes-birth-of-a-notion-ex.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/2A3A73/64283C/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 40,
-   "teto": 120,
-   "criterios": {
-    "teto": true,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
   {
    "id": "Baratos Afins:202161374",
    "fonte": "Baratos Afins",
@@ -72,22 +56,6 @@
    "url": "https://www.baratosafins.com.br/produto/joao-carlos-assis-brasil-jazz-brasil.html",
    "busca": "jazz",
    "precoTotal": 85,
-   "teto": 120,
-   "criterios": {
-    "teto": true,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Locomotiva Discos:252df3",
-   "fonte": "Locomotiva Discos",
-   "titulo": "​LP MAURICE JARRE ‎- RYAN'S DAUGHTER (NM)",
-   "preco": 90,
-   "url": "https://www.locomotivadiscos.com.br/pd-252df3--lp-maurice-jarre-ryan-s-daughter-nm.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/252DF3/5823DB/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 90,
    "teto": 120,
    "criterios": {
     "teto": true,
@@ -117,22 +85,6 @@
    "preco": 110,
    "url": "https://www.baratosafins.com.br/produto/lionel-hampton-and-his-jazz-giants.html",
    "busca": "jazz",
-   "precoTotal": 110,
-   "teto": 120,
-   "criterios": {
-    "teto": true,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Locomotiva Discos:93d5a8",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP DEDO PODRE - LUTAS & VITÓRIAS (NOVO/LACRADO)",
-   "preco": 110,
-   "url": "https://www.locomotivadiscos.com.br/pd-93d5a8-lp-dedo-podre-lutas-vitorias-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/93D5A8/17A7AAA/330xN.jpg",
-   "busca": "Ottis Redding",
    "precoTotal": 110,
    "teto": 120,
    "criterios": {
@@ -247,11 +199,12 @@
    }
   },
   {
-   "id": "Baratos Afins:363303609",
-   "fonte": "Baratos Afins",
-   "titulo": "LOS EX TRIDENTES - LP",
+   "id": "Locomotiva Discos:96812b",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
    "preco": 150,
-   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
+   "url": "https://www.locomotivadiscos.com.br/pd-96812b-lp-varios-artistas-a-divina-tragedia-alternative-post-punk-vol-3.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96812B/183D68B/330xN.jpg",
    "busca": "punk",
    "precoTotal": 150,
    "teto": 120,
@@ -262,12 +215,11 @@
    }
   },
   {
-   "id": "Locomotiva Discos:96812b",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
+   "id": "Baratos Afins:363303609",
+   "fonte": "Baratos Afins",
+   "titulo": "LOS EX TRIDENTES - LP",
    "preco": 150,
-   "url": "https://www.locomotivadiscos.com.br/pd-96812b-lp-varios-artistas-a-divina-tragedia-alternative-post-punk-vol-3.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96812B/183D68B/330xN.jpg",
+   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
    "busca": "punk",
    "precoTotal": 150,
    "teto": 120,
@@ -524,22 +476,6 @@
    }
   },
   {
-   "id": "Locomotiva Discos:8e8009",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP TRAFFIC - TRAFFIC (IMPORT/USADO)",
-   "preco": 260,
-   "url": "https://www.locomotivadiscos.com.br/pd-8e8009-lp-traffic-traffic-import-usado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/8E8009/168998C/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 260,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "Locomotiva Discos:972fd9",
    "fonte": "Locomotiva Discos",
    "titulo": "LP DAFT PUNK - DISCOVERY (2xLPs) (NOVO/LACRADO)",
@@ -574,9 +510,9 @@
    "id": "discogs:1324380",
    "fonte": "Discogs",
    "titulo": "The Rapture - Pieces Of The People We Love (2007, UK)",
-   "preco": 22.58,
+   "preco": 22.78,
    "precoOriginal": {
-    "valor": 22.58,
+    "valor": 22.78,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/1324380",
@@ -584,15 +520,15 @@
    "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "the-rapture-pieces-of-the-people-we-love",
    "busca": "The Rapture – Pieces of the People We Love",
-   "precoTotal": 291.36,
+   "precoTotal": 291.76,
    "custos": {
     "frete": 115.6,
-    "impostoImportacao": 82.91,
-    "icms": 55.27,
+    "impostoImportacao": 83.03,
+    "icms": 55.35,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 297.84287925696594,
+   "refDiscogs": 53.08399999999998,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -610,11 +546,56 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 328.8999999999999,
+   "refDiscogs": 243.66503928571422,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": true
+   }
+  },
+  {
+   "id": "discogs:1324386",
+   "fonte": "Discogs",
+   "titulo": "The Rapture - Pieces Of The People We Love (2007, UK)",
+   "preco": 25.36,
+   "precoOriginal": {
+    "valor": 25.36,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/1324386",
+   "imagem": "https://i.discogs.com/G4xOIesjUESvvKB1rRp9SsSxqPkFIzTTaxjI72iXjnY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjQz/ODYtMTI2OTExNjM1/NC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 11 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "the-rapture-pieces-of-the-people-we-love",
+   "busca": "The Rapture – Pieces of the People We Love",
+   "precoTotal": 296.92,
+   "custos": {
+    "frete": 115.6,
+    "impostoImportacao": 84.58,
+    "icms": 56.38,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 53.08399999999998,
    "criterios": {
     "teto": false,
     "discogs": true,
-    "maisBarato": true
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:97d69d",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP NOMADE ORQUESTRA - VOX POPULI/VOX MACHINA (DUPLO/USADO)",
+   "preco": 310,
+   "url": "https://www.locomotivadiscos.com.br/pd-97d69d-lp-nomade-orquestra-vox-populi-vox-machina-duplo-usado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/97D69D/1893E4A/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 310,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
    }
   },
   {
@@ -651,9 +632,9 @@
    "id": "discogs:24281603",
    "fonte": "Discogs",
    "titulo": "Rotten Mind - Unflavored (2022, Sweden)",
-   "preco": 44,
+   "preco": 44.38,
    "precoOriginal": {
-    "valor": 44,
+    "valor": 44.38,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/24281603",
@@ -661,15 +642,15 @@
    "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 334.2,
+   "precoTotal": 334.96,
    "custos": {
     "frete": 115.6,
-    "impostoImportacao": 95.76,
-    "icms": 63.84,
+    "impostoImportacao": 95.99,
+    "icms": 63.99,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 140.95714285714283,
+   "refDiscogs": 142.1892857142857,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -740,22 +721,6 @@
    }
   },
   {
-   "id": "Locomotiva Discos:945caa",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP TIM MAIA - RACIONAL VOL.1 (NOVO/LACRADO)",
-   "preco": 350,
-   "url": "https://www.locomotivadiscos.com.br/pd-945caa-lp-tim-maia-racional-vol-1-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/945CAA/17C452B/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 350,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "Locomotiva Discos:9874aa",
    "fonte": "Locomotiva Discos",
    "titulo": "LP CAP'N JAZZ - BURRITOS, INSPIRATION POINT, FORK... (NOVO/LACRADO)",
@@ -788,44 +753,28 @@
    }
   },
   {
-   "id": "Locomotiva Discos:988c83",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP ANTONY AND THE JOHNSONS - I AM A BIRD NOW (NOVO/LACRADO)",
-   "preco": 395,
-   "url": "https://www.locomotivadiscos.com.br/pd-988c83-lp-antony-and-the-johnsons-i-am-a-bird-now-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/988C83/18C328B/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 395,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "discogs:7392977",
    "fonte": "Discogs",
    "titulo": "Foals - What Went Down (2015, UK & Europe)",
-   "preco": 85.8,
+   "preco": 86.55,
    "precoOriginal": {
-    "valor": 85.8,
+    "valor": 86.55,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/7392977",
    "imagem": "https://i.discogs.com/59a1RRECUuB-8DYG6mDzsuBCh7Ud5rcF1Fpu0fqRA0I/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczOTI5/NzctMTQ0MDUyNjY2/NC01MjAzLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 80 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 83 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "foals-what-went-down",
    "busca": "Foals – What went down",
-   "precoTotal": 417.8,
+   "precoTotal": 419.3,
    "custos": {
     "frete": 115.6,
-    "impostoImportacao": 120.84,
-    "icms": 80.56,
+    "impostoImportacao": 121.29,
+    "icms": 80.86,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 185.12371428571424,
+   "refDiscogs": 186.7419285714285,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -852,54 +801,25 @@
    "id": "discogs:26840834",
    "fonte": "Discogs",
    "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
-   "preco": 113.6,
+   "preco": 113.92,
    "precoOriginal": {
-    "valor": 113.6,
+    "valor": 113.92,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/26840834",
    "imagem": "https://i.discogs.com/l1ocrtJ3F3wFoUMAofLJ3mcudz-YE2JxyDp09a1QWr0/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2ODQw/ODM0LTE2ODU2MDM0/NjMtMTk5MS5qcGVn.jpeg",
-   "observacao": "Menor preço entre 16 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 17 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 473.4,
+   "precoTotal": 474.04,
    "custos": {
     "frete": 115.6,
-    "impostoImportacao": 137.52,
-    "icms": 91.68,
+    "impostoImportacao": 137.71,
+    "icms": 91.81,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 140.95714285714283,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:37531311",
-   "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2026, Europe)",
-   "preco": 122.57,
-   "precoOriginal": {
-    "valor": 122.57,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/37531311",
-   "imagem": "https://i.discogs.com/DyDY_XxAFP6dR6wHpIYrZCxDEaX2q_MvMNVYERIYw0U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMx/MzExLTE3ODQ0OTIz/MjYtMTczNS5qcGVn.jpeg",
-   "observacao": "Menor preço entre 11 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 491.34,
-   "custos": {
-    "frete": 115.6,
-    "impostoImportacao": 142.9,
-    "icms": 95.27,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 213.785,
+   "refDiscogs": 142.1892857142857,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -910,9 +830,9 @@
    "id": "discogs:30474635",
    "fonte": "Discogs",
    "titulo": "Schedule 1 - Crucible (2024, Spain)",
-   "preco": 125.09,
+   "preco": 126.18,
    "precoOriginal": {
-    "valor": 125.09,
+    "valor": 126.18,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/30474635",
@@ -920,15 +840,15 @@
    "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "schedule-1-crucible",
    "busca": "Schedule 1 – Crucible",
-   "precoTotal": 496.38,
+   "precoTotal": 498.56,
    "custos": {
     "frete": 115.6,
-    "impostoImportacao": 144.41,
-    "icms": 96.28,
+    "impostoImportacao": 145.07,
+    "icms": 96.71,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 112.76571428571427,
+   "refDiscogs": 113.75142857142855,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -939,9 +859,9 @@
    "id": "discogs:24320123",
    "fonte": "Discogs",
    "titulo": "Rotten Mind - Unflavored (2022, Sweden)",
-   "preco": 125.65,
+   "preco": 126.75,
    "precoOriginal": {
-    "valor": 125.65,
+    "valor": 126.75,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/24320123",
@@ -949,15 +869,15 @@
    "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 497.5,
+   "precoTotal": 499.7,
    "custos": {
     "frete": 115.6,
-    "impostoImportacao": 144.75,
-    "icms": 96.5,
+    "impostoImportacao": 145.41,
+    "icms": 96.94,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 140.95714285714283,
+   "refDiscogs": 142.1892857142857,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -968,9 +888,9 @@
    "id": "discogs:30813726",
    "fonte": "Discogs",
    "titulo": "Schedule 1 - Crucible (2024, US)",
-   "preco": 144.57,
+   "preco": 145.84,
    "precoOriginal": {
-    "valor": 144.57,
+    "valor": 145.84,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/30813726",
@@ -978,15 +898,15 @@
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "schedule-1-crucible",
    "busca": "Schedule 1 – Crucible",
-   "precoTotal": 535.34,
+   "precoTotal": 537.88,
    "custos": {
     "frete": 115.6,
-    "impostoImportacao": 156.1,
-    "icms": 104.07,
+    "impostoImportacao": 156.86,
+    "icms": 104.58,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 112.76571428571427,
+   "refDiscogs": 113.75142857142855,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -997,25 +917,25 @@
    "id": "discogs:35365384",
    "fonte": "Discogs",
    "titulo": "Foals - What Went Down (2025, Worldwide)",
-   "preco": 158.27,
+   "preco": 159.66,
    "precoOriginal": {
-    "valor": 158.27,
+    "valor": 159.66,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/35365384",
    "imagem": "https://i.discogs.com/yJWVWkmZfK4LBBJxe4-EqM9B0QrTKdgfsZUb-OGzOss/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MzY1/Mzg0LTE3NjAzNzU2/MTEtODcxOC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 35 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 36 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "foals-what-went-down",
    "busca": "Foals – What went down",
-   "precoTotal": 562.74,
+   "precoTotal": 565.52,
    "custos": {
     "frete": 115.6,
-    "impostoImportacao": 164.32,
-    "icms": 109.55,
+    "impostoImportacao": 165.16,
+    "icms": 110.1,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 185.12371428571424,
+   "refDiscogs": 186.7419285714285,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1026,9 +946,9 @@
    "id": "discogs:1312950",
    "fonte": "Discogs",
    "titulo": "LCD Soundsystem - Sound Of Silver (2007, US)",
-   "preco": 188.76,
+   "preco": 190.41,
    "precoOriginal": {
-    "valor": 188.76,
+    "valor": 190.41,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/1312950",
@@ -1036,15 +956,15 @@
    "observacao": "Menor preço entre 8 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "lcd-soundsystem-sound-of-silver",
    "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 623.72,
+   "precoTotal": 627.02,
    "custos": {
     "frete": 115.6,
-    "impostoImportacao": 182.62,
-    "icms": 121.74,
+    "impostoImportacao": 183.61,
+    "icms": 122.4,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 328.8999999999999,
+   "refDiscogs": 243.66503928571422,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1055,9 +975,9 @@
    "id": "discogs:30409862",
    "fonte": "Discogs",
    "titulo": "Schedule 1 - Crucible (2024, US)",
-   "preco": 228.8,
+   "preco": 230.8,
    "precoOriginal": {
-    "valor": 228.8,
+    "valor": 230.8,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/30409862",
@@ -1065,15 +985,15 @@
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "schedule-1-crucible",
    "busca": "Schedule 1 – Crucible",
-   "precoTotal": 703.8,
+   "precoTotal": 707.8,
    "custos": {
     "frete": 115.6,
-    "impostoImportacao": 206.64,
-    "icms": 137.76,
+    "impostoImportacao": 207.84,
+    "icms": 138.56,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 112.76571428571427,
+   "refDiscogs": 113.75142857142855,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1081,12 +1001,41 @@
    }
   },
   {
+   "id": "discogs:31394993",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2024, Argentina)",
+   "preco": 235.81,
+   "precoOriginal": {
+    "valor": 235.81,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/31394993",
+   "imagem": "https://i.discogs.com/xOAnHDNLNGcNNwA2rrbBPGKHER71V_Vlj1J9CHptNf0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMzk0/OTkzLTE3MjI3Mzg1/OTMtMTMwMS5qcGVn.jpeg",
+   "observacao": "Menor preço entre 8 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 717.82,
+   "custos": {
+    "frete": 115.6,
+    "impostoImportacao": 210.85,
+    "icms": 140.56,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 243.66503928571422,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": false
+   }
+  },
+  {
    "id": "discogs:932618",
    "fonte": "Discogs",
    "titulo": "LCD Soundsystem - Sound Of Silver (2007, Europe)",
-   "preco": 314.29,
+   "preco": 317.03,
    "precoOriginal": {
-    "valor": 314.29,
+    "valor": 317.03,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/932618",
@@ -1094,15 +1043,15 @@
    "observacao": "Menor preço entre 9 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "lcd-soundsystem-sound-of-silver",
    "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 874.78,
+   "precoTotal": 880.26,
    "custos": {
     "frete": 115.6,
-    "impostoImportacao": 257.93,
-    "icms": 171.96,
+    "impostoImportacao": 259.58,
+    "icms": 173.05,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 328.8999999999999,
+   "refDiscogs": 243.66503928571422,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1113,9 +1062,9 @@
    "id": "discogs:26264924",
    "fonte": "Discogs",
    "titulo": "Home Front (2) - Games Of Power (2023, UK)",
-   "preco": 375.94,
+   "preco": 379.23,
    "precoOriginal": {
-    "valor": 375.94,
+    "valor": 379.23,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/26264924",
@@ -1123,15 +1072,15 @@
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "home-front-games-of-power",
    "busca": "Home Front – Games of Power",
-   "precoTotal": 998.08,
+   "precoTotal": 1004.66,
    "custos": {
     "frete": 115.6,
-    "impostoImportacao": 294.92,
-    "icms": 196.62,
+    "impostoImportacao": 296.9,
+    "icms": 197.93,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 213.785,
+   "refDiscogs": 215.65374999999997,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1142,9 +1091,9 @@
    "id": "discogs:7404155",
    "fonte": "Discogs",
    "titulo": "Foals - What Went Down (2015, UK & Europe)",
-   "preco": 677.37,
+   "preco": 683.29,
    "precoOriginal": {
-    "valor": 677.37,
+    "valor": 683.29,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/7404155",
@@ -1152,15 +1101,15 @@
    "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "foals-what-went-down",
    "busca": "Foals – What went down",
-   "precoTotal": 1600.94,
+   "precoTotal": 1612.78,
    "custos": {
     "frete": 115.6,
-    "impostoImportacao": 475.78,
-    "icms": 317.19,
+    "impostoImportacao": 479.33,
+    "icms": 319.56,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 185.12371428571424,
+   "refDiscogs": 186.7419285714285,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -1168,41 +1117,12 @@
    }
   },
   {
-   "id": "discogs:1114048",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2007, UK)",
-   "preco": 714.92,
-   "precoOriginal": {
-    "valor": 714.92,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/1114048",
-   "imagem": "https://i.discogs.com/lHyyMEJu5HgBzY8J07eOAhefL0BrXpiuFQjKqzrV8YQ/rs:fit/g:sm/q:90/h:374/w:494/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTQw/NDgtMTM0NDk3MzAy/OC03NTMyLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 1676.04,
-   "custos": {
-    "frete": 115.6,
-    "impostoImportacao": 498.31,
-    "icms": 332.21,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 328.8999999999999,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "discogs:881288",
    "fonte": "Discogs",
    "titulo": "The Rapture - Pieces Of The People We Love (2006, UK & Europe)",
-   "preco": 1565.14,
+   "preco": 1578.82,
    "precoOriginal": {
-    "valor": 1565.14,
+    "valor": 1578.82,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/881288",
@@ -1210,15 +1130,15 @@
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "the-rapture-pieces-of-the-people-we-love",
    "busca": "The Rapture – Pieces of the People We Love",
-   "precoTotal": 3376.48,
+   "precoTotal": 3403.84,
    "custos": {
     "frete": 115.6,
-    "impostoImportacao": 1008.44,
-    "icms": 672.3,
+    "impostoImportacao": 1016.65,
+    "icms": 677.77,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 297.84287925696594,
+   "refDiscogs": 53.08399999999998,
    "criterios": {
     "teto": false,
     "discogs": false,
