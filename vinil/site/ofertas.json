@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-19T07:24:57.365Z",
+ "geradoEm": "2026-11-19T20:37:31.760Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -16,7 +16,7 @@
    "artista": "The Rapture",
    "titulo": "Pieces of the People We Love",
    "teto": 200,
-   "refDiscogs": 302.00851393188856
+   "refDiscogs": 53.359999999999985
   },
   {
    "chave": "rotten-mind-unflavored",
@@ -30,7 +30,7 @@
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 210.23
+   "refDiscogs": 162.65271428571424
   },
   {
    "chave": "foals-what-went-down",
@@ -48,22 +48,6 @@
   }
  ],
  "ofertas": [
-  {
-   "id": "Locomotiva Discos:6a9dd7",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP MARVA VON THEO - DREAM WITHIN A DREAM (VINIL BLACK) (NOVO)",
-   "preco": 130,
-   "url": "https://www.locomotivadiscos.com.br/pd-6a9dd7-lp-marva-von-theo-dream-within-a-dream-vinil-black-novo.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/6A9DD7/1078E29/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 130,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
   {
    "id": "Locomotiva Discos:96812b",
    "fonte": "Locomotiva Discos",
@@ -177,38 +161,6 @@
    }
   },
   {
-   "id": "Locomotiva Discos:9831d2",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP SHARP PINS - BALOON BALOON BALOON (NOVO/LACRADO)",
-   "preco": 240,
-   "url": "https://www.locomotivadiscos.com.br/pd-9831d2-lp-sharp-pins-baloon-baloon-baloon-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9831D2/18AB4C6/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 240,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Locomotiva Discos:9859dc",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP GUIDED BY VOICES - UNIVERSE ROOM (IMP/NOVO/LACRADO)",
-   "preco": 250,
-   "url": "https://www.locomotivadiscos.com.br/pd-9859dc-lp-guided-by-voices-universe-room-imp-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9859DC/18B5AEC/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 250,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "Locomotiva Discos:972fd9",
    "fonte": "Locomotiva Discos",
    "titulo": "LP DAFT PUNK - DISCOVERY (2xLPs) (NOVO/LACRADO)",
@@ -221,35 +173,6 @@
    "criterios": {
     "teto": false,
     "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:1324380",
-   "fonte": "Discogs",
-   "titulo": "The Rapture - Pieces Of The People We Love (2007, UK)",
-   "preco": 22.89,
-   "precoOriginal": {
-    "valor": 22.89,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/1324380",
-   "imagem": "https://i.discogs.com/OMU1PUai-OJjwKMbDkxbv3j7QNh65h5yVkEmygMuliI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjQz/ODAtMTI2OTExNjUw/MC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "the-rapture-pieces-of-the-people-we-love",
-   "busca": "The Rapture – Pieces of the People We Love",
-   "precoTotal": 293.58,
-   "custos": {
-    "frete": 116.4,
-    "impostoImportacao": 83.57,
-    "icms": 55.72,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 302.00851393188856,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
     "maisBarato": null
    }
   },
@@ -272,18 +195,60 @@
    }
   },
   {
-   "id": "Locomotiva Discos:98823d",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP BRIGHT EYES - LIFTED OR THE STORY IS IN THE SOIL (2xLPs) AMARELO",
-   "preco": 295,
-   "url": "https://www.locomotivadiscos.com.br/pd-98823d-lp-bright-eyes-lifted-or-the-story-is-in-the-soil-2xlps-amarelo.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/98823D/18C0649/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 295,
-   "teto": 120,
+   "id": "discogs:1324380",
+   "fonte": "Discogs",
+   "titulo": "The Rapture - Pieces Of The People We Love (2007, UK)",
+   "preco": 22.89,
+   "precoOriginal": {
+    "valor": 22.89,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/1324380",
+   "imagem": "https://i.discogs.com/OMU1PUai-OJjwKMbDkxbv3j7QNh65h5yVkEmygMuliI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjQz/ODAtMTI2OTExNjUw/MC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "the-rapture-pieces-of-the-people-we-love",
+   "busca": "The Rapture – Pieces of the People We Love",
+   "precoTotal": 296.38,
+   "custos": {
+    "frete": 117.8,
+    "impostoImportacao": 84.41,
+    "icms": 56.28,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 53.359999999999985,
    "criterios": {
     "teto": false,
-    "discogs": null,
+    "discogs": true,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:1324386",
+   "fonte": "Discogs",
+   "titulo": "The Rapture - Pieces Of The People We Love (2007, UK)",
+   "preco": 25.49,
+   "precoOriginal": {
+    "valor": 25.49,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/1324386",
+   "imagem": "https://i.discogs.com/G4xOIesjUESvvKB1rRp9SsSxqPkFIzTTaxjI72iXjnY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjQz/ODYtMTI2OTExNjM1/NC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 11 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "the-rapture-pieces-of-the-people-we-love",
+   "busca": "The Rapture – Pieces of the People We Love",
+   "precoTotal": 301.58,
+   "custos": {
+    "frete": 117.8,
+    "impostoImportacao": 85.97,
+    "icms": 57.32,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 53.359999999999985,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
     "maisBarato": null
    }
   },
@@ -301,11 +266,11 @@
    "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 337.04,
+   "precoTotal": 339.84,
    "custos": {
-    "frete": 116.4,
-    "impostoImportacao": 96.61,
-    "icms": 64.41,
+    "frete": 117.8,
+    "impostoImportacao": 97.45,
+    "icms": 64.97,
     "despacho": 15
    },
    "teto": 200,
@@ -407,14 +372,14 @@
    },
    "url": "https://www.discogs.com/sell/release/7392977",
    "imagem": "https://i.discogs.com/59a1RRECUuB-8DYG6mDzsuBCh7Ud5rcF1Fpu0fqRA0I/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczOTI5/NzctMTQ0MDUyNjY2/NC01MjAzLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 88 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 90 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "foals-what-went-down",
    "busca": "Foals – What went down",
-   "precoTotal": 421.8,
+   "precoTotal": 424.6,
    "custos": {
-    "frete": 116.4,
-    "impostoImportacao": 122.04,
-    "icms": 81.36,
+    "frete": 117.8,
+    "impostoImportacao": 122.88,
+    "icms": 81.92,
     "despacho": 15
    },
    "teto": 200,
@@ -455,11 +420,11 @@
    "observacao": "Menor preço entre 17 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 476.14,
+   "precoTotal": 478.94,
    "custos": {
-    "frete": 116.4,
-    "impostoImportacao": 138.34,
-    "icms": 92.23,
+    "frete": 117.8,
+    "impostoImportacao": 139.18,
+    "icms": 92.79,
     "despacho": 15
    },
    "teto": 200,
@@ -484,15 +449,15 @@
    "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "home-front-games-of-power",
    "busca": "Home Front – Games of Power",
-   "precoTotal": 496.38,
+   "precoTotal": 499.18,
    "custos": {
-    "frete": 116.4,
-    "impostoImportacao": 144.41,
-    "icms": 96.28,
+    "frete": 117.8,
+    "impostoImportacao": 145.25,
+    "icms": 96.84,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 210.23,
+   "refDiscogs": 162.65271428571424,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -513,11 +478,11 @@
    "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "schedule-1-crucible",
    "busca": "Schedule 1 – Crucible",
-   "precoTotal": 501.48,
+   "precoTotal": 504.28,
    "custos": {
-    "frete": 116.4,
-    "impostoImportacao": 145.94,
-    "icms": 97.3,
+    "frete": 117.8,
+    "impostoImportacao": 146.78,
+    "icms": 97.86,
     "despacho": 15
    },
    "teto": 200,
@@ -542,15 +507,44 @@
    "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 502.62,
+   "precoTotal": 505.42,
    "custos": {
-    "frete": 116.4,
-    "impostoImportacao": 146.29,
-    "icms": 97.52,
+    "frete": 117.8,
+    "impostoImportacao": 147.13,
+    "icms": 98.08,
     "despacho": 15
    },
    "teto": 200,
    "refDiscogs": 142.9285714285714,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:26287316",
+   "fonte": "Discogs",
+   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
+   "preco": 137.9,
+   "precoOriginal": {
+    "valor": 137.9,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/26287316",
+   "imagem": "https://i.discogs.com/6rLoqnU4DTf4MitESLfsQRPGLEQd1LhWKjte1I8qs6Q/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Mjg3/MzE2LTE2ODgyMDEx/OTMtNTI2Ni5qcGVn.jpeg",
+   "observacao": "Menor preço entre 38 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 526.4,
+   "custos": {
+    "frete": 117.8,
+    "impostoImportacao": 153.42,
+    "icms": 102.28,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 162.65271428571424,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -571,11 +565,11 @@
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "schedule-1-crucible",
    "busca": "Schedule 1 – Crucible",
-   "precoTotal": 540.98,
+   "precoTotal": 543.78,
    "custos": {
-    "frete": 116.4,
-    "impostoImportacao": 157.79,
-    "icms": 105.2,
+    "frete": 117.8,
+    "impostoImportacao": 158.63,
+    "icms": 105.76,
     "despacho": 15
    },
    "teto": 200,
@@ -597,14 +591,14 @@
    },
    "url": "https://www.discogs.com/sell/release/35365384",
    "imagem": "https://i.discogs.com/yJWVWkmZfK4LBBJxe4-EqM9B0QrTKdgfsZUb-OGzOss/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MzY1/Mzg0LTE3NjAzNzU2/MTEtODcxOC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 36 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 37 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "foals-what-went-down",
    "busca": "Foals – What went down",
-   "precoTotal": 568.78,
+   "precoTotal": 571.58,
    "custos": {
-    "frete": 116.4,
-    "impostoImportacao": 166.13,
-    "icms": 110.76,
+    "frete": 117.8,
+    "impostoImportacao": 166.97,
+    "icms": 111.32,
     "despacho": 15
    },
    "teto": 200,
@@ -629,11 +623,11 @@
    "observacao": "Menor preço entre 8 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "lcd-soundsystem-sound-of-silver",
    "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 630.6,
+   "precoTotal": 633.4,
    "custos": {
-    "frete": 116.4,
-    "impostoImportacao": 184.68,
-    "icms": 123.12,
+    "frete": 117.8,
+    "impostoImportacao": 185.52,
+    "icms": 123.68,
     "despacho": 15
    },
    "teto": 200,
@@ -658,44 +652,15 @@
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "schedule-1-crucible",
    "busca": "Schedule 1 – Crucible",
-   "precoTotal": 711.8,
+   "precoTotal": 714.6,
    "custos": {
-    "frete": 116.4,
-    "impostoImportacao": 209.04,
-    "icms": 139.36,
+    "frete": 117.8,
+    "impostoImportacao": 209.88,
+    "icms": 139.92,
     "despacho": 15
    },
    "teto": 200,
    "refDiscogs": 114.34285714285713,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:26264924",
-   "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
-   "preco": 381.2,
-   "precoOriginal": {
-    "valor": 381.2,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/26264924",
-   "imagem": "https://i.discogs.com/-z-_OQVI-HkRe0IH1E4ldf-S9_sDHn9DV_hFAdukSLw/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MjY0/OTI0LTE3MTIyNzQx/NzAtNTU0MC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 1010.2,
-   "custos": {
-    "frete": 116.4,
-    "impostoImportacao": 298.56,
-    "icms": 199.04,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 210.23,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -716,11 +681,11 @@
    "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "foals-what-went-down",
    "busca": "Foals – What went down",
-   "precoTotal": 1621.48,
+   "precoTotal": 1624.28,
    "custos": {
-    "frete": 116.4,
-    "impostoImportacao": 481.94,
-    "icms": 321.3,
+    "frete": 117.8,
+    "impostoImportacao": 482.78,
+    "icms": 321.86,
     "despacho": 15
    },
    "teto": 200,
@@ -745,11 +710,11 @@
    "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "lcd-soundsystem-sound-of-silver",
    "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 1697.64,
+   "precoTotal": 1700.44,
    "custos": {
-    "frete": 116.4,
-    "impostoImportacao": 504.79,
-    "icms": 336.53,
+    "frete": 117.8,
+    "impostoImportacao": 505.63,
+    "icms": 337.09,
     "despacho": 15
    },
    "teto": 200,
@@ -774,15 +739,15 @@
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "the-rapture-pieces-of-the-people-we-love",
    "busca": "The Rapture – Pieces of the People We Love",
-   "precoTotal": 3421.86,
+   "precoTotal": 3424.66,
    "custos": {
-    "frete": 116.4,
-    "impostoImportacao": 1022.06,
-    "icms": 681.37,
+    "frete": 117.8,
+    "impostoImportacao": 1022.9,
+    "icms": 681.93,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 302.00851393188856,
+   "refDiscogs": 53.359999999999985,
    "criterios": {
     "teto": false,
     "discogs": false,
