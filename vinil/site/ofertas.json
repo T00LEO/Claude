@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T07:07:08.029Z",
+ "geradoEm": "2026-11-21T19:15:43.251Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -9,7 +9,7 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 295.980399
+   "refDiscogs": 250.84407857142855
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
@@ -30,7 +30,7 @@
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 240.29047058823528
+   "refDiscogs": 166.57881428571426
   },
   {
    "chave": "foals-what-went-down",
@@ -49,22 +49,6 @@
  ],
  "ofertas": [
   {
-   "id": "Locomotiva Discos:6f7573",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP NITZER EBB - LIGHTNING MAN (1990) IMPORTADO (NM)",
-   "preco": 110,
-   "url": "https://www.locomotivadiscos.com.br/pd-6f7573-lp-nitzer-ebb-lightning-man-1990-importado-nm.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/6F7573/11458BD/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 110,
-   "teto": 120,
-   "criterios": {
-    "teto": true,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "Locomotiva Discos:96812b",
    "fonte": "Locomotiva Discos",
    "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
@@ -73,6 +57,22 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/96812B/183D68B/330xN.jpg",
    "busca": "punk",
    "precoTotal": 150,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:95f625",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP JUNGLELYD - JUNGLELYD (IMP/USADO)",
+   "preco": 160,
+   "url": "https://www.locomotivadiscos.com.br/pd-95f625-lp-junglelyd-junglelyd-imp-usado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/95F625/181AD6E/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 160,
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -145,6 +145,22 @@
    }
   },
   {
+   "id": "Locomotiva Discos:971c5c",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP COLD GAWD - GOD GET ME THE FUCK OUT OF HERE (NOVO/LACRADO/IMP)",
+   "preco": 220,
+   "url": "https://www.locomotivadiscos.com.br/pd-971c5c-lp-cold-gawd-god-get-me-the-fuck-out-of-here-novo-lacrado-imp.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/971C5C/18652D5/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 220,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "Locomotiva Discos:94dd92",
    "fonte": "Locomotiva Discos",
    "titulo": "LP NOFX - PUNK IN DRUBLIC (NOVO/LACRADO)",
@@ -177,14 +193,14 @@
    }
   },
   {
-   "id": "Locomotiva Discos:983778",
+   "id": "Locomotiva Discos:8ff75b",
    "fonte": "Locomotiva Discos",
-   "titulo": "LP RADIOHEAD - LIVE AT GLASTONBURY 2017 PART 1 (NOVO)",
-   "preco": 250,
-   "url": "https://www.locomotivadiscos.com.br/pd-983778-lp-radiohead-live-at-glastonbury-2017-part-1-novo.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/983778/18ACB5B/330xN.jpg",
+   "titulo": "LP FOXYGEN - SEEING OTHER PEOPLE (NOVO/LACR/DUPLO/IMP)",
+   "preco": 240,
+   "url": "https://www.locomotivadiscos.com.br/pd-8ff75b-lp-foxygen-seeing-other-people-novo-lacr-duplo-imp.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/8FF75B/16D3BE4/330xN.jpg",
    "busca": "Ottis Redding",
-   "precoTotal": 250,
+   "precoTotal": 240,
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -209,6 +225,22 @@
    }
   },
   {
+   "id": "Locomotiva Discos:98252d",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP WOLF ALICE - THE CLEARING (NOVO/LACRADO/IMP)",
+   "preco": 280,
+   "url": "https://www.locomotivadiscos.com.br/pd-98252d-lp-wolf-alice-the-clearing-novo-lacrado-imp.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/98252D/18A8082/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 280,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "Locomotiva Discos:972bd4",
    "fonte": "Locomotiva Discos",
    "titulo": "LP LCD SOUNDSYSTEM - SOUND OF SILVER (NOVO/IMP/DUPLO)",
@@ -219,7 +251,7 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 295.980399,
+   "refDiscogs": 250.84407857142855,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -468,6 +500,35 @@
    }
   },
   {
+   "id": "discogs:37531311",
+   "fonte": "Discogs",
+   "titulo": "Home Front (2) - Games Of Power (2026, Europe)",
+   "preco": 127.29,
+   "precoOriginal": {
+    "valor": 127.29,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/37531311",
+   "imagem": "https://i.discogs.com/DyDY_XxAFP6dR6wHpIYrZCxDEaX2q_MvMNVYERIYw0U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMx/MzExLTE3ODQ0OTIz/MjYtMTczNS5qcGVn.jpeg",
+   "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 507.18,
+   "custos": {
+    "frete": 118.8,
+    "impostoImportacao": 147.65,
+    "icms": 98.44,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 166.57881428571426,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "discogs:30474635",
    "fonte": "Discogs",
    "titulo": "Schedule 1 - Crucible (2024, Spain)",
@@ -536,7 +597,7 @@
    },
    "url": "https://www.discogs.com/sell/release/26287316",
    "imagem": "https://i.discogs.com/6rLoqnU4DTf4MitESLfsQRPGLEQd1LhWKjte1I8qs6Q/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Mjg3/MzE2LTE2ODgyMDEx/OTMtNTI2Ni5qcGVn.jpeg",
-   "observacao": "Menor preço entre 38 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 39 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "home-front-games-of-power",
    "busca": "Home Front – Games of Power",
    "precoTotal": 535.06,
@@ -547,7 +608,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 240.29047058823528,
+   "refDiscogs": 166.57881428571426,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -594,7 +655,7 @@
    },
    "url": "https://www.discogs.com/sell/release/35365384",
    "imagem": "https://i.discogs.com/yJWVWkmZfK4LBBJxe4-EqM9B0QrTKdgfsZUb-OGzOss/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MzY1/Mzg0LTE3NjAzNzU2/MTEtODcxOC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 39 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 37 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "foals-what-went-down",
    "busca": "Foals – What went down",
    "precoTotal": 581.32,
@@ -610,6 +671,35 @@
     "teto": false,
     "discogs": true,
     "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:27423360",
+   "fonte": "Discogs",
+   "titulo": "LCD Soundsystem - Sound Of Silver (2023, US)",
+   "preco": 178.2,
+   "precoOriginal": {
+    "valor": 178.2,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/27423360",
+   "imagem": "https://i.discogs.com/5Cp2gZYkVIHbbHokK4HVnEho_Ltmoql6KqefGmvuX68/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NDIz/MzYwLTE2ODcxMzEy/NTQtOTc1Mi5qcGVn.jpeg",
+   "observacao": "Menor preço entre 30 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "lcd-soundsystem-sound-of-silver",
+   "busca": "LCD Soundsystem – Sound of Silver",
+   "precoTotal": 609,
+   "custos": {
+    "frete": 118.8,
+    "impostoImportacao": 178.2,
+    "icms": 118.8,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 250.84407857142855,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": false
    }
   },
   {
@@ -634,7 +724,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 295.980399,
+   "refDiscogs": 250.84407857142855,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -664,64 +754,6 @@
    },
    "teto": 200,
    "refDiscogs": 117.10285714285713,
-   "criterios": {
-    "teto": false,
-    "discogs": false,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:3921382",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2012, UK)",
-   "preco": 261.03,
-   "precoOriginal": {
-    "valor": 261.03,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/3921382",
-   "imagem": "https://i.discogs.com/51Zr-CJGnND4PeIrN8aDBIhThBPy07U5MB0aeFvz4FY/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MjEz/ODItMTM0OTI5OTA3/Mi0xOTMyLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 774.66,
-   "custos": {
-    "frete": 118.8,
-    "impostoImportacao": 227.9,
-    "icms": 151.93,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 295.980399,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
-   "id": "discogs:26264924",
-   "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
-   "preco": 390.4,
-   "precoOriginal": {
-    "valor": 390.4,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/26264924",
-   "imagem": "https://i.discogs.com/-z-_OQVI-HkRe0IH1E4ldf-S9_sDHn9DV_hFAdukSLw/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MjY0/OTI0LTE3MTIyNzQx/NzAtNTU0MC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 1033.4,
-   "custos": {
-    "frete": 118.8,
-    "impostoImportacao": 305.52,
-    "icms": 203.68,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 240.29047058823528,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -779,7 +811,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 295.980399,
+   "refDiscogs": 250.84407857142855,
    "criterios": {
     "teto": false,
     "discogs": false,
