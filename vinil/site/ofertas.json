@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-22T06:47:55.126Z",
+ "geradoEm": "2026-11-22T19:40:15.463Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -30,7 +30,7 @@
    "artista": "Home Front",
    "titulo": "Games of Power",
    "teto": 200,
-   "refDiscogs": 166.57881428571426
+   "refDiscogs": 141.99599700000002
   },
   {
    "chave": "foals-what-went-down",
@@ -48,6 +48,38 @@
   }
  ],
  "ofertas": [
+  {
+   "id": "Locomotiva Discos:6f73a7",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP LEXY & K-PAUL - LOVE ME BABE (2004) IMPORTADO (NM)",
+   "preco": 60,
+   "url": "https://www.locomotivadiscos.com.br/pd-6f73a7-lp-lexy-k-paul-love-me-babe-2004-importado-nm.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/6F73A7/114544A/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 60,
+   "teto": 120,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:985b5e",
+   "fonte": "Locomotiva Discos",
+   "titulo": "COMPACTO SURFUZZES - SPECTRUM # 5 7\" (VINIL BRANCO)",
+   "preco": 75,
+   "url": "https://www.locomotivadiscos.com.br/pd-985b5e-compacto-surfuzzes-spectrum-5-7-vinil-branco.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/985B5E/18B6219/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 75,
+   "teto": 120,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
   {
    "id": "Baratos Afins:202161374",
    "fonte": "Baratos Afins",
@@ -397,14 +429,14 @@
    }
   },
   {
-   "id": "Locomotiva Discos:981c22",
+   "id": "Locomotiva Discos:9751a5",
    "fonte": "Locomotiva Discos",
-   "titulo": "LP THIRTY SECONDS TO MARS - AMERICA (USADO/NM)",
-   "preco": 190,
-   "url": "https://www.locomotivadiscos.com.br/pd-981c22-lp-thirty-seconds-to-mars-america-usado-nm.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/981C22/18A5C3E/330xN.jpg",
+   "titulo": "LP JUPITER APPLE - THEY'RE ALL BEATNIKS VOL.1 (NOVO/LACRADO)",
+   "preco": 195,
+   "url": "https://www.locomotivadiscos.com.br/pd-9751a5-lp-jupiter-apple-they-re-all-beatniks-vol-1-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9751A5/1872095/330xN.jpg",
    "busca": "Ottis Redding",
-   "precoTotal": 190,
+   "precoTotal": 195,
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -420,22 +452,6 @@
    "url": "https://www.baratosafins.com.br/produto/50-years-of-jazz-guitar.html",
    "busca": "jazz",
    "precoTotal": 200,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Locomotiva Discos:98216f",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP THE KINKS - STATE OF CONFUSION (VINIL 180 GRAMAS) (NOVO/LACRADO)",
-   "preco": 210,
-   "url": "https://www.locomotivadiscos.com.br/pd-98216f-lp-the-kinks-state-of-confusion-vinil-180-gramas-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/98216F/18A724C/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 210,
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -508,12 +524,12 @@
    }
   },
   {
-   "id": "Locomotiva Discos:86675d",
+   "id": "Locomotiva Discos:986bb5",
    "fonte": "Locomotiva Discos",
-   "titulo": "LP THE CREATION - PSYCHDELIC ROSE (VINIL TRANSPARENTE) (NOVO/LACRADO)",
+   "titulo": "LP MARIA BC - SPIKE FIELD (VINIL VERMELHO) (NOVO/LACRADO)",
    "preco": 240,
-   "url": "https://www.locomotivadiscos.com.br/pd-86675d-lp-the-creation-psychdelic-rose-vinil-transparente-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/86675D/15070A5/330xN.jpg",
+   "url": "https://www.locomotivadiscos.com.br/pd-986bb5-lp-maria-bc-spike-field-vinil-vermelho-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/986BB5/18BA3D1/330xN.jpg",
    "busca": "Ottis Redding",
    "precoTotal": 240,
    "teto": 120,
@@ -676,22 +692,6 @@
    }
   },
   {
-   "id": "Locomotiva Discos:8e5e89",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP SHAMEK FARRAH AND FOLKS - LA DEE LA LA (USADO/IMP) (EX)",
-   "preco": 340,
-   "url": "https://www.locomotivadiscos.com.br/pd-8e5e89-lp-shamek-farrah-and-folks-la-dee-la-la-usado-imp-ex.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/8E5E89/1682E69/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 340,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "discogs:24281603",
    "fonte": "Discogs",
    "titulo": "Rotten Mind - Unflavored (2022, Sweden)",
@@ -801,22 +801,6 @@
    }
   },
   {
-   "id": "Locomotiva Discos:9560d9",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP GEORGE HARRISON- WONDERWALL MUSIC (USADO/IMP) (VG)",
-   "preco": 390,
-   "url": "https://www.locomotivadiscos.com.br/pd-9560d9-lp-george-harrison-wonderwall-music-usado-imp-vg.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9560D9/17F9031/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 390,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "discogs:7392977",
    "fonte": "Discogs",
    "titulo": "Foals - What Went Down (2015, UK & Europe)",
@@ -891,6 +875,35 @@
    }
   },
   {
+   "id": "discogs:37531311",
+   "fonte": "Discogs",
+   "titulo": "Home Front (2) - Games Of Power (2026, Europe)",
+   "preco": 127.29,
+   "precoOriginal": {
+    "valor": 127.29,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/37531311",
+   "imagem": "https://i.discogs.com/DyDY_XxAFP6dR6wHpIYrZCxDEaX2q_MvMNVYERIYw0U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMx/MzExLTE3ODQ0OTIz/MjYtMTczNS5qcGVn.jpeg",
+   "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 507.18,
+   "custos": {
+    "frete": 118.8,
+    "impostoImportacao": 147.65,
+    "icms": 98.44,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 141.99599700000002,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "discogs:30474635",
    "fonte": "Discogs",
    "titulo": "Schedule 1 - Crucible (2024, Spain)",
@@ -901,7 +914,7 @@
    },
    "url": "https://www.discogs.com/sell/release/30474635",
    "imagem": "https://i.discogs.com/qBFSO8u60xMW-S-z5fAW8vhYHuCP_npGqDCl_xBeAPM/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNDc0/NjM1LTE3MTM4MDMz/NzctNDYzNC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 3 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "schedule-1-crucible",
    "busca": "Schedule 1 – Crucible",
    "precoTotal": 512.4,
@@ -942,35 +955,6 @@
    },
    "teto": 200,
    "refDiscogs": 146.3785714285714,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:26287316",
-   "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
-   "preco": 141.23,
-   "precoOriginal": {
-    "valor": 141.23,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/26287316",
-   "imagem": "https://i.discogs.com/6rLoqnU4DTf4MitESLfsQRPGLEQd1LhWKjte1I8qs6Q/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Mjg3/MzE2LTE2ODgyMDEx/OTMtNTI2Ni5qcGVn.jpeg",
-   "observacao": "Menor preço entre 39 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 535.06,
-   "custos": {
-    "frete": 118.8,
-    "impostoImportacao": 156.02,
-    "icms": 104.01,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 166.57881428571426,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -1087,6 +1071,35 @@
    },
    "teto": 200,
    "refDiscogs": 117.10285714285713,
+   "criterios": {
+    "teto": false,
+    "discogs": false,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:26264924",
+   "fonte": "Discogs",
+   "titulo": "Home Front (2) - Games Of Power (2023, UK)",
+   "preco": 390.4,
+   "precoOriginal": {
+    "valor": 390.4,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/26264924",
+   "imagem": "https://i.discogs.com/-z-_OQVI-HkRe0IH1E4ldf-S9_sDHn9DV_hFAdukSLw/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MjY0/OTI0LTE3MTIyNzQx/NzAtNTU0MC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "home-front-games-of-power",
+   "busca": "Home Front – Games of Power",
+   "precoTotal": 1033.4,
+   "custos": {
+    "frete": 118.8,
+    "impostoImportacao": 305.52,
+    "icms": 203.68,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 141.99599700000002,
    "criterios": {
     "teto": false,
     "discogs": false,
