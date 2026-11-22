@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T19:15:43.251Z",
+ "geradoEm": "2026-11-22T06:47:55.126Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -9,7 +9,7 @@
    "artista": "LCD Soundsystem",
    "titulo": "Sound of Silver",
    "teto": 200,
-   "refDiscogs": 250.84407857142855
+   "refDiscogs": 341.54999999999995
   },
   {
    "chave": "the-rapture-pieces-of-the-people-we-love",
@@ -49,6 +49,156 @@
  ],
  "ofertas": [
   {
+   "id": "Baratos Afins:202161374",
+   "fonte": "Baratos Afins",
+   "titulo": "JOÃO CARLOS ASSIS BRASIL - JAZZ BRASIL- LP",
+   "preco": 85,
+   "url": "https://www.baratosafins.com.br/produto/joao-carlos-assis-brasil-jazz-brasil.html",
+   "busca": "jazz",
+   "precoTotal": 85,
+   "teto": 120,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202224871",
+   "fonte": "Baratos Afins",
+   "titulo": "ROY ELDRIDGE - LITTLE JAZZ- LP",
+   "preco": 110,
+   "url": "https://www.baratosafins.com.br/produto/roy-eldridge-little-jazz.html",
+   "busca": "jazz",
+   "precoTotal": 110,
+   "teto": 120,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202171050",
+   "fonte": "Baratos Afins",
+   "titulo": "LIONEL HAMPTON - AND HIS JAZZ GIANTS- LP",
+   "preco": 110,
+   "url": "https://www.baratosafins.com.br/produto/lionel-hampton-and-his-jazz-giants.html",
+   "busca": "jazz",
+   "precoTotal": 110,
+   "teto": 120,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:151920117",
+   "fonte": "Baratos Afins",
+   "titulo": "BOCATO - AQUI JAZZ BRAZIL - LP",
+   "preco": 120,
+   "url": "https://www.baratosafins.com.br/produto/bocato-aqui-jazz-brazil.html",
+   "busca": "jazz",
+   "precoTotal": 120,
+   "teto": 120,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202184099",
+   "fonte": "Baratos Afins",
+   "titulo": "MODERN JAZZ QUARTET - THREE WINDOWS- LP",
+   "preco": 120,
+   "url": "https://www.baratosafins.com.br/produto/modern-jazz-quartet-three-windows.html",
+   "busca": "jazz",
+   "precoTotal": 120,
+   "teto": 120,
+   "criterios": {
+    "teto": true,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202157491",
+   "fonte": "Baratos Afins",
+   "titulo": "JAZZ ARRANGER VOL1- LP",
+   "preco": 140,
+   "url": "https://www.baratosafins.com.br/produto/jazz-arranger-vol1.html",
+   "busca": "jazz",
+   "precoTotal": 140,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:199915016",
+   "fonte": "Baratos Afins",
+   "titulo": "1930s JAZZ BIG BANDS- LP",
+   "preco": 140,
+   "url": "https://www.baratosafins.com.br/produto/1930s-jazz-big-bands.html",
+   "busca": "jazz",
+   "precoTotal": 140,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202204304",
+   "fonte": "Baratos Afins",
+   "titulo": "PETER APPLEYARD & ORCH - PERCUSSIVE JAZZ- LP",
+   "preco": 140,
+   "url": "https://www.baratosafins.com.br/produto/peter-appleyard-orch-percussive-jazz.html",
+   "busca": "jazz",
+   "precoTotal": 140,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202140311",
+   "fonte": "Baratos Afins",
+   "titulo": "FRANK ZAPPA - JAZZ FROM HELL- LP",
+   "preco": 140,
+   "url": "https://www.baratosafins.com.br/produto/frank-zappa-jazz-from-hell.html",
+   "busca": "jazz",
+   "precoTotal": 140,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202163729",
+   "fonte": "Baratos Afins",
+   "titulo": "JOHNNY HATES JAZZ - TURN BACK THE CLOCK- LP",
+   "preco": 140,
+   "url": "https://www.baratosafins.com.br/produto/johnny-hates-jazz-turn-back-the-clock.html",
+   "busca": "jazz",
+   "precoTotal": 140,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "Locomotiva Discos:96812b",
    "fonte": "Locomotiva Discos",
    "titulo": "LP VÁRIOS ARTISTAS - A DIVINA TRAGÉDIA - ALTERNATIVE POST-PUNK VOL. 3",
@@ -65,13 +215,87 @@
    }
   },
   {
-   "id": "Locomotiva Discos:95f625",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP JUNGLELYD - JUNGLELYD (IMP/USADO)",
+   "id": "Baratos Afins:363303609",
+   "fonte": "Baratos Afins",
+   "titulo": "LOS EX TRIDENTES - LP",
+   "preco": 150,
+   "url": "https://www.baratosafins.com.br/los-ex-tridentes-lp",
+   "busca": "punk",
+   "precoTotal": 150,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202092355",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ MAINSTREAM- LP",
    "preco": 160,
-   "url": "https://www.locomotivadiscos.com.br/pd-95f625-lp-junglelyd-junglelyd-imp-usado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/95F625/181AD6E/330xN.jpg",
-   "busca": "Ottis Redding",
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-mainstream.html",
+   "busca": "jazz",
+   "precoTotal": 160,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202092332",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ INTROSPECTION- LP",
+   "preco": 160,
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-introspection.html",
+   "busca": "jazz",
+   "precoTotal": 160,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202092301",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ BEBOP- LP",
+   "preco": 160,
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-bebop.html",
+   "busca": "jazz",
+   "precoTotal": 160,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202092600",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ WEST COAST- LP",
+   "preco": 160,
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-west-coast.html",
+   "busca": "jazz",
+   "precoTotal": 160,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202092432",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ POST BOP- LP",
+   "preco": 160,
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-post-bop.html",
+   "busca": "jazz",
    "precoTotal": 160,
    "teto": 120,
    "criterios": {
@@ -97,6 +321,51 @@
    }
   },
   {
+   "id": "Baratos Afins:202112929",
+   "fonte": "Baratos Afins",
+   "titulo": "CHOCK GERAL - NOTICIAS DE PAZ- LP",
+   "preco": 180,
+   "url": "https://www.baratosafins.com.br/produto/chock-geral-noticias-de-paz.html",
+   "busca": "punk",
+   "precoTotal": 180,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202092391",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ PIANO- LP",
+   "preco": 180,
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-piano.html",
+   "busca": "jazz",
+   "precoTotal": 180,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202092536",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ THE AVANT-GARDE- LP",
+   "preco": 180,
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-the-avant-garde.html",
+   "busca": "jazz",
+   "precoTotal": 180,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "Locomotiva Discos:97cc6f",
    "fonte": "Locomotiva Discos",
    "titulo": "LP MULAMBO JAZZAGRÁRIO - MULAMBO (NOVO/LACRADO)",
@@ -105,6 +374,68 @@
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/97CC6F/1891646/330xN.jpg",
    "busca": "jazz",
    "precoTotal": 185,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202187181",
+   "fonte": "Baratos Afins",
+   "titulo": "NAT KING COLE - THE FEELING OF JAZZ- LP",
+   "preco": 190,
+   "url": "https://www.baratosafins.com.br/produto/nat-king-cole-the-feeling-of-jazz.html",
+   "busca": "jazz",
+   "precoTotal": 190,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:981c22",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP THIRTY SECONDS TO MARS - AMERICA (USADO/NM)",
+   "preco": 190,
+   "url": "https://www.locomotivadiscos.com.br/pd-981c22-lp-thirty-seconds-to-mars-america-usado-nm.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/981C22/18A5C3E/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 190,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:199915400",
+   "fonte": "Baratos Afins",
+   "titulo": "50 YEARS OF JAZZ GUITAR- LP",
+   "preco": 200,
+   "url": "https://www.baratosafins.com.br/produto/50-years-of-jazz-guitar.html",
+   "busca": "jazz",
+   "precoTotal": 200,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:98216f",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP THE KINKS - STATE OF CONFUSION (VINIL 180 GRAMAS) (NOVO/LACRADO)",
+   "preco": 210,
+   "url": "https://www.locomotivadiscos.com.br/pd-98216f-lp-the-kinks-state-of-confusion-vinil-180-gramas-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/98216F/18A724C/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 210,
    "teto": 120,
    "criterios": {
     "teto": false,
@@ -136,22 +467,6 @@
    "url": "https://www.locomotivadiscos.com.br/pd-97d97e-lp-the-exploited-punks-not-dead-novo-lacrado.html",
    "imagem": "https://s3.amazonaws.com/img.iluria.com/product/97D97E/1894AAD/330xN.jpg",
    "busca": "punk",
-   "precoTotal": 220,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Locomotiva Discos:971c5c",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP COLD GAWD - GOD GET ME THE FUCK OUT OF HERE (NOVO/LACRADO/IMP)",
-   "preco": 220,
-   "url": "https://www.locomotivadiscos.com.br/pd-971c5c-lp-cold-gawd-god-get-me-the-fuck-out-of-here-novo-lacrado-imp.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/971C5C/18652D5/330xN.jpg",
-   "busca": "Ottis Redding",
    "precoTotal": 220,
    "teto": 120,
    "criterios": {
@@ -193,12 +508,12 @@
    }
   },
   {
-   "id": "Locomotiva Discos:8ff75b",
+   "id": "Locomotiva Discos:86675d",
    "fonte": "Locomotiva Discos",
-   "titulo": "LP FOXYGEN - SEEING OTHER PEOPLE (NOVO/LACR/DUPLO/IMP)",
+   "titulo": "LP THE CREATION - PSYCHDELIC ROSE (VINIL TRANSPARENTE) (NOVO/LACRADO)",
    "preco": 240,
-   "url": "https://www.locomotivadiscos.com.br/pd-8ff75b-lp-foxygen-seeing-other-people-novo-lacr-duplo-imp.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/8FF75B/16D3BE4/330xN.jpg",
+   "url": "https://www.locomotivadiscos.com.br/pd-86675d-lp-the-creation-psychdelic-rose-vinil-transparente-novo-lacrado.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/86675D/15070A5/330xN.jpg",
    "busca": "Ottis Redding",
    "precoTotal": 240,
    "teto": 120,
@@ -225,13 +540,12 @@
    }
   },
   {
-   "id": "Locomotiva Discos:98252d",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP WOLF ALICE - THE CLEARING (NOVO/LACRADO/IMP)",
+   "id": "Baratos Afins:202254140",
+   "fonte": "Baratos Afins",
+   "titulo": "TULIO MOURÃO - JAZZ MINEIRO- LP",
    "preco": 280,
-   "url": "https://www.locomotivadiscos.com.br/pd-98252d-lp-wolf-alice-the-clearing-novo-lacrado-imp.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/98252D/18A8082/330xN.jpg",
-   "busca": "Ottis Redding",
+   "url": "https://www.baratosafins.com.br/produto/tulio-mourao-jazz-mineiro.html",
+   "busca": "jazz",
    "precoTotal": 280,
    "teto": 120,
    "criterios": {
@@ -251,10 +565,10 @@
    "busca": "LCD Soundsystem – Sound of Silver",
    "precoTotal": 295,
    "teto": 200,
-   "refDiscogs": 250.84407857142855,
+   "refDiscogs": 341.54999999999995,
    "criterios": {
     "teto": false,
-    "discogs": false,
+    "discogs": true,
     "maisBarato": true
    }
   },
@@ -313,6 +627,67 @@
    "criterios": {
     "teto": false,
     "discogs": true,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:375651404",
+   "fonte": "Baratos Afins",
+   "titulo": "RED HOT CHILI PEPPERS - MOTHER'S MILK - LP",
+   "preco": 320,
+   "url": "https://www.baratosafins.com.br/red-hot-chili-peppers-mothers-milk-lp",
+   "busca": "punk",
+   "precoTotal": 320,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202131344",
+   "fonte": "Baratos Afins",
+   "titulo": "ELIS REGINA - MONTREAUX JAZZ FESTIVAL- LP",
+   "preco": 320,
+   "url": "https://www.baratosafins.com.br/produto/elis-regina-montreaux-jazz-festival.html",
+   "busca": "jazz",
+   "precoTotal": 320,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Baratos Afins:202092464",
+   "fonte": "Baratos Afins",
+   "titulo": "ATLANTIC JAZZ SINGERS- LP",
+   "preco": 340,
+   "url": "https://www.baratosafins.com.br/produto/atlantic-jazz-singers.html",
+   "busca": "jazz",
+   "precoTotal": 340,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "Locomotiva Discos:8e5e89",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP SHAMEK FARRAH AND FOLKS - LA DEE LA LA (USADO/IMP) (EX)",
+   "preco": 340,
+   "url": "https://www.locomotivadiscos.com.br/pd-8e5e89-lp-shamek-farrah-and-folks-la-dee-la-la-usado-imp-ex.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/8E5E89/1682E69/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 340,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
     "maisBarato": null
    }
   },
@@ -426,6 +801,22 @@
    }
   },
   {
+   "id": "Locomotiva Discos:9560d9",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP GEORGE HARRISON- WONDERWALL MUSIC (USADO/IMP) (VG)",
+   "preco": 390,
+   "url": "https://www.locomotivadiscos.com.br/pd-9560d9-lp-george-harrison-wonderwall-music-usado-imp-vg.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9560D9/17F9031/330xN.jpg",
+   "busca": "Ottis Redding",
+   "precoTotal": 390,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "discogs:7392977",
    "fonte": "Discogs",
    "titulo": "Foals - What Went Down (2015, UK & Europe)",
@@ -474,9 +865,9 @@
    "id": "discogs:26840834",
    "fonte": "Discogs",
    "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
-   "preco": 116.47,
+   "preco": 116.13,
    "precoOriginal": {
-    "valor": 116.47,
+    "valor": 116.13,
     "moeda": "BRL"
    },
    "url": "https://www.discogs.com/sell/release/26840834",
@@ -484,44 +875,15 @@
    "observacao": "Menor preço entre 17 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 485.54,
+   "precoTotal": 484.86,
    "custos": {
     "frete": 118.8,
-    "impostoImportacao": 141.16,
-    "icms": 94.11,
+    "impostoImportacao": 140.96,
+    "icms": 93.97,
     "despacho": 15
    },
    "teto": 200,
    "refDiscogs": 146.3785714285714,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:37531311",
-   "fonte": "Discogs",
-   "titulo": "Home Front (2) - Games Of Power (2026, Europe)",
-   "preco": 127.29,
-   "precoOriginal": {
-    "valor": 127.29,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/37531311",
-   "imagem": "https://i.discogs.com/DyDY_XxAFP6dR6wHpIYrZCxDEaX2q_MvMNVYERIYw0U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMx/MzExLTE3ODQ0OTIz/MjYtMTczNS5qcGVn.jpeg",
-   "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "home-front-games-of-power",
-   "busca": "Home Front – Games of Power",
-   "precoTotal": 507.18,
-   "custos": {
-    "frete": 118.8,
-    "impostoImportacao": 147.65,
-    "icms": 98.44,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 166.57881428571426,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -674,35 +1036,6 @@
    }
   },
   {
-   "id": "discogs:27423360",
-   "fonte": "Discogs",
-   "titulo": "LCD Soundsystem - Sound Of Silver (2023, US)",
-   "preco": 178.2,
-   "precoOriginal": {
-    "valor": 178.2,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/27423360",
-   "imagem": "https://i.discogs.com/5Cp2gZYkVIHbbHokK4HVnEho_Ltmoql6KqefGmvuX68/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NDIz/MzYwLTE2ODcxMzEy/NTQtOTc1Mi5qcGVn.jpeg",
-   "observacao": "Menor preço entre 30 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "lcd-soundsystem-sound-of-silver",
-   "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 609,
-   "custos": {
-    "frete": 118.8,
-    "impostoImportacao": 178.2,
-    "icms": 118.8,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 250.84407857142855,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": false
-   }
-  },
-  {
    "id": "discogs:1312950",
    "fonte": "Discogs",
    "titulo": "LCD Soundsystem - Sound Of Silver (2007, US)",
@@ -724,7 +1057,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 250.84407857142855,
+   "refDiscogs": 341.54999999999995,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -811,7 +1144,7 @@
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 250.84407857142855,
+   "refDiscogs": 341.54999999999995,
    "criterios": {
     "teto": false,
     "discogs": false,
@@ -848,8 +1181,5 @@
    }
   }
  ],
- "erros": [
-  "Baratos Afins: falha em \"LCD Soundsystem – Sound of Silver\": HTTP 403 em https://www.baratosafins.com.br/buscar?q=LCD%20Soundsystem%20Sound%20of%20Silver",
-  "Baratos Afins: confira a URL e a plataforma (lojaintegrada) em config.json"
- ]
+ "erros": []
 }
