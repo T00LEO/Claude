@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-27T08:32:28.831Z",
+ "geradoEm": "2026-11-27T21:16:51.881Z",
  "teto": 200,
  "tetoVarredura": 120,
  "fatorDiscogs": 0.9,
@@ -23,7 +23,7 @@
    "artista": "Rotten Mind",
    "titulo": "Unflavored",
    "teto": 200,
-   "refDiscogs": 141.20357142857142
+   "refDiscogs": 117.66964285714283
   },
   {
    "chave": "home-front-games-of-power",
@@ -190,22 +190,6 @@
    "preco": 140,
    "url": "https://www.baratosafins.com.br/produto/johnny-hates-jazz-turn-back-the-clock.html",
    "busca": "jazz",
-   "precoTotal": 140,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "Locomotiva Discos:8ef0b1",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP SAILCAT - MOTORCYCLE MAMA (USADO/IMP) (EX)",
-   "preco": 140,
-   "url": "https://www.locomotivadiscos.com.br/pd-8ef0b1-lp-sailcat-motorcycle-mama-usado-imp-ex.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/8EF0B1/169FF8F/330xN.jpg",
-   "busca": "Ottis Redding",
    "precoTotal": 140,
    "teto": 120,
    "criterios": {
@@ -492,22 +476,6 @@
    }
   },
   {
-   "id": "Locomotiva Discos:9859af",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP INFECTIOUS GROOVES - THE PLAGUE THAT MAKES YOUR... (USADO/NM)",
-   "preco": 240,
-   "url": "https://www.locomotivadiscos.com.br/pd-9859af-lp-infectious-grooves-the-plague-that-makes-your-usado-nm.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/9859AF/18B5A21/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 240,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "Locomotiva Discos:972fd9",
    "fonte": "Locomotiva Discos",
    "titulo": "LP DAFT PUNK - DISCOVERY (2xLPs) (NOVO/LACRADO)",
@@ -539,22 +507,6 @@
    }
   },
   {
-   "id": "Locomotiva Discos:97cde0",
-   "fonte": "Locomotiva Discos",
-   "titulo": "LP THE CRAMPS - STAY SICK! (NOVO/LACRADO)",
-   "preco": 280,
-   "url": "https://www.locomotivadiscos.com.br/pd-97cde0-lp-the-cramps-stay-sick-novo-lacrado.html",
-   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/97CDE0/1891BA9/330xN.jpg",
-   "busca": "Ottis Redding",
-   "precoTotal": 280,
-   "teto": 120,
-   "criterios": {
-    "teto": false,
-    "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "discogs:1324380",
    "fonte": "Discogs",
    "titulo": "The Rapture - Pieces Of The People We Love (2007, UK)",
@@ -568,11 +520,40 @@
    "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "the-rapture-pieces-of-the-people-we-love",
    "busca": "The Rapture – Pieces of the People We Love",
-   "precoTotal": 291.04,
+   "precoTotal": 280.24,
    "custos": {
-    "frete": 115.4,
-    "impostoImportacao": 82.81,
-    "icms": 55.21,
+    "frete": 110,
+    "impostoImportacao": 79.57,
+    "icms": 53.05,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 52.71599999999999,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:1324386",
+   "fonte": "Discogs",
+   "titulo": "The Rapture - Pieces Of The People We Love (2007, UK)",
+   "preco": 25.19,
+   "precoOriginal": {
+    "valor": 25.19,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/1324386",
+   "imagem": "https://i.discogs.com/G4xOIesjUESvvKB1rRp9SsSxqPkFIzTTaxjI72iXjnY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjQz/ODYtMTI2OTExNjM1/NC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 11 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "the-rapture-pieces-of-the-people-we-love",
+   "busca": "The Rapture – Pieces of the People We Love",
+   "precoTotal": 285.38,
+   "custos": {
+    "frete": 110,
+    "impostoImportacao": 81.11,
+    "icms": 54.08,
     "despacho": 15
    },
    "teto": 200,
@@ -602,35 +583,6 @@
    }
   },
   {
-   "id": "discogs:1324386",
-   "fonte": "Discogs",
-   "titulo": "The Rapture - Pieces Of The People We Love (2007, UK)",
-   "preco": 25.19,
-   "precoOriginal": {
-    "valor": 25.19,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/1324386",
-   "imagem": "https://i.discogs.com/G4xOIesjUESvvKB1rRp9SsSxqPkFIzTTaxjI72iXjnY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjQz/ODYtMTI2OTExNjM1/NC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 11 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "the-rapture-pieces-of-the-people-we-love",
-   "busca": "The Rapture – Pieces of the People We Love",
-   "precoTotal": 296.18,
-   "custos": {
-    "frete": 115.4,
-    "impostoImportacao": 84.35,
-    "icms": 56.24,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 52.71599999999999,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
-    "maisBarato": null
-   }
-  },
-  {
    "id": "Baratos Afins:375651404",
    "fonte": "Baratos Afins",
    "titulo": "RED HOT CHILI PEPPERS - MOTHER'S MILK - LP",
@@ -657,35 +609,6 @@
    "criterios": {
     "teto": false,
     "discogs": null,
-    "maisBarato": null
-   }
-  },
-  {
-   "id": "discogs:24281603",
-   "fonte": "Discogs",
-   "titulo": "Rotten Mind - Unflavored (2022, Sweden)",
-   "preco": 44.08,
-   "precoOriginal": {
-    "valor": 44.08,
-    "moeda": "BRL"
-   },
-   "url": "https://www.discogs.com/sell/release/24281603",
-   "imagem": "https://i.discogs.com/6jg7HK5OYvCX0ACubjC6_EGLLnHwLN3iS_TSRw8h7Ck/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0Mjgx/NjAzLTE2NjExOTEw/OTItNDY2Ni5qcGVn.jpeg",
-   "observacao": "Menor preço entre 10 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
-   "desejo": "rotten-mind-unflavored",
-   "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 333.96,
-   "custos": {
-    "frete": 115.4,
-    "impostoImportacao": 95.69,
-    "icms": 63.79,
-    "despacho": 15
-   },
-   "teto": 200,
-   "refDiscogs": 141.20357142857142,
-   "criterios": {
-    "teto": false,
-    "discogs": true,
     "maisBarato": null
    }
   },
@@ -753,6 +676,22 @@
    }
   },
   {
+   "id": "Locomotiva Discos:94ba9a",
+   "fonte": "Locomotiva Discos",
+   "titulo": "LP DAFT PUNK - RANDOM ACCESS MEMORIES (NOVO/LACRADO/DUPLO) 180g",
+   "preco": 350,
+   "url": "https://www.locomotivadiscos.com.br/pd-94ba9a-lp-daft-punk-random-access-memories-novo-lacrado-duplo-180g.html",
+   "imagem": "https://s3.amazonaws.com/img.iluria.com/product/94BA9A/17D7C3D/330xN.jpg",
+   "busca": "punk",
+   "precoTotal": 350,
+   "teto": 120,
+   "criterios": {
+    "teto": false,
+    "discogs": null,
+    "maisBarato": null
+   }
+  },
+  {
    "id": "discogs:26840834",
    "fonte": "Discogs",
    "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
@@ -766,15 +705,15 @@
    "observacao": "Menor preço entre 18 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 371.74,
+   "precoTotal": 360.94,
    "custos": {
-    "frete": 115.4,
-    "impostoImportacao": 107.02,
-    "icms": 71.35,
+    "frete": 110,
+    "impostoImportacao": 103.78,
+    "icms": 69.19,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 141.20357142857142,
+   "refDiscogs": 117.66964285714283,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -827,15 +766,44 @@
    "observacao": "Menor preço entre 55 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "foals-what-went-down",
    "busca": "Foals – What went down",
-   "precoTotal": 417.7,
+   "precoTotal": 406.9,
    "custos": {
-    "frete": 115.4,
-    "impostoImportacao": 120.81,
-    "icms": 80.54,
+    "frete": 110,
+    "impostoImportacao": 117.57,
+    "icms": 78.38,
     "despacho": 15
    },
    "teto": 200,
    "refDiscogs": 185.4473571428571,
+   "criterios": {
+    "teto": false,
+    "discogs": true,
+    "maisBarato": null
+   }
+  },
+  {
+   "id": "discogs:28033284",
+   "fonte": "Discogs",
+   "titulo": "Rotten Mind - Unflavored (2023, Sweden)",
+   "preco": 103.14,
+   "precoOriginal": {
+    "valor": 103.14,
+    "moeda": "BRL"
+   },
+   "url": "https://www.discogs.com/sell/release/28033284",
+   "imagem": "https://i.discogs.com/uCkWVBE3NSaz4XE_kgsbcyWYDSc0r9H0biefBHMIgks/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDMz/Mjg0LTE2OTI2MDgw/OTYtMzAwNC5qcGVn.jpeg",
+   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "desejo": "rotten-mind-unflavored",
+   "busca": "Rotten Mind – Unflavored",
+   "precoTotal": 441.28,
+   "custos": {
+    "frete": 110,
+    "impostoImportacao": 127.88,
+    "icms": 85.26,
+    "despacho": 15
+   },
+   "teto": 200,
+   "refDiscogs": 117.66964285714283,
    "criterios": {
     "teto": false,
     "discogs": true,
@@ -872,11 +840,11 @@
    "observacao": "Menor preço entre 9 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "home-front-games-of-power",
    "busca": "Home Front – Games of Power",
-   "precoTotal": 491.38,
+   "precoTotal": 480.58,
    "custos": {
-    "frete": 115.4,
-    "impostoImportacao": 142.91,
-    "icms": 95.28,
+    "frete": 110,
+    "impostoImportacao": 139.67,
+    "icms": 93.12,
     "despacho": 15
    },
    "teto": 200,
@@ -901,11 +869,11 @@
    "observacao": "Menor preço entre 3 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "schedule-1-crucible",
    "busca": "Schedule 1 – Crucible",
-   "precoTotal": 496.4,
+   "precoTotal": 485.6,
    "custos": {
-    "frete": 115.4,
-    "impostoImportacao": 144.42,
-    "icms": 96.28,
+    "frete": 110,
+    "impostoImportacao": 141.18,
+    "icms": 94.12,
     "despacho": 15
    },
    "teto": 200,
@@ -930,18 +898,18 @@
    "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "rotten-mind-unflavored",
    "busca": "Rotten Mind – Unflavored",
-   "precoTotal": 497.54,
+   "precoTotal": 486.74,
    "custos": {
-    "frete": 115.4,
-    "impostoImportacao": 144.76,
-    "icms": 96.51,
+    "frete": 110,
+    "impostoImportacao": 141.52,
+    "icms": 94.35,
     "despacho": 15
    },
    "teto": 200,
-   "refDiscogs": 141.20357142857142,
+   "refDiscogs": 117.66964285714283,
    "criterios": {
     "teto": false,
-    "discogs": true,
+    "discogs": false,
     "maisBarato": null
    }
   },
@@ -959,11 +927,11 @@
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "schedule-1-crucible",
    "busca": "Schedule 1 – Crucible",
-   "precoTotal": 535.44,
+   "precoTotal": 524.64,
    "custos": {
-    "frete": 115.4,
-    "impostoImportacao": 156.13,
-    "icms": 104.09,
+    "frete": 110,
+    "impostoImportacao": 152.89,
+    "icms": 101.93,
     "despacho": 15
    },
    "teto": 200,
@@ -985,14 +953,14 @@
    },
    "url": "https://www.discogs.com/sell/release/35365384",
    "imagem": "https://i.discogs.com/yJWVWkmZfK4LBBJxe4-EqM9B0QrTKdgfsZUb-OGzOss/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MzY1/Mzg0LTE3NjAzNzU2/MTEtODcxOC5qcGVn.jpeg",
-   "observacao": "Menor preço entre 35 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 36 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "foals-what-went-down",
    "busca": "Foals – What went down",
-   "precoTotal": 562.9,
+   "precoTotal": 552.1,
    "custos": {
-    "frete": 115.4,
-    "impostoImportacao": 164.37,
-    "icms": 109.58,
+    "frete": 110,
+    "impostoImportacao": 161.13,
+    "icms": 107.42,
     "despacho": 15
    },
    "teto": 200,
@@ -1014,14 +982,14 @@
    },
    "url": "https://www.discogs.com/sell/release/1312950",
    "imagem": "https://i.discogs.com/hIzE3Jtg4GDuWsQk3MSJbOsPRzcT6ydO1HNFqn5_Ojw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTI5/NTAtMTU4OTI0ODUy/OS0yNzM1LmpwZWc.jpeg",
-   "observacao": "Menor preço entre 7 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 6 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "lcd-soundsystem-sound-of-silver",
    "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 623.98,
+   "precoTotal": 613.18,
    "custos": {
-    "frete": 115.4,
-    "impostoImportacao": 182.69,
-    "icms": 121.8,
+    "frete": 110,
+    "impostoImportacao": 179.45,
+    "icms": 119.64,
     "despacho": 15
    },
    "teto": 200,
@@ -1046,11 +1014,11 @@
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "schedule-1-crucible",
    "busca": "Schedule 1 – Crucible",
-   "precoTotal": 704.2,
+   "precoTotal": 693.4,
    "custos": {
-    "frete": 115.4,
-    "impostoImportacao": 206.76,
-    "icms": 137.84,
+    "frete": 110,
+    "impostoImportacao": 203.52,
+    "icms": 135.68,
     "despacho": 15
    },
    "teto": 200,
@@ -1075,11 +1043,11 @@
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "home-front-games-of-power",
    "busca": "Home Front – Games of Power",
-   "precoTotal": 999,
+   "precoTotal": 988.2,
    "custos": {
-    "frete": 115.4,
-    "impostoImportacao": 295.2,
-    "icms": 196.8,
+    "frete": 110,
+    "impostoImportacao": 291.96,
+    "icms": 194.64,
     "despacho": 15
    },
    "teto": 200,
@@ -1101,14 +1069,14 @@
    },
    "url": "https://www.discogs.com/sell/release/7404155",
    "imagem": "https://i.discogs.com/m1CNprznkjDgJ_dvwk9dy8_AeNjXkcktVqVRBlBPHbc/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0MDQx/NTUtMTc4ODk0MDc5/OS05OTQwLmpwZWc.jpeg",
-   "observacao": "Menor preço entre 4 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
+   "observacao": "Menor preço entre 5 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "foals-what-went-down",
    "busca": "Foals – What went down",
-   "precoTotal": 1602.9,
+   "precoTotal": 1592.1,
    "custos": {
-    "frete": 115.4,
-    "impostoImportacao": 476.37,
-    "icms": 317.58,
+    "frete": 110,
+    "impostoImportacao": 473.13,
+    "icms": 315.42,
     "despacho": 15
    },
    "teto": 200,
@@ -1133,11 +1101,11 @@
    "observacao": "Menor preço entre 3 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "lcd-soundsystem-sound-of-silver",
    "busca": "LCD Soundsystem – Sound of Silver",
-   "precoTotal": 1735.48,
+   "precoTotal": 1724.68,
    "custos": {
-    "frete": 115.4,
-    "impostoImportacao": 516.14,
-    "icms": 344.1,
+    "frete": 110,
+    "impostoImportacao": 512.9,
+    "icms": 341.94,
     "despacho": 15
    },
    "teto": 200,
@@ -1162,11 +1130,11 @@
    "observacao": "Menor preço entre 1 anúncio(s); total supõe vendedor no exterior (frete e impostos estimados)",
    "desejo": "the-rapture-pieces-of-the-people-we-love",
    "busca": "The Rapture – Pieces of the People We Love",
-   "precoTotal": 3381.56,
+   "precoTotal": 3370.76,
    "custos": {
-    "frete": 115.4,
-    "impostoImportacao": 1009.97,
-    "icms": 673.31,
+    "frete": 110,
+    "impostoImportacao": 1006.73,
+    "icms": 671.15,
     "despacho": 15
    },
    "teto": 200,
